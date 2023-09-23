@@ -34,7 +34,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -85,7 +88,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -137,7 +143,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -189,7 +198,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -241,7 +253,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -292,7 +307,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -344,7 +362,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -400,7 +421,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -475,7 +499,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -543,7 +570,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -616,7 +646,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -692,7 +725,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -752,7 +788,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -836,7 +875,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -917,7 +959,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -989,7 +1034,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -1065,7 +1113,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -1121,7 +1172,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -1200,7 +1254,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -1276,7 +1333,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -1337,7 +1397,10 @@ GER_Coring_Decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_country_flag = Coring_In_Progress
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
 			}
 		}
 
@@ -1396,7 +1459,7 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_global_flag = FORM_GRO }
+			NOT = { has_global_flag = FORM_GRO2 }
 			OR = {
 				original_tag = GER
 				original_tag = AUS
@@ -1451,7 +1514,7 @@ GER_Coring_Decisions = {
 				id = RON_Formable_Country.0
 			}
 			hidden_effect = {
-				set_global_flag = FORM_GRO
+				set_global_flag = FORM_GRO2
 			}
 		}
 	}
@@ -1469,7 +1532,7 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_global_flag = FORM_German_Empire }
+			NOT = { has_global_flag = FORM_German_Empire2 }
 			original_tag = GER
 		}
 		available = {
@@ -1505,7 +1568,7 @@ GER_Coring_Decisions = {
 				id = RON_Formable_Country.74
 			}
 			hidden_effect = {
-				set_global_flag = FORM_German_Empire
+				set_global_flag = FORM_German_Empire2
 			}
 		}
 	}
@@ -1522,7 +1585,7 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_global_flag = Form_Greater_Austria }
+			NOT = { has_global_flag = Form_Greater_Austria2 }
 			original_tag = AUS
 		}
 		available = {
@@ -1566,9 +1629,1399 @@ GER_Coring_Decisions = {
 				id = RON_Formable_Country.107
 			}
 			hidden_effect = {
-				set_global_flag = Form_Greater_Austria
+				set_global_flag = Form_Greater_Austria2
 			}
 		}
 	}
 	
 }	
+
+GGR_Coring_Decisions = {
+
+#Hard Cores
+#Whole Denmark
+	GGR_Core_Denmark = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores Danish States one by one
+		fire_only_once = no
+		cost = 75
+		modifier = { consumer_goods_factor = 0.03 }
+		days_remove = 90
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 100
+							state = 101
+							state = 337
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						NOT = {
+							state = 100
+							state = 101
+							state = 337
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = DEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 100
+							state = 101
+							state = 337
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+#Very Hard Cores
+#Whole Sweden
+	GGR_Core_Sweden = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { consumer_goods_factor = 0.04 }
+		days_remove = 135
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SWE
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 124
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SWE
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SWE
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 124
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Norway
+	GGR_Core_Norway = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { consumer_goods_factor = 0.04 }
+		days_remove = 135
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = NOR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Very Hard Cores
+#Faroe Islands
+	GGR_Core_Faroe_Islands = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GGR2
+			337 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						#Not Needed Because Its an Island
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			337 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			337 = {
+				add_core_of = FROM
+				set_state_name = "Färöer Inseln"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Iceland
+	GGR_Core_Iceland = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GGR2
+			100 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						#Not Needed Because Its an Island
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			100 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			100 = {
+				add_core_of = FROM
+				set_state_name = "Island"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greenland
+	GGR_Core_Greenland = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GGR2
+			101 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						#Not Needed Because Its an Island
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			101 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			101 = {
+				add_core_of = FROM
+				set_state_name = "Grönland"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Lithuania
+	GGR_Core_Lithuania = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LIT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 188
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LIT
+						NOT = {
+							state = 188
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LIT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 188
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Latvia
+	GGR_Core_Latvia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LAT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LAT
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LAT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Estonia
+	GGR_Core_Estonia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = EST
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = EST
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = EST
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Belarus
+	GGR_Core_Belarus = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BLR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BLR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BLR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Ukraine
+	GGR_Core_Ukraine = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 89
+							state = 91
+							state = 73
+							state = 766
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UKR
+						NOT = {
+							state = 89
+							state = 91
+							state = 73
+							state = 766
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 89
+							state = 91
+							state = 73
+							state = 766
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Russia
+	GGR_Core_Russia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SOV
+						NOT = {
+							is_core_of = UKR
+							is_core_of = BLR
+							is_core_of = LIT
+							is_core_of = LAT
+							is_core_of = EST
+							is_core_of = ROM
+							is_core_of = FIN
+							is_core_of = GEO
+							is_core_of = ARM
+							is_core_of = AZR
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 351
+							state = 262
+							state = 581
+							state = 573
+							state = 582
+							state = 999
+							state = 406
+							state = 236
+							state = 407
+							state = 401
+							state = 239
+							state = 400
+							state = 398
+							state = 252
+							state = 255
+							state = 256
+							state = 397
+							state = 399
+							state = 249
+							state = 651
+							state = 652
+							state = 250
+							state = 251
+							state = 825
+							state = 880
+							state = 829
+							is_on_continent = europe
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SOV
+						NOT = {
+							is_core_of = UKR
+							is_core_of = BLR
+							is_core_of = LIT
+							is_core_of = LAT
+							is_core_of = EST
+							is_core_of = ROM
+							is_core_of = FIN
+							is_core_of = GEO
+							is_core_of = ARM
+							is_core_of = AZR
+						}
+						OR = {
+							state = 351
+							state = 262
+							state = 581
+							state = 573
+							state = 582
+							state = 999
+							state = 406
+							state = 236
+							state = 407
+							state = 401
+							state = 239
+							state = 400
+							state = 398
+							state = 252
+							state = 255
+							state = 256
+							state = 397
+							state = 399
+							state = 249
+							state = 651
+							state = 652
+							state = 250
+							state = 251
+							state = 825
+							state = 880
+							state = 829
+							is_on_continent = europe
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SOV
+						NOT = {
+							is_core_of = UKR
+							is_core_of = BLR
+							is_core_of = LIT
+							is_core_of = LAT
+							is_core_of = EST
+							is_core_of = ROM
+							is_core_of = FIN
+							is_core_of = GEO
+							is_core_of = ARM
+							is_core_of = AZR
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 351
+							state = 262
+							state = 581
+							state = 573
+							state = 582
+							state = 999
+							state = 406
+							state = 236
+							state = 407
+							state = 401
+							state = 239
+							state = 400
+							state = 398
+							state = 252
+							state = 255
+							state = 256
+							state = 397
+							state = 399
+							state = 249
+							state = 651
+							state = 652
+							state = 250
+							state = 251
+							state = 825
+							state = 880
+							state = 829
+							is_on_continent = europe
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Georgia
+	GGR_Core_Georgia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GEO
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GEO
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = GEO
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Whole Armenia
+	GGR_Core_Armenia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ARM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ARM
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ARM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Azerbaijan
+	GGR_Core_Azerbaijan = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 125
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 180
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_GGR2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AZR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 419
+							state = 420
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AZR
+						NOT = {
+							state = 419
+							state = 420
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AZR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						NOT = {
+							state = 419
+							state = 420
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Actual Formable
+	#Greater Germanic Reich
+	RON_Formable_Decision1 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_GGR2 }
+			original_tag = GER
+		}
+		available = {
+			is_subject = no
+			
+			has_global_flag = FORM_GRO2
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_POL_Neutralized_tt
+				OR = {
+					POL = {
+						has_capitulated = yes
+					}
+					POL = {
+						exists = no
+					}
+					POL = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 10
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 10
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_FRA_Neutralized_tt
+				
+				OR = {
+					FRA = {
+						has_capitulated = yes
+					}
+					FRA = {
+						exists = no
+					}
+					VIC = {
+						exists = yes
+					}
+					FRA = {
+						is_subject_of = GER
+					}
+					OR = {
+						GER = {
+							controls_state = 16
+						}
+						any_other_country = {
+							is_in_faction_with = GER
+							controls_state = 16
+						}
+					}
+					has_global_flag = fall_of_france
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_SOV_Neutralized_tt
+				OR = {
+						SOV = {
+							has_capitulated = yes
+						}
+						SOV = {
+							exists = no
+						}
+						SOV = {
+							is_subject_of = GER
+						}
+						AND = {
+							OR = {
+								GER = {
+									controls_state = 219
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 219
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 217
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 217
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 195
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 195
+								}
+							}
+						}
+					}
+			}
+			
+			
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Polish Corridor
+			85 = { is_controlled_by = FROM }
+			86 = { is_controlled_by = FROM }
+			807 = { is_controlled_by = FROM }
+			762 = { is_controlled_by = FROM }
+
+			#Memel
+			188 = { is_controlled_by = FROM }
+
+			#Alsace
+			28 = { is_controlled_by = FROM }
+			
+			#Sudetenland
+			69 = { is_controlled_by = FROM }
+			74 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GGR2
+			}
+		}
+	}
+
+}

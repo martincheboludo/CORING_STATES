@@ -43,6 +43,48 @@ news_event = {
 	}
 }
 
+#Greater Germanic Reich
+country_event = {
+	id = RON_Formable_Country.1
+	title = RON_Formable_Country.1.t
+	desc = RON_Formable_Country.1.d
+	picture = GFX_report_event_RON_Formable_Country1
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.0.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		set_cosmetic_tag = FORM_GGR
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.1 hours = 6 }
+			}
+
+	}
+
+}
+
+#Greater Germanic Reich
+news_event = {
+	id = RON_Formable_News.1
+	title = RON_Formable_News.1.t
+	desc = RON_Formable_News.1.d
+	picture = GFX_news_event_RON_Formable_News1
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1.a
+	}
+}
+
 #German Empire
 country_event = {
 	id = RON_Formable_Country.74

@@ -969,6 +969,10 @@ FORM_GRO = {
 	color = rgb { 70 0 0 }
 	color_ui = rgb { 70 0 0 }
 }
+FORM_GGR = {
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
 Form_Greater_Austria = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }

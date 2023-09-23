@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/01_Greater_Germany.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_germanic_reich"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/02_Greater_Germanic_Reich.dds"
+	}
+	
 }

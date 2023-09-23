@@ -15,3 +15,16 @@ GER_Coring_Decisions = {
 	visible = {
 	}
 }
+
+GGR_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_germanic_reich
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = GER
+		has_government = fascism
+	}
+
+	visible = {
+	}
+}
