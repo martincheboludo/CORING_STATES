@@ -1,0 +1,138 @@
+add_namespace = RON_Formable_Country
+add_namespace = RON_Formable_News
+
+#Greater Germany
+country_event = {
+	id = RON_Formable_Country.0
+	title = RON_Formable_Country.0.t
+	desc = RON_Formable_Country.0.d
+	picture = GFX_report_event_RON_Formable_Country0
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.0.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		set_cosmetic_tag = FORM_GRO
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.0 hours = 6 }
+			}
+
+	}
+
+}
+
+#Greater Germany
+news_event = {
+	id = RON_Formable_News.0
+	title = RON_Formable_News.0.t
+	desc = RON_Formable_News.0.d
+	picture = GFX_news_event_RON_Formable_News0
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.0.a
+	}
+}
+
+#German Empire
+country_event = {
+	id = RON_Formable_Country.74
+	title = RON_Formable_Country.74.t
+	desc = RON_Formable_Country.74.d
+	picture = GFX_report_event_RON_Formable_Country74
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.74.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		set_cosmetic_tag = FORM_German_Empire
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.74 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.74
+			hours = 6
+		}
+
+	}
+
+}
+
+#German Empire
+news_event = {
+	id = RON_Formable_News.74
+	title = RON_Formable_News.74.t
+	desc = RON_Formable_News.74.d
+	picture = GFX_news_event_RON_Formable_News74
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.74.a
+	}
+}
+
+#Greater Austria
+country_event = {
+	id = RON_Formable_Country.107
+	title = RON_Formable_Country.107.t
+	desc = RON_Formable_Country.107.d
+	picture = GFX_report_event_RON_Formable_Country107
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.107.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Austria
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.107 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.107
+			hours = 6
+		}
+
+	}
+
+}
+
+#Greater Austria
+news_event = {
+	id = RON_Formable_News.107
+	title = RON_Formable_News.107.t
+	desc = RON_Formable_News.107.d
+	picture = GFX_news_event_RON_Formable_News107
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.107.a
+	}
+}

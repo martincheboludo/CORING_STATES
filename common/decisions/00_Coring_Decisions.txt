@@ -1,0 +1,1574 @@
+#Coring Decisions
+
+GER_Coring_Decisions = {
+
+	#Easy German Cores
+
+	#Free City of Danzig
+	GER_Core_Danzig = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			85 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			85 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			85 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#GDYNIA
+	GER_Core_West_Prussia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			807 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			807 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			807 = {
+				add_core_of = FROM
+				set_state_name = "Westpreußen"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Posen
+	GER_Core_Posen = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			86 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			86 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			86 = {
+				add_core_of = FROM
+				set_state_name = "Posen"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Silesia
+	GER_Core_Silesia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			762 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			762 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			762 = {
+				add_core_of = FROM
+				set_state_name = "Schlesien"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Memel
+	GER_Core_Memel = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			188 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			188 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			188 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Alsace
+	GER_Core_Alsace = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			28 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			28 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			28 = {
+				add_core_of = FROM
+				set_state_name = "Elsaß-Lothringen"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Luxembourg
+	GER_Core_Luxembourg = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			8 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			8 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			8 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Sudetenland
+	GER_Core_Sudetenland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 69
+							state = 74
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 69
+							state = 74
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 69
+							state = 74
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Germany
+	GER_Core_German_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores German States one by one
+		fire_only_once = no
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = GER
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Austria
+	GER_Core_Austrian_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AUS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#German Speaking Switzerland
+	GER_Core_German_Switzerland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores Swiss States one by one
+		fire_only_once = no
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SWI
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 151
+							state = 3
+							state = 847
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 151
+							state = 3
+							state = 847
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SWI
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 151
+							state = 3
+							state = 847
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#South Tyrol
+	GER_Core_South_Tyrol = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 25
+		modifier = { consumer_goods_factor = 0.01 }
+		days_remove = 30
+
+		allowed = {
+			
+		}
+
+		available = {
+			39 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			39 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			39 = {
+				add_core_of = FROM
+				set_state_name = "Südtirol"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Moderate German Cores
+	
+	#Non Sudetenland Czech Lands
+	GER_Core_Czech_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 50
+		modifier = { consumer_goods_factor = 0.02 }
+		days_remove = 60
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 9
+							state = 75
+							state = 72
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 9
+							state = 75
+							state = 72
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 9
+							state = 75
+							state = 72
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Austrian Empire Land
+	GER_Core_Austrian_Empire_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 50
+		modifier = { consumer_goods_factor = 0.02 }
+		days_remove = 60
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Holland
+	GER_Core_Dutch_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores Dutch States one by one
+		fire_only_once = no
+		cost = 50
+		modifier = { consumer_goods_factor = 0.02 }
+		days_remove = 60
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HOL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HOL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = HOL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Flanders
+	GER_Core_Flemish_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 50
+		modifier = { consumer_goods_factor = 0.02 }
+		days_remove = 60
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 6
+							state = 29
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 6
+							state = 29
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 6
+							state = 29
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Hard Cores
+	
+	#Rest of Belgium
+	GER_Core_Rest_of_Belgium = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 75
+		modifier = { consumer_goods_factor = 0.03 }
+		days_remove = 90
+
+		allowed = {
+			
+		}
+
+		available = {
+			34 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			34 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			34 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Rest of Swiss
+	GER_Core_Rest_of_Switzerland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 75
+		modifier = { consumer_goods_factor = 0.03 }
+		days_remove = 90
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SWI
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 845
+							state = 846
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 845
+							state = 846
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SWI
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 845
+							state = 846
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Rest of Prussia
+	GER_Core_Rest_of_Prussia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 75
+		modifier = { consumer_goods_factor = 0.03 }
+		days_remove = 90
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 87
+							state = 98
+							state = 97
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 87
+							state = 98
+							state = 97
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = POL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 87
+							state = 98
+							state = 97
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Very Hard German Cores
+	#Venice
+	GER_Core_Venedig = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 100
+		modifier = { consumer_goods_factor = 0.04 }
+		days_remove = 135
+
+		allowed = {
+			
+		}
+
+		available = {
+			160 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			160 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			160 = {
+				add_core_of = FROM
+				set_state_name = "Venedig"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Rest of Poland
+	GER_Core_Rest_of_Poland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { consumer_goods_factor = 0.04 }
+		days_remove = 135
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 10
+							state = 90
+							state = 88
+							state = 92
+							state = 91
+							state = 89
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = Coring_In_Progress
+			}
+		}
+
+		visible = {
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 10
+							state = 90
+							state = 88
+							state = 92
+							state = 91
+							state = 89
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = POL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 10
+							state = 90
+							state = 88
+							state = 92
+							state = 91
+							state = 89
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greater Germany
+	RON_Formable_Decision0 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 0
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_GRO }
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Polish Corridor
+			85 = { is_controlled_by = FROM }
+			86 = { is_controlled_by = FROM }
+			807 = { is_controlled_by = FROM }
+			762 = { is_controlled_by = FROM }
+
+			#Memel
+			188 = { is_controlled_by = FROM }
+
+			#Alsace
+			28 = { is_controlled_by = FROM }
+			
+			#Sudetenland
+			69 = { is_controlled_by = FROM }
+			74 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.0
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GRO
+			}
+		}
+	}
+	
+	#German Empire
+	RON_Formable_Decision74 = {
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_government = neutrality }
+			}
+		}
+		cost = 0
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_German_Empire }
+			original_tag = GER
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Polish Corridor
+			85 = { is_controlled_by = FROM }
+			86 = { is_controlled_by = FROM }
+			807 = { is_controlled_by = FROM }
+			762 = { is_controlled_by = FROM }
+
+			#Memel
+			188 = { is_controlled_by = FROM }
+
+			#Alsace
+			28 = { is_controlled_by = FROM }
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.74
+			}
+			hidden_effect = {
+				set_global_flag = FORM_German_Empire
+			}
+		}
+	}
+	
+	#Greater Austria
+	RON_Formable_Decision107 = {
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		cost = 0
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = Form_Greater_Austria }
+			original_tag = AUS
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Czech_States_tt
+				69 = { is_controlled_by = FROM }
+				74 = { is_controlled_by = FROM }
+				9 = { is_controlled_by = FROM }
+				75 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Slovene_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SLV
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.107
+			}
+			hidden_effect = {
+				set_global_flag = Form_Greater_Austria
+			}
+		}
+	}
+	
+}	

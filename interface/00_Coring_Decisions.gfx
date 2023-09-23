@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_germany"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/01_Greater_Germany.dds"
+	}
+	
+}

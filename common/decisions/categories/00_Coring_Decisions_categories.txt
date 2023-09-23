@@ -1,0 +1,17 @@
+
+GER_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_germany
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			tag = GER
+			tag = AUS
+			tag = SWI
+			tag = LUX
+		}
+	}
+
+	visible = {
+	}
+}
