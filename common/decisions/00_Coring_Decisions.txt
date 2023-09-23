@@ -1393,7 +1393,7 @@ GER_Coring_Decisions = {
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 0
+		cost = 10
 		days_re_enable = 0
 		visible = {
 			NOT = { has_global_flag = FORM_GRO }
@@ -1466,7 +1466,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = neutrality }
 			}
 		}
-		cost = 0
+		cost = 10
 		days_re_enable = 0
 		visible = {
 			NOT = { has_global_flag = FORM_German_Empire }
@@ -1519,7 +1519,7 @@ GER_Coring_Decisions = {
 				is_historical_focus_on = yes
 			}
 		}
-		cost = 0
+		cost = 10
 		days_re_enable = 0
 		visible = {
 			NOT = { has_global_flag = Form_Greater_Austria }
