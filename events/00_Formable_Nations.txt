@@ -178,3 +178,50 @@ news_event = {
 		name = RON_Formable_News.107.a
 	}
 }
+
+#Greater France
+country_event = {
+	id = RON_Formable_Country.119
+	title = RON_Formable_Country.119.t
+	desc = RON_Formable_Country.119.d
+	picture = GFX_report_event_RON_Formable_Country119
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.119.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_France
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.119 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.119
+			hours = 6
+		}
+
+	}
+
+}
+
+#Greater France
+news_event = {
+	id = RON_Formable_News.119
+	title = RON_Formable_News.119.t
+	desc = RON_Formable_News.119.d
+	picture = GFX_news_event_RON_Formable_News119
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.119.a
+	}
+}

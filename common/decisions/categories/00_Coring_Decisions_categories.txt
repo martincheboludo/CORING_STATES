@@ -28,3 +28,15 @@ GGR_Coring_Decisions = {
 	visible = {
 	}
 }
+
+FRA_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_france
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = FRA
+	}
+
+	visible = {
+	}
+}

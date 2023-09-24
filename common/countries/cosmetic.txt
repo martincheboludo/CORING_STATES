@@ -981,3 +981,7 @@ FORM_German_Empire = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 115 115 115 }
 }
+Form_Greater_France = {
+	color = rgb { 0 88 164 }
+	color_ui = rgb { 0 88 164 }
+}
