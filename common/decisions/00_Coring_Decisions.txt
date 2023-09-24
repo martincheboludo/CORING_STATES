@@ -10,9 +10,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -64,9 +64,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -119,9 +119,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -174,9 +174,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -229,9 +229,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -283,9 +283,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -338,9 +338,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -393,9 +393,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -475,9 +475,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores German States one by one
 		fire_only_once = no
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -546,9 +546,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Austrian States one by one
 		fire_only_once = no
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -617,9 +617,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Swiss States one by one
 		fire_only_once = no
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -701,9 +701,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 25
-		modifier = { consumer_goods_factor = 0.01 }
-		days_remove = 30
+		cost = 20
+		modifier = { consumer_goods_factor = 0.05 }
+		days_remove = 7
 
 		allowed = {
 			
@@ -759,9 +759,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 50
-		modifier = { consumer_goods_factor = 0.02 }
-		days_remove = 60
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
 
 		allowed = {
 			
@@ -844,9 +844,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 50
-		modifier = { consumer_goods_factor = 0.02 }
-		days_remove = 60
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
 
 		allowed = {
 			
@@ -935,9 +935,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Dutch States one by one
 		fire_only_once = no
-		cost = 50
-		modifier = { consumer_goods_factor = 0.02 }
-		days_remove = 60
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
 
 		allowed = {
 			
@@ -1006,9 +1006,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 50
-		modifier = { consumer_goods_factor = 0.02 }
-		days_remove = 60
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
 
 		allowed = {
 			
@@ -1089,9 +1089,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 75
-		modifier = { consumer_goods_factor = 0.03 }
-		days_remove = 90
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -1144,9 +1144,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 75
-		modifier = { consumer_goods_factor = 0.03 }
-		days_remove = 90
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -1225,9 +1225,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 75
-		modifier = { consumer_goods_factor = 0.03 }
-		days_remove = 90
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -1309,9 +1309,9 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { consumer_goods_factor = 0.04 }
-		days_remove = 135
+		cost = 80
+		modifier = { consumer_goods_factor = 0.20 }
+		days_remove = 28
 
 		allowed = {
 			
@@ -1365,9 +1365,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { consumer_goods_factor = 0.04 }
-		days_remove = 135
+		cost = 80
+		modifier = { consumer_goods_factor = 0.20 }
+		days_remove = 28
 
 		allowed = {
 			
@@ -1646,9 +1646,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Danish States one by one
 		fire_only_once = no
-		cost = 75
-		modifier = { consumer_goods_factor = 0.03 }
-		days_remove = 90
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -1734,9 +1734,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { consumer_goods_factor = 0.04 }
-		days_remove = 135
+		cost = 80
+		modifier = { consumer_goods_factor = 0.20 }
+		days_remove = 28
 
 		allowed = {
 			
@@ -1812,9 +1812,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { consumer_goods_factor = 0.04 }
-		days_remove = 135
+		cost = 80
+		modifier = { consumer_goods_factor = 0.20 }
+		days_remove = 28
 
 		allowed = {
 			
@@ -1884,9 +1884,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -1941,9 +1941,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -1998,9 +1998,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2056,9 +2056,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2137,9 +2137,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2209,9 +2209,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2281,9 +2281,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2353,9 +2353,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2443,9 +2443,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2638,9 +2638,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2710,9 +2710,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
@@ -2782,9 +2782,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 125
-		modifier = { consumer_goods_factor = 0.05 }
-		days_remove = 180
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
 
 		allowed = {
 			
