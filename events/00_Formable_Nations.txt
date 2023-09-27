@@ -85,6 +85,100 @@ news_event = {
 	}
 }
 
+#Holy Roman Empire
+country_event = {
+	id = RON_Formable_Country.9
+	title = RON_Formable_Country.9.t
+	desc = RON_Formable_Country.9.d
+	picture = GFX_report_event_RON_Formable_Country9
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.9.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_HRE
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.9 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.9
+			hours = 6
+		}
+
+	}
+
+}
+
+#Holy Roman Empire
+news_event = {
+	id = RON_Formable_News.9
+	title = RON_Formable_News.9.t
+	desc = RON_Formable_News.9.d
+	picture = GFX_news_event_RON_Formable_News9
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.9.a
+	}
+}
+
+#French Empire
+country_event = {
+	id = RON_Formable_Country.73
+	title = RON_Formable_Country.73.t
+	desc = RON_Formable_Country.73.d
+	picture = GFX_report_event_RON_Formable_Country73
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.73.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_FRN
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.73 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.73
+			hours = 6
+		}
+
+	}
+
+}
+
+#French Empire
+news_event = {
+	id = RON_Formable_News.73
+	title = RON_Formable_News.73.t
+	desc = RON_Formable_News.73.d
+	picture = GFX_news_event_RON_Formable_News73
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.73.a
+	}
+}
+
 #German Empire
 country_event = {
 	id = RON_Formable_Country.74
@@ -223,5 +317,52 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.119.a
+	}
+}
+
+#French Union
+country_event = {
+	id = RON_Formable_Country.134
+	title = RON_Formable_Country.134.t
+	desc = RON_Formable_Country.134.d
+	picture = GFX_report_event_RON_Formable_Country134
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.134.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_French_Union
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.134 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.134
+			hours = 6
+		}
+
+	}
+
+}
+
+#French Union
+news_event = {
+	id = RON_Formable_News.134
+	title = RON_Formable_News.134.t
+	desc = RON_Formable_News.134.d
+	picture = GFX_news_event_RON_Formable_News134
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.134.a
 	}
 }

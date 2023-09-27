@@ -981,7 +981,19 @@ FORM_German_Empire = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 115 115 115 }
 }
+FORM_HRE = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
 Form_Greater_France = {
 	color = rgb { 0 88 164 }
 	color_ui = rgb { 0 88 164 }
+}
+FORM_FRN = {
+	color = rgb { 17 13 141 }
+	color_ui = rgb { 210 147 217 }
+}
+Form_French_Union = {
+	color = rgb { 80 168 181 }
+	color_ui = rgb {115 185 196 }
 }
