@@ -70,3 +70,14 @@ FRA_Core_French_Equatorial_Africa:0 "Intégrer l’Afrique Équatoriale Françai
 FRA_Core_French_Syria:0 "Intégrer la Syrie et le Liban"
 FRA_Core_African_Possesions:0 "Intégrer les Colonies Africaines"
 FRA_Core_Belgian_Congo:0 "Intégrer le Congo Belge"
+
+ENG_Coring_Decisions:0 "British Empire"
+ENG_Coring_Decisions_desc:0 "The British Empire was composed of the dominions, colonies, protectorates, mandates, and other territories ruled or administered by the United Kingdom and its predecessor states. It began with the overseas possessions and trading posts established by England in the late 16th and early 17th centuries. At its height in the 19th and early 20th century, it was the largest empire in history and, for a century, was the foremost global power. By 1913, the British Empire held sway over 412 million people, 23 per cent of the world population at the time, and by 1920, it covered 35.5 million km2 (13.7 million sq mi), 24 per cent of the Earth's total land area. As a result, its constitutional, legal, linguistic, and cultural legacy is widespread. At the peak of its power, it was described as 'the empire on which the sun never sets', as the Sun was always shining on at least one of its territories."
+
+ENG_Core_Rhodesia:0 "Integrate Rhodesia"
+ENG_Core_South_Africa:0 "Integrate South Africa"
+ENG_Core_New_Zealand:0 "Integrate New Zealand"
+ENG_Core_Australia:0 "Integrate Australia"
+ENG_Core_Canada:0 "Integrate Canada"
+ENG_Core_Ireland:0 "Integrate Ireland"
+ENG_Core_America:0 "Integrate America"

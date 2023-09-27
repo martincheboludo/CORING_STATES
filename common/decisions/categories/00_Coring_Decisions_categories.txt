@@ -40,3 +40,15 @@ FRA_Coring_Decisions = {
 	visible = {
 	}
 }
+
+ENG_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_british_empire
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = ENG
+	}
+
+	visible = {
+	}
+}

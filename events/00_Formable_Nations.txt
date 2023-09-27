@@ -132,6 +132,100 @@ news_event = {
 	}
 }
 
+#United Kingdom of Great Britain and Ireland
+country_event = {
+	id = RON_Formable_Country.68
+	title = RON_Formable_Country.68.t
+	desc = RON_Formable_Country.68.d
+	picture = GFX_report_event_RON_Formable_Country68
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.68.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_BRI
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.68 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.68
+			hours = 6
+		}
+
+	}
+
+}
+
+#United Kingdom of Great Britain and Ireland
+news_event = {
+	id = RON_Formable_News.68
+	title = RON_Formable_News.68.t
+	desc = RON_Formable_News.68.d
+	picture = GFX_news_event_RON_Formable_News68
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.68.a
+	}
+}
+
+#British Imperial Federation
+country_event = {
+	id = RON_Formable_Country.71
+	title = RON_Formable_Country.71.t
+	desc = RON_Formable_Country.71.d
+	picture = GFX_report_event_RON_Formable_Country71
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.71.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_BIF
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.71 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.71
+			hours = 6
+		}
+
+	}
+
+}
+
+#British Imperial Federation
+news_event = {
+	id = RON_Formable_News.71
+	title = RON_Formable_News.71.t
+	desc = RON_Formable_News.71.d
+	picture = GFX_news_event_RON_Formable_News71
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.71.a
+	}
+}
+
 #French Empire
 country_event = {
 	id = RON_Formable_Country.73
@@ -226,6 +320,53 @@ news_event = {
 	}
 }
 
+#Anglosphere
+country_event = {
+	id = RON_Formable_Country.89
+	title = RON_Formable_Country.89.t
+	desc = RON_Formable_Country.89.d
+	picture = GFX_report_event_RON_Formable_Country89
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.89.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Anglosphere
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.89 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.89
+			hours = 6
+		}
+
+	}
+
+}
+
+#Anglosphere
+news_event = {
+	id = RON_Formable_News.89
+	title = RON_Formable_News.89.t
+	desc = RON_Formable_News.89.d
+	picture = GFX_news_event_RON_Formable_News89
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.89.a
+	}
+}
+
 #Greater Austria
 country_event = {
 	id = RON_Formable_Country.107
@@ -270,6 +411,100 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.107.a
+	}
+}
+
+#CANZUK
+country_event = {
+	id = RON_Formable_Country.112
+	title = RON_Formable_Country.112.t
+	desc = RON_Formable_Country.112.d
+	picture = GFX_report_event_RON_Formable_Country112
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.112.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_CANZUK
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.112 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.112
+			hours = 6
+		}
+
+	}
+
+}
+
+#CANZUK
+news_event = {
+	id = RON_Formable_News.112
+	title = RON_Formable_News.112.t
+	desc = RON_Formable_News.112.d
+	picture = GFX_news_event_RON_Formable_News112
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.112.a
+	}
+}
+
+#Commonwealth of Nations
+country_event = {
+	id = RON_Formable_Country.113
+	title = RON_Formable_Country.113.t
+	desc = RON_Formable_Country.113.d
+	picture = GFX_report_event_RON_Formable_Country113
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.113.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_British_Commonwealth
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.113 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.113
+			hours = 6
+		}
+
+	}
+
+}
+
+#Commonwealth of Nations
+news_event = {
+	id = RON_Formable_News.113
+	title = RON_Formable_News.113.t
+	desc = RON_Formable_News.113.d
+	picture = GFX_news_event_RON_Formable_News113
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.113.a
 	}
 }
 

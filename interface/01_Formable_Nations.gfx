@@ -31,6 +31,26 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country68"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country68.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News68"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News68.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country71"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country71.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News71"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News71.dds"
+    }
+	
+	spriteType = {
         name = "GFX_report_event_RON_Formable_Country73"
         texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country73.dds"
     }
@@ -51,6 +71,16 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country89"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country89.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News89"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News89.dds"
+    }
+	
+	spriteType = {
         name = "GFX_report_event_RON_Formable_Country107"
         texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country107.dds"
     }
@@ -58,6 +88,26 @@ spriteTypes = {
 	spriteType = {
         name = "GFX_news_event_RON_Formable_News107"
         texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News107.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country112"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country112.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News112"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News112.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country113"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country113.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News113"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News113.dds"
     }
 	
 	spriteType = {

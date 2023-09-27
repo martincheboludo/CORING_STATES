@@ -15,4 +15,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/119_Greater_France.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_british_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/71_British_Empire.dds"
+	}
+	
 }
