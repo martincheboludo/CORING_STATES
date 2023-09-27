@@ -1645,7 +1645,7 @@ GER_Coring_Decisions = {
 		}
 	}
 	
-	#North Italy
+	###North Italy
 	GER_Core_North_Italy = {
 
 		icon = ger_reichskommissariats
@@ -1675,6 +1675,7 @@ GER_Coring_Decisions = {
 							state = 2
 							state = 159
 							state = 161
+							state = 157
 						}
 					}
 				}
@@ -1703,6 +1704,7 @@ GER_Coring_Decisions = {
 							state = 2
 							state = 159
 							state = 161
+							state = 157
 						}
 					}
 				}
@@ -1729,6 +1731,7 @@ GER_Coring_Decisions = {
 							state = 2
 							state = 159
 							state = 161
+							state = 157
 						}
 					}
 				}
@@ -1916,12 +1919,13 @@ GER_Coring_Decisions = {
 			86 = { is_controlled_by = FROM }
 			807 = { is_controlled_by = FROM }
 			762 = { is_controlled_by = FROM }
-
-			#Memel
-			188 = { is_controlled_by = FROM }
-
-			#Alsace
-			28 = { is_controlled_by = FROM }
+			
+			OR = {
+				#Memel
+				188 = { is_controlled_by = FROM }
+				#Alsace
+				28 = { is_controlled_by = FROM }
+			}
 
 		}
 		icon = generic_form_nation
@@ -3278,9 +3282,6 @@ GGR_Coring_Decisions = {
 					}
 					FRA = {
 						exists = no
-					}
-					VIC = {
-						exists = yes
 					}
 					FRA = {
 						is_subject_of = GER
