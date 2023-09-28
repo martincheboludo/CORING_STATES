@@ -103,3 +103,12 @@ SOV_Coring_Decisions_desc:0 "The Russian Empire, also known as Imperial Russia o
 
 SOV_Core_Ukranian_Lands:0 "Integrate Ukraine"
 SOV_Core_Belarus_Lands:0 "Integrate Belarus"
+SOV_Core_Congress_Poland:0 "Integrate Congress Poland"
+SOV_Core_Finnish_Annexations:0 "Integrate Finnish Borderlands"
+SOV_Core_Romanian_Annexations:0 "Integrate Romanian Borderlands"
+SOV_Core_Austrian_Poland:0 "Integrate Austrian Poland"
+SOV_Core_Rest_Of_Poland:0 "Integrate The Rest of Poland"
+SOV_Core_Rest_Of_Finland:0 "Integrate The Rest of Finland"
+SOV_Core_Latvia:0 "Integrate Latvia"
+SOV_Core_Lithuania:0 "Integrate Lithuania"
+SOV_Core_Estonia:0 "Integrate Estonia"

@@ -7566,5 +7566,553 @@ SOV_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Medium Cores
+	#Congress Poland
+	
+	#Congress Poland
+	SOV_Core_Congress_Poland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = POL
+						OR = { 
+							state = 87
+							state = 98
+							state = 10
+							state = 90
+							state = 92
+							state = 97
+							state = 814
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						OR = { 
+							state = 87
+							state = 98
+							state = 10
+							state = 90
+							state = 92
+							state = 97
+							state = 814
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = POL
+						OR = { 
+							state = 87
+							state = 98
+							state = 10
+							state = 90
+							state = 92
+							state = 97
+							state = 814
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Finnish Annexations
+	SOV_Core_Finnish_Annexations = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = FIN
+						OR = { 
+							state = 146
+							state = 147
+							state = 722
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FIN
+						OR = { 
+							state = 146
+							state = 147
+							state = 722
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = FIN
+						OR = { 
+							state = 146
+							state = 147
+							state = 722
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Romanian Annexations
+	SOV_Core_Romanian_Annexations = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = ROM
+						OR = { 
+							state = 80
+							state = 78
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ROM
+						OR = { 
+							state = 80
+							state = 78
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = ROM
+						OR = { 
+							state = 80
+							state = 78
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Medium Cores
+	
+	#Austrian Poland
+	SOV_Core_Austrian_Poland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = POL
+						state = 88
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						state = 88
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = POL
+						state = 88
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Rest of Poland
+	SOV_Core_Rest_Of_Poland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = { 
+							is_core_of = GER
+							is_core_of = POL
+						}
+						OR = { 
+							state = 87
+							state = 98
+							state = 762
+							state = 67
+							state = 85
+							state = 86
+							state = 807
+							state = 63
+							state = 68
+							state = 66
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = { 
+							is_core_of = GER
+							is_core_of = POL
+						}
+						OR = { 
+							state = 87
+							state = 98
+							state = 762
+							state = 67
+							state = 85
+							state = 86
+							state = 807
+							state = 63
+							state = 68
+							state = 66
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = { 
+							is_core_of = GER
+							is_core_of = POL
+						}
+						OR = { 
+							state = 87
+							state = 98
+							state = 762
+							state = 67
+							state = 85
+							state = 86
+							state = 807
+							state = 63
+							state = 68
+							state = 66
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Rest of Finland
+	SOV_Core_Rest_Of_Finland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = FIN
+						NOT = { 
+							state = 146
+							state = 147
+							state = 722
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FIN
+						NOT = { 
+							state = 146
+							state = 147
+							state = 722
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = FIN
+						NOT = { 
+							state = 146
+							state = 147
+							state = 722
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 }
