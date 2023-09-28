@@ -1017,3 +1017,15 @@ Form_CANZUK = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
 }
+FORM_RUE = {
+	color = rgb { 0 100 30 }
+	color_ui = rgb { 0 110 33 }
+}
+FORM_Greater_Russia = {
+	color = rgb { 125 0 0 }
+	color_ui = rgb { 125 0 0 }
+}
+Form_Slavic_Union = {
+	color = rgb { 33 76 206 }
+	color_ui = rgb { 33 76 206 }
+}

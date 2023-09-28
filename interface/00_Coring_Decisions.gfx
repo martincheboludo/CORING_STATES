@@ -2,22 +2,42 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_cat_creating_greater_germany"
-		texturefile = "gfx/interface/decisions/00_Coring_Decisions/01_Greater_Germany.dds"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Germany.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_decision_cat_creating_greater_germanic_reich"
-		texturefile = "gfx/interface/decisions/00_Coring_Decisions/02_Greater_Germanic_Reich.dds"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Germanic_Reich.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_decision_cat_creating_greater_france"
-		texturefile = "gfx/interface/decisions/00_Coring_Decisions/119_Greater_France.dds"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_France.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_decision_cat_creating_british_empire"
-		texturefile = "gfx/interface/decisions/00_Coring_Decisions/71_British_Empire.dds"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_British_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_russia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_italy"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Italy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_japan"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Japan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_america"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_America.dds"
 	}
 	
 }

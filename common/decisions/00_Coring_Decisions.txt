@@ -1741,6 +1741,7 @@ GER_Coring_Decisions = {
 		}
 	}
 	
+	#Greater Austria will be added as its own separate category
 	#Greater Austria
 	RON_Formable_Decision107 = {
 		ai_will_do = {
@@ -1753,6 +1754,7 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			always = false
 			NOT = { has_global_flag = Form_Greater_Austria2 }
 			original_tag = AUS
 		}
