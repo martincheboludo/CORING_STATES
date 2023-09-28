@@ -179,6 +179,53 @@ news_event = {
 	}
 }
 
+#Russian Empire
+country_event = {
+	id = RON_Formable_Country.69
+	title = RON_Formable_Country.69.t
+	desc = RON_Formable_Country.69.d
+	picture = GFX_report_event_RON_Formable_Country69
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.69.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_RUE
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.69 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.69
+			hours = 6
+		}
+
+	}
+
+}
+
+#Russian Empire
+news_event = {
+	id = RON_Formable_News.69
+	title = RON_Formable_News.69.t
+	desc = RON_Formable_News.69.d
+	picture = GFX_news_event_RON_Formable_News69
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.69.a
+	}
+}
+
 #British Imperial Federation
 country_event = {
 	id = RON_Formable_Country.71
@@ -367,6 +414,53 @@ news_event = {
 	}
 }
 
+#Greater Russia
+country_event = {
+	id = RON_Formable_Country.104
+	title = RON_Formable_Country.104.t
+	desc = RON_Formable_Country.104.d
+	picture = GFX_report_event_RON_Formable_Country104
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.104.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_Russia
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.104 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.104
+			hours = 6
+		}
+
+	}
+
+}
+
+#Greater Russia
+news_event = {
+	id = RON_Formable_News.104
+	title = RON_Formable_News.104.t
+	desc = RON_Formable_News.104.d
+	picture = GFX_news_event_RON_Formable_News104
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.104.a
+	}
+}
+
 #Greater Austria
 country_event = {
 	id = RON_Formable_Country.107
@@ -552,6 +646,53 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.119.a
+	}
+}
+
+#Slavic Union
+country_event = {
+	id = RON_Formable_Country.127
+	title = RON_Formable_Country.127.t
+	desc = RON_Formable_Country.127.d
+	picture = GFX_report_event_RON_Formable_Country127
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.127.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Slavic_Union
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.127 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.127
+			hours = 6
+		}
+
+	}
+
+}
+
+#Slavic Union
+news_event = {
+	id = RON_Formable_News.127
+	title = RON_Formable_News.127.t
+	desc = RON_Formable_News.127.d
+	picture = GFX_news_event_RON_Formable_News127
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.127.a
 	}
 }
 

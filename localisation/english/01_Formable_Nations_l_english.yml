@@ -121,20 +121,35 @@
  RON_Formable_News.134.d:0 "The French Union (1946–1958) was a political entity created by the French Fourth Republic to replace the old French colonial empire system, colloquially known as the 'French Empire' (Empire français). It was the formal end of the 'indigenous' (indigène) status of French subjects in colonial areas."
  RON_Formable_News.134.a:1 "OK"
  
-
+#Decisions
+ 
+#German Formables
 RON_Formable_Decision0:0 "Proclaim Greater Germany"
 RON_Formable_Decision1:0 "Proclaim Greater Germanic Reich"
 RON_Formable_Decision9:0 "Proclaim Holy Roman Empire"
-RON_Formable_Decision68:0 "Proclaim Great Britain and Ireland"
-RON_Formable_Decision71:0 "Proclaim British Imperial Federation"
-RON_Formable_Decision73:0 "Proclaim French Empire"
 RON_Formable_Decision74:0 "Proclaim German Empire"
-RON_Formable_Decision89:0 "Unite The Anglosphere"
-RON_Formable_Decision107:0 "Proclaim Greater Austria"
-RON_Formable_Decision112:0 "Proclaim CANZUK"
-RON_Formable_Decision113:0 "Proclaim Commonwealth of Nations"
+
+#French Formables
+RON_Formable_Decision73:0 "Proclaim French Empire"
 RON_Formable_Decision119:0 "Proclaim Greater France"
 RON_Formable_Decision134:0 "Unite The Francosphere"
+
+#British Formables
+RON_Formable_Decision68:0 "Proclaim Great Britain and Ireland"
+RON_Formable_Decision71:0 "Proclaim British Imperial Federation"
+RON_Formable_Decision89:0 "Unite The Anglosphere"
+RON_Formable_Decision112:0 "Proclaim CANZUK"
+RON_Formable_Decision113:0 "Proclaim Commonwealth of Nations"
+
+#Russian Formables
+RON_Formable_Decision69:0 "Proclaim French Empire"
+RON_Formable_Decision104:0 "Proclaim Greater France"
+RON_Formable_Decision127:0 "Unite The Francosphere"
+
+#WIP
+RON_Formable_Decision107:0 "Proclaim Greater Austria"
+
+#Cosmetic Tags
 
 FORM_GGR2:0 "Has Proclaimed The Greater Germanic Reich"
 FORM_GRO2:0 "Has Proclaimed Greater Germany"

@@ -97,3 +97,9 @@ ENG_Core_American_Possesions:0 "Integrate American Colonies"
 ENG_Core_Arabian_Possesions:0 "Integrate Arabian Colonies"
 ENG_Core_Botswana:0 "Integrate Botswana"
 ENG_Core_Zambia:0 "Integrate Zambia"
+
+SOV_Coring_Decisions:0 "Greater Russia"
+SOV_Coring_Decisions_desc:0 "The Russian Empire, also known as Imperial Russia or simply Russia, was an empire that existed across Eurasia and North America from 1721, following the end of the Great Northern War, until the Republic was proclaimed by the Provisional Government that took power after the February Revolution of 1917. The third largest empire in world history, at its greatest extent stretching over three continents, Europe, Asia, and North America, the Russian Empire was surpassed in landmass only by the British and Mongol empires. The rise of the Russian Empire coincided with the decline of neighboring rival powers: the Golden Horde, the Swedish Empire, the Polish–Lithuanian Commonwealth, Persia and the Ottoman Empire. It played a major role in 1812–1814 in defeating Napoleon's ambitions to control Europe and expanded to the west and south."
+
+SOV_Core_Ukranian_Lands:0 "Integrate Ukraine"
+SOV_Core_Belarus_Lands:0 "Integrate Belarus"

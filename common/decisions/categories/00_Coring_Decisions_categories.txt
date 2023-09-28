@@ -52,3 +52,15 @@ ENG_Coring_Decisions = {
 	visible = {
 	}
 }
+
+SOV_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_russia
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = SOV
+	}
+
+	visible = {
+	}
+}
