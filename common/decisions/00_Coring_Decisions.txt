@@ -10022,5 +10022,142 @@ SOV_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Russian Empire
+	RON_Formable_Decision69 = {
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_government = neutrality }
+			}
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_RUE2 }
+			original_tag = SOV
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belarusian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BLR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ukranian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UKR
+							OR = {
+							state = 93
+								AND = {
+									NOT = { is_core_of = CZE }
+									NOT = { is_core_of = HUN }
+									NOT = { is_core_of = POL }
+									NOT = { is_core_of = ROM }
+								}
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Latvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+							NOT = { state = 188 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Estonian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EST
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Finnish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FIN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+			#Congress Poland
+			87 = { is_controlled_by = FROM }
+			98 = { is_controlled_by = FROM }
+			10 = { is_controlled_by = FROM }
+			90 = { is_controlled_by = FROM }
+			92 = { is_controlled_by = FROM }
+			97 = { is_controlled_by = FROM }
+			814 = { is_controlled_by = FROM }
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.69
+			}
+			hidden_effect = {
+				set_global_flag = FORM_RUE2
+			}
+		}
+	}
 
 }
