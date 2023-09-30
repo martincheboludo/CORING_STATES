@@ -7615,6 +7615,14 @@ SOV_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
+					has_global_flag = FORM_RUE2
+				}
+			}
 		}
 
 		visible = {
@@ -7855,6 +7863,13 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+		
+		OR = {
+			has_global_flag = Form_Slavic_Union2
+			has_global_flag = FORM_Greater_Russia2
+			has_global_flag = FORM_RUE2
+		}
+		
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -7874,6 +7889,14 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
+					has_global_flag = FORM_RUE2
 				}
 			}
 		}
@@ -7929,27 +7952,25 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+		
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+				has_global_flag = FORM_RUE2
+			}
+		
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
-						OR = { 
-							is_core_of = GER
-							is_core_of = POL
-						}
-						OR = { 
-							state = 87
-							state = 98
-							state = 762
-							state = 67
-							state = 85
-							state = 86
-							state = 807
-							state = 63
-							state = 68
-							state = 66
+						is_core_of = POL
+						NOT = { 
+							is_core_of = UKR
+							is_core_of = BLR
+							is_core_of = LIT
+							state = 88
 						}
 					}
 				}
@@ -7964,6 +7985,14 @@ SOV_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
+					has_global_flag = FORM_RUE2
+				}
+			}
 		}
 
 		visible = {
@@ -7971,21 +8000,12 @@ SOV_Coring_Decisions = {
 			any_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						OR = { 
-							is_core_of = GER
-							is_core_of = POL
-						}
-						OR = { 
-							state = 87
-							state = 98
-							state = 762
-							state = 67
-							state = 85
-							state = 86
-							state = 807
-							state = 63
-							state = 68
-							state = 66
+						is_core_of = POL
+						NOT = { 
+							is_core_of = UKR
+							is_core_of = BLR
+							is_core_of = LIT
+							state = 88
 						}
 					}
 				}
@@ -8005,21 +8025,12 @@ SOV_Coring_Decisions = {
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
-						OR = { 
-							is_core_of = GER
-							is_core_of = POL
-						}
-						OR = { 
-							state = 87
-							state = 98
-							state = 762
-							state = 67
-							state = 85
-							state = 86
-							state = 807
-							state = 63
-							state = 68
-							state = 66
+						is_core_of = POL
+						NOT = { 
+							is_core_of = UKR
+							is_core_of = BLR
+							is_core_of = LIT
+							state = 88
 						}
 					}
 				}
@@ -8068,6 +8079,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
+					has_global_flag = FORM_RUE2
 				}
 			}
 		}
@@ -8522,6 +8540,13 @@ SOV_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
+					has_global_flag = FORM_RUE2
+				}
+			}
 		}
 
 		visible = {
@@ -8791,6 +8816,10 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -8809,6 +8838,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -8862,6 +8898,10 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -8885,6 +8925,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -8948,6 +8995,10 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -8966,6 +9017,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9021,6 +9079,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9039,6 +9098,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9112,6 +9177,12 @@ SOV_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
+				}
+			}
 		}
 
 		visible = {
@@ -9163,6 +9234,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9234,6 +9306,10 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9252,6 +9328,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9305,6 +9388,10 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9323,6 +9410,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9376,6 +9470,10 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9394,6 +9492,13 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9447,6 +9552,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = Form_Slavic_Union2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9465,6 +9571,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
 				}
 			}
 		}
@@ -9518,6 +9630,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9536,6 +9649,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9589,6 +9708,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9607,6 +9727,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9660,6 +9786,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9678,6 +9805,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9731,6 +9864,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9749,6 +9883,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9802,6 +9942,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9820,6 +9961,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9873,6 +10020,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9898,6 +10046,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -9965,6 +10119,7 @@ SOV_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -9984,6 +10139,12 @@ SOV_Coring_Decisions = {
 				AND = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_Greater_Russia2
 				}
 			}
 		}
@@ -10023,6 +10184,111 @@ SOV_Coring_Decisions = {
 		}
 	}
 	
+	#Polish German Annexations
+	SOV_Core_Polish_German_Annexations = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { consumer_goods_factor = 0.25 }
+		days_remove = 35
+
+		allowed = {
+			
+		}
+
+		available = {
+		
+			OR = {
+				has_global_flag = Form_Slavic_Union2
+				has_global_flag = FORM_Greater_Russia2
+			}
+		
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = GER
+						OR = { 
+							state = 67
+							state = 63
+							state = 68
+							state = 66
+							state = 5
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = Form_Slavic_Union2
+					has_global_flag = FORM_Greater_Russia2
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+						OR = { 
+							state = 67
+							state = 63
+							state = 68
+							state = 66
+							state = 5
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = GER
+						OR = { 
+							state = 67
+							state = 63
+							state = 68
+							state = 66
+							state = 5
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Russian Empire
 	RON_Formable_Decision69 = {
 		ai_will_do = {
@@ -10030,7 +10296,7 @@ SOV_Coring_Decisions = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				NOT = { has_government = neutrality }
+				has_government = communism
 			}
 		}
 		cost = 10
@@ -10501,6 +10767,125 @@ SOV_Coring_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = FORM_Greater_Russia2
+			}
+		}
+	}
+	
+	#Slavic Union
+	RON_Formable_Decision127 = {
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = communism
+			}
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = Form_Slavic_Union2 }
+			original_tag = SOV
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = TAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belarusian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BLR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ukranian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UKR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = LIT }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Czechoslovak_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bulgarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BUL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Yugoslav_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = YUG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.127
+			}
+			hidden_effect = {
+				set_global_flag = Form_Slavic_Union2
 			}
 		}
 	}
