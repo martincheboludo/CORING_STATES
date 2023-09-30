@@ -10049,6 +10049,7 @@ SOV_Coring_Decisions = {
 							is_core_of = SOV
 							NOT = { is_core_of = BLR }
 							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = TAN }
 						}
 						is_controlled_by = FROM
 					}
@@ -10146,7 +10147,6 @@ SOV_Coring_Decisions = {
 			90 = { is_controlled_by = FROM }
 			92 = { is_controlled_by = FROM }
 			97 = { is_controlled_by = FROM }
-			814 = { is_controlled_by = FROM }
 
 		}
 		icon = generic_form_nation
