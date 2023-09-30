@@ -10896,7 +10896,7 @@ SOV_Coring_Decisions = {
 USA_Coring_Decisions = {
 
 #Whole Canada
-	GER_Core_Canada = {
+	USA_Core_Canada = {
 
 		icon = ger_reichskommissariats
 		
@@ -10915,8 +10915,13 @@ USA_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = CAN
-						any_neighbor_state = {
-							is_core_of = FROM
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 331
+							state = 739
+							state = 740
 						}
 					}
 				}
@@ -10955,8 +10960,13 @@ USA_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = CAN
-						any_neighbor_state = {
-							is_core_of = FROM
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 331
+							state = 739
+							state = 740
 						}
 					}
 				}
@@ -10967,7 +10977,7 @@ USA_Coring_Decisions = {
 	}
 	
 	#Whole Mexico
-	GER_Core_Mexico = {
+	USA_Core_Mexico = {
 
 		icon = ger_reichskommissariats
 		
@@ -11029,6 +11039,400 @@ USA_Coring_Decisions = {
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Central America
+	USA_Core_Central_America = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = GUA
+							is_core_of = ELS
+							is_core_of = HON
+							is_core_of = COS
+							is_core_of = NIC
+							is_core_of = PAN
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = GUA
+							is_core_of = ELS
+							is_core_of = HON
+							is_core_of = COS
+							is_core_of = NIC
+							is_core_of = PAN
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = GUA
+							is_core_of = ELS
+							is_core_of = HON
+							is_core_of = COS
+							is_core_of = NIC
+							is_core_of = PAN
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Cuba
+	USA_Core_Cuba = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CUB
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CUB
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CUB
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Hispaniola
+	USA_Core_Hispaniola = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = DOM
+							is_core_of = HAI
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = DOM
+							is_core_of = HAI
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = DOM
+							is_core_of = HAI
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Phillippines
+	USA_Core_Phillippines = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PHI
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PHI
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = PHI
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Iceland
+	USA_Core_Iceland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { consumer_goods_factor = 0.15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = ICE
+							state = 101
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = ICE
+							state = 101
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			hidden_effect = { sound_effect = complete_focus }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = ICE
+							state = 101
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
 					}
 				}
 				add_core_of = FROM
