@@ -64,3 +64,15 @@ SOV_Coring_Decisions = {
 	visible = {
 	}
 }
+
+USA_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_america
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = USA
+	}
+
+	visible = {
+	}
+}
