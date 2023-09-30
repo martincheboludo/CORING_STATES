@@ -10438,6 +10438,7 @@ SOV_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = PAK
+							NOT = {is_core_of = BAN}
 						}
 						is_controlled_by = FROM
 					}
