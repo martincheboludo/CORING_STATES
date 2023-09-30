@@ -10159,5 +10159,349 @@ SOV_Coring_Decisions = {
 			}
 		}
 	}
+	
+	#Greater Russia
+	RON_Formable_Decision104 = {
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = communism
+			}
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_Russia2 }
+			original_tag = SOV
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = TAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belarusian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BLR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ukranian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UKR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Latvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Estonian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EST
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			OR = {
+			AND = {
+			
+			#Finnish Annexations
+			722 = { is_controlled_by = FROM }
+			146 = { is_controlled_by = FROM }
+			147 = { is_controlled_by = FROM }
+			
+			#Germany
+			763 = { is_controlled_by = FROM }
+			
+			#Moldova
+			78 = { is_controlled_by = FROM }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = LIT }
+						}
+						is_controlled_by = FROM
+					}
+				}
+				#Polish Germany
+				5 = { is_controlled_by = FROM }
+				63 = { is_controlled_by = FROM }
+				66 = { is_controlled_by = FROM }
+				67 = { is_controlled_by = FROM }
+				68 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Czechoslovak_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HUN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Romanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ROM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bulgarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BUL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Yugoslav_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = YUG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Albanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ALB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_East_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+							OR = {
+								state = 60
+								state = 61
+								state = 62
+								state = 64
+								state = 65
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+		}
+		
+		AND = {
+			
+			#Tannu Tuva
+			controls_state = 329
+			
+			#Japanese Annexations
+			controls_state = 537
+			controls_state = 555
+			
+			#North Korea
+			controls_state = 527
+			#South Korea
+			controls_state = 525
+		
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Turkish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Persian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Afghan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AFG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Pakistani_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAK
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Sinkiang_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SIK
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mongolian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MON
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Manchurian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MAN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Inner_Mongolian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+	}
+}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.104
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_Russia2
+			}
+		}
+	}
 
 }
