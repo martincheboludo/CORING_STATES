@@ -17,3 +17,6 @@ USSR
 Russian Empire, Slavic Union*, Greater Russia*
 
 *Formables with an asterisk next to them are complex multinational entities, and require you to control a certain amount of states, before you can start the coring process. Countries without the asterisk are simple, and therefore you can begin coring them straight away, even before having the requirements for the formable. This is for gameplay balance purposes.
+
+CREDIT
+The orginal Formable Nations mod, by (3rewster) for being the pioneer.
