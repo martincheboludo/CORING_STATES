@@ -132,6 +132,100 @@ news_event = {
 	}
 }
 
+#North American Union
+country_event = {
+	id = RON_Formable_Country.47
+	title = RON_Formable_Country.47.t
+	desc = RON_Formable_Country.47.d
+	picture = GFX_report_event_RON_Formable_Country47
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.47.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_NOA
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.47 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.47
+			hours = 6
+		}
+
+	}
+
+}
+
+#North American Union
+news_event = {
+	id = RON_Formable_News.47
+	title = RON_Formable_News.47.t
+	desc = RON_Formable_News.47.d
+	picture = GFX_news_event_RON_Formable_News47
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.47.a
+	}
+}
+
+#Golden Circle
+country_event = {
+	id = RON_Formable_Country.53
+	title = RON_Formable_Country.53.t
+	desc = RON_Formable_Country.53.d
+	picture = GFX_report_event_RON_Formable_Country53
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.53.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_GOL
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.53 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.53
+			hours = 6
+		}
+
+	}
+
+}
+
+#Golden Circle
+news_event = {
+	id = RON_Formable_News.53
+	title = RON_Formable_News.53.t
+	desc = RON_Formable_News.53.d
+	picture = GFX_news_event_RON_Formable_News53
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.53.a
+	}
+}
+
 #United Kingdom of Great Britain and Ireland
 country_event = {
 	id = RON_Formable_Country.68
@@ -414,6 +508,53 @@ news_event = {
 	}
 }
 
+#The Americas
+country_event = {
+	id = RON_Formable_Country.96
+	title = RON_Formable_Country.96.t
+	desc = RON_Formable_Country.96.d
+	picture = GFX_report_event_RON_Formable_Country96
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.96.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_The_Americas
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.96 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.96
+			hours = 6
+		}
+
+	}
+
+}
+
+#The Americas
+news_event = {
+	id = RON_Formable_News.96
+	title = RON_Formable_News.96.t
+	desc = RON_Formable_News.96.d
+	picture = GFX_news_event_RON_Formable_News96
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.96.a
+	}
+}
+
 #Greater Russia
 country_event = {
 	id = RON_Formable_Country.104
@@ -458,6 +599,100 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.104.a
+	}
+}
+
+#Greater America
+country_event = {
+	id = RON_Formable_Country.105
+	title = RON_Formable_Country.105.t
+	desc = RON_Formable_Country.105.d
+	picture = GFX_report_event_RON_Formable_Country105
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.105.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_USA
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.105 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.105
+			hours = 6
+		}
+
+	}
+
+}
+
+#Greater America
+news_event = {
+	id = RON_Formable_News.105
+	title = RON_Formable_News.105.t
+	desc = RON_Formable_News.105.d
+	picture = GFX_news_event_RON_Formable_News105
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.105.a
+	}
+}
+
+#Canadian-American Union
+country_event = {
+	id = RON_Formable_Country.106
+	title = RON_Formable_Country.106.t
+	desc = RON_Formable_Country.106.d
+	picture = GFX_report_event_RON_Formable_Country106
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.106.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Canadian_American_Union
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.106 hours = 6 }
+			}
+
+		news_event = {
+			id = RON_Formable_News.106
+			hours = 6
+		}
+
+	}
+
+}
+
+#Canadian-American Union
+news_event = {
+	id = RON_Formable_News.106
+	title = RON_Formable_News.106.t
+	desc = RON_Formable_News.106.d
+	picture = GFX_news_event_RON_Formable_News106
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.106.a
 	}
 }
 

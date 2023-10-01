@@ -51,7 +51,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			85 = {
 				add_core_of = FROM
 			}
@@ -105,7 +105,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			807 = {
 				add_core_of = FROM
 				set_state_name = "Westpreußen"
@@ -160,7 +160,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			86 = {
 				add_core_of = FROM
 				set_state_name = "Posen"
@@ -215,7 +215,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			762 = {
 				add_core_of = FROM
 				set_state_name = "Schlesien"
@@ -270,7 +270,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			188 = {
 				add_core_of = FROM
 			}
@@ -324,7 +324,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			28 = {
 				add_core_of = FROM
 				set_state_name = "Elsaß-Lothringen"
@@ -379,7 +379,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			8 = {
 				add_core_of = FROM
 			}
@@ -448,7 +448,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -523,7 +523,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -594,7 +594,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -674,7 +674,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -742,7 +742,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			39 = {
 				add_core_of = FROM
 				set_state_name = "Südtirol"
@@ -820,7 +820,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -913,7 +913,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -995,7 +995,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1078,7 +1078,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1152,7 +1152,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			34 = {
 				add_core_of = FROM
 			}
@@ -1224,7 +1224,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1312,7 +1312,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1385,7 +1385,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			160 = {
 				add_core_of = FROM
 				set_state_name = "Venedig"
@@ -1466,7 +1466,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1556,7 +1556,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1655,7 +1655,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -1754,7 +1754,7 @@ GER_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2118,7 +2118,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2199,7 +2199,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2274,7 +2274,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2340,7 +2340,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			337 = {
 				add_core_of = FROM
 				set_state_name = "Färöer Inseln"
@@ -2397,7 +2397,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			100 = {
 				add_core_of = FROM
 				set_state_name = "Island"
@@ -2454,7 +2454,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			101 = {
 				add_core_of = FROM
 				set_state_name = "Grönland"
@@ -2524,7 +2524,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2599,7 +2599,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2671,7 +2671,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2743,7 +2743,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2827,7 +2827,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -2987,7 +2987,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -3100,7 +3100,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -3172,7 +3172,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -3252,7 +3252,7 @@ GGR_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -3486,7 +3486,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			8 = {
 				add_core_of = FROM
 			}
@@ -3540,7 +3540,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			34 = {
 				add_core_of = FROM
 			}
@@ -3594,7 +3594,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			845 = {
 				add_core_of = FROM
 				set_state_name = "Romandie"
@@ -3671,7 +3671,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -3742,7 +3742,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			6 = {
 				add_core_of = FROM
 				set_state_name = "Flandre"
@@ -3797,7 +3797,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			35 = {
 				add_core_of = FROM
 			}
@@ -3851,7 +3851,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			165 = {
 				add_core_of = FROM
 				set_state_name = "Catalogne"
@@ -3921,7 +3921,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -3997,7 +3997,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4078,7 +4078,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4163,7 +4163,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4250,7 +4250,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4338,7 +4338,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4427,7 +4427,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4513,7 +4513,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4598,7 +4598,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4691,7 +4691,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4782,7 +4782,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4868,7 +4868,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -4951,7 +4951,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5035,7 +5035,7 @@ FRA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5319,7 +5319,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5354,11 +5354,11 @@ ENG_Coring_Decisions = {
 		}
 
 		available = {
-			OR = { 
-				has_global_flag = FORM_BIF2 
-				has_global_flag = Form_CANZUK2
-				has_global_flag = FORM_Anglosphere2
-			}
+			#OR = { 
+			#	has_global_flag = FORM_BIF2 
+			#	has_global_flag = Form_CANZUK2
+			#	has_global_flag = FORM_Anglosphere2
+			#}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5397,7 +5397,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5431,11 +5431,11 @@ ENG_Coring_Decisions = {
 		}
 
 		available = {
-			OR = { 
-				has_global_flag = FORM_BIF2 
-				has_global_flag = Form_CANZUK2 
-				has_global_flag = FORM_Anglosphere2
-			}
+			#OR = { 
+			#	has_global_flag = FORM_BIF2 
+			#	has_global_flag = Form_CANZUK2
+			#	has_global_flag = FORM_Anglosphere2
+			#}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5474,7 +5474,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5507,11 +5507,11 @@ ENG_Coring_Decisions = {
 		}
 
 		available = {
-			OR = { 
-				has_global_flag = FORM_BIF2 
-				has_global_flag = Form_CANZUK2 
-				has_global_flag = FORM_Anglosphere2
-			}
+			#OR = { 
+			#	has_global_flag = FORM_BIF2 
+			#	has_global_flag = Form_CANZUK2
+			#	has_global_flag = FORM_Anglosphere2
+			#}
 		
 		
 			any_controlled_state = {
@@ -5552,7 +5552,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5629,7 +5629,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5704,7 +5704,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5777,7 +5777,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5854,7 +5854,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -5931,7 +5931,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6007,7 +6007,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6082,7 +6082,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6157,7 +6157,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6232,7 +6232,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6307,7 +6307,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6382,7 +6382,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6464,7 +6464,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6553,7 +6553,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6644,7 +6644,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6724,7 +6724,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6799,7 +6799,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -6897,7 +6897,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7002,7 +7002,7 @@ ENG_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7107,6 +7107,7 @@ ENG_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = CAN
+							is_island_state = no
 						}
 						is_controlled_by = FROM
 					}
@@ -7191,6 +7192,7 @@ ENG_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = CAN
+							is_island_state = no
 						}
 						is_controlled_by = FROM
 					}
@@ -7264,6 +7266,7 @@ ENG_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = CAN
+							is_island_state = no
 						}
 						is_controlled_by = FROM
 					}
@@ -7402,6 +7405,7 @@ ENG_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = CAN
+							is_island_state = no
 						}
 						is_controlled_by = FROM
 					}
@@ -7517,7 +7521,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7588,7 +7592,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7688,7 +7692,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7778,7 +7782,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7862,7 +7866,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -7956,7 +7960,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8055,7 +8059,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8149,7 +8153,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8225,7 +8229,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8296,7 +8300,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8367,7 +8371,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8446,7 +8450,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8523,7 +8527,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8604,7 +8608,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8678,7 +8682,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8750,7 +8754,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8821,7 +8825,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8903,7 +8907,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -8995,7 +8999,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9082,7 +9086,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9162,7 +9166,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9239,7 +9243,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9311,7 +9315,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9393,7 +9397,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9475,7 +9479,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9557,7 +9561,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9635,7 +9639,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9713,7 +9717,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9791,7 +9795,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9869,7 +9873,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -9947,7 +9951,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -10025,7 +10029,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -10117,7 +10121,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -10204,7 +10208,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -10303,7 +10307,7 @@ SOV_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -10992,7 +10996,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11061,8 +11065,91 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			686 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#North Mexico
+	USA_Core_North_Mexico = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { consumer_goods_factor = 0.10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MEX
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 483
+							state = 484
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MEX
+						OR = {
+							state = 483
+							state = 484
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MEX
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 483
+							state = 484
+						}
+					}
+				}
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
@@ -11085,6 +11172,11 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+		OR = { 
+			has_global_flag = FORM_GOL2
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+		}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11123,7 +11215,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11156,6 +11248,11 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+		OR = { 
+			has_global_flag = FORM_GOL2
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+		}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11208,7 +11305,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11286,7 +11383,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11363,7 +11460,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11437,7 +11534,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11514,7 +11611,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11550,6 +11647,10 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+		OR = { 
+			has_global_flag = FORM_GOL2
+			has_global_flag = FORM_The_Americas2 
+		}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11588,7 +11689,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11621,6 +11722,10 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = { 
+				has_global_flag = FORM_GOL2
+				has_global_flag = FORM_The_Americas2 
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11659,7 +11764,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11692,6 +11797,10 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = { 
+				has_global_flag = FORM_GOL2
+				has_global_flag = FORM_The_Americas2 
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11738,7 +11847,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11775,6 +11884,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11813,7 +11923,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11846,12 +11956,16 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = ECU
-						any_neighbor_state = {
-							is_core_of = FROM
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 649
 						}
 					}
 				}
@@ -11884,14 +11998,17 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = ECU
-						any_neighbor_state = {
-							is_core_of = FROM
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 649
 						}
 					}
 				}
@@ -11917,6 +12034,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -11955,7 +12073,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -11988,6 +12106,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -12026,7 +12145,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -12059,6 +12178,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -12097,7 +12217,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -12130,6 +12250,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -12168,7 +12289,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -12201,6 +12322,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -12239,7 +12361,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -12272,6 +12394,7 @@ USA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -12310,7 +12433,7 @@ USA_Coring_Decisions = {
 		}
 		
 		remove_effect = {
-			hidden_effect = { sound_effect = complete_focus }
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			random_controlled_state = {
 				limit = {		
 					AND = {
@@ -12324,6 +12447,546 @@ USA_Coring_Decisions = {
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greater USA
+	RON_Formable_Decision105 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_USA2 }
+			original_tag = USA
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Canadian Corridor
+			864 = { is_controlled_by = FROM }
+			471 = { is_controlled_by = FROM }
+			473 = { is_controlled_by = FROM }
+			
+			#North Mexico
+			483 = { is_controlled_by = FROM }
+			484 = { is_controlled_by = FROM }
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.105
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_USA2
+			}
+		}
+	}
+	
+	#Canadian American Union
+	RON_Formable_Decision106 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Canadian_American_Union2 }
+			original_tag = USA
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.106
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Canadian_American_Union2
+			}
+		}
+	}
+	
+	#North American Union
+	RON_Formable_Decision47 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_NOA2 }
+			original_tag = USA
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Central_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								is_core_of = GUA
+								is_core_of = ELS
+								is_core_of = HON
+								is_core_of = COS
+								is_core_of = NIC
+								is_core_of = PAN
+								#Belize
+								state = 311
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.47
+			}
+			hidden_effect = {
+				set_global_flag = FORM_NOA2
+			}
+		}
+	}
+	
+	#Golden Circle
+	RON_Formable_Decision53 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_GOL2 }
+			original_tag = USA
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Central_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								is_core_of = GUA
+								is_core_of = ELS
+								is_core_of = HON
+								is_core_of = COS
+								is_core_of = NIC
+								is_core_of = PAN
+								#Belize
+								state = 311
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Venezuelan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Colombian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.53
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GOL2
+			}
+		}
+	}
+	
+	#The Americas
+	RON_Formable_Decision96 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_The_Americas2 }
+			original_tag = USA
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Central_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								is_core_of = GUA
+								is_core_of = ELS
+								is_core_of = HON
+								is_core_of = COS
+								is_core_of = NIC
+								is_core_of = PAN
+								#Belize
+								state = 311
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Venezuelan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Colombian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Guyanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								state = 687
+								state = 309
+								state = 310
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ecuadorian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ECU
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Peruvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Paraguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Uruguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = URG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Argentinean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ARG
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chilean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHL
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Brazilian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.96
+			}
+			hidden_effect = {
+				set_global_flag = FORM_The_Americas2
+			}
 		}
 	}
 
