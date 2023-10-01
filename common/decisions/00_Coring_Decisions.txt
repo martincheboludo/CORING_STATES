@@ -769,6 +769,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_GRO2
+			has_global_flag = FORM_HRE2
+		}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -854,6 +858,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_HRE2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -945,6 +953,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_GRO2
+			has_global_flag = FORM_HRE2
+		}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1016,6 +1028,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_HRE2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1099,6 +1115,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_HRE2
+			}
 			34 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1154,6 +1174,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_HRE2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1379,6 +1403,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_HRE2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
