@@ -153,6 +153,7 @@ RON_Formable_Decision107:0 "Proclaim Greater Austria"
 
 FORM_GGR2:0 "Has Proclaimed The Greater Germanic Reich"
 FORM_GRO2:0 "Has Proclaimed Greater Germany"
+FORM_German_Empire2:0 "Has Proclaimed The German Empire"
 Form_Greater_France2:0 "Has Proclaimed Greater France"
 FORM_FRN2:0 "Has Proclaimed The French Empire"
 Form_French_Union2:0 "Has United The Francosphere"
