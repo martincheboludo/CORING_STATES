@@ -1031,6 +1031,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
+				has_global_flag = FORM_German_Empire2
 			}
 			any_controlled_state = {
 					AND = {
@@ -1118,6 +1119,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
+				has_global_flag = FORM_German_Empire2
 			}
 			34 = {
 					AND = {
@@ -1259,6 +1261,11 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_HRE2
+				has_global_flag = FORM_German_Empire2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
