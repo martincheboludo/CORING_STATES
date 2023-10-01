@@ -1507,7 +1507,10 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_HRE2
+			OR = {
+				has_global_flag = FORM_HRE2
+				has_global_flag = FORM_GGR2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1594,10 +1597,7 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
-			OR = {
-				has_global_flag = FORM_HRE2
-				has_global_flag = FORM_GGR2
-			}
+			has_global_flag = FORM_HRE2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
