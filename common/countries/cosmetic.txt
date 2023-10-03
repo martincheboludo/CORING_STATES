@@ -1053,8 +1053,8 @@ FORM_The_Americas = {
 }
 
 Form_Greater_Italy = {
-	color = rgb { 0 122 59 }
-	color_ui = rgb { 0 122 59 }
+	color = rgb { 21 71 52 }
+	color_ui = rgb { 21 71 52 }
 }
 FORM_ROE = {
 	color = rgb { 181 0 0 }

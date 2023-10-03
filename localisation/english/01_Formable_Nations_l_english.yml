@@ -184,6 +184,14 @@
  RON_Formable_News.134.d:0 "The French Union (1946–1958) was a political entity created by the French Fourth Republic to replace the old French colonial empire system, colloquially known as the 'French Empire' (Empire français). It was the formal end of the 'indigenous' (indigène) status of French subjects in colonial areas."
  RON_Formable_News.134.a:1 "OK"
  
+ RON_Formable_Country.1000.t:0 "Mussolini's Ambitions Realized"
+ RON_Formable_Country.1000.d:0 "'The bars of this prison are Corsica, Tunisia, Malta, and Cyprus. The guards of this prison are Gibraltar and Suez. Corsica is a pistol pointed at the heart of Italy; Tunisia at Sicily. Malta and Cyprus constitute a threat to all our positions in the eastern and western Mediterranean. Greece, Turkey, and Egypt have been ready to form a chain with Great Britain and to complete the politico-military encirclement of Italy. Thus Greece, Turkey, and Egypt must be considered vital enemies of Italy's expansion ... The aim of Italian policy, which cannot have, and does not have continental objectives of a European territorial nature except Albania, is first of all to break the bars of this prison ... Once the bars are broken, Italian policy can only have one motto – to march to the oceans.'"
+ RON_Formable_Country.1000.a:0 "We Are The Roman Empire"
+ RON_Formable_Country.1000.b:0 "We Are The Italian Empire"
+ RON_Formable_News.1000.t:0 "Mussolini's Ambitions Realized"
+ RON_Formable_News.1000.d:0 "'The bars of this prison are Corsica, Tunisia, Malta, and Cyprus. The guards of this prison are Gibraltar and Suez. Corsica is a pistol pointed at the heart of Italy; Tunisia at Sicily. Malta and Cyprus constitute a threat to all our positions in the eastern and western Mediterranean. Greece, Turkey, and Egypt have been ready to form a chain with Great Britain and to complete the politico-military encirclement of Italy. Thus Greece, Turkey, and Egypt must be considered vital enemies of Italy's expansion ... The aim of Italian policy, which cannot have, and does not have continental objectives of a European territorial nature except Albania, is first of all to break the bars of this prison ... Once the bars are broken, Italian policy can only have one motto – to march to the oceans.'"
+ RON_Formable_News.1000.a:0 "OK"
+ 
 #Decisions
  
 #German Formables
