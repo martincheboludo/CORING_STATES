@@ -14766,6 +14766,7 @@ ITA_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = SWI
+						NOT = { state = 846 }
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -14790,6 +14791,7 @@ ITA_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = SWI
+						NOT = { state = 846 }
 					}
 				}
 
@@ -14806,6 +14808,7 @@ ITA_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = SWI
+						NOT = { state = 846 }
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
