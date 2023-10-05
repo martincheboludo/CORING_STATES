@@ -184,7 +184,7 @@
  RON_Formable_News.134.d:0 "The French Union (1946–1958) was a political entity created by the French Fourth Republic to replace the old French colonial empire system, colloquially known as the 'French Empire' (Empire français). It was the formal end of the 'indigenous' (indigène) status of French subjects in colonial areas."
  RON_Formable_News.134.a:1 "OK"
  
- RON_Formable_Country.1000.t:0 "Mussolini's Ambitions Realized"
+ RON_Formable_Country.1000.t:0 "Il Duce's Ambitions Realized"
  RON_Formable_Country.1000.d:0 "'The bars of this prison are Corsica, Tunisia, Malta, and Cyprus. The guards of this prison are Gibraltar and Suez. Corsica is a pistol pointed at the heart of Italy; Tunisia at Sicily. Malta and Cyprus constitute a threat to all our positions in the eastern and western Mediterranean. Greece, Turkey, and Egypt have been ready to form a chain with Great Britain and to complete the politico-military encirclement of Italy. Thus Greece, Turkey, and Egypt must be considered vital enemies of Italy's expansion ... The aim of Italian policy, which cannot have, and does not have continental objectives of a European territorial nature except Albania, is first of all to break the bars of this prison ... Once the bars are broken, Italian policy can only have one motto – to march to the oceans.'"
  RON_Formable_Country.1000.a:0 "We Are The Roman Empire"
  RON_Formable_Country.1000.b:0 "We Are The Italian Empire"
@@ -227,7 +227,9 @@ RON_Formable_Decision106:0 "Proclaim Canadian-American Union"
 #Italian Formables
 RON_Formable_Decision20:0 "Proclaim Byzantine Empire"
 RON_Formable_Decision27:0 "Proclaim Roman Empire"
+RON_Formable_Decision85:0 "Proclaim Western Roman Empire"
 RON_Formable_Decision121:0 "Proclaim Italian Empire"
+RON_Formable_Decision1000:0 "Il Duce's Ambitions Realized"
 
 #WIP
 RON_Formable_Decision107:0 "Proclaim Greater Austria"
@@ -255,6 +257,12 @@ FORM_GOL2:0 "Has Proclaimed Golden Circle"
 FORM_The_Americas2:0 "Has Proclaimed The Americas"
 FORM_Greater_USA2:0 "Has Proclaimed Greater America"
 FORM_Canadian_American_Union2:0 "Has Proclaimed Canadian-American Union"
+
+FORM_WROE2:0 "Has Proclaimed Western Roman Empire"
+FORM_ROE2:0 "Has Proclaimed Roman Empire"
+FORM_BYZ2:0 "Has Proclaimed Byzantine Empire"
+Form_Greater_Italy2:0 "Has Proclaimed Italian Empire"
+Mussolinis_Ambitions2:0 "Il Duce's Ambitions Realized"
 
 RON_Controls_German_States_tt:0 "Controls All German States"
 RON_Controls_Austrian_States_tt:0 "Controls All Austrian States"
@@ -311,6 +319,15 @@ RON_Controls_Argentinean_States_tt:0 "Controls All Argentinean States"
 RON_Controls_Paraguayan_States_tt:0 "Controls All Paraguayan States"
 RON_Controls_Uruguayan_States_tt:0 "Controls All Uruguayan States"
 RON_Controls_Brazilian_States_tt:0 "Controls All Brazilian States"
+
+RON_Controls_Italian_States_tt:0 "Controls All Italian States"
+RON_Controls_Tunisian_States_tt:0 "Controls All Tunisian States"
+RON_Controls_Libyan_States_tt:0 "Controls All Libyan States"
+RON_Controls_Egyptian_States_tt:0 "Controls All Egyptian States"
+RON_Controls_Sudanese_States_tt:0 "Controls All Sudanese States"
+RON_Controls_Ethiopian_States_tt:0 "Controls All Ethiopian States"
+RON_Controls_Eritrean_States_tt:0 "Controls All Eritrean States"
+RON_Controls_Somalian_States_tt:0 "Controls All Somalian States"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"

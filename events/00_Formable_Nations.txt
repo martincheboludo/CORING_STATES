@@ -107,11 +107,6 @@ country_event = {
 				news_event = { id = RON_Formable_News.9 hours = 6 }
 			}
 
-		news_event = {
-			id = RON_Formable_News.9
-			hours = 6
-		}
-
 	}
 
 }
@@ -129,6 +124,90 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.9.a
+	}
+}
+
+#Byzantine Empire
+country_event = {
+	id = RON_Formable_Country.20
+	title = RON_Formable_Country.20.t
+	desc = RON_Formable_Country.20.d
+	picture = GFX_report_event_RON_Formable_Country20
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.20.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_BYZ
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.20 hours = 6 }
+		}
+
+	}
+
+}
+
+#Byzantine Empire
+news_event = {
+	id = RON_Formable_News.20
+	title = RON_Formable_News.20.t
+	desc = RON_Formable_News.20.d
+	picture = GFX_news_event_RON_Formable_News20
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.20.a
+	}
+}
+
+#Roman Empire
+country_event = {
+	id = RON_Formable_Country.27
+	title = RON_Formable_Country.27.t
+	desc = RON_Formable_Country.27.d
+	picture = GFX_report_event_RON_Formable_Country27
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.27.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_ROE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.27 hours = 6 }
+		}
+
+	}
+
+}
+
+#Roman Empire
+news_event = {
+	id = RON_Formable_News.27
+	title = RON_Formable_News.27.t
+	desc = RON_Formable_News.27.d
+	picture = GFX_news_event_RON_Formable_News27
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.27.a
 	}
 }
 
@@ -150,13 +229,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_NOA
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.47 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.47
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.47 hours = 6 }
 		}
 
 	}
@@ -197,13 +271,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_GOL
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.53 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.53
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.53 hours = 6 }
 		}
 
 	}
@@ -244,13 +313,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BRI
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.68 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.68
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.68 hours = 6 }
 		}
 
 	}
@@ -291,13 +355,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_RUE
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.69 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.69
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.69 hours = 6 }
 		}
 
 	}
@@ -338,13 +397,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BIF
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.71 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.71
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.71 hours = 6 }
 		}
 
 	}
@@ -385,13 +439,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_FRN
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.73 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.73
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.73 hours = 6 }
 		}
 
 	}
@@ -432,13 +481,8 @@ country_event = {
 		}
 
 		set_cosmetic_tag = FORM_German_Empire
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.74 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.74
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.74 hours = 6 }
 		}
 
 	}
@@ -461,6 +505,48 @@ news_event = {
 	}
 }
 
+#Western Roman Empire
+country_event = {
+	id = RON_Formable_Country.85
+	title = RON_Formable_Country.85.t
+	desc = RON_Formable_Country.85.d
+	picture = GFX_report_event_RON_Formable_Country85
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.85.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_ROE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.85 hours = 6 }
+		}
+
+	}
+
+}
+
+#Western Roman Empire
+news_event = {
+	id = RON_Formable_News.85
+	title = RON_Formable_News.85.t
+	desc = RON_Formable_News.85.d
+	picture = GFX_news_event_RON_Formable_News85
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.85.a
+	}
+}
+
 #Anglosphere
 country_event = {
 	id = RON_Formable_Country.89
@@ -479,13 +565,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Anglosphere
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.89 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.89
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.89 hours = 6 }
 		}
 
 	}
@@ -526,13 +607,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_The_Americas
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.96 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.96
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.96 hours = 6 }
 		}
 
 	}
@@ -573,13 +649,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Greater_Russia
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.104 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.104
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.104 hours = 6 }
 		}
 
 	}
@@ -620,13 +691,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Greater_USA
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.105 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.105
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.105 hours = 6 }
 		}
 
 	}
@@ -667,13 +733,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Canadian_American_Union
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.106 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.106
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.106 hours = 6 }
 		}
 
 	}
@@ -714,13 +775,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Austria
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.107 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.107
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.107 hours = 6 }
 		}
 
 	}
@@ -761,13 +817,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_CANZUK
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.112 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.112
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.112 hours = 6 }
 		}
 
 	}
@@ -808,13 +859,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_British_Commonwealth
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.113 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.113
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.113 hours = 6 }
 		}
 
 	}
@@ -855,13 +901,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_France
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.119 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.119
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.119 hours = 6 }
 		}
 
 	}
@@ -884,6 +925,48 @@ news_event = {
 	}
 }
 
+#Greater Italy
+country_event = {
+	id = RON_Formable_Country.121
+	title = RON_Formable_Country.121.t
+	desc = RON_Formable_Country.121.d
+	picture = GFX_report_event_RON_Formable_Country121
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.121.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Italy
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.121 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Italy
+news_event = {
+	id = RON_Formable_News.121
+	title = RON_Formable_News.121.t
+	desc = RON_Formable_News.121.d
+	picture = GFX_news_event_RON_Formable_News121
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.121.a
+	}
+}
+
 #Slavic Union
 country_event = {
 	id = RON_Formable_Country.127
@@ -902,13 +985,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Slavic_Union
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.127 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.127
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.127 hours = 6 }
 		}
 
 	}
@@ -949,13 +1027,8 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_French_Union
-			hidden_effect = { 
-				news_event = { id = RON_Formable_News.134 hours = 6 }
-			}
-
-		news_event = {
-			id = RON_Formable_News.134
-			hours = 6
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.134 hours = 6 }
 		}
 
 	}
@@ -975,5 +1048,60 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.134.a
+	}
+}
+
+#Roman Empire
+country_event = {
+	id = RON_Formable_Country.1000
+	title = RON_Formable_Country.1000.t
+	desc = RON_Formable_Country.1000.d
+	picture = GFX_report_event_RON_Formable_Country1000
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1000.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_ROE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1000 hours = 6 }
+		}
+	}
+	
+	option = {
+		name = RON_Formable_Country.1000.b
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Italy
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1000 hours = 6 }
+		}
+
+	}
+
+}
+
+#Mussolinis Ambitions
+news_event = {
+	id = RON_Formable_News.1000
+	title = RON_Formable_News.1000.t
+	desc = RON_Formable_News.1000.d
+	picture = GFX_news_event_RON_Formable_News1000
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1000.a
 	}
 }
