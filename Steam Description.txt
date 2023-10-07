@@ -2,22 +2,21 @@ Do you find it extremely annoying how over the course of playing Vanilla, it is 
 
 Do you find it frustrating that when you want to create a formable nation, you have to control ALL the states, before finally getting the cores all at once?
 
-Well, if so this is the mod for you. BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days and 5%-25% IC, depending on how hard it is to core said state. The closer the geographic location, ethnicities, language and plausible historical claims, the easier to core, on the other hand, the more distance and different the culture, the harder it will be to core.
+Well, if so this is the mod for you. BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days and 5-25 Civ Factories, depending on how hard it is to core said state. The closer the geographic location, ethnicities, language and plausible historical claims, the easier to core, on the other hand, the more distance and different the culture, the harder it will be to core.
 
 Current Available Formables
 
-Germany
-German Empire, Greater Germany, Greater Germanic Reich*, Holy Roman Empire*
+Germany: German Empire, Greater Germany, Greater Germanic Reich*, Holy Roman Empire*
 
-France, Greater France, Napoleonic France*, Francosphere*
+France: Greater France, Napoleonic France*, Francosphere*
 
-Britain, British Imperial Federation*, Anglosphere*, UK of Great Britain and Ireland, Commonwealth of Nations*, Canzuk
+Britain: British Imperial Federation*, Anglosphere*, UK of Great Britain and Ireland, Commonwealth of Nations*, Canzuk
 
-USSR
-Russian Empire, Slavic Union*, Greater Russia*
+USSR: Russian Empire, Slavic Union*, Greater Russia*
 
-Usa
-Greater USA, Golden Circle*, Canadian-American Union, Us of North America*, Us of the Americas*
+Usa: Greater USA, Golden Circle*, Canadian-American Union, Us of North America*, Us of the Americas*
+
+Italy: Greater Italy, Mussolinis Italian Empire*, Western Roman Empire*, Eastern Roman Empire*, Roman Empire*
 
 *Formables with an asterisk next to them are complex multinational entities, and require you to control a certain amount of states, before you can start the coring process. Countries without the asterisk are simple, and therefore you can begin coring them straight away, even before having the requirements for the formable. This is for gameplay balance purposes.
 
