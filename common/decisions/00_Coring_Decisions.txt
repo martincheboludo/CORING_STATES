@@ -13410,6 +13410,12 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+				has_global_flag = Form_Greater_Italy2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 			num_of_civilian_factories_available_for_projects > 9
 			any_controlled_state = {
 					AND = {
@@ -13579,6 +13585,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -13657,6 +13667,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -13729,6 +13743,12 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+				has_global_flag = Form_Greater_Italy2
+				has_global_flag = Mussolinis_Ambitions2
+			}	
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -13801,6 +13821,12 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+				has_global_flag = Form_Greater_Italy2
+				has_global_flag = Mussolinis_Ambitions2
+			}	
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -13873,6 +13899,13 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+				has_global_flag = Form_Greater_Italy2
+				has_global_flag = Mussolinis_Ambitions2
+			}	
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -13945,6 +13978,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_ROE2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -14017,6 +14051,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			has_global_flag = FORM_ROE2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -14092,6 +14127,12 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+				has_global_flag = Mussolinis_Ambitions2
+			}	
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -14179,6 +14220,11 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+				has_global_flag = Mussolinis_Ambitions2
+			}	
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -14251,6 +14297,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}	
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -14322,8 +14372,8 @@ ITA_Coring_Decisions = {
 		}
 	}
 	
-	#Whole Germany
-	ITA_Core_Germany = {
+	#Left Bank of Rhine
+	ITA_Core_Left_Bank_of_Rhine = {
 
 		icon = ger_reichskommissariats
 		
@@ -14338,6 +14388,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14346,8 +14400,6 @@ ITA_Coring_Decisions = {
 						OR = {
 							state = 51
 							state = 42
-							state = 50
-							state = 52
 						}
 						any_neighbor_state = {
 							is_core_of = FROM
@@ -14376,8 +14428,6 @@ ITA_Coring_Decisions = {
 						OR = {
 							state = 51
 							state = 42
-							state = 50
-							state = 52
 						}
 					}
 				}
@@ -14398,6 +14448,92 @@ ITA_Coring_Decisions = {
 						OR = {
 							state = 51
 							state = 42
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Germany
+	ITA_Core_Germany = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
+		num_of_civilian_factories_available_for_projects > 24
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+						OR = {
+							state = 50
+							state = 52
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+						OR = {
+							state = 50
+							state = 52
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = GER
+						OR = {
 							state = 50
 							state = 52
 						}
@@ -14428,6 +14564,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}	
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14500,6 +14640,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14572,6 +14716,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14647,6 +14795,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14725,6 +14877,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14797,6 +14953,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14872,6 +15032,11 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+				has_global_flag = Mussolinis_Ambitions2
+			}	
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -14944,6 +15109,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_ROE2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15028,6 +15194,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_ROE2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15130,6 +15297,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15211,6 +15382,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15283,6 +15458,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15355,6 +15534,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15427,6 +15610,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15499,6 +15686,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15571,6 +15762,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15643,6 +15838,10 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_ROE2
+				has_global_flag = Mussolinis_Ambitions2
+			}
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15715,6 +15914,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_ROE2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15787,6 +15987,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_ROE2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15859,6 +16060,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = Mussolinis_Ambitions2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -15949,6 +16151,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = Mussolinis_Ambitions2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -16021,6 +16224,7 @@ ITA_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = Mussolinis_Ambitions2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
