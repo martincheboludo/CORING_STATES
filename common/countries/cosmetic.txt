@@ -1064,3 +1064,13 @@ FORM_BYZ = {
 	color = rgb { 178 0 89 }
 	color_ui = rgb { 178 0 89 }
 }
+
+Form_Greater_Japan = {
+	color = rgb { 223 208 183 }
+	color_ui = rgb { 223 208 183 }
+}
+
+FORM_Greater_East_Asia = {
+	color = rgb { 223 208 183 }
+	color_ui = rgb { 223 208 183 }
+}

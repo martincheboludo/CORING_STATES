@@ -3328,6 +3328,7 @@ GGR_Coring_Decisions = {
 			is_subject = no
 			
 			has_global_flag = FORM_GRO2
+			has_government = fascism
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_POL_Neutralized_tt

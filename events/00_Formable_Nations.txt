@@ -589,6 +589,48 @@ news_event = {
 	}
 }
 
+#Greater East Asia Co-Prosperity Sphere
+country_event = {
+	id = RON_Formable_Country.93
+	title = RON_Formable_Country.93.t
+	desc = RON_Formable_Country.93.d
+	picture = GFX_report_event_RON_Formable_Country93
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.93.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_East_Asia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.93 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater East Asia Co-Prosperity Sphere
+news_event = {
+	id = RON_Formable_News.93
+	title = RON_Formable_News.93.t
+	desc = RON_Formable_News.93.d
+	picture = GFX_news_event_RON_Formable_News93
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.93.a
+	}
+}
+
 #The Americas
 country_event = {
 	id = RON_Formable_Country.96
@@ -1006,6 +1048,48 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.127.a
+	}
+}
+
+#Greater Japan
+country_event = {
+	id = RON_Formable_Country.133
+	title = RON_Formable_Country.133.t
+	desc = RON_Formable_Country.133.d
+	picture = GFX_report_event_RON_Formable_Country133
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.133.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Japan
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.133 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Japan
+news_event = {
+	id = RON_Formable_News.133
+	title = RON_Formable_News.133.t
+	desc = RON_Formable_News.133.d
+	picture = GFX_news_event_RON_Formable_News133
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.133.a
 	}
 }
 
