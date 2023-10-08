@@ -19269,5 +19269,166 @@ JAP_Coring_Decisions = {
 			}
 		}
 	}
+	
+	#Greater East Asia Co Prosperity Sphere
+	RON_Formable_Decision93 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_East_Asia2 }
+			original_tag = JAP
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Japanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = JAP
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Korean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = KOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#North Sakhalin
+			655 = { is_controlled_by = FROM }
+			
+			#Taiwan
+			524 = { is_controlled_by = FROM }
+			
+			#Chinese
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chinese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHI
+							NOT = { state = 728 }
+							NOT = { state = 729 }
+							NOT = { state = 326 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			OR = {
+			#Northern Expansion
+			AND = {
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_Pacific_Coast_tt
+				AND = {
+					42 = { is_controlled_by = FROM }
+					51 = { is_controlled_by = FROM }
+					562 = { is_controlled_by = FROM }
+					874 = { is_controlled_by = FROM }
+					822 = { is_controlled_by = FROM }
+					637 = { is_controlled_by = FROM }
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_Siberia_tt
+				AND = {
+					567 = { is_controlled_by = FROM }
+					575 = { is_controlled_by = FROM }
+					876 = { is_controlled_by = FROM }
+					877 = { is_controlled_by = FROM }
+					644 = { is_controlled_by = FROM }
+					574 = { is_controlled_by = FROM }
+					564 = { is_controlled_by = FROM }
+					565 = { is_controlled_by = FROM }
+					566 = { is_controlled_by = FROM }
+				}
+			}
+			
+			#Mongolia
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mongolian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MON
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			329 = { is_controlled_by = FROM }
+			
+			}
+			#Southern Expansion
+			AND = {
+			#Phillippines
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_PHI_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PHI
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Malaya
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Malaya_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MAL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Indonesia
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Indonesia_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = INS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			}
+			}
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.93
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_East_Asia2
+			}
+		}
+	}
 
 }

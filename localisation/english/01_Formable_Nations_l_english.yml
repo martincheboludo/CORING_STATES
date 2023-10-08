@@ -357,6 +357,11 @@ RON_Controls_Serbian_States_tt:0 "Controls All Serbian States"
 RON_Controls_Japanese_States_tt:0 "Controls All Japanese States"
 RON_Controls_Korean_States_tt:0 "Controls All Korean States"
 RON_Controls_PHI_States_tt:0 "Controls All Philippines States"
+RON_Controls_Chinese_States_tt:0 "Controls All Chinese States"
+RON_Controls_Malaya_States_tt:0 "Controls All Malaya States"
+RON_Controls_Indonesia_States_tt:0 "Controls All Indonesian States"
+RON_Controls_Russian_Siberia_tt:0 "Controls Siberia"
+RON_Controls_Russian_Pacific_Coast_tt:0 "Controls Siberian Coast"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
