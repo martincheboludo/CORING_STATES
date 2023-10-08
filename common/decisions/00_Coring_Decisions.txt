@@ -16983,3 +16983,7 @@ ITA_Coring_Decisions = {
 	
 
 }
+
+#Greater Japan
+JAP_Coring_Decisions = {
+}
