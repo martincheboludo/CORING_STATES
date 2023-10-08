@@ -354,6 +354,9 @@ RON_Controls_Bosnian_States_tt:0 "Controls All Bosnian States"
 RON_Controls_Montenegrin_States_tt:0 "Controls All Montenegrin States"
 RON_Controls_Greek_States_tt:0 "Controls All Greek States"
 RON_Controls_Serbian_States_tt:0 "Controls All Serbian States"
+RON_Controls_Japanese_States_tt:0 "Controls All Japanese States"
+RON_Controls_Korean_States_tt:0 "Controls All Korean States"
+RON_Controls_PHI_States_tt:0 "Controls All Philippines States"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"

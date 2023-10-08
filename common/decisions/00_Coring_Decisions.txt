@@ -19176,5 +19176,98 @@ JAP_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Greater Japan
+	RON_Formable_Decision133 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = Form_Greater_Japan2 }
+			original_tag = JAP
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Japanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = JAP
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#North Sakhalin
+			655 = { is_controlled_by = FROM }
+			
+			#Taiwan
+			524 = { is_controlled_by = FROM }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Korean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = KOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			OR = {
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Manchurian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MAN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Inner_Mongolian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_PHI_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PHI
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			}
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.133
+			}
+			hidden_effect = {
+				set_global_flag = Form_Greater_Japan2
+			}
+		}
+	}
 
 }
