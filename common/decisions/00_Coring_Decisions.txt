@@ -17244,6 +17244,8 @@ JAP_Coring_Decisions = {
 							state = 734
 							state = 635
 							state = 641
+							state = 875
+							state = 650
 						}
 						#any_neighbor_state = {
 						#	is_core_of = FROM
@@ -17289,6 +17291,8 @@ JAP_Coring_Decisions = {
 							state = 734
 							state = 635
 							state = 641
+							state = 875
+							state = 650
 						}
 					}
 				}
@@ -17326,6 +17330,8 @@ JAP_Coring_Decisions = {
 							state = 734
 							state = 635
 							state = 641
+							state = 875
+							state = 650
 						}
 						#any_neighbor_state = {
 						#	is_core_of = FROM
