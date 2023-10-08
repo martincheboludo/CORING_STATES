@@ -16986,4 +16986,1349 @@ ITA_Coring_Decisions = {
 
 #Greater Japan
 JAP_Coring_Decisions = {
+
+#Whole Taiwan
+	JAP_Core_Taiwan = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 524
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 524
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						state = 524
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Korea
+	JAP_Core_Korea = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = KOR
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = KOR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = KOR
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole North_Sakhalin
+	JAP_Core_North_Sakhalin = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 655
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 655
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						state = 655
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Pacific Islands
+	JAP_Core_Pacific_Islands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 648
+							state = 647
+							state = 684
+							state = 633
+							#Non Starting Japanese
+							state = 629
+							state = 630
+							state = 631
+							state = 632
+							state = 727
+							state = 642
+							state = 638
+							state = 725
+							state = 639
+							state = 643
+							state = 726
+							state = 636
+							state = 734
+							state = 635
+							state = 641
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 648
+							state = 647
+							state = 684
+							state = 633
+							#Non Starting Japanese
+							state = 629
+							state = 630
+							state = 631
+							state = 632
+							state = 727
+							state = 642
+							state = 638
+							state = 725
+							state = 639
+							state = 643
+							state = 726
+							state = 636
+							state = 734
+							state = 635
+							state = 641
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 648
+							state = 647
+							state = 684
+							state = 633
+							#Non Starting Japanese
+							state = 629
+							state = 630
+							state = 631
+							state = 632
+							state = 727
+							state = 642
+							state = 638
+							state = 725
+							state = 639
+							state = 643
+							state = 726
+							state = 636
+							state = 734
+							state = 635
+							state = 641
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Manchukuo
+	JAP_Core_Manchukuo = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { civilian_factory_use = 10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 9
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MAN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Mengkukuo
+	JAP_Core_Mengkukuo = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { civilian_factory_use = 10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 9
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MEN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Chinese Coast
+	JAP_Core_Chinese_Coast = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CHI
+						is_coastal = yes
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CHI
+						is_coastal = yes
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CHI
+						is_coastal = yes
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Chinese_Interior
+	JAP_Core_Chinese_Interior = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CHI
+						is_coastal = no
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CHI
+						is_coastal = no
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CHI
+						is_coastal = no
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Mongolia
+	JAP_Core_Mongolia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MON
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MON
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MON
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Tibet
+	JAP_Core_Tibet = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TIB
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TIB
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = TIB
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Outer Manchuria
+	JAP_Core_Outer_Manchuria = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 563
+							state = 561
+							state = 560
+							state = 409
+							state = 657
+							state = 408
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 563
+							state = 561
+							state = 560
+							state = 409
+							state = 657
+							state = 408
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 563
+							state = 561
+							state = 560
+							state = 409
+							state = 657
+							state = 408
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Tannu Tuva
+	JAP_Core_Tannu_Tuva = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TAN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = TAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Whole Phillippines
+	JAP_Core_Phillippines = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PHI
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PHI
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = PHI
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Malaya
+	JAP_Core_Malaya = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MAL
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MAL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MAL
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Indonesia
+	JAP_Core_Indonesia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = INS
+							state = 721
+							state = 523
+							state = 737
+							state = 634
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = INS
+							state = 721
+							state = 523
+							state = 737
+							state = 634
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = INS
+							state = 721
+							state = 523
+							state = 737
+							state = 634
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Indochina
+	JAP_Core_Indochina = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = VIN
+							is_core_of = LAO
+							is_core_of = CAM
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = VIN
+							is_core_of = LAO
+							is_core_of = CAM
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = VIN
+							is_core_of = LAO
+							is_core_of = CAM
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Siam
+	JAP_Core_Siam = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIA
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SIA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
 }
