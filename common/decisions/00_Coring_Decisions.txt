@@ -17626,6 +17626,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -17701,6 +17702,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2	
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -17776,6 +17778,10 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = Form_Greater_Japan2
+			has_global_flag = FORM_Greater_East_Asia2
+		}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -17848,6 +17854,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -17920,6 +17927,10 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = Form_Greater_Japan2
+			has_global_flag = FORM_Greater_East_Asia2
+		}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -18013,6 +18024,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -18085,6 +18097,10 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = Form_Greater_Japan2
+			has_global_flag = FORM_Greater_East_Asia2
+		}
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -18157,6 +18173,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -18229,6 +18246,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -18319,6 +18337,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -18403,6 +18422,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -18475,6 +18495,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18547,6 +18568,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18619,6 +18641,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18694,6 +18717,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18766,6 +18790,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18838,6 +18863,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18910,6 +18936,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -18982,6 +19009,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -19054,6 +19082,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -19126,6 +19155,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -19213,6 +19243,7 @@ JAP_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_East_Asia2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -19405,6 +19436,7 @@ JAP_Coring_Decisions = {
 		}
 		available = {
 			is_subject = no
+			has_global_flag = Form_Greater_Japan2
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Japanese_States_tt
 				all_state = {
