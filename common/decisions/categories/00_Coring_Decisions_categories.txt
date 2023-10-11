@@ -99,3 +99,18 @@ JAP_Coring_Decisions = {
 	visible = {
 	}
 }
+
+SPR_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_spain
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			tag = SPR
+			tag = POR
+		}
+	}
+
+	visible = {
+	}
+}

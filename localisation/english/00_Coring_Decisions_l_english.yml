@@ -243,3 +243,8 @@ JAP_Core_Nepal:0 "Integrate Nepal"
 JAP_Core_Bhutan:0 "Integrate Bhutan"
 JAP_Core_Australia:0 "Integrate Australia"
 JAP_Core_New_Zealand:0 "Integrate New Zealand"
+
+SPR_Coring_Decisions:0 "United Iberia"
+SPR_Coring_Decisions_desc:0 "The Iberian Union was the dynastic union of the Kingdom of Portugal and the Spanish Crown between 1580 and 1640, bringing the entire Iberian Peninsula, as well as Spanish and Portuguese overseas possessions, under the Spanish Habsburg kings Philip II, Philip III and Philip IV. The union began as a result of the Portuguese crisis of succession and the ensuing War of the Portuguese Successionand lasted 60 years, until the Portuguese Restoration War in which the House of Braganza was established as Portugal's new ruling dynasty. The Habsburg king was the only element of connection between the multiple kingdoms and territories, who ruled by six separate government councils of Castile, Aragon, Portugal, Italy, Flanders and the Indies. The governments, institutions, and legal traditions of each kingdom remained independent of each other. Alien laws (Leyes de extranjeria) determined that the national of one kingdom was a foreigner in all the other Iberian kingdoms."
+
+SPR_Core_Portugal:0 "Integrar Portugal"
