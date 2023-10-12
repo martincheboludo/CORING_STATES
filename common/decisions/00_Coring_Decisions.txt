@@ -20622,7 +20622,7 @@ SPR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_Hispanosphere2
+		#has_global_flag = FORM_Hispanosphere2
 		num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -20767,7 +20767,7 @@ SPR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_Hispanosphere2
+		#has_global_flag = FORM_Hispanosphere2
 		num_of_civilian_factories_available_for_projects > 19
 			686 = {
 					AND = {
