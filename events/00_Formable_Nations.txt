@@ -673,6 +673,48 @@ news_event = {
 	}
 }
 
+#Lusosphere
+country_event = {
+	id = RON_Formable_Country.92
+	title = RON_Formable_Country.92.t
+	desc = RON_Formable_Country.92.d
+	picture = GFX_report_event_RON_Formable_Country92
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.92.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Lusosphere
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.92 hours = 6 }
+			}
+
+	}
+
+}
+
+#Lusosphere
+news_event = {
+	id = RON_Formable_News.92
+	title = RON_Formable_News.92.t
+	desc = RON_Formable_News.92.d
+	picture = GFX_news_event_RON_Formable_News92
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.92.a
+	}
+}
+
 #Greater East Asia Co-Prosperity Sphere
 country_event = {
 	id = RON_Formable_Country.93
@@ -1261,6 +1303,48 @@ news_event = {
 	}
 }
 
+#Portugal-Brazil
+country_event = {
+	id = RON_Formable_Country.147
+	title = RON_Formable_Country.147.t
+	desc = RON_Formable_Country.147.d
+	picture = GFX_report_event_RON_Formable_Country147
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.147.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Portugal_Brazil_Union
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.147 hours = 6 }
+			}
+
+	}
+
+}
+
+#Portugal-Brazil
+news_event = {
+	id = RON_Formable_News.147
+	title = RON_Formable_News.147.t
+	desc = RON_Formable_News.147.d
+	picture = GFX_news_event_RON_Formable_News147
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.147.a
+	}
+}
+
 #Roman Empire
 country_event = {
 	id = RON_Formable_Country.1000
@@ -1313,5 +1397,47 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.1000.a
+	}
+}
+
+#Greater Portugal
+country_event = {
+	id = RON_Formable_Country.1001
+	title = RON_Formable_Country.1001.t
+	desc = RON_Formable_Country.1001.d
+	picture = GFX_report_event_RON_Formable_Country1001
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1001.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_Portugal
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.1001 hours = 6 }
+			}
+
+	}
+
+}
+
+#Greater Portugal
+news_event = {
+	id = RON_Formable_News.1001
+	title = RON_Formable_News.1001.t
+	desc = RON_Formable_News.1001.d
+	picture = GFX_news_event_RON_Formable_News1001
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1001.a
 	}
 }
