@@ -127,6 +127,48 @@ news_event = {
 	}
 }
 
+#Iberian Union
+country_event = {
+	id = RON_Formable_Country.10
+	title = RON_Formable_Country.10.t
+	desc = RON_Formable_Country.10.d
+	picture = GFX_report_event_RON_Formable_Country10
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.10.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_IBE
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.10 hours = 6 }
+			}
+
+	}
+
+}
+
+#Iberian Union
+news_event = {
+	id = RON_Formable_News.10
+	title = RON_Formable_News.10.t
+	desc = RON_Formable_News.10.d
+	picture = GFX_news_event_RON_Formable_News10
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.10.a
+	}
+}
+
 #Byzantine Empire
 country_event = {
 	id = RON_Formable_Country.20
@@ -589,6 +631,48 @@ news_event = {
 	}
 }
 
+#Hispanosphere
+country_event = {
+	id = RON_Formable_Country.91
+	title = RON_Formable_Country.91.t
+	desc = RON_Formable_Country.91.d
+	picture = GFX_report_event_RON_Formable_Country91
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.91.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Hispanosphere
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.91 hours = 6 }
+			}
+
+	}
+
+}
+
+#Hispanosphere
+news_event = {
+	id = RON_Formable_News.91
+	title = RON_Formable_News.91.t
+	desc = RON_Formable_News.91.d
+	picture = GFX_news_event_RON_Formable_News91
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.91.a
+	}
+}
+
 #Greater East Asia Co-Prosperity Sphere
 country_event = {
 	id = RON_Formable_Country.93
@@ -1006,6 +1090,48 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.121.a
+	}
+}
+
+#Greater Spain
+country_event = {
+	id = RON_Formable_Country.124
+	title = RON_Formable_Country.124.t
+	desc = RON_Formable_Country.124.d
+	picture = GFX_report_event_RON_Formable_Country124
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.124.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Spain
+			hidden_effect = { 
+				news_event = { id = RON_Formable_News.124 hours = 6 }
+			}
+
+	}
+
+}
+
+#Greater Spain
+news_event = {
+	id = RON_Formable_News.124
+	title = RON_Formable_News.124.t
+	desc = RON_Formable_News.124.d
+	picture = GFX_news_event_RON_Formable_News124
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.124.a
 	}
 }
 
