@@ -6,7 +6,7 @@ Well, if so this is the mod for you. BFN aims to introduce simple Coring decisio
 
 Current Countries with Formables:
 
-Germany, France, Britain, USSR, Japan, Italy, USA, Spain
+Germany, France, Britain, USSR, Japan, Italy, USA, Spain, Portugal
 
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
