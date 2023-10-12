@@ -50,4 +50,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Portugal.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_netherlands"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Netherlands.dds"
+	}
+	
 }
