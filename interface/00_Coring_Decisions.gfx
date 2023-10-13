@@ -70,4 +70,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Poland.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_austria"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Austria.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_yugoslavia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Yugoslavia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_hungary"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Hungary.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_romania"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Romania.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_bulgaria"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Bulgaria.dds"
+	}
+	
 }
