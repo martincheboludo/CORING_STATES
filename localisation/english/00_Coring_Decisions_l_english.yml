@@ -357,3 +357,18 @@ POL_Coring_Decisions_desc:0 "The Polish–Lithuanian Commonwealth – formally, 
 
 POL_Core_East_Germany:0 "Integrate East Germany"
 POL_Core_Zaolzie:0 "Integrate Zaolzie"
+
+AUS_Coring_Decisions:0 "Greater Austria"
+AUS_Coring_Decisions_desc:0 ""
+
+YUG_Coring_Decisions:0 "Greater Yugoslavia"
+YUG_Coring_Decisions_desc:0 ""
+
+HUN_Coring_Decisions:0 "Greater Hungary"
+HUN_Coring_Decisions_desc:0 ""
+
+ROM_Coring_Decisions:0 "Greater Romania"
+ROM_Coring_Decisions_desc:0 ""
+
+BUL_Coring_Decisions:0 "Greater Bulgaria"
+BUL_Coring_Decisions_desc:0 ""

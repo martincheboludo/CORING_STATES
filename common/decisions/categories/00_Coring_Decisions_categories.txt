@@ -197,3 +197,63 @@ POL_Coring_Decisions = {
 	visible = {
 	}
 }
+
+AUS_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_austria
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = AUS
+	}
+
+	visible = {
+	}
+}
+
+YUG_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_yugoslavia
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = YUG
+	}
+
+	visible = {
+	}
+}
+
+HUN_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_hungary
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = HUN
+	}
+
+	visible = {
+	}
+}
+
+ROM_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_romania
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = ROM
+	}
+
+	visible = {
+	}
+}
+
+BUL_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_bulgaria
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = BUL
+	}
+
+	visible = {
+	}
+}
