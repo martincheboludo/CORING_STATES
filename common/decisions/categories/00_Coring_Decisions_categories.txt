@@ -7,7 +7,7 @@ DEBUG_Coring_Decisions = {
 	}
 
 	visible = {
-		is_debug = yes
+		is_ai = no
 	}
 }
 
@@ -17,10 +17,10 @@ GER_Coring_Decisions = {
 
 	allowed = {
 		OR = {
-			tag = GER
-			tag = AUS
-			tag = SWI
-			tag = LUX
+			original_tag = GER
+			original_tag = AUS
+			original_tag = SWI
+			original_tag = LUX
 		}
 	}
 
@@ -33,7 +33,7 @@ GGR_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = GER
+		original_tag = GER
 	}
 
 	visible = {
@@ -45,7 +45,7 @@ FRA_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = FRA
+		original_tag = FRA
 	}
 
 	visible = {
@@ -57,7 +57,7 @@ ENG_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = ENG
+		original_tag = ENG
 	}
 
 	visible = {
@@ -69,7 +69,7 @@ SOV_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = SOV
+		original_tag = SOV
 	}
 
 	visible = {
@@ -81,7 +81,7 @@ USA_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = USA
+		original_tag = USA
 	}
 
 	visible = {
@@ -93,7 +93,7 @@ ITA_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = ITA
+		original_tag = ITA
 	}
 
 	visible = {
@@ -105,7 +105,7 @@ JAP_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = JAP
+		original_tag = JAP
 	}
 
 	visible = {
@@ -117,7 +117,7 @@ SPR_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = SPR
+		original_tag = SPR
 	}
 
 	visible = {
@@ -129,7 +129,7 @@ POR_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = POR
+		original_tag = POR
 	}
 
 	visible = {
@@ -142,9 +142,9 @@ HOL_Coring_Decisions = {
 
 	allowed = {
 		OR = {
-			tag = HOL
-			tag = BEL
-			tag = LUX
+			original_tag = HOL
+			original_tag = BEL
+			original_tag = LUX
 		}
 	}
 
@@ -158,11 +158,11 @@ SWE_Coring_Decisions = {
 
 	allowed = {
 		OR = {
-			tag = SWE
-			tag = NOR
-			tag = DEN
-			tag = FIN
-			tag = ICE
+			original_tag = SWE
+			original_tag = NOR
+			original_tag = DEN
+			original_tag = FIN
+			original_tag = ICE
 		}
 	}
 
@@ -176,9 +176,9 @@ LIT_Coring_Decisions = {
 
 	allowed = {
 		OR = {
-			tag = LIT
-			tag = EST
-			tag = LAT
+			original_tag = LIT
+			original_tag = EST
+			original_tag = LAT
 		}
 	}
 
@@ -191,7 +191,7 @@ POL_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = POL
+		original_tag = POL
 	}
 
 	visible = {
@@ -203,7 +203,7 @@ AUS_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = AUS
+		original_tag = AUS
 	}
 
 	visible = {
@@ -215,7 +215,11 @@ YUG_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = YUG
+		OR = {
+			original_tag = YUG
+			original_tag = CRO
+			original_tag = SER
+		}
 	}
 
 	visible = {
@@ -227,7 +231,7 @@ HUN_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = HUN
+		original_tag = HUN
 	}
 
 	visible = {
@@ -239,7 +243,7 @@ ROM_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = ROM
+		original_tag = ROM
 	}
 
 	visible = {
@@ -251,7 +255,7 @@ BUL_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = BUL
+		original_tag = BUL
 	}
 
 	visible = {
@@ -263,7 +267,7 @@ IRE_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = IRE
+		original_tag = IRE
 	}
 
 	visible = {
@@ -275,7 +279,7 @@ SWI_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = SWI
+		original_tag = SWI
 	}
 
 	visible = {
@@ -287,7 +291,7 @@ ALB_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = ALB
+		original_tag = ALB
 	}
 
 	visible = {
@@ -299,7 +303,7 @@ GRE_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		tag = GRE
+		original_tag = GRE
 	}
 
 	visible = {
