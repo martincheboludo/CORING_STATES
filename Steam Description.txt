@@ -10,7 +10,7 @@ Germany, France, Britain, USSR, Japan, Italy, USA, Spain, Portugal
 
 Current Countries with coring decisions only:
 
-Netherlands, Belgium, Luxembourg, Sweden, Denmark, Norway, Finland, Poland
+Netherlands, Belgium, Luxembourg, Sweden, Denmark, Norway, Finland, Poland, Bulgaria, Romania, Hungary, Yugoslavia, Austria
 
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
