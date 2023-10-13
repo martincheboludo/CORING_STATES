@@ -338,9 +338,16 @@ SWE_Core_Lithuania:0 "Integrate Lithuania"
 SWE_Core_Latvia:0 "Integrate Latvia"
 SWE_Core_Estonia:0 "Integrate Estonia"
 SWE_Core_Jan_Mayen:0 "Integrate Jan Mayen"
-
 SWE_Core_Greater_Finland:0 "Integrate Greater Finland"
 SWE_Core_North_Germany:0 "Integrate North Germany"
 SWE_Core_Sleswig_Holstein:0 "Integrate Sleswig-Holstein"
 SWE_Core_Pomerania:0 "Integrate Pomerania"
 SWE_Core_North_Russia:0 "Integrate North Russia"
+
+LIT_Coring_Decisions:0 "United Scandinavia"
+LIT_Coring_Decisions_desc:0 "The United Baltic Duchy, also known as the Grand Duchy of Livonia, was a state proposed by the Baltic German nobility and exiled Russian nobility after the Russian Revolution and German occupation of the Courland, Livonian, and Estonian governorates of the Russian Empire. It was proposed in April 1918, after Estonia and Latvia had formally declared independence. The idea comprised the lands in Estonia and Latvia and included the creation of a Duchy of Courland and Semigallia and a Duchy of Estonia and Livonia that would be in personal union with the Crown of Prussia under the German Empire's occupied territory Ober Ost before the end of World War I covering the territories of the Medieval Livonia in what are now Latvia and Estonia."
+
+LIT_Core_Lithuania:0 "Integrate Lithuania"
+LIT_Core_Latvia:0 "Integrate Latvia"
+LIT_Core_Estonia:0 "Integrate Estonia"
+LIT_Core_Prussia:0 "Integrate Prussia"

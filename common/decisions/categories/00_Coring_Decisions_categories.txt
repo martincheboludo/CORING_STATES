@@ -169,3 +169,19 @@ SWE_Coring_Decisions = {
 	visible = {
 	}
 }
+
+LIT_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_baltics
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			tag = LIT
+			tag = EST
+			tag = LAT
+		}
+	}
+
+	visible = {
+	}
+}
