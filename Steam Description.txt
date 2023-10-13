@@ -8,6 +8,10 @@ Current Countries with Formables:
 
 Germany, France, Britain, USSR, Japan, Italy, USA, Spain, Portugal
 
+Current Countries with coring decisions only:
+
+Netherlands, Belgium, Luxembourg
+
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
 

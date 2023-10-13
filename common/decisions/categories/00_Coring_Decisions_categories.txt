@@ -139,3 +139,21 @@ HOL_Coring_Decisions = {
 	visible = {
 	}
 }
+
+SWE_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_sweden
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			tag = SWE
+			tag = NOR
+			tag = DEN
+			tag = FIN
+			tag = ICE
+		}
+	}
+
+	visible = {
+	}
+}
