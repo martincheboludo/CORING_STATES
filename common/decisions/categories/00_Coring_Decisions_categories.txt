@@ -185,3 +185,15 @@ LIT_Coring_Decisions = {
 	visible = {
 	}
 }
+
+POL_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_poland
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = POL
+	}
+
+	visible = {
+	}
+}
