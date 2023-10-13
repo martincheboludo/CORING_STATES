@@ -372,6 +372,13 @@ YUG_Coring_Decisions_desc:0 "Greater Yugoslavia refers to an irredentism that pr
 
 YUG_Core_Albania:0 "Integrate Albania"
 YUG_Core_Bulgaria:0 "Integrate Bulgaria"
+SER_Core_Montenegro:0 "Integrate Montenegro"
+SER_Core_Bosnia:0 "Integrate Bosnia"
+SER_Core_Croatia:0 "Integrate Croatia"
+SER_Core_Macedonia:0 "Integrate Macedonia"
+CRO_Core_Montenegro:0 "Integrate Montenegro"
+CRO_Core_Bosnia:0 "Integrate Bosnia"
+CRO_Core_Vojvodina:0 "Integrate Vojvodina"
 
 HUN_Coring_Decisions:0 "Greater Hungary"
 HUN_Coring_Decisions_desc:0 "Hungarian irredentism or Greater Hungary are irredentist political ideas concerning redemption of territories of the historical Kingdom of Hungary. Targeting at least to regain control over Hungarian-populated areas in Hungary's neighbouring countries. Hungarian historians did not use the term Greater Hungary, because the 'Historic Hungary' is the established term for the Kingdom of Hungary before 1920."
