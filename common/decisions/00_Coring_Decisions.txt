@@ -27751,7 +27751,7 @@ HUN_Core_Slovakia = {
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						state = 76
+						state = 45
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -27775,7 +27775,7 @@ HUN_Core_Slovakia = {
 			any_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						state = 76
+						state = 45
 					}
 				}
 
@@ -27791,7 +27791,7 @@ HUN_Core_Slovakia = {
 				limit = {		
 					AND = {
 						NOT = {is_core_of = FROM}
-						state = 76
+						state = 45
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
