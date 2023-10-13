@@ -1,5 +1,40 @@
 #Coring Decisions
 
+DEBUG_Coring_Decisions = {
+
+DEBUG_Core_Everything = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_owned_state = {
+				limit = { NOT = { is_core_of = FROM } }
+				add_core_of = FROM
+			}
+		}
+		
+	}
+
+}
+
 #Greater Germany
 GER_Coring_Decisions = {
 
@@ -24879,7 +24914,6 @@ HOL_Coring_Decisions = {
 #Greater Sweden
 SWE_Coring_Decisions = {
 
-Hard Cores
 #Whole Denmark
 	SWE_Core_Denmark = {
 
@@ -25632,6 +25666,449 @@ Hard Cores
 						is_core_of = EST
 						any_neighbor_state = {
 							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greater Finland
+	SWE_Core_Greater_Finland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 213
+							state = 215
+							state = 216
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 213
+							state = 215
+							state = 216
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 213
+							state = 215
+							state = 216
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#North Russia
+	SWE_Core_North_Russia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 195
+							state = 208
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 195
+							state = 208
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 195
+							state = 208
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#North Germany
+	SWE_Core_North_Germany = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 188
+							state = 763
+							state = 5
+							state = 85
+							state = 807
+							state = 63
+							state = 62
+							state = 61
+							state = 58
+							state = 909
+							state = 59
+							state = 56
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 188
+							state = 763
+							state = 5
+							state = 85
+							state = 807
+							state = 63
+							state = 62
+							state = 61
+							state = 58
+							state = 909
+							state = 59
+							state = 56
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 188
+							state = 763
+							state = 5
+							state = 85
+							state = 807
+							state = 63
+							state = 62
+							state = 61
+							state = 58
+							state = 909
+							state = 59
+							state = 56
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Sleswig Holstein
+	SWE_Core_Sleswig_Holstein = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 909
+							state = 58
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 909
+							state = 58
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 909
+							state = 58
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Sleswig Holstein
+	SWE_Core_Pomerania = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 62
+							state = 63
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 62
+							state = 63
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 62
+							state = 63
 						}
 					}
 				}
