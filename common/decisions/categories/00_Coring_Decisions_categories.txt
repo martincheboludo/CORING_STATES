@@ -257,3 +257,51 @@ BUL_Coring_Decisions = {
 	visible = {
 	}
 }
+
+IRE_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_ireland
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = IRE
+	}
+
+	visible = {
+	}
+}
+
+SWI_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_switzerland
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = SWI
+	}
+
+	visible = {
+	}
+}
+
+ALB_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_albania
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = ALB
+	}
+
+	visible = {
+	}
+}
+
+GRE_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_greece
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = GRE
+	}
+
+	visible = {
+	}
+}
