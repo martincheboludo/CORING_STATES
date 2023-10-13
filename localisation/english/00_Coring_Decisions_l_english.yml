@@ -411,8 +411,19 @@ ALB_Core_Kosovo:0 "Integrate Kosovo"
 IRE_Coring_Decisions:0 "Greater Ireland"
 IRE_Coring_Decisions_desc:0 "Pan-Celticism, also known as Celticism or Celtic nationalism is a political, social and cultural movement advocating solidarity and cooperation between Celtic nations (both the Gaelic and Brythonic branches) and the modern Celts in North-Western Europe. Some pan-Celtic organisations advocate the Celtic nations seceding from the United Kingdom and France and forming their own separate federal state together, while others simply advocate very close cooperation between independent sovereign Celtic nations, in the form of Irish nationalism, Scottish nationalism, Welsh nationalism, Breton nationalism, Cornish nationalism and Manx nationalism. As with other pan-nationalist movements such as pan-Slavism, pan-Germanism, pan-Turanianism, pan-Latinism and others, the pan-Celtic movement grew out of Romantic nationalismand specific to itself, the Celtic Revival. The pan-Celtic movement was most prominent during the 19th and 20th centuries (roughly 1838 until 1939). Some early pan-Celtic contacts took place through the Gorsedd and the Eisteddfod, while the annual Celtic Congress was initiated in 1900. Since that time the Celtic League has become the prominent face of political pan-Celticism. Initiatives largely focused on cultural Celtic cooperation, rather than explicitly politics, such as music, arts and literature festivals, are usually referred to instead as inter-Celtic."
 
+IRE_Core_Scotland:0 "Integrate Scotland"
+IRE_Core_Wales:0 "Integrate Wales"
+IRE_Core_Brittany:0 "Integrate Brittany"
+
 GRE_Coring_Decisions:0 "Greater Greece"
 GRE_Coring_Decisions_desc:0 "The Megali Idea was an irredentist concept that expressed the goal of reviving the Byzantine Empire, by establishing a Greek state, which would include the large Greek populations that were still under Ottoman rule after the end of the Greek War of Independence (1821–1828) and all the regions that traditionally belonged to Greeks since ancient times (parts of the Southern Balkans, Asia Minor and Cyprus)."
+
+GRE_Core_Northern_Epirus:0 "Integrate Northern_Epirus"
+GRE_Core_Macedonia:0 "Integrate Macedonia"
+GRE_Core_Thrace:0 "Integrate Thrace"
+GRE_Core_Turkey_Start:0 "Integrate Turkey I"
+GRE_Core_Turkey_Continue:0 "Integrate Turkey II"
+GRE_Core_Cyprus:0 "Integrate Cyprus"
 
 SWI_Coring_Decisions:0 "Greater Switzerland"
 SWI_Coring_Decisions_desc:0 "After beeing many times divided and joined again, Alpine Federation rises up from the ashes like mythical phoenix. After second world war, people of Switzerland, Liechtenstein and Austria decided to form a federation, that would shield all of it’s nations from foreign danger. Now, these nations stand together and united."
