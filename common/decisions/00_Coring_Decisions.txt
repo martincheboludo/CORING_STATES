@@ -29179,3 +29179,228 @@ GRE_Coring_Decisions = {
 	}
 
 }
+
+#Greater Switzerland
+SWI_Coring_Decisions = {
+
+#Whole Austria
+	SWI_Core_Austrian_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AUS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#South Tyrol
+	GER_Core_South_Tyrol = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			39 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			39 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			39 = {
+				add_core_of = FROM
+				set_state_name = "Südtirol"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Austrian Empire Land
+	GER_Core_Austrian_Empire_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { civilian_factory_use = 10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 9
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+}
