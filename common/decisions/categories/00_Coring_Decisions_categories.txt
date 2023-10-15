@@ -350,6 +350,7 @@ SAU_Coring_Decisions = {
 			original_tag = MRT
 			original_tag = PER
 			original_tag = TUR
+			original_tag = AFG
 		}
 	}
 
@@ -382,6 +383,7 @@ AST_Coring_Decisions = {
 		OR = {
 			original_tag = AST
 			original_tag = NZL
+			original_tag = PNG
 		}
 	}
 
@@ -593,7 +595,11 @@ PER_Coring_Decisions = {
 	icon = ger_reichskommissariats
 
 	allowed = {
-		original_tag = PER
+		OR = {
+			original_tag = PER
+			original_tag = AFG
+			original_tag = IRQ
+		}
 	}
 
 	visible = {
