@@ -115,4 +115,104 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Switzerland.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_afghanistan"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Afghanistan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_arabia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Arabia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_argentina"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Argentina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_australia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Australia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_brazil"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Brazil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_canada"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Canada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_central_america"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Central_America.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_china"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_China.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_colombia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Colombia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_cuba"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Cuba.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_ethiopia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Ethiopia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_india"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_India.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_indonesia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Indonesia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_iraq"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Iraq.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_mexico"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Mexico.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_mongolia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Mongolia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_persia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Persia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_peru"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Peru.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_south_africa"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_South_Africa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_turkey"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Turkey.dds"
+	}
+	
 }
