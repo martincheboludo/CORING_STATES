@@ -534,20 +534,55 @@ VEN_Core_Guyanas:0 "Integrar Guyana Britanica"
 CUB_Coring_Decisions:0 "Greater Antilles"
 CUB_Coring_Decisions_desc:0 "The Greater Antilles  is a grouping of the larger islands in the Caribbean Sea, including Cuba, Hispaniola, Puerto Rico, Jamaica, Navassa Island and the Cayman Islands. Six island states share the region of the Greater Antilles, with Haiti and the Dominican Republic sharing the island of Hispaniola. Together with the Lesser Antilles, they make up the Antilles."
 
+CUB_Core_Cuba:0 "Integrar Cuba"
+CUB_Core_Puerto_Rico:0 "Integrar Puerto Rico"
+CUB_Core_Hispaniola:0 "Integrar Hispaniola"
+CUB_Core_Jamaica:0 "Integrar Jamaica"
+CUB_Core_Rest_of_Caribbean:0 "Integrar El Resto del Caribe"
+
 ETH_Coring_Decisions:0 "Greater Ethiopia"
 ETH_Coring_Decisions_desc:0 "The Ethiopian Empire, also known as Abyssinia was a kingdom that spanned a geographical area in the current states of Eritrea and Ethiopia. It began with the establishment of the Solomonic dynasty from approximately 1270 and lasted until 1974, when the ruling Solomonic dynasty was overthrown in a coup d'état by the Derg. The territory of present-day Eritrea was occupied by Italy in 1890 and became Italian Eritrea. Following the British occupation of Egypt in 1882, Ethiopia and Liberia were the only two African nations to remain independent during the Scramble for Africa by the European imperial powers in the late 19th century. Ethiopia remained independent after defeating Italians during the First Italo-Ethiopian War. Later, after the Second Italo-Ethiopian War, the Italian Empire occupied Ethiopia briefly for five years and established the Italian East Africa colony in the region. The Italians were later driven out with the help of the British army. The country was one of the founding members of the United Nations in 1945. By 1974, Ethiopia was one of only three countries in the world to have the title of Emperor for its head of state, together with Japan and Iran."
+
+ETH_Core_Abyssinia:0 "Integrate Abyssinia"
 
 RAJ_Coring_Decisions:0 "Greater India"
 RAJ_Coring_Decisions_desc:0 "Greater India, or the Indian cultural sphere, is an area composed of many countries and regions in South and Southeast Asia that were historically influenced by Indian culture. The term Greater India as a reference to the Indian cultural sphere was popularised by a network of Bengali scholars in the 1920s. It is an umbrella term encompassing the Indian subcontinent, and surrounding countries which are culturally linked or have received significant Sanskritisation and Indian influence in matters such as written language and religion. These countries have been transformed to varying degrees by the acceptance and induction of cultural and institutional elements that originated in India and spread elsewhere via trade routes. Since around 500 BCE, Asia's expanding land and maritime trade had resulted in prolonged socio-economic and cultural stimulation and diffusion of Hindu and Buddhist beliefs into the region's cosmology, in particular in Southeast Asia and Sri Lanka. In Central Asia, transmission of ideas were predominantly of a religious nature. The spread of Islam significantly altered the course of the history of Greater India."
 
+RAJ_Core_India:0 "Integrate India"
+RAJ_Core_Burma:0 "Integrate Burma"
+RAJ_Core_Pakistan:0 "Integrate Pakistan"
+RAJ_Core_Bangladesh:0 "Integrate Bangladesh"
+RAJ_Core_Sri_Lanka:0 "Integrate Sri Lanka"
+RAJ_Core_Afghanistan:0 "Integrate Afghanistan"
+RAJ_Core_Tibet:0 "Integrate Tibet"
+RAJ_Core_Siam:0 "Integrate Siam"
+RAJ_Core_Malaya:0 "Integrate Malaya"
+RAJ_Core_Indochina:0 "Integrate Indochina"
+RAJ_Core_Indonesia:0 "Integrate Indonesia"
+RAJ_Core_Phillippines:0 "Integrate Phillippines"
+RAJ_Core_Nepal:0 "Integrate Nepal"
+RAJ_Core_Bhutan:0 "Integrate Bhutan"
+
 INS_Coring_Decisions:0 "Greater Indonesia"
 INS_Coring_Decisions_desc:0 "Greater Indonesia was a political concept that sought to bring the so-called Malay race together by uniting the territories of Dutch East Indies (and Portuguese Timor) with the British Malaya and British Borneo."
+
+INS_Core_Indonesia:0 "Integrate Indonesia"
+INS_Core_Malaya:0 "Integrate Malaya"
 
 IRQ_Coring_Decisions:0 "Greater Iraq"
 IRQ_Coring_Decisions_desc:0 "Iraqi nationalism is a form of nationalism that asserts the belief that Iraqis form a nation and promotes the cultural unity of Iraqis of different ethnoreligious groups such as Mesopotamian Arabs, Kurds, Turkmens, Assyrians, Chaldeans, Yazidis, Mandeans, Shabaks and Yarsans."
 
+IRQ_Core_Iraq:0 "Integrate Iraq"
+IRQ_Core_Syria:0 "Integrate Syria"
+IRQ_Core_Lebanon:0 "Integrate Lebanon"
+IRQ_Core_Israel:0 "Integrate Palestine"
+IRQ_Core_Jordan:0 "Integrate Jordan"
+
 MEX_Coring_Decisions:0 "Greater Mexico"
 MEX_Coring_Decisions_desc:0 "The Mexican Empire was a short-lived monarchy, and the first independent post-colonial imperial state in Mexico. It was the only former colony of the Spanish Empire to establish a monarchy after independence. Together with the Brazilian Empire and the two Haitian Empires, it was one of four European-style empires in the Americas; it lasted two years before transitioning into a federal republic. It existed from the signing of the Treaty of Córdoba and the declaration of Independence of the Mexican Empire in September 1821 until the emperor's abdication in March 1823 when the Provisional Government took power and the First Mexican Republic was proclaimed in 1824. The first monarch of the state was Agustín de Iturbide, reigning as Agustín I of Mexico."
+
+MEX_Core_New_Spain:0 "Integrar Territorios Perdidos"
+MEX_Core_Central_America:0 "Integrar Centroamérica"
 
 MON_Coring_Decisions:0 "Greater Mongolia"
 MON_Coring_Decisions_desc:0 "Pan-Mongolism is an irredentist idea that advocates cultural and political solidarity of Mongols. The proposed territory, called 'Greater Mongolia' or 'Whole Mongolia'  usually includes the independent state of Mongolia, the Chinese region of Inner Mongolia, and the Russian region of Buryatia. Sometimes the autonomous republic Tuva, the Altai Republic and parts of Xinjiang, Zabaykalsky Krai, and Irkutsk Oblast are included as well. As of 2006, all areas in Greater Mongolia (or Mongol heartland) except Mongolia have non-Mongol majorities."
