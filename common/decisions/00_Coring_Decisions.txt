@@ -2009,12 +2009,12 @@ GER_Coring_Decisions = {
 			807 = { is_controlled_by = FROM }
 			762 = { is_controlled_by = FROM }
 			
-			OR = {
-				#Memel
-				188 = { is_controlled_by = FROM }
-				#Alsace
-				28 = { is_controlled_by = FROM }
-			}
+			#Memel
+			188 = { is_controlled_by = FROM }
+			#Alsace
+			28 = { is_controlled_by = FROM }
+			#Northern Schleswig
+			912 = { is_controlled_by = FROM }
 
 		}
 		icon = generic_form_nation
