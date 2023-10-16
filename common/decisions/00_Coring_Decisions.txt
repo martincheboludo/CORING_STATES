@@ -1138,7 +1138,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
-				has_global_flag = FORM_German_Empire2
+				has_global_flag = Realize_Septemberprogramm2
 			}
 			any_controlled_state = {
 					AND = {
@@ -1227,7 +1227,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
-				has_global_flag = FORM_German_Empire2
+				has_global_flag = Realize_Septemberprogramm2
 			}
 			34 = {
 					AND = {
@@ -1374,7 +1374,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
-				has_global_flag = FORM_German_Empire2
+				has_global_flag = Realize_Septemberprogramm2
 			}
 			any_controlled_state = {
 					AND = {
@@ -2011,10 +2011,11 @@ GER_Coring_Decisions = {
 			
 			#Memel
 			188 = { is_controlled_by = FROM }
+			
 			#Alsace
-			28 = { is_controlled_by = FROM }
+			#28 = { is_controlled_by = FROM }
 			#Northern Schleswig
-			912 = { is_controlled_by = FROM }
+			#912 = { is_controlled_by = FROM }
 
 		}
 		icon = generic_form_nation
@@ -2024,6 +2025,63 @@ GER_Coring_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = FORM_German_Empire2
+			}
+		}
+	}
+	
+	#Septemberprogramm
+	RON_Septemberprogramm = {
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_government = neutrality }
+			}
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = Realize_Septemberprogramm2 }
+			original_tag = GER
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Polish Corridor
+			85 = { is_controlled_by = FROM }
+			86 = { is_controlled_by = FROM }
+			807 = { is_controlled_by = FROM }
+			762 = { is_controlled_by = FROM }
+			
+			#Memel
+			188 = { is_controlled_by = FROM }
+			#Alsace
+			28 = { is_controlled_by = FROM }
+			#Northern Schleswig
+			912 = { is_controlled_by = FROM }
+			#Luxembourg
+			8 = { is_controlled_by = FROM }
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1002
+			}
+			hidden_effect = {
+				set_global_flag = Realize_Septemberprogramm2
 			}
 		}
 	}
@@ -2095,6 +2153,8 @@ GER_Coring_Decisions = {
 			}
 		}
 	}
+	
+	
 	
 }	
 
@@ -37215,6 +37275,92 @@ PER_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	PER_Core_East_Turkey = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 350
+							state = 353
+							state = 352
+							state = 800
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 350
+							state = 353
+							state = 352
+							state = 800
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 350
+							state = 353
+							state = 352
+							state = 800
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 }
 
@@ -37441,10 +37587,207 @@ PRU_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Antofagasta
+	PRU_Core_Antofagasta = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			506 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			506 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			506 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Chaco
+	PRU_Core_Chaco = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			688 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			688 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			688 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 }
 
 SAF_Coring_Decisions = {
+
+#Border States
+	SAF_Core_Border_States = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BOT
+							is_core_of = ZIM
+							state = 544
+							state = 896
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BOT
+							is_core_of = ZIM
+							state = 544
+							state = 896
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = BOT
+							is_core_of = ZIM
+							state = 544
+							state = 896
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 }
 
