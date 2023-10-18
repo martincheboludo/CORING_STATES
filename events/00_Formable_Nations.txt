@@ -85,6 +85,48 @@ news_event = {
 	}
 }
 
+#Austria-Hungary
+country_event = {
+	id = RON_Formable_Country.7
+	title = RON_Formable_Country.7.t
+	desc = RON_Formable_Country.7.d
+	picture = GFX_report_event_RON_Formable_Country7
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.7.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_AUH
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.7 hours = 6 }
+		}
+
+	}
+
+}
+
+#Austria-Hungary
+news_event = {
+	id = RON_Formable_News.7
+	title = RON_Formable_News.7.t
+	desc = RON_Formable_News.7.d
+	picture = GFX_news_event_RON_Formable_News7
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.7.a
+	}
+}
+
 #Holy Roman Empire
 country_event = {
 	id = RON_Formable_Country.9
@@ -166,6 +208,48 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.10.a
+	}
+}
+
+#Greater Hungary
+country_event = {
+	id = RON_Formable_Country.18
+	title = RON_Formable_Country.18.t
+	desc = RON_Formable_Country.18.d
+	picture = GFX_report_event_RON_Formable_Country18
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.18.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_HUK
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.18 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Hungary
+news_event = {
+	id = RON_Formable_News.18
+	title = RON_Formable_News.18.t
+	desc = RON_Formable_News.18.d
+	picture = GFX_news_event_RON_Formable_News18
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.18.a
 	}
 }
 
@@ -796,6 +880,62 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.96.a
+	}
+}
+
+#Erfurt Union
+country_event = {
+	id = RON_Formable_Country.97
+	title = RON_Formable_Country.97.t
+	desc = RON_Formable_Country.97.d
+	picture = GFX_report_event_RON_Formable_Country97
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.97.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Austro_Germany
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.97 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = RON_Formable_Country.97.b
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Germano_Hungarian_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.97 hours = 6 }
+		}
+
+	}
+
+}
+
+#Erfurt Union
+news_event = {
+	id = RON_Formable_News.97
+	title = RON_Formable_News.97.t
+	desc = RON_Formable_News.97.d
+	picture = GFX_news_event_RON_Formable_News97
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.97.a
 	}
 }
 

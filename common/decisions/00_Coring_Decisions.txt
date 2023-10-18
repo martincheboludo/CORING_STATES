@@ -1138,7 +1138,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
-				has_global_flag = Realize_Septemberprogramm2
+				has_global_flag = FORM_German_Empire2
 			}
 			any_controlled_state = {
 					AND = {
@@ -1227,7 +1227,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
-				has_global_flag = Realize_Septemberprogramm2
+				has_global_flag = FORM_German_Empire2
 			}
 			34 = {
 					AND = {
@@ -1374,7 +1374,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
-				has_global_flag = Realize_Septemberprogramm2
+				has_global_flag = FORM_German_Empire2
 			}
 			any_controlled_state = {
 					AND = {
@@ -2013,9 +2013,9 @@ GER_Coring_Decisions = {
 			188 = { is_controlled_by = FROM }
 			
 			#Alsace
-			#28 = { is_controlled_by = FROM }
+			28 = { is_controlled_by = FROM }
 			#Northern Schleswig
-			#912 = { is_controlled_by = FROM }
+			912 = { is_controlled_by = FROM }
 
 		}
 		icon = generic_form_nation
@@ -2042,6 +2042,7 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			always = no
 			NOT = { has_global_flag = Realize_Septemberprogramm2 }
 			original_tag = GER
 		}

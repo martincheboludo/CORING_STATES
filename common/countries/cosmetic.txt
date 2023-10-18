@@ -1224,3 +1224,20 @@ FORM_Lusosphere = {
 	color = rgb { 80 100 35 }
 	color_ui = rgb { 80 100 35 }
 }
+
+FORM_AUH = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+FORM_HUK = {
+	color = rgb { 67 111 77 }
+	color_ui = rgb { 67 111 77 }
+}
+Form_Germano_Hungarian_Union = {
+	color = rgb { 152 155 170 }
+	color_ui = rgb { 255 255 255 }
+}
+FORM_Austro_Germany = {
+	color = rgb { 152 155 170 }
+	color_ui = rgb { 255 255 255 }
+}

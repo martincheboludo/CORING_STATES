@@ -76,6 +76,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_decision_cat_creating_greater_austria_hungary"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Austria_Hungary.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decision_cat_creating_greater_yugoslavia"
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Yugoslavia.dds"
 	}
