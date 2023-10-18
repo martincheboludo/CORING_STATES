@@ -1230,8 +1230,8 @@ FORM_AUH = {
 	color_ui = rgb { 255 255 255 }
 }
 FORM_HUK = {
-	color = rgb { 67 111 77 }
-	color_ui = rgb { 67 111 77 }
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
 }
 Form_Germano_Hungarian_Union = {
 	color = rgb { 152 155 170 }

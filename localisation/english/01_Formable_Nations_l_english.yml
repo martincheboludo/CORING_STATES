@@ -379,7 +379,7 @@ FORM_Lusosphere2:0 "Has Proclaimed The Lusosphere"
 Realize_Septemberprogramm2:0 "Has Realized The Septemberprogramm"
 FORM_AUH2:0 "Has Proclaimed Austria-Hungary"
 FORM_HUK2:0 "Has Proclaimed Greater Hungary"
-FORM_Austro_Germany:0 "Has Proclaimed The Erfurt Union"
+FORM_Austro_Germany2:0 "Has Proclaimed The Erfurt Union"
 
 RON_Controls_German_States_tt:0 "Controls All German States"
 RON_Controls_Austrian_States_tt:0 "Controls All Austrian States"
@@ -463,6 +463,8 @@ RON_Controls_Russian_Pacific_Coast_tt:0 "Controls Siberian Coast"
 RON_Controls_Angolan_States_tt:0 "Controls All Angolan States"
 RON_Controls_Mozambican_States_tt:0 "Controls All Mozambican States"
 RON_Controls_Slovene_States_tt:0 "Controls All Slovene States"
+RON_Controls_Slovak_States_tt:0 "Controls All Slovak States"
+RON_Controls_Transylvanian_States_tt:0 "Controls All Transylvanian States"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"

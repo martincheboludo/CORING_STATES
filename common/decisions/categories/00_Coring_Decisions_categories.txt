@@ -210,6 +210,33 @@ AUS_Coring_Decisions = {
 	}
 }
 
+HUN_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_hungary
+	icon = ger_reichskommissariats
+
+	allowed = {
+		original_tag = HUN
+	}
+
+	visible = {
+	}
+}
+
+AUH_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_austria_hungary
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+		original_tag = AUS
+		original_tag = HUN
+		}
+	}
+
+	visible = {
+	}
+}
+
 YUG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_yugoslavia
 	icon = ger_reichskommissariats
@@ -220,18 +247,6 @@ YUG_Coring_Decisions = {
 			original_tag = CRO
 			original_tag = SER
 		}
-	}
-
-	visible = {
-	}
-}
-
-HUN_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_greater_hungary
-	icon = ger_reichskommissariats
-
-	allowed = {
-		original_tag = HUN
 	}
 
 	visible = {
