@@ -1241,3 +1241,20 @@ FORM_Austro_Germany = {
 	color = rgb { 152 155 170 }
 	color_ui = rgb { 255 255 255 }
 }
+
+FORM_Greater_Belgium = { 
+	color = rgb { 251 222 10 }
+	color_ui = rgb { 251 222 10 }
+}
+FORM_BEN = {
+	color = rgb { 227 173 31 }
+	color_ui = rgb { 227 173 31 }
+}
+FORM_Greater_Netherlands = {
+	color = rgb { 255 153 0 }
+	color_ui = rgb { 255 153 0 }
+}
+FORM_Greater_Luxembourg = {
+	color = rgb { 85 228 233 }
+	color_ui = rgb { 85 228 233 }
+}

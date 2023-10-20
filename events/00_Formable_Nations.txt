@@ -211,6 +211,49 @@ news_event = {
 	}
 }
 
+#United Benelux
+country_event = {
+	id = RON_Formable_Country.15
+	title = RON_Formable_Country.15.t
+	desc = RON_Formable_Country.15.d
+	picture = GFX_report_event_RON_Formable_Country15
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.15.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_BEN
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.15 hours = 6 }
+		}
+
+	}
+
+}
+
+#United Benelux
+news_event = {
+	id = RON_Formable_News.15
+	title = RON_Formable_News.15.t
+	desc = RON_Formable_News.15.d
+	picture = GFX_news_event_RON_Formable_News15
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.15.a
+	}
+}
+
+
 #Greater Hungary
 country_event = {
 	id = RON_Formable_Country.18
@@ -939,6 +982,48 @@ news_event = {
 	}
 }
 
+#Dutch Colonial Empire
+country_event = {
+	id = RON_Formable_Country.103
+	title = RON_Formable_Country.103.t
+	desc = RON_Formable_Country.103.d
+	picture = GFX_report_event_RON_Formable_Country103
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.103.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.103 hours = 6 }
+		}
+
+	}
+
+}
+
+#Dutch Colonial Empire
+news_event = {
+	id = RON_Formable_News.103
+	title = RON_Formable_News.103.t
+	desc = RON_Formable_News.103.d
+	picture = GFX_news_event_RON_Formable_News103
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.103.a
+	}
+}
+
+
 #Greater Russia
 country_event = {
 	id = RON_Formable_Country.104
@@ -1620,5 +1705,217 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.1002.a
+	}
+}
+
+#Greater Netherlands
+country_event = {
+	id = RON_Formable_Country.1003
+	title = RON_Formable_Country.1003.t
+	desc = RON_Formable_Country.1003.d
+	picture = GFX_report_event_RON_Formable_Country1003
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1003.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_Netherlands
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1003 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Netherlands
+news_event = {
+	id = RON_Formable_News.1003
+	title = RON_Formable_News.1003.t
+	desc = RON_Formable_News.1003.d
+	picture = GFX_news_event_RON_Formable_News1003
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1003.a
+	}
+}
+
+
+#Greater Belgium
+country_event = {
+	id = RON_Formable_Country.1004
+	title = RON_Formable_Country.1004.t
+	desc = RON_Formable_Country.1004.d
+	picture = GFX_report_event_RON_Formable_Country1004
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1004.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_Belgium
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1004 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Belgium
+news_event = {
+	id = RON_Formable_News.1004
+	title = RON_Formable_News.1004.t
+	desc = RON_Formable_News.1004.d
+	picture = GFX_news_event_RON_Formable_News1004
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1004.a
+	}
+}
+
+
+#Belgian Colonial Empire
+country_event = {
+	id = RON_Formable_Country.1005
+	title = RON_Formable_Country.1005.t
+	desc = RON_Formable_Country.1005.d
+	picture = GFX_report_event_RON_Formable_Country1005
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1005.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1005 hours = 6 }
+		}
+
+	}
+
+}
+
+#Belgian Colonial Empire
+news_event = {
+	id = RON_Formable_News.1005
+	title = RON_Formable_News.1005.t
+	desc = RON_Formable_News.1005.d
+	picture = GFX_news_event_RON_Formable_News1005
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1005.a
+	}
+}
+
+
+#Greater Luxembourg
+country_event = {
+	id = RON_Formable_Country.1006
+	title = RON_Formable_Country.1006.t
+	desc = RON_Formable_Country.1006.d
+	picture = GFX_report_event_RON_Formable_Country1006
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1006.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Greater_Luxembourg
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1006 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Luxembourg
+news_event = {
+	id = RON_Formable_News.1006
+	title = RON_Formable_News.1006.t
+	desc = RON_Formable_News.1006.d
+	picture = GFX_news_event_RON_Formable_News1006
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1006.a
+	}
+}
+
+
+#German Colonial Empire
+country_event = {
+	id = RON_Formable_Country.1007
+	title = RON_Formable_Country.1007.t
+	desc = RON_Formable_Country.1007.d
+	picture = GFX_report_event_RON_Formable_Country1007
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1007.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1007 hours = 6 }
+		}
+
+	}
+
+}
+
+#German Colonial Empire
+news_event = {
+	id = RON_Formable_News.1007
+	title = RON_Formable_News.1007.t
+	desc = RON_Formable_News.1007.d
+	picture = GFX_news_event_RON_Formable_News1007
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1007.a
 	}
 }

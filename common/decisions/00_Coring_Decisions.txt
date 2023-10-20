@@ -24536,6 +24536,90 @@ HOL_Coring_Decisions = {
 		}
 	}
 	
+	##Greater_Luxembourg
+	LUX_Core_Greater_Luxembourg = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			original_tag = LUX
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 18
+							state = 42
+							state = 51
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 18
+							state = 42
+							state = 51
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 18
+							state = 42
+							state = 51
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Cape Colony
 	HOL_Core_Cape_Colony = {
 
@@ -24928,6 +25012,178 @@ HOL_Coring_Decisions = {
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Benelux
+	RON_Formable_Decision15 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_BEN2 }
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dutch_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HOL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belgian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BEL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Luxembourg
+			8 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.15
+			}
+			hidden_effect = {
+				set_global_flag = FORM_BEN2
+			}
+		}
+	}
+	
+	#Greater Netherlands
+	RON_Formable_Decision1003 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = HOL
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_Netherlands2 }
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dutch_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HOL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			#Flanders
+			6 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.15
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_Netherlands2
+			}
+		}
+	}
+	
+	#Greater Belgium
+	RON_Formable_Decision1004 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = BEL
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_Belgium2 }
+			
+			
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belgian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BEL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Luxembourg
+			8 = { is_controlled_by = FROM }
+			
+			#Brabant
+			35 = { is_controlled_by = FROM }
+			
+			#French Flanders
+			29 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1004
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_Belgium2
+			}
+		}
+	}
+	
+	#Greater Luxembourg
+	RON_Formable_Decision1006 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = LUX
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_Luxembourg2 }
+			
+		}
+		available = {
+			is_subject = no
+			#Greater Luxembourg
+			8 = { is_controlled_by = FROM }
+			51 = { is_controlled_by = FROM }
+			42 = { is_controlled_by = FROM }
+			18 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1006
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_Luxembourg2
+			}
 		}
 	}
 
