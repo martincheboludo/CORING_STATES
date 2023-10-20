@@ -69,6 +69,16 @@ spriteTypes = {
         name = "GFX_news_event_RON_Formable_News1006"
         texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News1006.dds"
     }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country1007"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country1007.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News1007"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News1007.dds"
+    }
 
 	spriteType = {
         name = "GFX_report_event_RON_Formable_Country0"

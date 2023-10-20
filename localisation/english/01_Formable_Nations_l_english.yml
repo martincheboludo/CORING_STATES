@@ -171,10 +171,10 @@
  RON_Formable_News.97.d:0 "The Erfurt Union was a short-lived union of German states under a federation, proposed by the Kingdom of Prussia at Erfurt, for which the Erfurt Union Parliament (Erfurter Unionsparlament), lasting from March 20 to April 29, 1850, was opened at the former Augustinian monastery in Erfurt. The union never came into effect, and was seriously undermined in the Punctation of Olmütz under immense pressure from the Austrian Empire."
  RON_Formable_News.97.a:1 "OK"
  
- RON_Formable_Country.103.t:0 "Dutch Empire"
+ RON_Formable_Country.103.t:0 "Dutch Colonial Empire"
  RON_Formable_Country.103.d:0 "The Dutch colonial empire comprised the overseas territories and trading posts controlled and administered by Dutch chartered companies—mainly the Dutch West India Company and the Dutch East India Company—and subsequently by the Dutch Republic (1581–1795), and by the modern Kingdom of the Netherlands after 1815. It was initially a trade-based system which derived most of its influence from merchant enterprise and from Dutch control of international maritime shipping routes through strategically placed outposts, rather than from expansive territorial ventures. The Dutch were among the earliest empire-builders of Europe, following Spain and Portugal."
  RON_Formable_Country.103.a:1 "Eendracht Maakt Macht"
- RON_Formable_News.103.t:0 "Dutch Empire Achieved"
+ RON_Formable_News.103.t:0 "Dutch Colonial Empire Integration Begins"
  RON_Formable_News.103.d:0 "The Dutch colonial empire comprised the overseas territories and trading posts controlled and administered by Dutch chartered companies—mainly the Dutch West India Company and the Dutch East India Company—and subsequently by the Dutch Republic (1581–1795), and by the modern Kingdom of the Netherlands after 1815. It was initially a trade-based system which derived most of its influence from merchant enterprise and from Dutch control of international maritime shipping routes through strategically placed outposts, rather than from expansive territorial ventures. The Dutch were among the earliest empire-builders of Europe, following Spain and Portugal."
  RON_Formable_News.103.a:1 "OK"
  
@@ -308,8 +308,8 @@
  RON_Formable_Country.1005.t:0 "Belgian Colonial Empire"
  RON_Formable_Country.1005.d:0 "Roughly 98% of Belgium's overseas territory was just one colony (about 76 times larger than Belgium itself) – known as the Belgian Congo. The colony was founded in 1908 following the transfer of sovereignty from the Congo Free State, which was the personal property of Belgium's king, Leopold II. The violence used by Free State officials against indigenous Congolese and the ruthless system of economic extraction had led to intense diplomatic pressure on Belgium to take official control of the country. Belgian rule in the Congo was based on the 'colonial trinity' (trinité coloniale) of state, missionary and private company interests. During the 1940s and 1950s, the Congo experienced extensive urbanization and the administration aimed to make it into a 'model colony'. As the result of a widespread and increasingly radical pro-independence movement, the Congo achieved independence, as the Republic of Congo-Léopoldville in 1960. Of Belgium's other colonies, the most significant was Ruanda-Urundi, a portion of German East Africa, which was given to Belgium as a League of Nations Mandate, when Germany lost all of its colonies at the end of World War I. Following the Rwandan Revolution, the mandate became the independent states of Burundi and Rwanda in 1962."
  RON_Formable_Country.1005.a:1 "OK"
- RON_Formable_News.1005.t:0 "Belgian Colonial Empire Achieved"
- RON_Formable_News.1005.d:0 "Roughly 98% of Belgium's overseas territory was just one colony (about 76 times larger than Belgium itself) – known as the Belgian Congo. The colony was founded in 1908 following the transfer of sovereignty from the Congo Free State, which was the personal property of Belgium's king, Leopold II. The violence used by Free State officials against indigenous Congolese and the ruthless system of economic extraction had led to intense diplomatic pressure on Belgium to take official control of the country. Belgian rule in the Congo was based on the 'colonial trinity' (trinité coloniale) of state, missionary and private company interests. During the 1940s and 1950s, the Congo experienced extensive urbanization and the administration aimed to make it into a 'model colony'. As the result of a widespread and increasingly radical pro-independence movement, the Congo achieved independence, as the Republic of Congo-Léopoldville in 1960. Of Belgium's other colonies, the most significant was Ruanda-Urundi, a portion of German East Africa, which was given to Belgium as a League of Nations Mandate, when Germany lost all of its colonies at the end of World War I. Following the Rwandan Revolution, the mandate became the independent states of Burundi and Rwanda in 1962."
+ RON_Formable_News.1005.t:0 "Belgian Colonial Empire Integration Begins"
+ RON_Formable_News.1005.d:0 "Roughly 98% of Belgium's overseas territory was just one colony (about 76 times larger than Belgium itself) – known as the Belgian Congo. The colony was founded in 1908 following the transfer of sovereignty from the Congo Free State, which was the personal property of Belgium's king, Leopold II. The violence used by Free State officials against indigenous Congolese and the ruthless system of economic extraction had led to intense diplomatic pressure on Belgium to take official control of the country. Belgian rule in the Congo was based on the 'colonial trinity' (trinité coloniale) of state, missionary and private company interests. During the 1940s and 1950s, the Congo experienced extensive urbanization and the administration aimed to make it into a 'model colony'."
  RON_Formable_News.1005.a:1 "OK"
  
  RON_Formable_Country.1006.t:0 "Greater Luxembourg"
@@ -322,7 +322,7 @@
  RON_Formable_Country.1007.t:0 "German Colonial Empire"
  RON_Formable_Country.1007.d:0 "The German colonial empire constituted the overseas colonies, dependencies, and territories of the German Empire. Unified in the early 1870s, the chancellor of this time period was Otto von Bismarck. Short-lived attempts at colonization by individual German states had occurred in preceding centuries, but Bismarck resisted pressure to construct a colonial empire until the Scramble for Africa in 1884. Claiming much of the remaining uncolonized areas of Africa, Germany built the third-largest colonial empire at the time, after the British and French. The German colonial empire encompassed parts of several African countries, including parts of present-day Burundi, Rwanda, Tanzania, Namibia, Cameroon, Gabon, Congo, Central African Republic, Chad, Nigeria, Togo, Ghana, as well as northeastern New Guinea, Samoa and numerous Micronesian islands."
  RON_Formable_Country.1007.a:1 "OK"
- RON_Formable_News.1007.t:0 "German Colonial Empire Achieved"
+ RON_Formable_News.1007.t:0 "German Colonial Empire Integration Begins"
  RON_Formable_News.1007.d:0 "The German colonial empire constituted the overseas colonies, dependencies, and territories of the German Empire. Unified in the early 1870s, the chancellor of this time period was Otto von Bismarck. Short-lived attempts at colonization by individual German states had occurred in preceding centuries, but Bismarck resisted pressure to construct a colonial empire until the Scramble for Africa in 1884. Claiming much of the remaining uncolonized areas of Africa, Germany built the third-largest colonial empire at the time, after the British and French. The German colonial empire encompassed parts of several African countries, including parts of present-day Burundi, Rwanda, Tanzania, Namibia, Cameroon, Gabon, Congo, Central African Republic, Chad, Nigeria, Togo, Ghana, as well as northeastern New Guinea, Samoa and numerous Micronesian islands."
  RON_Formable_News.1007.a:1 "OK"
  
@@ -333,7 +333,7 @@ RON_Formable_Decision0:0 "Proclaim Greater Germany"
 RON_Formable_Decision1:0 "Proclaim Greater Germanic Reich"
 RON_Formable_Decision9:0 "Proclaim Holy Roman Empire"
 RON_Formable_Decision74:0 "Proclaim German Empire"
-RON_Formable_Decision1007:0 "Proclaim German Colonial Empire"
+RON_Formable_Decision1007:0 "Integrate German Colonial Empire"
 
 #French Formables
 RON_Formable_Decision73:0 "Proclaim French Empire"
@@ -389,10 +389,10 @@ RON_Formable_Decision97:0 "Proclaim Erfurt Union"
 
 #Benelux Formables
 RON_Formable_Decision15:0 "Proclaim Benelux"
-RON_Formable_Decision103:0 "Proclaim Dutch Colonial Empire"
+RON_Formable_Decision103:0 "Integrate Dutch Colonial Empire"
 RON_Formable_Decision1003:0 "Proclaim Greater Netherlands"
 RON_Formable_Decision1004:0 "Proclaim Greater Belgium"
-RON_Formable_Decision1005:0 "Proclaim Belgian Colonial Empire"
+RON_Formable_Decision1005:0 "Integrate Belgian Colonial Empire"
 RON_Formable_Decision1006:0 "Proclaim Greater Luxembourg"
 
 #Others
@@ -442,9 +442,9 @@ FORM_BEN2:0 "Has Proclaimed Benelux"
 FORM_Greater_Netherlands2:0 "Has Proclaimed Greater Netherlands"
 FORM_Greater_Belgium2:0 "Has Proclaimed Greater Belgium"
 FORM_Greater_Luxembourg2:0 "Has Proclaimed Greater Luxembourg"
-FORM_Belgian_Empire2:0 "Has Proclaimed Belgian Colonial Empire"
-FORM_Dutch_Empire2:0 "Has Proclaimed Dutch Colonial Empire"
-FORM_German_Colonial_Empire2:0 "Has Proclaimed German Colonial Empire"
+FORM_Belgian_Empire2:0 "Has Started Integrating The Belgian Colonial Empire"
+FORM_Dutch_Empire2:0 "Has Started Integrating The Dutch Colonial Empire"
+FORM_German_Colonial_Empire2:0 "Has Started Integrating The German Colonial Empire"
 
 RON_Controls_German_States_tt:0 "Controls All German States"
 RON_Controls_Austrian_States_tt:0 "Controls All Austrian States"
@@ -530,6 +530,9 @@ RON_Controls_Mozambican_States_tt:0 "Controls All Mozambican States"
 RON_Controls_Slovene_States_tt:0 "Controls All Slovene States"
 RON_Controls_Slovak_States_tt:0 "Controls All Slovak States"
 RON_Controls_Transylvanian_States_tt:0 "Controls All Transylvanian States"
+RON_Controls_Congolese_States_tt:0 "Controls All Congolese States"
+RON_Controls_Namibian_States_tt:0 "Controls All Namiban States"
+RON_Controls_Tanzania_States_tt:0 "Controls All Tanzanian States"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
