@@ -1891,22 +1891,308 @@ GER_Coring_Decisions = {
 		}
 	}
 	
+	#German West Africa
+	GER_Core_German_West_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 24
+			has_global_flag = FORM_German_Colonial_Empire2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 777
+							state = 772
+							state = 773
+							state = 539
+							is_core_of = NMB
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 777
+							state = 772
+							state = 773
+							state = 539
+							is_core_of = NMB
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 777
+							state = 772
+							state = 773
+							state = 539
+							is_core_of = NMB
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#German East
+	GER_Core_German_East_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 24
+			has_global_flag = FORM_German_Colonial_Empire2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							is_core_of = BRD
+							is_core_of = RWA
+							is_core_of = TZN
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BRD
+							is_core_of = RWA
+							is_core_of = TZN
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							is_core_of = BRD
+							is_core_of = RWA
+							is_core_of = TZN
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#German East
+	GER_Core_German_New_Guinea = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 24
+			has_global_flag = FORM_German_Colonial_Empire2
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							#German New Guinea
+							state = 523
+							state = 737
+							#Saipan
+							state = 646
+							#Nauru
+							state = 725
+							#Micronesia
+							is_core_of = FSM
+							#Solomon Islands
+							is_core_of = SOL
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							#German New Guinea
+							state = 523
+							state = 737
+							#Saipan
+							state = 646
+							#Nauru
+							state = 725
+							#Micronesia
+							is_core_of = FSM
+							#Solomon Islands
+							is_core_of = SOL
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							#German New Guinea
+							state = 523
+							state = 737
+							#Saipan
+							state = 646
+							#Nauru
+							state = 725
+							#Micronesia
+							is_core_of = FSM
+							#Solomon Islands
+							is_core_of = SOL
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#German Colonial Empire
 	RON_Formable_Decision1007 = {
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 10
-		days_re_enable = 0
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
 		allowed = {
 		}
 		visible = {
-			always = no
 			NOT = { has_global_flag = FORM_German_Colonial_Empire2 }
 		}
-		icon = generic_form_nation
+		icon = ger_reichskommissariats
 		available = {
-			is_subject = no
+			num_of_civilian_factories_available_for_projects > 24
 			
 			OR = {
 				has_global_flag = FORM_German_Empire2
@@ -1918,7 +2204,7 @@ GER_Coring_Decisions = {
 				all_state = {
 					if = {
 						limit = {
-							is_core_of = NAM
+							is_core_of = NMB
 						}
 						is_controlled_by = FROM
 					}
@@ -1955,7 +2241,8 @@ GER_Coring_Decisions = {
 			523 = { is_controlled_by = FROM }
 			737 = { is_controlled_by = FROM }
 		}
-		complete_effect = {
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			country_event = {
 				id = RON_Formable_Country.1007
 			}
@@ -25094,19 +25381,20 @@ HOL_Coring_Decisions = {
 	
 	#Dutch Colonial Empire
 	RON_Formable_Decision103 = {
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 10
-		days_re_enable = 0
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
 		allowed = {
 		}
 		visible = {
 			NOT = { has_global_flag = FORM_Dutch_Empire2 }
 		}
 		available = {
-		
-			is_subject = no
+			num_of_civilian_factories_available_for_projects > 24
 			
 			OR = {
 				has_global_flag = FORM_BEN2
@@ -25125,8 +25413,7 @@ HOL_Coring_Decisions = {
 				}
 			}
 			
-			OR = {
-				custom_trigger_tooltip = {
+			custom_trigger_tooltip = {
 					tooltip = RON_Controls_Indonesia_States_tt
 					all_state = {
 						if = {
@@ -25137,8 +25424,6 @@ HOL_Coring_Decisions = {
 						}
 					}
 				}
-				INS = { is_subject_of = FROM }
-			}
 			
 			
 			#Suriname
@@ -25147,8 +25432,9 @@ HOL_Coring_Decisions = {
 			#Curacao
 			695 = { is_controlled_by = FROM }
 		}
-		icon = generic_form_nation
-		complete_effect = {
+		icon = ger_reichskommissariats
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			country_event = {
 				id = RON_Formable_Country.103
 			}
@@ -25160,18 +25446,20 @@ HOL_Coring_Decisions = {
 	
 	#Belgian Colonial Empire
 	RON_Formable_Decision1005 = {
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 10
-		days_re_enable = 0
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
 		allowed = {
 		}
 		visible = {
 			NOT = { has_global_flag = FORM_Belgian_Empire2 }
 		}
 		available = {
-			is_subject = no
+			num_of_civilian_factories_available_for_projects > 24
 			
 			OR = {
 				has_global_flag = FORM_BEN2
@@ -25208,8 +25496,9 @@ HOL_Coring_Decisions = {
 			#Burundi
 			769 = { is_controlled_by = FROM }
 		}
-		icon = generic_form_nation
-		complete_effect = {
+		icon = ger_reichskommissariats
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			country_event = {
 				id = RON_Formable_Country.1005
 			}
