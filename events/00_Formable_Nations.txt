@@ -211,6 +211,48 @@ news_event = {
 	}
 }
 
+#Kalmar Union
+country_event = {
+	id = RON_Formable_Country.11
+	title = RON_Formable_Country.11.t
+	desc = RON_Formable_Country.11.d
+	picture = GFX_report_event_RON_Formable_Country11
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.11.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_SCA
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.11 hours = 6 }
+		}
+
+	}
+
+}
+
+#Kalmar Union
+news_event = {
+	id = RON_Formable_News.11
+	title = RON_Formable_News.11.t
+	desc = RON_Formable_News.11.d
+	picture = GFX_news_event_RON_Formable_News11
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.11.a
+	}
+}
+
 #United Benelux
 country_event = {
 	id = RON_Formable_Country.15
@@ -377,6 +419,132 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.27.a
+	}
+}
+
+#North Sea Empire
+country_event = {
+	id = RON_Formable_Country.38
+	title = RON_Formable_Country.38.t
+	desc = RON_Formable_Country.38.d
+	picture = GFX_report_event_RON_Formable_Country38
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.38.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_NSE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.38 hours = 6 }
+		}
+
+	}
+
+}
+
+#North Sea Empire
+news_event = {
+	id = RON_Formable_News.38
+	title = RON_Formable_News.38.t
+	desc = RON_Formable_News.38.d
+	picture = GFX_news_event_RON_Formable_News38
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.38.a
+	}
+}
+
+#Greater Finland
+country_event = {
+	id = RON_Formable_Country.40
+	title = RON_Formable_Country.40.t
+	desc = RON_Formable_Country.40.d
+	picture = GFX_report_event_RON_Formable_Country40
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.40.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_GFI
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.40 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Finland
+news_event = {
+	id = RON_Formable_News.40
+	title = RON_Formable_News.40.t
+	desc = RON_Formable_News.40.d
+	picture = GFX_news_event_RON_Formable_News40
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.40.a
+	}
+}
+
+#Swedish Empire
+country_event = {
+	id = RON_Formable_Country.43
+	title = RON_Formable_Country.43.t
+	desc = RON_Formable_Country.43.d
+	picture = GFX_report_event_RON_Formable_Country43
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.43.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_SEP
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.43 hours = 6 }
+		}
+
+	}
+
+}
+
+#Swedish Empire
+news_event = {
+	id = RON_Formable_News.43
+	title = RON_Formable_News.43.t
+	desc = RON_Formable_News.43.d
+	picture = GFX_news_event_RON_Formable_News43
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.43.a
 	}
 }
 
@@ -674,6 +842,48 @@ news_event = {
 	}
 }
 
+#Nordic Union
+country_event = {
+	id = RON_Formable_Country.77
+	title = RON_Formable_Country.77.t
+	desc = RON_Formable_Country.77.d
+	picture = GFX_report_event_RON_Formable_Country77
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.77.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Nordic_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.77 hours = 6 }
+		}
+
+	}
+
+}
+
+#Nordic Union
+news_event = {
+	id = RON_Formable_News.77
+	title = RON_Formable_News.77.t
+	desc = RON_Formable_News.77.d
+	picture = GFX_news_event_RON_Formable_News77
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.77.a
+	}
+}
+
 #Western Roman Empire
 country_event = {
 	id = RON_Formable_Country.85
@@ -881,6 +1091,90 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.93.a
+	}
+}
+
+#Denmark-Norway
+country_event = {
+	id = RON_Formable_Country.94
+	title = RON_Formable_Country.94.t
+	desc = RON_Formable_Country.94.d
+	picture = GFX_report_event_RON_Formable_Country94
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.94.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_KDN
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.94 hours = 6 }
+		}
+
+	}
+
+}
+
+#Denmark-Norway
+news_event = {
+	id = RON_Formable_News.94
+	title = RON_Formable_News.94.t
+	desc = RON_Formable_News.94.d
+	picture = GFX_news_event_RON_Formable_News94
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.94.a
+	}
+}
+
+#Sweden-Norway
+country_event = {
+	id = RON_Formable_Country.95
+	title = RON_Formable_Country.95.t
+	desc = RON_Formable_Country.95.d
+	picture = GFX_report_event_RON_Formable_Country95
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.95.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_KNS
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.95 hours = 6 }
+		}
+
+	}
+
+}
+
+#Sweden-Norway
+news_event = {
+	id = RON_Formable_News.95
+	title = RON_Formable_News.95.t
+	desc = RON_Formable_News.95.d
+	picture = GFX_news_event_RON_Formable_News95
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.95.a
 	}
 }
 
@@ -1276,6 +1570,48 @@ news_event = {
 	}
 }
 
+#Greater Denmark
+country_event = {
+	id = RON_Formable_Country.118
+	title = RON_Formable_Country.118.t
+	desc = RON_Formable_Country.118.d
+	picture = GFX_report_event_RON_Formable_Country118
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.118.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Denmark
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.118 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Denmark
+news_event = {
+	id = RON_Formable_News.118
+	title = RON_Formable_News.118.t
+	desc = RON_Formable_News.118.d
+	picture = GFX_news_event_RON_Formable_News118
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.118.a
+	}
+}
+
 #Greater France
 country_event = {
 	id = RON_Formable_Country.119
@@ -1357,6 +1693,48 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.121.a
+	}
+}
+
+#Greater Norway
+country_event = {
+	id = RON_Formable_Country.122
+	title = RON_Formable_Country.122.t
+	desc = RON_Formable_Country.122.d
+	picture = GFX_report_event_RON_Formable_Country122
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.122.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Norway
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.122 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Norway
+news_event = {
+	id = RON_Formable_News.122
+	title = RON_Formable_News.122.t
+	desc = RON_Formable_News.122.d
+	picture = GFX_news_event_RON_Formable_News122
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.122.a
 	}
 }
 

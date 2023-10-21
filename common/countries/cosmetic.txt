@@ -1258,3 +1258,40 @@ FORM_Greater_Luxembourg = {
 	color = rgb { 85 228 233 }
 	color_ui = rgb { 85 228 233 }
 }
+
+FORM_SCA = {
+	color = rgb { 255 205 65 }
+	color_ui = rgb { 255 205 65 }
+}
+FORM_Nordic_Union = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
+}
+FORM_SEP = {
+	color = rgb { 102 204 255 }
+	color_ui = rgb { 102 204 255 }
+}
+FORM_GFI = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+Form_Greater_Norway = {
+	color = rgb { 135 178 192 }
+	color_ui = rgb { 161 213 230 }
+}
+Form_Greater_Denmark = {
+	color = rgb { 103 17 39 }
+	color_ui = rgb { 103 17 39 }
+}
+FORM_NSE = {
+	color = rgb { 185 111 70 }
+	color_ui = rgb { 185 111 70 }
+}
+FORM_KNS = {
+	color = rgb { 60 140 180 }
+	color_ui = rgb { 84 133 186 }
+}
+FORM_KDN = {
+	color = rgb { 200 40 40 }
+	color_ui = rgb { 200 40 40 }
+}
