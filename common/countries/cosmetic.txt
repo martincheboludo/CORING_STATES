@@ -1295,3 +1295,23 @@ FORM_KDN = {
 	color = rgb { 200 40 40 }
 	color_ui = rgb { 200 40 40 }
 }
+FORM_PLA = {
+	color = rgb { 145 157 236 }
+	color_ui = rgb { 145 157 236 }
+}
+FORM_CHG = {
+	color = rgb { 0 170 200 }
+	color_ui = rgb { 0 170 200 }
+}
+FORM_Southern_Cone = {
+	color = rgb { 0 170 200 }
+	color_ui = rgb { 0 170 200 }
+}
+Form_Greater_Argentina = {
+	color = rgb { 59 52 129 }
+	color_ui = rgb { 59 52 129 }
+}
+Form_Greater_Chile = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}

@@ -389,6 +389,41 @@
  RON_Formable_News.122.d:0 "The Kingdom of Norway had several territorial disputes throughout its history, mainly regarding islands and sea boundaries in the Arctic Sea. The Old Kingdom of Norway, which was the Norwegian territories at its maximum extent, included Iceland, the settleable areas of Greenland, the Faroe Islands and Northern Isles (today part of Scotland). Under Danish sovereignty since they established a hegemonic position in the Kalmar Union, the territories were considered as Norwegian colonies. When in the Treaty of Kiel in 1814, Norway's territories were transferred from Denmark to Sweden, the territories of Iceland, Greenland, and the Faroe Islands were maintained by Denmark."
  RON_Formable_News.122.a:1 "OK"
  
+  RON_Formable_Country.57.t:0 "United Provinces of the Rio de la Plata"
+ RON_Formable_Country.57.d:0 "The United Provinces of the Río de la Plata (Spanish. Provincias Unidas del Río de la Plata), earlier known as the United Provinces of South America (Spanish. Provincias Unidas de Sudamérica), a union of provinces in the Río de la Plata region of South America, emerged from the May Revolution in 1810 and the Argentine War of Independence of 1810–1818. It comprised most of the former Viceroyalty of the Río de la Plata dependencies and had Buenos Aires as its capital. It is best known in Spanish-language literature as Provincias Unidas del Río de la Plata ('United Provinces of the River of Silver'), this being the most common (occasionally the official) name in use for the country until the enactment of the 1826 Constitution. The Argentine National Anthem refers to the state as 'the United Provinces of the South'. The Constitution of Argentina recognises Provincias Unidas del Río de la Plata as one of the official names of the country, referred to as 'Argentine Nation' (Nación Argentina) in modern legislation."
+ RON_Formable_Country.57.a:0 "En Unión y Libertad"
+ RON_Formable_News.57.t:0 "La Plata Proclaimed"
+ RON_Formable_News.57.d:0 "The United Provinces of the Río de la Plata (Spanish. Provincias Unidas del Río de la Plata), earlier known as the United Provinces of South America (Spanish. Provincias Unidas de Sudamérica), a union of provinces in the Río de la Plata region of South America, emerged from the May Revolution in 1810 and the Argentine War of Independence of 1810–1818. It comprised most of the former Viceroyalty of the Río de la Plata dependencies and had Buenos Aires as its capital. It is best known in Spanish-language literature as Provincias Unidas del Río de la Plata ('United Provinces of the River of Silver'), this being the most common (occasionally the official) name in use for the country until the enactment of the 1826 Constitution. The Argentine National Anthem refers to the state as 'the United Provinces of the South'. The Constitution of Argentina recognises Provincias Unidas del Río de la Plata as one of the official names of the country, referred to as 'Argentine Nation' (Nación Argentina) in modern legislation."
+ RON_Formable_News.57.a:0 "OK"
+ 
+ RON_Formable_Country.63.t:0 "Chile-Argentinean Union"
+ RON_Formable_Country.63.d:0 "'We are writing history. If Chile and Argentina achieve unity, as I hope, they will constitute the nucleus of the Ibero-American unity. Later, union would come with other nations, such as Brazil. If the Argentine people must take up the streets to demand the union with Chile, it will do so and will defeat the private interests that can oppose it', the Argentine president said in the interview."
+ RON_Formable_Country.63.a:0 "Por La Razón O La Fuerza."
+ RON_Formable_News.63.t:0 "Chile-Argentinean Union Proclaimed"
+ RON_Formable_News.63.d:0 "'We are writing history. If Chile and Argentina achieve unity, as I hope, they will constitute the nucleus of the Ibero-American unity. Later, union would come with other nations, such as Brazil. If the Argentine people must take up the streets to demand the union with Chile, it will do so and will defeat the private interests that can oppose it', the Argentine president said in the interview."
+ RON_Formable_News.63.a:0 "OK"
+ 
+ RON_Formable_Country.101.t:0 "United Southern Cone"
+ RON_Formable_Country.101.d:0 "The Southern Cone is a geographic and cultural region composed of the southernmost areas of South America, mostly south of the Tropic of Capricorn. Traditionally, it covers Argentina, Chile and Uruguay, bounded on the west by the Pacific Ocean and on the east by the Atlantic Ocean. In terms of social, economic and political geography, the Southern Cone comprises Argentina, Chile, and Uruguay, and sometimes includes Brazil's four southernmost states (Paraná, Rio Grande do Sul, Santa Catarina, and São Paulo). In its broadest definition, taking into account common history and geography, it also includes Paraguay, another Spanish-speaking country."
+ RON_Formable_Country.101.a:1 "Por La Razón O La Fuerza"
+ RON_Formable_News.101.t:0 "United Southern Cone Proclaimed"
+ RON_Formable_News.101.d:0 "The Southern Cone is a geographic and cultural region composed of the southernmost areas of South America, mostly south of the Tropic of Capricorn. Traditionally, it covers Argentina, Chile and Uruguay, bounded on the west by the Pacific Ocean and on the east by the Atlantic Ocean. In terms of social, economic and political geography, the Southern Cone comprises Argentina, Chile, and Uruguay, and sometimes includes Brazil's four southernmost states (Paraná, Rio Grande do Sul, Santa Catarina, and São Paulo). In its broadest definition, taking into account common history and geography, it also includes Paraguay, another Spanish-speaking country."
+ RON_Formable_News.101.a:1 "OK"
+ 
+ RON_Formable_Country.114.t:0 "Greater Argentina"
+ RON_Formable_Country.114.d:0 "Argentine irredentism is the idea of Argentina's sovereignty over the British Overseas Territories of the Falkland Islands, South Georgia and the South Sandwich Islands, along with the dispute with Chile over the Southern Patagonian Ice Field and disputes with both over the region designated as Argentine Antarctica."
+ RON_Formable_Country.114.a:1 "En Unión Y Libertad"
+ RON_Formable_News.114.t:0 "Greater Argentina Proclaimed"
+ RON_Formable_News.114.d:0 "Argentine irredentism is the idea of Argentina's sovereignty over the British Overseas Territories of the Falkland Islands, South Georgia and the South Sandwich Islands, along with the dispute with Chile over the Southern Patagonian Ice Field and disputes with both over the region designated as Argentine Antarctica."
+ RON_Formable_News.114.a:1 "OK"
+ 
+ RON_Formable_Country.117.t:0 "Greater Chile"
+ RON_Formable_Country.117.d:0 "Chilean expansionism refers to the foreign policy of Chile to expand its territorial control over key strategic locations and economic resources as a means to ensure its national security and assert its power in South America. Chile's significant territorial acquisitions, which occurred mostly throughout the 19th century, paved the way for its emergence as one of the three most powerful and wealthiest states in South America during the 20th century. It also formed Chile's geopolitical and national identity as a tricontinental state and one of the countries with the longest coastlines in the world."
+ RON_Formable_Country.117.a:1 "Por La Razón O La Fuerza"
+ RON_Formable_News.117.t:0 "Greater Chile Proclaimed"
+ RON_Formable_News.117.d:0 "Chilean expansionism refers to the foreign policy of Chile to expand its territorial control over key strategic locations and economic resources as a means to ensure its national security and assert its power in South America. Chile's significant territorial acquisitions, which occurred mostly throughout the 19th century, paved the way for its emergence as one of the three most powerful and wealthiest states in South America during the 20th century. It also formed Chile's geopolitical and national identity as a tricontinental state and one of the countries with the longest coastlines in the world."
+ RON_Formable_News.117.a:1 "OK"
+ 
  
 #Decisions
  
@@ -470,6 +505,13 @@ RON_Formable_Decision95:0 "Proclaim Sweden-Norway"
 RON_Formable_Decision118:0 "Proclaim Greater Denmark"
 RON_Formable_Decision122:0 "Proclaim Greater Norway"
 
+#Southern Cone Formables
+RON_Formable_Decision57:0 "Proclaim La Plata"
+RON_Formable_Decision63:0 "Proclaim Chile-Argentinean Union"
+RON_Formable_Decision101:0 "Proclaim United Southern Cone"
+RON_Formable_Decision114:0 "Proclaim Greater Argentina"
+RON_Formable_Decision117:0 "Proclaim Greater Chile"
+
 #Others
 RON_Septemberprogramm:0 "Realize The Septemberprogramm"
 
@@ -529,6 +571,11 @@ Form_Greater_Norway2:0 "Has Proclaimed Greater Norway"
 Form_Greater_Denmark2:0 "Has Proclaimed Greater Denmark"
 FORM_NSE2:0 "Has Proclaimed The North Sea Empire"
 FORM_KDN2:0 "Has Proclaimed Denmark-Norway"
+FORM_PLA2:0 "Has Proclaimed La Plata"
+FORM_CHG2:0 "Has Proclaimed Chile-Argentina"
+FORM_Southern_Cone2:0 "Has Proclaimed The Southern Cone"
+Form_Greater_Argentina2:0 "Has Proclaimed Greater Argentina"
+Form_Greater_Chile2:0 "Has Proclaimed Greater Chile"
 
 RON_Controls_German_States_tt:0 "Controls All German States"
 RON_Controls_Austrian_States_tt:0 "Controls All Austrian States"
