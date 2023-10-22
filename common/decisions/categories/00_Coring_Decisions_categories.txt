@@ -170,34 +170,6 @@ SWE_Coring_Decisions = {
 	}
 }
 
-LIT_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_greater_baltics
-	icon = ger_reichskommissariats
-
-	allowed = {
-		OR = {
-			original_tag = LIT
-			original_tag = EST
-			original_tag = LAT
-		}
-	}
-
-	visible = {
-	}
-}
-	
-POL_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_greater_poland
-	icon = ger_reichskommissariats
-
-	allowed = {
-		original_tag = POL
-	}
-
-	visible = {
-	}
-}
-
 AUS_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_austria
 	icon = ger_reichskommissariats
@@ -231,6 +203,34 @@ AUH_Coring_Decisions = {
 		original_tag = AUS
 		original_tag = HUN
 		}
+	}
+
+	visible = {
+	}
+}
+#Need Formables
+LIT_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_baltics
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			original_tag = LIT
+			original_tag = EST
+			original_tag = LAT
+		}
+	}
+
+	visible = {
+	}
+}
+	
+POL_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_poland
+	icon = ger_reichskommissariats
+
+	allowed = {
+		original_tag = POL
 	}
 
 	visible = {
