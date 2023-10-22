@@ -26243,6 +26243,10 @@ SWE_Coring_Decisions = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_Nordic_Union2
+			has_global_flag = FORM_SEP2
+		}
 		num_of_civilian_factories_available_for_projects > 14	
 			
 			any_controlled_state = {
@@ -26316,6 +26320,10 @@ SWE_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_Nordic_Union2
+				has_global_flag = FORM_SEP2
+			}
 			num_of_civilian_factories_available_for_projects > 14
 			
 			any_controlled_state = {
@@ -26389,6 +26397,10 @@ SWE_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_Nordic_Union2
+				has_global_flag = FORM_SEP2
+			}
 			num_of_civilian_factories_available_for_projects > 14	
 			
 			any_controlled_state = {
@@ -26547,6 +26559,10 @@ SWE_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_Nordic_Union2
+				has_global_flag = FORM_SEP2
+			}
 			num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -26629,6 +26645,10 @@ SWE_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_Nordic_Union2
+				has_global_flag = FORM_SEP2
+			}
 			num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -26823,6 +26843,10 @@ SWE_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_Nordic_Union2
+				has_global_flag = FORM_SEP2
+			}
 			num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
