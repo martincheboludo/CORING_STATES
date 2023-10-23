@@ -632,6 +632,90 @@ news_event = {
 	}
 }
 
+#La Plata
+country_event = {
+	id = RON_Formable_Country.57
+	title = RON_Formable_Country.57.t
+	desc = RON_Formable_Country.57.d
+	picture = GFX_report_event_RON_Formable_Country57
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.57.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_PLA
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.57 hours = 6 }
+		}
+
+	}
+
+}
+
+#La Plata
+news_event = {
+	id = RON_Formable_News.57
+	title = RON_Formable_News.57.t
+	desc = RON_Formable_News.57.d
+	picture = GFX_news_event_RON_Formable_News57
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.57.a
+	}
+}
+
+#Chile-Argentina
+country_event = {
+	id = RON_Formable_Country.63
+	title = RON_Formable_Country.63.t
+	desc = RON_Formable_Country.63.d
+	picture = GFX_report_event_RON_Formable_Country63
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.63.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_CHG
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.63 hours = 6 }
+		}
+
+	}
+
+}
+
+#Chile-Argentina
+news_event = {
+	id = RON_Formable_News.63
+	title = RON_Formable_News.63.t
+	desc = RON_Formable_News.63.d
+	picture = GFX_news_event_RON_Formable_News63
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.63.a
+	}
+}
+
 #United Kingdom of Great Britain and Ireland
 country_event = {
 	id = RON_Formable_Country.68
@@ -1301,6 +1385,48 @@ country_event = {
 
 }
 
+#Southern Cone
+country_event = {
+	id = RON_Formable_Country.101
+	title = RON_Formable_Country.101.t
+	desc = RON_Formable_Country.101.d
+	picture = GFX_report_event_RON_Formable_Country101
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.101.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Southern_Cone
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.101 hours = 6 }
+		}
+
+	}
+
+}
+
+#Southern Cone
+news_event = {
+	id = RON_Formable_News.101
+	title = RON_Formable_News.101.t
+	desc = RON_Formable_News.101.d
+	picture = GFX_news_event_RON_Formable_News101
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.101.a
+	}
+}
+
 #Dutch Colonial Empire
 news_event = {
 	id = RON_Formable_News.103
@@ -1567,6 +1693,90 @@ news_event = {
 
 	option = {
 		name = RON_Formable_News.113.a
+	}
+}
+
+#Greater Argentina
+country_event = {
+	id = RON_Formable_Country.114
+	title = RON_Formable_Country.114.t
+	desc = RON_Formable_Country.114.d
+	picture = GFX_report_event_RON_Formable_Country114
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.114.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Argentina
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.114 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Argentina
+news_event = {
+	id = RON_Formable_News.114
+	title = RON_Formable_News.114.t
+	desc = RON_Formable_News.114.d
+	picture = GFX_news_event_RON_Formable_News114
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.114.a
+	}
+}
+
+#Greater Chile
+country_event = {
+	id = RON_Formable_Country.117
+	title = RON_Formable_Country.117.t
+	desc = RON_Formable_Country.117.d
+	picture = GFX_report_event_RON_Formable_Country117
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.117.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Chile
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.117 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Chile
+news_event = {
+	id = RON_Formable_News.117
+	title = RON_Formable_News.117.t
+	desc = RON_Formable_News.117.d
+	picture = GFX_news_event_RON_Formable_News117
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.117.a
 	}
 }
 

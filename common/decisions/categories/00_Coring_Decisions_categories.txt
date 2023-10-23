@@ -208,6 +208,24 @@ AUH_Coring_Decisions = {
 	visible = {
 	}
 }
+
+ARG_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_greater_argentina
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			original_tag = ARG
+			original_tag = PAR
+			original_tag = URG
+			original_tag = CHL
+		}
+	}
+
+	visible = {
+	}
+}
+
 #Need Formables
 LIT_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_baltics
@@ -366,23 +384,6 @@ SAU_Coring_Decisions = {
 			original_tag = PER
 			original_tag = TUR
 			original_tag = AFG
-		}
-	}
-
-	visible = {
-	}
-}
-
-ARG_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_greater_argentina
-	icon = ger_reichskommissariats
-
-	allowed = {
-		OR = {
-			original_tag = ARG
-			original_tag = PAR
-			original_tag = URG
-			original_tag = CHL
 		}
 	}
 
