@@ -41785,6 +41785,178 @@ PRU_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Peru-Bolivian Confederation
+	RON_Formable_Decision50 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+				original_tag = BOL
+				original_tag = PRU
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_PRB2 }
+		}
+		available = {
+			is_subject = no
+			
+			#Chinese
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Peruvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.50
+			}
+			hidden_effect = {
+				set_global_flag = FORM_PRB2
+			}
+		}
+	}
+	
+	#Greater Peru
+	RON_Formable_Decision100 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_Peru2 }
+		}
+		available = {
+			is_subject = no
+			
+			#Chinese
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Peruvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ecuadorian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ECU
+							NOT = { state = 649 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.100
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_Peru2
+			}
+		}
+	}
+	
+	#Greater Bolivia
+	RON_Formable_Decision115 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = BOL
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_Bolivia2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Antofagasta
+			506 = {
+				is_controlled_by = FROM
+			}
+			
+			#Chaco
+			688 = {
+				is_controlled_by = FROM
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.115
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_Bolivia2
+			}
+		}
+	}
 
 }
 
