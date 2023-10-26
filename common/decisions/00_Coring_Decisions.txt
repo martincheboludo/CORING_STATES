@@ -37658,6 +37658,162 @@ CHI_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#QING Empire
+	RON_Formable_Decision5 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_QIN2 }
+		}
+		available = {
+			is_subject = no
+			
+			#Chinese
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chinese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHI
+							NOT = { state = 728 }
+							NOT = { state = 729 }
+							NOT = { state = 326 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Taiwan
+			524 = { is_controlled_by = FROM }
+			
+			#Mongolia
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mongolian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MON
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Tannu Tuva
+			329 = { is_controlled_by = FROM }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Tibetan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TIB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.5
+			}
+			hidden_effect = {
+				set_global_flag = FORM_QIN2
+			}
+		}
+	}
+	
+	#Greater China
+	RON_Formable_Decision35 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_CHI2 }
+		}
+		available = {
+			is_subject = no
+			
+			#Chinese
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chinese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHI
+							NOT = { state = 728 }
+							NOT = { state = 729 }
+							NOT = { state = 326 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Korean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = KOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Taiwan
+			524 = { is_controlled_by = FROM }
+			
+			#Mongolia
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mongolian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MON
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Tannu Tuva
+			329 = { is_controlled_by = FROM }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Tibetan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TIB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.35
+			}
+			hidden_effect = {
+				set_global_flag = FORM_CHI2
+			}
+		}
+	}
 
 }
 
