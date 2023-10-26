@@ -1315,3 +1315,139 @@ Form_Greater_Chile = {
 	color = rgb { 255 215 0 }
 	color_ui = rgb { 255 215 0 }
 }
+FORM_BAL = {
+	color = rgb { 107 148 169 }
+	color_ui = rgb { 107 148 169 }
+}
+FORM_COM = {
+	color = rgb { 255 120 138 }
+	color_ui = rgb { 255 120 138 }
+}
+FORM_YUG = {
+	color = rgb { 10 94 128 }
+	color_ui = rgb { 10 94 128 }
+}
+FORM_BAK = {
+	color = rgb { 10 94 128 }
+	color_ui = rgb { 10 94 128 }
+}
+Form_Greater_Romania = {
+	color = rgb { 252 209 22 }
+	color_ui = rgb { 252 209 22 }
+}
+Form_Greater_Bulgaria = {
+	color = rgb { 0 150 110 }
+	color_ui = rgb { 0 150 110 }
+}
+FORM_BUE = {
+	color = rgb { 210 147 217 }
+	color_ui = rgb { 210 147 217 }
+}
+FORM_CEL = {
+	color = rgb { 108 204 39 }
+	color_ui = rgb { 108 204 39 }
+}
+FORM_ALP = {
+	color = rgb { 220 220 255 }
+	color_ui = rgb { 220 220 255 }
+}
+FORM_GAL = {
+	color = rgb { 194 59 133 }
+	color_ui = rgb { 194 59 133 }
+}
+Form_Greater_Greece = {
+	color = rgb { 11 82 160 }
+	color_ui = rgb { 11 82 160 }
+}
+FORM_GSE = {
+	color = rgb { 72 49 112 }
+	color_ui = rgb { 72 49 112 }
+}
+FORM_GCR = {
+	color = rgb { 230 255 122 }
+	color_ui = rgb { 230 255 122 }
+}
+FORM_GLI = {
+	color = rgb { 175 20 20 }
+	color_ui = rgb { 175 20 20 }
+}
+FORM_ARA = {
+	color = rgb { 0 98 51 }
+	color_ui = rgb { 0 98 51 }
+}
+BRA_IDB = {
+	color = rgb { 80 100 35 }
+	color_ui = rgb { 80 100 35 }
+}
+Form_Greater_Brazil = {
+	color = rgb { 0 69 207 }
+	color_ui = rgb { 0 69 207 }
+}
+FORM_GCA = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+FORM_CEN = {
+	color = rgb { 137 197 227 }
+	color_ui = rgb { 137 197 227 }
+}
+FORM_CHI = {
+	color = rgb { 237 152 18 }
+	color_ui = rgb { 224 139 5 }
+}
+FORM_QIN = {
+	color = rgb { 237 152 18 }
+	color_ui = rgb { 224 139 5 }
+}
+FORM_GCO = {
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 255 243 118 }
+}
+FORM_CAB = {
+	color = rgb { 140 65 166 }
+	color_ui = rgb { 140 65 166 }
+}
+FORM_HIS = {
+	color = rgb { 198 169 248 }
+	color_ui = rgb { 198 169 248 }
+}
+FORM_PRB = {
+	color = rgb { 209 0 0 }
+	color_ui = rgb { 209 0 0 }
+}
+FORM_ABY = {
+	color = rgb { 146 113 90 }
+	color_ui = rgb { 146 113 90 }
+}
+FORM_Greater_India = {
+	color = rgb { 200  110  0 }
+	color_ui = rgb { 200  110  0 }
+}
+FORM_MUG = {
+	color = rgb { 83 208 217 }
+	color_ui = rgb { 83 208 217 }
+}
+FORM_MEE = {
+	color = rgb { 135 111 54 }
+	color_ui = rgb { 135 111 54 }
+}
+FORM_PEE = {
+	color = rgb { 0 120 0 }
+	color_ui = rgb { 0 120 0 }
+}
+FORM_Greater_Peru = {
+	color = rgb { 100 189 204 }
+	color_ui = rgb { 100 189 204 }
+}
+Form_Greater_Turkey = {
+	color = rgb { 227 10 23 }
+	color_ui = rgb { 227 10 23 }
+}
+FORM_OTT = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+Form_Greater_Bolivia = {
+	color = rgb { 255 180 136 }
+	color_ui = rgb { 255 180 136 }
+}
