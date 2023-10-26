@@ -37688,9 +37688,6 @@ CHI_Coring_Decisions = {
 				}
 			}
 			
-			#Taiwan
-			524 = { is_controlled_by = FROM }
-			
 			#Mongolia
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Mongolian_States_tt
@@ -37771,9 +37768,6 @@ CHI_Coring_Decisions = {
 					}
 				}
 			}
-			
-			#Taiwan
-			524 = { is_controlled_by = FROM }
 			
 			#Mongolia
 			custom_trigger_tooltip = {
