@@ -28431,6 +28431,70 @@ LIT_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#United Baltic Duchy
+	RON_Formable_Decision16 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_BAL2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Estonian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EST
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Latvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.16
+			}
+			hidden_effect = {
+				set_global_flag = FORM_BAL2
+			}
+		}
+	}
+	
 
 }
 
@@ -36208,6 +36272,120 @@ BRA_Coring_Decisions = {
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Brazilian Empire
+	RON_Formable_Decision102 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = BRA_IDB2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Brazilian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Uruguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = URG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.102
+			}
+			hidden_effect = {
+				set_global_flag = BRA_IDB2
+			}
+		}
+	}
+	
+	#Brazilian Empire
+	RON_Formable_Decision116 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = Form_Greater_Brazil2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Brazilian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Uruguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = URG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Paraguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.116
+			}
+			hidden_effect = {
+				set_global_flag = Form_Greater_Brazil2
+			}
 		}
 	}
 
