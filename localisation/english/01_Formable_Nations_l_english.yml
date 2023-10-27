@@ -985,6 +985,11 @@ RON_Controls_Danish_States_tt:0 "Controls All Danish States"
 RON_Controls_English_States_tt:0 "Controls All English States"
 RON_Controls_Greek_Mainland_tt:0 "Controls Greek Mainland"
 RON_Controls_MEX_Lost_Territories_tt:0 "Controls Lost Mexican Territories"
+RON_Controls_Haitian_States_tt:0 "Controls All Haitian States"
+RON_Controls_Dominican_States_tt:0 "Controls All Dominican States"
+RON_Controls_Cuban_States_tt:0 "Controls All Cuban States"
+RON_Controls_Scottish_States_tt:0 "Controls All Scottish States"
+RON_Controls_Welsh_States_tt:0 "Controls All Welsh States"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"

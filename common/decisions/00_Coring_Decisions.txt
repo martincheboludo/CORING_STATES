@@ -28432,6 +28432,152 @@ LIT_Coring_Decisions = {
 		}
 	}
 	
+	#Whole Belarus
+	LIT_Core_Belarus = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			has_global_flag = FORM_GLI2
+			num_of_civilian_factories_available_for_projects > 14	
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BLR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BLR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BLR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Ukraine
+	LIT_Core_Ukraine = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			has_global_flag = FORM_GLI2
+			num_of_civilian_factories_available_for_projects > 14	
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UKR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#United Baltic Duchy
 	RON_Formable_Decision16 = {
 		ai_will_do = {
@@ -28491,6 +28637,70 @@ LIT_Coring_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = FORM_BAL2
+			}
+		}
+	}
+	
+	#Grandy Duchy of Lithuania
+	RON_Formable_Decision62 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = LIT
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_GLI2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ukranian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UKR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belarusian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BLR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.62
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GLI2
 			}
 		}
 	}
@@ -33710,6 +33920,57 @@ ALB_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Greater Albania
+	RON_Formable_Decision24 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_GAL2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Albanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ALB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Kosovo_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = KOS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.24
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GAL2
+			}
+		}
+	}
 
 }
 
@@ -33929,6 +34190,69 @@ IRE_Coring_Decisions = {
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Celtic Union
+	RON_Formable_Decision58 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_CEL2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Irish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = IRE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Scottish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SCO
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Welsh_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = WLS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.58
+			}
+			hidden_effect = {
+				set_global_flag = FORM_CEL2
+			}
 		}
 	}
 
@@ -40594,6 +40918,120 @@ CUB_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Hispaniola
+	RON_Formable_Decision49 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_HIS2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Haitian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HAI
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dominican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = DOM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.49
+			}
+			hidden_effect = {
+				set_global_flag = FORM_HIS2
+			}
+		}
+	}
+	
+	#Caribbean Union
+	RON_Formable_Decision51 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_CAB2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Haitian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HAI
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dominican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = DOM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Cuban_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CUB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.51
+			}
+			hidden_effect = {
+				set_global_flag = FORM_CAB2
+			}
+		}
+	}
 
 }
 
@@ -41137,6 +41575,7 @@ RAJ_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_India2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -41209,6 +41648,7 @@ RAJ_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_India2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -41281,6 +41721,7 @@ RAJ_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_India2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -41353,6 +41794,7 @@ RAJ_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_India2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -41437,6 +41879,7 @@ RAJ_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_India2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -41527,6 +41970,7 @@ RAJ_Coring_Decisions = {
 		}
 
 		available = {
+		has_global_flag = FORM_Greater_India2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -41724,6 +42168,98 @@ RAJ_Coring_Decisions = {
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greater India
+	RON_Formable_Decision87 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Greater_India2 }
+		}
+		available = {
+			is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Indian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = RAJ
+							NOT = {
+								state = 320
+								state = 321
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Pakistani_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAK
+							NOT = { is_core_of = BAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bangladesh_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BAN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Burmese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Afghan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AFG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.87
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Greater_India2
+			}
 		}
 	}
 
