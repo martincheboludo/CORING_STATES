@@ -1380,8 +1380,8 @@ BRA_IDB = {
 	color_ui = rgb { 80 100 35 }
 }
 Form_Greater_Brazil = {
-	color = rgb { 0 69 207 }
-	color_ui = rgb { 0 69 207 }
+	color = rgb { 80 100 35 }
+	color_ui = rgb { 80 100 35 }
 }
 FORM_GCA = {
 	color = rgb { 255 0 0 }

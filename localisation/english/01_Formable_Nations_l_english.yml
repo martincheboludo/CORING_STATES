@@ -551,7 +551,7 @@
  RON_Formable_Country.22.d:0 "Gran Colombia is the name historians use to refer to the state that encompassed much of northern South America and part of southern Central America from 1819 to 1831. The state included the territories of present-day Colombia, Ecuador, Panama and Venezuela, and parts of northern Peru, western Guyana and northwestern Brazil. The term Gran Colombia is used historiographically to distinguish it from the current Republic of Colombia, which is also the official name of the former state. At the time of its creation, Gran Colombia was the most prestigious country in Spanish America. John Quincy Adams, then Secretary of State and future president of the United States, claimed it to be one of the most powerful nations on the planet. This prestige, added to the figure of Bolívar, attracted to the nation unionist ideas of independence movements in Cuba, the Dominican Republic and Puerto Rico, which sought to form an associated state with the republic."
  RON_Formable_Country.22.a:0 "Libertad y Orden!"
  RON_Formable_News.22.t:0 "Gran Colombia Proclaimed"
- RON_Formable_News.22.d:0 "Gran Colombia is the name historians use to refer to the state that encompassed much of northern South America and part of southern Central America from 1819 to 1831. The state included the territories of present-day Colombia, Ecuador, Panama and Venezuela, and parts of northern Peru, western Guyana and northwestern Brazil. The term Gran Colombia is used historiographically to distinguish it from the current Republic of Colombia, which is also the official name of the former state. At the time of its creation, Gran Colombia was the most prestigious country in Spanish America. John Quincy Adams, then Secretary of State and future president of the United States, claimed it to be one of the most powerful nations on the planet. This prestige, added to the figure of Bolívar, attracted to the nation unionist ideas of independence movements in Cuba, the Dominican Republic and Puerto Rico, which sought to form an associated state with the republic."
+ RON_Formable_News.22.d:0 "Gran Colombia is the name historians use to refer to the state that encompassed much of northern South America and part of southern Central America from 1819 to 1831. The state included the territories of present-day Colombia, Ecuador, Panama and Venezuela, and parts of northern Peru, western Guyana and northwestern Brazil. The term Gran Colombia is used historiographically to distinguish it from the current Republic of Colombia, which is also the official name of the former state. At the time of its creation, Gran Colombia was the most prestigious country in Spanish America. John Quincy Adams, then Secretary of State and future president of the United States, claimed it to be one of the most powerful nations on the planet."
  RON_Formable_News.22.a:0 "OK"
  
  RON_Formable_Country.23.t:0 "Mexican Empire"
@@ -984,6 +984,7 @@ RON_Controls_Swedish_States_tt:0 "Controls All Swedish States"
 RON_Controls_Danish_States_tt:0 "Controls All Danish States"
 RON_Controls_English_States_tt:0 "Controls All English States"
 RON_Controls_Greek_Mainland_tt:0 "Controls Greek Mainland"
+RON_Controls_MEX_Lost_Territories_tt:0 "Controls Lost Mexican Territories"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
