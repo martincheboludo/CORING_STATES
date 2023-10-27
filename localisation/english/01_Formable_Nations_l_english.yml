@@ -66,10 +66,10 @@
  RON_Formable_News.20.a:0 "OK"
  
  RON_Formable_Country.21.t:0 "Bulgarian Empire"
- RON_Formable_Country.21.d:0 "In the medieval history of Europe, Bulgaria's status as the Bulgarian Empire (Bulgarian. Българско царство, Balgarsko tsarstvo), wherein it acted as a key regional power (particularly rivaling Byzantium in Southeastern Europe) occurred in two distinct periods; between the seventh and eleventh centuries, and again between the twelfth and fourteenth centuries. The two Bulgarian Empires are not treated as separate entities, but rather as one state restored after a period of Byzantine rule over its territory. Bulgaria is one of the few historic states and nations whose economy and society were never based on slavery, and slavery never played an important role in Bulgarian statehood development and wealth."
+ RON_Formable_Country.21.d:0 "In the medieval history of Europe, Bulgaria's status as the Bulgarian Empire, wherein it acted as a key regional power (particularly rivaling Byzantium in Southeastern Europe) occurred in two distinct periods; between the seventh and eleventh centuries, and again between the twelfth and fourteenth centuries. The two Bulgarian Empires are not treated as separate entities, but rather as one state restored after a period of Byzantine rule over its territory. Bulgaria is one of the few historic states and nations whose economy and society were never based on slavery, and slavery never played an important role in Bulgarian statehood development and wealth."
  RON_Formable_Country.21.a:0 "God Shall Prevail!"
  RON_Formable_News.21.t:0 "Bulgarian Empire Proclaimed"
- RON_Formable_News.21.d:0 "In the medieval history of Europe, Bulgaria's status as the Bulgarian Empire (Bulgarian. Българско царство, Balgarsko tsarstvo), wherein it acted as a key regional power (particularly rivaling Byzantium in Southeastern Europe) occurred in two distinct periods; between the seventh and eleventh centuries, and again between the twelfth and fourteenth centuries. The two Bulgarian Empires are not treated as separate entities, but rather as one state restored after a period of Byzantine rule over its territory. Bulgaria is one of the few historic states and nations whose economy and society were never based on slavery, and slavery never played an important role in Bulgarian statehood development and wealth."
+ RON_Formable_News.21.d:0 "In the medieval history of Europe, Bulgaria's status as the Bulgarian Empire, wherein it acted as a key regional power (particularly rivaling Byzantium in Southeastern Europe) occurred in two distinct periods; between the seventh and eleventh centuries, and again between the twelfth and fourteenth centuries. The two Bulgarian Empires are not treated as separate entities, but rather as one state restored after a period of Byzantine rule over its territory. Bulgaria is one of the few historic states and nations whose economy and society were never based on slavery, and slavery never played an important role in Bulgarian statehood development and wealth."
  RON_Formable_News.21.a:0 "OK"
  
  RON_Formable_Country.27.t:0 "Roman Empire"
@@ -463,7 +463,7 @@
  
  RON_Formable_Country.45.t:0 "Greater Yugoslavia"
  RON_Formable_Country.45.d:0 "Greater Yugoslavia refers to an irredentism that promotes a Yugoslavia that unites all South Slav-populated territories within it, comprising its historically united territories of Bosnia and Herzegovina, Croatia, Macedonia, Montenegro, Serbia and Slovenia including the disputed territory of Kosovo; merged with territories claimed by Yugoslavists that had not been incorporated within the state of Yugoslavia, including Bulgaria, Western Thrace and Greek Macedonia and in some proposals other territories. The government of the Kingdom of Yugoslavia sought the union with Bulgaria or its incorpotation into Yugoslavia. The Socialist Federal Republic of Yugoslavia under Josip Broz Tito sought to create an integral Yugoslavia that would incorporate within Yugoslavia's borders; Greek Macedonia and Thrace, Albania, Bulgaria, at least a portion of Austrian Carinthia or all of it, and for a time beginning in November 1943 had claimed the entire Italian region of Friuli-Venezia Giulia."
- RON_Formable_Country.45.a:0 "Један народ, један краљ, једна држава!"
+ RON_Formable_Country.45.a:0 "One people, One king, One country!"
  RON_Formable_News.45.t:0 "Greater Yugoslavia Proclaimed"
  RON_Formable_News.45.d:0 "Greater Yugoslavia refers to an irredentism that promotes a Yugoslavia that unites all South Slav-populated territories within it, comprising its historically united territories of Bosnia and Herzegovina, Croatia, Macedonia, Montenegro, Serbia and Slovenia including the disputed territory of Kosovo; merged with territories claimed by Yugoslavists that had not been incorporated within the state of Yugoslavia, including Bulgaria, Western Thrace and Greek Macedonia and in some proposals other territories. The government of the Kingdom of Yugoslavia sought the union with Bulgaria or its incorpotation into Yugoslavia. The Socialist Federal Republic of Yugoslavia under Josip Broz Tito sought to create an integral Yugoslavia that would incorporate within Yugoslavia's borders; Greek Macedonia and Thrace, Albania, Bulgaria, at least a portion of Austrian Carinthia or all of it, and for a time beginning in November 1943 had claimed the entire Italian region of Friuli-Venezia Giulia."
  RON_Formable_News.45.a:0 "OK"
@@ -983,6 +983,7 @@ RON_Controls_Norwegian_States_tt:0 "Controls All Norwegian States"
 RON_Controls_Swedish_States_tt:0 "Controls All Swedish States"
 RON_Controls_Danish_States_tt:0 "Controls All Danish States"
 RON_Controls_English_States_tt:0 "Controls All English States"
+RON_Controls_Greek_Mainland_tt:0 "Controls Greek Mainland"
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
