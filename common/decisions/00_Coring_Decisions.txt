@@ -33906,17 +33906,23 @@ HUN_Core_Slovakia = {
 		}
 		available = {
 			#is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Hungarian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = HUN
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
+			
+			#Hungarian States
+			154 = { is_controlled_by = FROM }
+			155 = { is_controlled_by = FROM }
+			43 = { is_controlled_by = FROM }
+			
+			#custom_trigger_tooltip = {
+			#	tooltip = RON_Controls_Hungarian_States_tt
+			#	all_state = {
+			#		if = {
+			#			limit = {
+			#				is_core_of = HUN
+			#			}
+			#			is_controlled_by = FROM
+			#		}
+			#	}
+			#}
 			
 			76 = { is_controlled_by = FROM }
 			45 = { is_controlled_by = FROM }
