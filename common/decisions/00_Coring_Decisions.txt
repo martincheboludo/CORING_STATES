@@ -902,6 +902,13 @@ GER_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
+			}
 		}
 
 		visible = {
@@ -994,6 +1001,13 @@ GER_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
+			}
 		}
 
 		visible = {
@@ -1083,6 +1097,13 @@ GER_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
+			}
 		}
 
 		visible = {
@@ -1163,6 +1184,13 @@ GER_Coring_Decisions = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
 				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
 			}
 		}
 
@@ -1249,6 +1277,13 @@ GER_Coring_Decisions = {
 					is_major = no
 				}
 			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
+			}
 		}
 
 		visible = {
@@ -1312,6 +1347,13 @@ GER_Coring_Decisions = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
 				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
 			}
 		}
 
@@ -1400,6 +1442,13 @@ GER_Coring_Decisions = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
 				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
 			}
 		}
 
@@ -1550,6 +1599,13 @@ GER_Coring_Decisions = {
 					has_country_flag = Coring_In_Progress
 					is_major = no
 				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+				NOT = { has_global_flag = FORM_GGR2 }
 			}
 		}
 
@@ -2452,6 +2508,12 @@ GER_Coring_Decisions = {
 	RON_Formable_Decision0 = {
 		ai_will_do = {
 			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1943.1.1
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -3911,6 +3973,12 @@ GGR_Coring_Decisions = {
 	RON_Formable_Decision1 = {
 		ai_will_do = {
 			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_government = fascism
+				date < 1945.1.1
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11051,6 +11119,7 @@ SOV_Coring_Decisions = {
 				factor = 0
 				is_historical_focus_on = yes
 				has_government = communism
+				date < 1945.1.1
 			}
 		}
 		cost = 10
@@ -11188,6 +11257,7 @@ SOV_Coring_Decisions = {
 				factor = 0
 				is_historical_focus_on = yes
 				has_government = communism
+				date < 1945.1.1
 			}
 		}
 		cost = 10
@@ -11533,6 +11603,7 @@ SOV_Coring_Decisions = {
 				factor = 0
 				is_historical_focus_on = yes
 				has_government = communism
+				date < 1945.1.1
 			}
 		}
 		cost = 10
