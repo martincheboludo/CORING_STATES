@@ -4,30 +4,7 @@ Do you find it frustrating that when you want to create a formable nation, you h
 
 Well, if so this is the mod for you. BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days and 5-25 Civ Factories, depending on how hard it is to core said state. The closer the geographic location, ethnicities, language and plausible historical claims, the easier to core, on the other hand, the more distance and different the culture, the harder it will be to core.
 
-Current Countries with Formables:
-
-Germany
-France
-Britain
-USSR
-Japan
-Italy
-USA
-Spain
-Portugal
-Austria
-Hungary
-Chile
-Argentina
-Uruguay
-Paraguay
-Netherlands
-Belgium
-Luxembourg
-Denmark
-Sweden
-Norway
-Finland
+91 Formable Nations In Total
 
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
