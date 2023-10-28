@@ -45484,5 +45484,104 @@ TUR_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Ottoman Empire
+	RON_Formable_Decision32 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_OTT2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Turkish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TUR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Iraqi_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = IRQ
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Syrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SYR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lebanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LEB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Jordanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = JOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Israeli_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ISR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.32
+			}
+			hidden_effect = {
+				set_global_flag = FORM_OTT2
+			}
+		}
+	}
 
 }
