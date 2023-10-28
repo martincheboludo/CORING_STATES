@@ -2269,7 +2269,7 @@ GER_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
 				all_state = {
@@ -2351,7 +2351,7 @@ GER_Coring_Decisions = {
 			original_tag = GER
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
 				all_state = {
@@ -2408,7 +2408,7 @@ GER_Coring_Decisions = {
 			original_tag = GER
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
 				all_state = {
@@ -2465,7 +2465,7 @@ GER_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
 				all_state = {
@@ -3919,7 +3919,7 @@ GGR_Coring_Decisions = {
 			original_tag = GER
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			has_global_flag = FORM_GRO2
 			has_government = fascism
@@ -5726,7 +5726,7 @@ FRA_Coring_Decisions = {
 			original_tag = FRA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_French_States_tt
 				all_state = {
@@ -5788,7 +5788,7 @@ FRA_Coring_Decisions = {
 			original_tag = FRA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			has_global_flag = Form_Greater_France2
 			
@@ -5869,7 +5869,7 @@ FRA_Coring_Decisions = {
 			original_tag = FRA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_French_States_tt
@@ -7720,7 +7720,7 @@ ENG_Coring_Decisions = {
 			original_tag = ENG
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
 				all_state = {
@@ -7768,7 +7768,7 @@ ENG_Coring_Decisions = {
 			original_tag = ENG
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
 				all_state = {
@@ -7842,7 +7842,7 @@ ENG_Coring_Decisions = {
 			original_tag = ENG
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
 				all_state = {
@@ -7927,7 +7927,7 @@ ENG_Coring_Decisions = {
 			original_tag = ENG
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
 				all_state = {
@@ -8066,7 +8066,7 @@ ENG_Coring_Decisions = {
 			original_tag = ENG
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
 				all_state = {
@@ -11060,7 +11060,7 @@ SOV_Coring_Decisions = {
 			original_tag = SOV
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
 				all_state = {
@@ -11197,7 +11197,7 @@ SOV_Coring_Decisions = {
 			original_tag = SOV
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
 				all_state = {
@@ -11542,7 +11542,7 @@ SOV_Coring_Decisions = {
 			original_tag = SOV
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
 				all_state = {
@@ -13197,7 +13197,7 @@ USA_Coring_Decisions = {
 			original_tag = USA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
 				all_state = {
@@ -13245,7 +13245,7 @@ USA_Coring_Decisions = {
 			original_tag = USA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
 				all_state = {
@@ -13298,7 +13298,7 @@ USA_Coring_Decisions = {
 			original_tag = USA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
 				all_state = {
@@ -13384,7 +13384,7 @@ USA_Coring_Decisions = {
 			original_tag = USA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
 				all_state = {
@@ -13495,7 +13495,7 @@ USA_Coring_Decisions = {
 			original_tag = USA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
 				all_state = {
@@ -16912,7 +16912,7 @@ ITA_Coring_Decisions = {
 			original_tag = ITA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
 				all_state = {
@@ -16963,7 +16963,7 @@ ITA_Coring_Decisions = {
 			original_tag = ITA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
 				all_state = {
@@ -17111,7 +17111,7 @@ ITA_Coring_Decisions = {
 			original_tag = ITA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
 				all_state = {
@@ -17276,7 +17276,7 @@ ITA_Coring_Decisions = {
 			original_tag = ITA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Greek_States_tt
 				all_state = {
@@ -17361,7 +17361,7 @@ ITA_Coring_Decisions = {
 			original_tag = ITA
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
@@ -19826,7 +19826,7 @@ JAP_Coring_Decisions = {
 			original_tag = JAP
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Japanese_States_tt
 				all_state = {
@@ -19919,7 +19919,7 @@ JAP_Coring_Decisions = {
 			original_tag = JAP
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			has_global_flag = Form_Greater_Japan2
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Japanese_States_tt
@@ -22613,7 +22613,7 @@ SPR_Coring_Decisions = {
 			original_tag = SPR
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
 				all_state = {
@@ -22668,7 +22668,7 @@ SPR_Coring_Decisions = {
 			original_tag = SPR
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
 				all_state = {
@@ -22718,7 +22718,7 @@ SPR_Coring_Decisions = {
 			original_tag = SPR
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
 				all_state = {
@@ -24859,7 +24859,7 @@ POR_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Greater_Portugal2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
 				all_state = {
@@ -24897,7 +24897,7 @@ POR_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_IBE2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
 				all_state = {
@@ -24946,7 +24946,7 @@ POR_Coring_Decisions = {
 			NOT = { has_global_flag = Form_Portugal_Brazil_Union2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
 				all_state = {
@@ -24995,7 +24995,7 @@ POR_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Lusosphere2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
 				all_state = {
@@ -26017,7 +26017,7 @@ HOL_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_BEN2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Dutch_States_tt
 				all_state = {
@@ -26069,7 +26069,7 @@ HOL_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Greater_Netherlands2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Dutch_States_tt
 				all_state = {
@@ -26111,7 +26111,7 @@ HOL_Coring_Decisions = {
 			
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Belgian_States_tt
@@ -26160,7 +26160,7 @@ HOL_Coring_Decisions = {
 			
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			#Greater Luxembourg
 			8 = { is_controlled_by = FROM }
 			51 = { is_controlled_by = FROM }
@@ -27671,7 +27671,7 @@ SWE_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
 				all_state = {
@@ -27729,7 +27729,7 @@ SWE_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Danish_States_tt
@@ -27797,7 +27797,7 @@ SWE_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
 				all_state = {
@@ -27870,7 +27870,7 @@ SWE_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Danish_States_tt
@@ -27918,7 +27918,7 @@ SWE_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
 				all_state = {
@@ -27969,7 +27969,7 @@ SWE_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
 				all_state = {
@@ -28021,7 +28021,7 @@ SWE_Coring_Decisions = {
 			original_tag = FIN
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Finnish_States_tt
@@ -28064,7 +28064,7 @@ SWE_Coring_Decisions = {
 			original_tag = DEN
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Danish_States_tt
@@ -28102,7 +28102,7 @@ SWE_Coring_Decisions = {
 			original_tag = NOR
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
@@ -28591,7 +28591,7 @@ LIT_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_BAL2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Lithuanian_States_tt
@@ -28655,7 +28655,7 @@ LIT_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_GLI2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Lithuanian_States_tt
@@ -29335,7 +29335,7 @@ POL_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_COM2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Polish_States_tt
@@ -29911,7 +29911,7 @@ AUS_Coring_Decisions = {
 			original_tag = AUS
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
 				all_state = {
@@ -31136,7 +31136,7 @@ AUH_Core_Croatia = {
 			NOT = { has_global_flag = FORM_AUH2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
@@ -31187,7 +31187,7 @@ AUH_Core_Croatia = {
 			original_tag = AUS
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			has_global_flag = FORM_AUH2
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
@@ -32229,6 +32229,115 @@ YUG_Coring_Decisions = {
 		}
 	}
 	
+	#Greater Croatia
+	RON_Formable_Decision60 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = CRO
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_GCR2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Croatian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CRO
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bosnian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.60
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GCR2
+			}
+		}
+	}
+	
+	#Greater Serbia
+	RON_Formable_Decision61 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = SER
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_GSE2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Serbian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Montenegrin_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MNT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#North Macedonia
+			106 = {
+				is_controlled_by = FROM
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.61
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GSE2
+			}
+		}
+	}
+	
 	#Greater Yugoslavia
 	RON_Formable_Decision45 = {
 		ai_will_do = {
@@ -32242,7 +32351,7 @@ YUG_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_YUG2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Yugoslav_States_tt
@@ -32298,7 +32407,7 @@ YUG_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_BAK2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Yugoslav_States_tt
@@ -33057,7 +33166,7 @@ BUL_Coring_Decisions = {
 			NOT = { has_global_flag = Form_Greater_Bulgaria2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Bulgarian_States_tt
@@ -33104,7 +33213,7 @@ BUL_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_BUE2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Bulgarian_States_tt
@@ -33348,7 +33457,7 @@ ROM_Coring_Decisions = {
 			NOT = { has_global_flag = Form_Greater_Romania2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Romanian_States_tt
@@ -33725,7 +33834,7 @@ HUN_Core_Slovakia = {
 			NOT = { has_global_flag = FORM_HUK2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Hungarian_States_tt
 				all_state = {
@@ -33934,7 +34043,7 @@ ALB_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_GAL2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Albanian_States_tt
@@ -34206,7 +34315,7 @@ IRE_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_CEL2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Irish_States_tt
@@ -34707,7 +34816,7 @@ GRE_Coring_Decisions = {
 			NOT = { has_global_flag = Form_Greater_Greece2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Greek_Mainland_tt
@@ -35212,7 +35321,7 @@ SWI_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_ALP2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swiss_States_tt
@@ -36441,6 +36550,105 @@ SAU_Core_Afghanistan = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Arab League
+	RON_Formable_Decision12 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_ARA2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Egyptian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EGY
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Iraqi_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = IRQ
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Jordan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = JOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lebanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LEB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Saudi_Arabian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SAU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Syrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SYR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.12
+			}
+			hidden_effect = {
+				set_global_flag = FORM_ARA2
+			}
+		}
+	}
 
 }
 
@@ -37098,7 +37306,7 @@ ARG_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
 				all_state = {
@@ -37175,7 +37383,7 @@ ARG_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
 				all_state = {
@@ -37229,7 +37437,7 @@ ARG_Coring_Decisions = {
 			}
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
 				all_state = {
@@ -37291,7 +37499,7 @@ ARG_Coring_Decisions = {
 			original_tag = CHL
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Chilean_States_tt
@@ -37330,7 +37538,7 @@ ARG_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Southern_Cone2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
 				all_state = {
@@ -38269,7 +38477,7 @@ BRA_Coring_Decisions = {
 			NOT = { has_global_flag = BRA_IDB2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Brazilian_States_tt
@@ -38320,7 +38528,7 @@ BRA_Coring_Decisions = {
 			NOT = { has_global_flag = Form_Greater_Brazil2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Brazilian_States_tt
@@ -38611,7 +38819,7 @@ CAN_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_GCA2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Canadian_States_tt
@@ -38754,7 +38962,7 @@ GUA_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_CEN2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Central_American_States_tt
@@ -39918,7 +40126,7 @@ CHI_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_QIN2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			#Chinese
 			custom_trigger_tooltip = {
@@ -39987,7 +40195,7 @@ CHI_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_CHI2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			#Chinese
 			custom_trigger_tooltip = {
@@ -40522,7 +40730,7 @@ COL_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_GCO2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Colombian_States_tt
@@ -40932,7 +41140,7 @@ CUB_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_HIS2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Haitian_States_tt
@@ -40983,7 +41191,7 @@ CUB_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_CAB2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Haitian_States_tt
@@ -42171,6 +42379,86 @@ RAJ_Coring_Decisions = {
 		}
 	}
 	
+	#Mughal Empire
+	RON_Formable_Decision36 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_MUG2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Indian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = RAJ
+							NOT = {
+								state = 320
+								state = 321
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Pakistani_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAK
+							NOT = { is_core_of = BAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bangladesh_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BAN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Afghan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AFG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.36
+			}
+			hidden_effect = {
+				set_global_flag = FORM_MUG2
+			}
+		}
+	}
+	
 	#Greater India
 	RON_Formable_Decision87 = {
 		ai_will_do = {
@@ -42184,7 +42472,7 @@ RAJ_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Greater_India2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Indian_States_tt
@@ -42245,6 +42533,30 @@ RAJ_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = AFG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bhutanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BHU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Nepalese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = NEP
 						}
 						is_controlled_by = FROM
 					}
@@ -43013,7 +43325,7 @@ MEX_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_MEE2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Mexican_States_tt
@@ -44029,6 +44341,69 @@ PER_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Persian Empire
+	RON_Formable_Decision37 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_PEE2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Persian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Iraqi_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = IRQ
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Afghan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AFG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.37
+			}
+			hidden_effect = {
+				set_global_flag = FORM_PEE2
+			}
+		}
+	}
 
 }
 
@@ -44383,7 +44758,7 @@ PRU_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_PRB2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			#Chinese
 			custom_trigger_tooltip = {
@@ -44434,7 +44809,7 @@ PRU_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Greater_Peru2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			#Chinese
 			custom_trigger_tooltip = {
@@ -44501,7 +44876,7 @@ PRU_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Greater_Bolivia2 }
 		}
 		available = {
-			is_subject = no
+			#is_subject = no
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Bolivian_States_tt
