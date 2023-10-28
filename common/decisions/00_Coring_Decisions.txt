@@ -2502,7 +2502,7 @@ GER_Coring_Decisions = {
 			28 = { is_controlled_by = FROM }
 			
 			#Northern Sleswig
-			912 = { is_controlled_by = FROM }
+			#912 = { is_controlled_by = FROM }
 			
 			#Sudetenland
 			69 = { is_controlled_by = FROM }
@@ -4055,7 +4055,7 @@ GGR_Coring_Decisions = {
 			28 = { is_controlled_by = FROM }
 			
 			#Northern Sleswig
-			912 = { is_controlled_by = FROM }
+			#912 = { is_controlled_by = FROM }
 			
 			#Sudetenland
 			69 = { is_controlled_by = FROM }
