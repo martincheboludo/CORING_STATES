@@ -1,10 +1,99 @@
-Do you find it extremely annoying how over the course of playing Vanilla, it is either impossible or it requires very specific circumstances to gain cores on realistic states such as Danzig or Switzerland as Germany, Canada as the USA, Wallonia as France, etc
+BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days and 5-25 Civ Factories, depending on how hard it is to core said state. The closer the geographic location, ethnicities, language and plausible historical claims, the easier to core, on the other hand, the more distance and different the culture, the harder it will be to core.
 
-Do you find it frustrating that when you want to create a formable nation, you have to control ALL the states, before finally getting the cores all at once?
-
-Well, if so this is the mod for you. BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days and 5-25 Civ Factories, depending on how hard it is to core said state. The closer the geographic location, ethnicities, language and plausible historical claims, the easier to core, on the other hand, the more distance and different the culture, the harder it will be to core.
+All Majors and Interesting Minors have been given Coring decisions and Formable Nations.
 
 91 Formable Nations In Total
+
+Iberian Union
+Greater Germany
+Greater Germanic Reich
+The Chinese Empire
+Austria-Hungary
+The Polish-Lithuanian Commonwealth
+Holy Roman Empire
+Iberian Union
+Kalmar Union
+The Arab League
+Benelux
+The United Baltic Duchy
+The Central American Union
+Greater Hungary
+Byzantine Empire
+Bulgarian Empire
+Gran Colombia
+The Mexican Empire
+Greater Albania
+The Balkan Federation
+Roman Empire
+The Ottoman Empire
+Greater China
+The Mughal Empire
+The Persian Empire
+North Sea Empire
+Greater Finland
+Swedish Empire
+Greater Yugoslavia
+Abyssinia
+North America
+Hispaniola
+The Peru-Bolivian Confederation
+The Caribbean Union
+Golden Circle
+Greater Canada
+La Plata
+The Celtic Union
+The Alpine Federation
+Greater Croatia
+Greater Serbia
+The Grand Duchy of Lithuania
+Chile-Argentinean Union
+Great Britain and Ireland
+Russian Empire
+British Imperial Federation
+French Empire
+German Empire
+Nordic Union
+Western Roman Empire
+Greater India
+Unite The Anglosphere
+Spanish Empire
+Lusophere
+Greater East Asia Co-Prosperity Sphere
+Denmark-Norway
+Sweden-Norway
+The Americas
+Erfurt Union
+Greater Peru
+United Southern Cone
+The Empire of Brazil
+Greater Russia
+Greater America
+Canadian-American Union
+Greater Austria
+CANZUK
+Commonwealth of Nations
+Greater Argentina
+Greater Bolivia
+Greater Brazil
+Greater Chile
+Greater Denmark
+Greater France
+Greater Greece
+Italian Empire
+Greater Norway
+Greater Spain
+Greater Turkey
+Slavic Union
+Greater Romania
+Greater Bulgaria
+Greater Japan
+Unite The Francosphere
+Portugal-Brazil
+Mussolin's Roman Empire
+Greater Portugal
+Greater Netherlands
+Greater Belgium
+Greater Luxembourg
 
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
