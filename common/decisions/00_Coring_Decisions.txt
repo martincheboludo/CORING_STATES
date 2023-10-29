@@ -33228,6 +33228,11 @@ BUL_Coring_Decisions = {
 	RON_Formable_Decision132 = {
 		ai_will_do = {
 			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1943.1.1
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -33519,6 +33524,11 @@ ROM_Coring_Decisions = {
 	RON_Formable_Decision131 = {
 		ai_will_do = {
 			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1943.1.1
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -33898,6 +33908,11 @@ HUN_Core_Slovakia = {
 	RON_Formable_Decision18 = {
 		ai_will_do = {
 			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1943.1.1
+			}
 		}
 		cost = 10
 		days_re_enable = 0
