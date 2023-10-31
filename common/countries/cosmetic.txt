@@ -1451,3 +1451,23 @@ Form_Greater_Bolivia = {
 	color = rgb { 255 180 136 }
 	color_ui = rgb { 255 180 136 }
 }
+Form_Greater_Australia = {
+	color = rgb { 74 186 126 }
+	color_ui = rgb { 74 186 126 }
+}
+Form_Greater_Indonesia = {
+	color = rgb { 0 0 220 }
+	color_ui = rgb { 0 0 220 }
+}
+Form_Greater_Ireland = {
+	color = rgb { 108 204 39 }
+	color_ui = rgb { 108 204 39 }
+}
+Form_Greater_Mongolia = {
+	color = rgb { 209 247 133 }
+	color_ui = rgb { 209 247 133 }
+}
+Form_Greater_Poland = {
+	color = rgb { 255 120 138 }
+	color_ui = rgb { 255 120 138 }
+}

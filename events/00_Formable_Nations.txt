@@ -3935,3 +3935,213 @@ news_event = {
 		name = RON_Formable_News.132.a
 	}
 }
+
+#Greater Australia
+country_event = {
+	id = RON_Formable_Country.1008
+	title = RON_Formable_Country.1008.t
+	desc = RON_Formable_Country.1008.d
+	picture = GFX_report_event_RON_Formable_Country1008
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1008.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Australia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1008 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Australia
+news_event = {
+	id = RON_Formable_News.1008
+	title = RON_Formable_News.1008.t
+	desc = RON_Formable_News.1008.d
+	picture = GFX_news_event_RON_Formable_News1008
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1008.a
+	}
+}
+
+#Greater Indonesia
+country_event = {
+	id = RON_Formable_Country.1009
+	title = RON_Formable_Country.1009.t
+	desc = RON_Formable_Country.1009.d
+	picture = GFX_report_event_RON_Formable_Country1009
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1009.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Indonesia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1009 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Indonesia
+news_event = {
+	id = RON_Formable_News.1009
+	title = RON_Formable_News.1009.t
+	desc = RON_Formable_News.1009.d
+	picture = GFX_news_event_RON_Formable_News1009
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1009.a
+	}
+}
+
+#United Ireland
+country_event = {
+	id = RON_Formable_Country.1010
+	title = RON_Formable_Country.1010.t
+	desc = RON_Formable_Country.1010.d
+	picture = GFX_report_event_RON_Formable_Country1010
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1010.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Ireland
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1010 hours = 6 }
+		}
+
+	}
+
+}
+
+#United Ireland
+news_event = {
+	id = RON_Formable_News.1010
+	title = RON_Formable_News.1010.t
+	desc = RON_Formable_News.1010.d
+	picture = GFX_news_event_RON_Formable_News1010
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1010.a
+	}
+}
+
+#Greater Mongolia
+country_event = {
+	id = RON_Formable_Country.1011
+	title = RON_Formable_Country.1011.t
+	desc = RON_Formable_Country.1011.d
+	picture = GFX_report_event_RON_Formable_Country1011
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1011.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Mongolia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1011 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Mongolia
+news_event = {
+	id = RON_Formable_News.1011
+	title = RON_Formable_News.1011.t
+	desc = RON_Formable_News.1011.d
+	picture = GFX_news_event_RON_Formable_News1011
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1011.a
+	}
+}
+
+#Greater Poland
+country_event = {
+	id = RON_Formable_Country.1012
+	title = RON_Formable_Country.1012.t
+	desc = RON_Formable_Country.1012.d
+	picture = GFX_report_event_RON_Formable_Country1012
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1012.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Greater_Poland
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1012 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Poland
+news_event = {
+	id = RON_Formable_News.1012
+	title = RON_Formable_News.1012.t
+	desc = RON_Formable_News.1012.d
+	picture = GFX_news_event_RON_Formable_News1012
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1012.a
+	}
+}
