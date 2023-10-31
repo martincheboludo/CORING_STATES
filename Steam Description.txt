@@ -2,7 +2,7 @@ BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days a
 
 All Majors and Interesting Minors have been given Coring decisions and Formable Nations.
 
-96 Formable Nations In Total
+101 Formable Nations In Total
 
 Abyssinia
 Alpine Federation
@@ -25,6 +25,7 @@ Commonwealth of Nations
 Denmark-Norway
 Empire of Brazil
 Erfurt Union
+European Union
 French Empire
 German Empire
 Golden Circle
@@ -82,6 +83,7 @@ Nordic Union
 North America
 North Sea Empire
 Ottoman Empire
+Patria Grande
 Persian Empire
 Peru-Bolivian Confederation
 Polish-Lithuanian Commonwealth
@@ -89,12 +91,14 @@ Portugal-Brazil
 Roman Empire
 Russian Empire
 Slavic Union
+South American Union
 Spanish Empire
 Sweden-Norway
 Swedish Empire
 Unite Anglosphere
 Unite Francosphere
 United Baltic Duchy
+United Ireland
 United Southern Cone
 Untied Ireland
 Western Roman Empire
