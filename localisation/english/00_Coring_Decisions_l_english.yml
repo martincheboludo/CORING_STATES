@@ -529,6 +529,9 @@ AST_Coring_Decisions_desc:0 "Oceania is a geographical region comprising Austral
 AST_Core_Australia:0 "Integrate Australia"
 AST_Core_New_Zealand:0 "Integrate New Zealand"
 AST_Core_Papua:0 "Integrate Papua"
+AST_Core_Indonesia:0 "Integrate Indonesia"
+AST_Core_Malaya:0 "Integrate Malaya"
+AST_Core_Phillippines:0 "Integrate Phillippines"
 
 BRA_Coring_Decisions:0 "Greater Brazil"
 BRA_Coring_Decisions_desc:0 "The Empire of Brazil was a 19th-century state that broadly comprised the territories which form modern Brazil and (until 1828) Uruguay. Its government was a representative parliamentary constitutional monarchy under the rule of Emperors Pedro I and his son Pedro II. A colony of the Kingdom of Portugal, Brazil became the seat of the Portuguese Empire in 1808, when the Portuguese Prince regent, later King Dom John VI, fled from Napoleon's invasion of Portugal and established himself and his government in the Brazilian city of Rio de Janeiro. John VI later returned to Portugal, leaving his eldest son and heir-apparent, Pedro, to rule the Kingdom of Brazil as regent. On 7 September 1822, Pedro declared the independence of Brazil and, after waging a successful war against his father's kingdom, was acclaimed on 12 October as Pedro I, the first Emperor of Brazil. The new country was huge, sparsely populated and ethnically diverse."
@@ -621,6 +624,7 @@ INS_Coring_Decisions_desc:0 "Greater Indonesia was a political concept that soug
 
 INS_Core_Indonesia:0 "Integrate Indonesia"
 INS_Core_Malaya:0 "Integrate Malaya"
+INS_Core_Phillippines:0 "Integrate Phillippines"
 
 IRQ_Coring_Decisions:0 "Greater Iraq"
 IRQ_Coring_Decisions_desc:0 "Iraqi nationalism is a form of nationalism that asserts the belief that Iraqis form a nation and promotes the cultural unity of Iraqis of different ethnoreligious groups such as Mesopotamian Arabs, Kurds, Turkmens, Assyrians, Chaldeans, Yazidis, Mandeans, Shabaks and Yarsans."
