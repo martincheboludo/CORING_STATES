@@ -1471,3 +1471,23 @@ Form_Greater_Poland = {
 	color = rgb { 255 120 138 }
 	color_ui = rgb { 255 120 138 }
 }
+FORM_EUR = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+FORM_SOU = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+FORM_ASI = {
+	color = rgb { 255 15 65 }
+	color_ui = rgb { 255 15 65 }
+}
+FORM_Patria_Grande = {
+	color = rgb { 222 187 45 }
+	color_ui = rgb { 222 187 45 }
+}
+FORM_AFR = {
+	color = rgb { 49 148 0 }
+	color_ui = rgb { 49 148 0 }
+}

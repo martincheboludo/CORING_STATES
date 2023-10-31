@@ -4145,3 +4145,213 @@ news_event = {
 		name = RON_Formable_News.1012.a
 	}
 }
+
+#European Union
+country_event = {
+	id = RON_Formable_Country.4
+	title = RON_Formable_Country.4.t
+	desc = RON_Formable_Country.4.d
+	picture = GFX_report_event_RON_Formable_Country4
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.4.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_EUR
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.4 hours = 6 }
+		}
+
+	}
+
+}
+
+#European Union
+news_event = {
+	id = RON_Formable_News.4
+	title = RON_Formable_News.4.t
+	desc = RON_Formable_News.4.d
+	picture = GFX_news_event_RON_Formable_News4
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.4.a
+	}
+}
+
+#South American Union
+country_event = {
+	id = RON_Formable_Country.30
+	title = RON_Formable_Country.30.t
+	desc = RON_Formable_Country.30.d
+	picture = GFX_report_event_RON_Formable_Country30
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.30.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_SOU
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.30 hours = 6 }
+		}
+
+	}
+
+}
+
+#South American Union
+news_event = {
+	id = RON_Formable_News.30
+	title = RON_Formable_News.30.t
+	desc = RON_Formable_News.30.d
+	picture = GFX_news_event_RON_Formable_News30
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.30.a
+	}
+}
+
+#Asian Union
+country_event = {
+	id = RON_Formable_Country.66
+	title = RON_Formable_Country.66.t
+	desc = RON_Formable_Country.66.d
+	picture = GFX_report_event_RON_Formable_Country66
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.66.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_ASI
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.66 hours = 6 }
+		}
+
+	}
+
+}
+
+#Asian Union
+news_event = {
+	id = RON_Formable_News.66
+	title = RON_Formable_News.66.t
+	desc = RON_Formable_News.66.d
+	picture = GFX_news_event_RON_Formable_News66
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.66.a
+	}
+}
+
+#Patria Grande
+country_event = {
+	id = RON_Formable_Country.88
+	title = RON_Formable_Country.88.t
+	desc = RON_Formable_Country.88.d
+	picture = GFX_report_event_RON_Formable_Country88
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.88.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Patria_Grande
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.88 hours = 6 }
+		}
+
+	}
+
+}
+
+#Patria Grande
+news_event = {
+	id = RON_Formable_News.88
+	title = RON_Formable_News.88.t
+	desc = RON_Formable_News.88.d
+	picture = GFX_news_event_RON_Formable_News88
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.88.a
+	}
+}
+
+#African Union
+country_event = {
+	id = RON_Formable_Country.2
+	title = RON_Formable_Country.2.t
+	desc = RON_Formable_Country.2.d
+	picture = GFX_report_event_RON_Formable_Country2
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.2.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_AFR
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.2 hours = 6 }
+		}
+
+	}
+
+}
+
+#African Union
+news_event = {
+	id = RON_Formable_News.2
+	title = RON_Formable_News.2.t
+	desc = RON_Formable_News.2.d
+	picture = GFX_news_event_RON_Formable_News2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.2.a
+	}
+}

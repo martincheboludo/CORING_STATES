@@ -13628,21 +13628,6 @@ USA_Coring_Decisions = {
 				}
 			}
 			
-			
-			
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Mexican_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = MEX
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
-			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Venezuelan_States_tt
 				all_state = {
@@ -13714,6 +13699,7 @@ USA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = BOL
+							NOT = { is_core_of = PAR }
 						}
 						is_controlled_by = FROM
 					}
@@ -46926,4 +46912,2178 @@ TUR_Coring_Decisions = {
 		}
 	}
 
+}
+
+#The Americas
+MUN_AME_Coring_Decisions = {
+
+MUN_AME_Core_USA = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = USA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = USA
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Whole Canada
+	MUN_AME_Core_Canada = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CAN
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 331
+							state = 739
+							state = 740
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CAN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CAN
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 331
+							state = 739
+							state = 740
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	
+	#Puerto Rico
+	MUN_AME_Core_Puerto_Rico = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+			has_global_flag = FORM_Patria_Grande2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			686 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						#any_neighbor_state = {
+							#is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			686 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			686 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	MUN_AME_Core_New_Spain = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Patria_Grande2	
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = USA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 375
+							state = 376
+							state = 377
+							state = 378
+							state = 379
+							state = 380
+							state = 382
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 375
+							state = 376
+							state = 377
+							state = 378
+							state = 379
+							state = 380
+							state = 382
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = USA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 375
+							state = 376
+							state = 377
+							state = 378
+							state = 379
+							state = 380
+							state = 382
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Mexico
+	MUN_AME_Core_Mexico = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2
+			has_global_flag = FORM_Patria_Grande2			
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MEX
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MEX
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MEX
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Central America
+	MUN_AME_Core_Central_America = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+			has_global_flag = FORM_Patria_Grande2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = GUA
+							is_core_of = ELS
+							is_core_of = HON
+							is_core_of = COS
+							is_core_of = NIC
+							is_core_of = PAN
+							is_core_of = BLZ
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = GUA
+							is_core_of = ELS
+							is_core_of = HON
+							is_core_of = COS
+							is_core_of = NIC
+							is_core_of = PAN
+							is_core_of = BLZ
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = GUA
+							is_core_of = ELS
+							is_core_of = HON
+							is_core_of = COS
+							is_core_of = NIC
+							is_core_of = PAN
+							is_core_of = BLZ
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Cuba
+	MUN_AME_Core_Cuba = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+			has_global_flag = FORM_Patria_Grande2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CUB
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CUB
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CUB
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Hispaniola
+	MUN_AME_Core_Hispaniola = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_NOA2
+			has_global_flag = FORM_The_Americas2 
+			has_global_flag = FORM_Patria_Grande2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = DOM
+							is_core_of = HAI
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = DOM
+							is_core_of = HAI
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = DOM
+							is_core_of = HAI
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Colombia
+	MUN_AME_Core_Colombia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_SOU2
+			has_global_flag = FORM_The_Americas2 
+			has_global_flag = FORM_Patria_Grande2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = COL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = COL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = COL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Venezuela
+	MUN_AME_Core_Venezuela = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = { 
+			has_global_flag = FORM_SOU2
+			has_global_flag = FORM_The_Americas2 
+			has_global_flag = FORM_Patria_Grande2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = VEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = VEN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = VEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Guyanas
+	MUN_AME_Core_Guyanas = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+			}
+			num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 687
+							state = 309
+							state = 310
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 687
+							state = 309
+							state = 310
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 687
+							state = 309
+							state = 310
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Brazil
+	MUN_AME_Core_Brazil = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BRA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BRA
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BRA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Ecuador
+	MUN_AME_Core_Ecuador = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ECU
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 649
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ECU
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ECU
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 649
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Peru
+	MUN_AME_Core_Peru = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PRU
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PRU
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = PRU
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Bolivia
+	MUN_AME_Core_Bolivia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BOL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BOL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BOL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Paraguay
+	MUN_AME_Core_Paraguay = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PAR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = PAR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = PAR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Uruguay
+	MUN_AME_Core_Uruguay = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = URG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = URG
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = URG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Chile
+	MUN_AME_Core_Chile = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+			
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CHL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CHL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CHL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Argentina
+	MUN_AME_Core_Argentina = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		
+			OR = { 
+				has_global_flag = FORM_SOU2
+				has_global_flag = FORM_The_Americas2 
+				has_global_flag = FORM_Patria_Grande2
+			}
+		
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ARG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ARG
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ARG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#North American Union
+	MUN_Formable_Decision47 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+				original_tag = MEX
+				original_tag = CAN
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_NOA2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Central_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								is_core_of = GUA
+								is_core_of = ELS
+								is_core_of = HON
+								is_core_of = COS
+								is_core_of = NIC
+								is_core_of = PAN
+								#Belize
+								state = 311
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.47
+			}
+			hidden_effect = {
+				set_global_flag = FORM_NOA2
+			}
+		}
+	}
+	
+	#The Americas
+	MUN_Formable_Decision96 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_The_Americas2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mexican_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MEX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Central_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								is_core_of = GUA
+								is_core_of = ELS
+								is_core_of = HON
+								is_core_of = COS
+								is_core_of = NIC
+								is_core_of = PAN
+								#Belize
+								state = 311
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Venezuelan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Colombian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Guyanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								state = 687
+								state = 309
+								state = 310
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ecuadorian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ECU
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Peruvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Paraguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Uruguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = URG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Argentinean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ARG
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chilean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHL
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Brazilian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.96
+			}
+			hidden_effect = {
+				set_global_flag = FORM_The_Americas2
+			}
+		}
+	}
+	
+	#South America
+	MUN_Formable_Decision30 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+			original_tag = BRA
+			original_tag = COL
+			original_tag = VEN
+			original_tag = ECU
+			original_tag = PRU
+			original_tag = BOL
+			original_tag = CHL
+			original_tag = ARG
+			original_tag = PAR
+			original_tag = URG
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_SOU2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Venezuelan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Colombian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Guyanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							OR = {
+								state = 687
+								state = 309
+								state = 310
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ecuadorian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ECU
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Peruvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Paraguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PAR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Uruguayan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = URG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Argentinean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ARG
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chilean_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHL
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Brazilian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.30
+			}
+			hidden_effect = {
+				set_global_flag = FORM_SOU2
+			}
+		}
+	}
+	
+	#Patria Grande
+	MUN_Formable_Decision88 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+				original_tag = MEX
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Patria_Grande2 }
+		}
+		available = {
+			#is_subject = no
+			
+			#Panama
+			304 = {
+				is_controlled_by = FROM
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Venezuelan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Colombian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ecuadorian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ECU
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Peruvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = PRU
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bolivian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOL
+							NOT = { is_core_of = PAR }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.88
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Patria_Grande2
+			}
+		}
+	}
+
+}
+#European Union
+MUN_EUR_Coring_Decisions = {
+}
+#Asian Union
+MUN_ASI_Coring_Decisions = {
+}
+#African Union
+MUN_AFR_Coring_Decisions = {
 }

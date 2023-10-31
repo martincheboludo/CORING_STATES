@@ -220,4 +220,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Turkey.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_americas"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Americas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_asia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Asia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_europe"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Europe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_north_america"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_North_America.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_south_america"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_South_America.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_africa"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Africa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_patria_grande"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Patria_Grande.dds"
+	}
+	
 }
