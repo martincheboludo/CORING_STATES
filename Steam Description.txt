@@ -2,98 +2,102 @@ BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days a
 
 All Majors and Interesting Minors have been given Coring decisions and Formable Nations.
 
-91 Formable Nations In Total
+96 Formable Nations In Total
 
-Iberian Union
-Greater Germany
-Greater Germanic Reich
-The Chinese Empire
-Austria-Hungary
-The Polish-Lithuanian Commonwealth
-Holy Roman Empire
-Iberian Union
-Kalmar Union
-The Arab League
-Benelux
-The United Baltic Duchy
-The Central American Union
-Greater Hungary
-Byzantine Empire
-Bulgarian Empire
-Gran Colombia
-The Mexican Empire
-Greater Albania
-The Balkan Federation
-Roman Empire
-The Ottoman Empire
-Greater China
-The Mughal Empire
-The Persian Empire
-North Sea Empire
-Greater Finland
-Swedish Empire
-Greater Yugoslavia
 Abyssinia
-North America
-Hispaniola
-The Peru-Bolivian Confederation
-The Caribbean Union
-Golden Circle
-Greater Canada
-La Plata
-The Celtic Union
-The Alpine Federation
-Greater Croatia
-Greater Serbia
-The Grand Duchy of Lithuania
-Chile-Argentinean Union
-Great Britain and Ireland
-Russian Empire
+Alpine Federation
+Americas
+Arab League
+Austria-Hungary
+Balkan Federation
+Benelux
 British Imperial Federation
+Bulgarian Empire
+Byzantine Empire
+Canadian-American Union
+CANZUK
+Caribbean Union
+Celtic Union
+Central American Union
+Chile-Argentinean Union
+Chinese Empire
+Commonwealth of Nations
+Denmark-Norway
+Empire of Brazil
+Erfurt Union
 French Empire
 German Empire
-Nordic Union
-Western Roman Empire
-Greater India
-Unite The Anglosphere
-Spanish Empire
-Lusophere
-Greater East Asia Co-Prosperity Sphere
-Denmark-Norway
-Sweden-Norway
-The Americas
-Erfurt Union
-Greater Peru
-United Southern Cone
-The Empire of Brazil
-Greater Russia
+Golden Circle
+Gran Colombia
+Grand Duchy of Lithuania
+Great Britain and Ireland
+Greater Albania
 Greater America
-Canadian-American Union
-Greater Austria
-CANZUK
-Commonwealth of Nations
 Greater Argentina
+Greater Australia
+Greater Austria
+Greater Belgium
 Greater Bolivia
 Greater Brazil
+Greater Bulgaria
+Greater Canada
 Greater Chile
+Greater China
+Greater Croatia
 Greater Denmark
+Greater East Asia Co-Prosperity Sphere
+Greater Finland
 Greater France
+Greater Germanic Reich
+Greater Germany
 Greater Greece
-Italian Empire
+Greater Hungary
+Greater India
+Greater Indonesia
+Greater Japan
+Greater Luxembourg
+Greater Mongolia
+Greater Netherlands
 Greater Norway
+Greater Peru
+Greater Poland
+Greater Portugal
+Greater Romania
+Greater Russia
+Greater Serbia
 Greater Spain
 Greater Turkey
-Slavic Union
-Greater Romania
-Greater Bulgaria
-Greater Japan
-Unite The Francosphere
-Portugal-Brazil
+Greater Yugoslavia
+Hispaniola
+Holy Roman Empire
+Iberian Union
+Italian Empire
+Kalmar Union
+La Plata
+Lusophere
+Mexican Empire
+Mughal Empire
 Mussolin's Roman Empire
-Greater Portugal
-Greater Netherlands
-Greater Belgium
-Greater Luxembourg
+Nordic Union
+North America
+North Sea Empire
+Ottoman Empire
+Persian Empire
+Peru-Bolivian Confederation
+Polish-Lithuanian Commonwealth
+Portugal-Brazil
+Roman Empire
+Russian Empire
+Slavic Union
+Spanish Empire
+Sweden-Norway
+Swedish Empire
+Unite Anglosphere
+Unite Francosphere
+United Baltic Duchy
+United Southern Cone
+Untied Ireland
+Western Roman Empire
 
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
