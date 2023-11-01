@@ -54969,4 +54969,418 @@ MUN_ASI_Coring_Decisions = {
 }
 #African Union
 MUN_AFR_Coring_Decisions = {
+
+#African Union
+	MUN_Formable_Decision2 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_AFR2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Algerian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ALG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Burundi_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BRD
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Cameroon_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CMR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Central_African_Republic_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chad_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Republic_of_Congo_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = RCG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Zaire_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dahomey_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = DAH
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Egyptian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EGY
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ethiopian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ETH
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Gabon_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GAB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ghana_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GHA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Guinea_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GNA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ivory_Coast_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = IVO
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Liberian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Libyan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LBA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Madagascar_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MAD
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mali_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MLI
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Mauritanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MRT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Morocco_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Nigerian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = NGA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Niger_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = NGR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Rwandan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = RWA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Senegal_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Sierra_Leone_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SIE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Somalian_Leone_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Sudanese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SUD
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Tanzania_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TZN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Togo_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TOG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Tunisian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TUN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ugandan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UGA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Upper_Volta_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VOL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.2
+			}
+			hidden_effect = {
+				set_global_flag = FORM_AFR2
+			}
+		}
+	}
+
 }
