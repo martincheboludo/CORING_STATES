@@ -56,7 +56,7 @@ DEBUG_Core_Everything = {
 		}
 
 		complete_effect = {
-			every_owned_state = {
+			every_state = {
 				limit = { 
 				NOT = { is_core_of = FROM } 
 					OR = {
@@ -124,7 +124,7 @@ DEBUG_Core_Everything = {
 		}
 
 		complete_effect = {
-			every_owned_state = {
+			every_state = {
 				limit = { 
 				NOT = { is_core_of = FROM } 
 				OR = {
@@ -164,6 +164,210 @@ DEBUG_Core_Everything = {
 						}
 				}
 				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Core_Africa = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+				NOT = { is_core_of = FROM } 
+				is_on_continent = africa
+				}
+				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Core_Oceania = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+				NOT = { is_core_of = FROM } 
+				is_on_continent = australia
+				}
+				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Core_North_America = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+				NOT = { is_core_of = FROM } 
+				is_on_continent = north_america
+				}
+				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Core_South_America = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+				NOT = { is_core_of = FROM } 
+				is_on_continent = south_america
+				}
+				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Core_All_America = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+					NOT = { is_core_of = FROM } 
+					OR = {
+						is_on_continent = north_america
+						is_on_continent = south_america
+					}
+				}
+				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Transfer_Cores = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { NOT = { is_owned_by = FROM } is_core_of = FROM }
+				FROM = { transfer_state = PREV }
 			}
 		}
 		
@@ -55285,7 +55489,7 @@ MUN_AFR_Coring_Decisions = {
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Somalian_Leone_States_tt
+				tooltip = RON_Controls_Somalian_States_tt
 				all_state = {
 					if = {
 						limit = {
