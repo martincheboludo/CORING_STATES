@@ -14244,27 +14244,6 @@ USA_Coring_Decisions = {
 					}
 				}
 			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Central_American_States_tt
-				all_state = {
-					if = {
-						limit = {
-							OR = {
-								is_core_of = GUA
-								is_core_of = ELS
-								is_core_of = HON
-								is_core_of = COS
-								is_core_of = NIC
-								is_core_of = PAN
-								#Belize
-								state = 311
-							}
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
 
 		}
 		icon = generic_form_nation
@@ -49489,27 +49468,6 @@ MUN_AME_Core_USA = {
 					if = {
 						limit = {
 							is_core_of = MEX
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Central_American_States_tt
-				all_state = {
-					if = {
-						limit = {
-							OR = {
-								is_core_of = GUA
-								is_core_of = ELS
-								is_core_of = HON
-								is_core_of = COS
-								is_core_of = NIC
-								is_core_of = PAN
-								#Belize
-								state = 311
-							}
 						}
 						is_controlled_by = FROM
 					}
