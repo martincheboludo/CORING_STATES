@@ -2593,6 +2593,11 @@ GER_Coring_Decisions = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 24
 			has_global_flag = FORM_German_Colonial_Empire2
+			
+			737 = {
+				is_core_of = FROM
+			}
+			
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
