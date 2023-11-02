@@ -3003,7 +3003,7 @@ GER_Coring_Decisions = {
 		
 			any_controlled_state = {
 				AND = {
-					is_core_of = MZB
+					is_core_of = TZN
 					is_core_of = FROM
 				}
 			}
