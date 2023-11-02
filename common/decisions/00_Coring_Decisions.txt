@@ -2598,6 +2598,10 @@ GER_Coring_Decisions = {
 				is_core_of = FROM
 			}
 			
+			523 = {
+				is_core_of = FROM
+			}
+			
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2615,6 +2619,7 @@ GER_Coring_Decisions = {
 							state = 737
 							state = 634
 							state = 591
+							state = 743
 						}
 					}
 				}
@@ -2647,6 +2652,7 @@ GER_Coring_Decisions = {
 							state = 737
 							state = 634
 							state = 591
+							state = 743
 						}
 					}
 				}
@@ -2677,6 +2683,7 @@ GER_Coring_Decisions = {
 							state = 737
 							state = 634
 							state = 591
+							state = 743
 						}
 					}
 				}
