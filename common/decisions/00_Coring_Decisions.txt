@@ -131,6 +131,9 @@ DEBUG_Core_Everything = {
 				is_on_continent = asia
 				is_on_continent = middle_east
 				}
+				NOT = { is_core_of = GEO } 
+				NOT = { is_core_of = ARM } 
+				NOT = { is_core_of = AZR } 
 						NOT = {
 							state = 351
 							state = 262
@@ -55173,6 +55176,522 @@ MUN_ASI_Coring_Decisions = {
 }
 #African Union
 MUN_AFR_Coring_Decisions = {
+
+MUN_AFR_Core_North_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_AFR2
+		num_of_civilian_factories_available_for_projects > 14
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = ALG
+							is_core_of = EGY
+							is_core_of = LBA
+							is_core_of = MOR
+							is_core_of = SUD
+							is_core_of = TUN
+							is_core_of = WES
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = ALG
+							is_core_of = EGY
+							is_core_of = LBA
+							is_core_of = MOR
+							is_core_of = SUD
+							is_core_of = TUN
+							is_core_of = WES
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = ALG
+							is_core_of = EGY
+							is_core_of = LBA
+							is_core_of = MOR
+							is_core_of = SUD
+							is_core_of = TUN
+							is_core_of = WES
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	MUN_AFR_Core_East_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_AFR2
+		num_of_civilian_factories_available_for_projects > 14
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BRD
+							is_core_of = DJI
+							is_core_of = ERI
+							is_core_of = ETH
+							is_core_of = KEN
+							is_core_of = MAD
+							is_core_of = MLW
+							is_core_of = MZB
+							is_core_of = RWA
+							is_core_of = SOM
+							is_core_of = TZN
+							is_core_of = UGA
+							is_core_of = ZAM
+							is_core_of = ZIM
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BRD
+							is_core_of = DJI
+							is_core_of = ERI
+							is_core_of = ETH
+							is_core_of = KEN
+							is_core_of = MAD
+							is_core_of = MLW
+							is_core_of = MZB
+							is_core_of = RWA
+							is_core_of = SOM
+							is_core_of = TZN
+							is_core_of = UGA
+							is_core_of = ZAM
+							is_core_of = ZIM
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = BRD
+							is_core_of = DJI
+							is_core_of = ERI
+							is_core_of = ETH
+							is_core_of = KEN
+							is_core_of = MAD
+							is_core_of = MLW
+							is_core_of = MZB
+							is_core_of = RWA
+							is_core_of = SOM
+							is_core_of = TZN
+							is_core_of = UGA
+							is_core_of = ZAM
+							is_core_of = ZIM
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	MUN_AFR_Core_Middle_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_AFR2
+		num_of_civilian_factories_available_for_projects > 14
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = ANG
+							is_core_of = CMR
+							is_core_of = CAR
+							is_core_of = CHA
+							is_core_of = COG
+							is_core_of = RCG
+							is_core_of = EQG
+							is_core_of = GAB
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = ANG
+							is_core_of = CMR
+							is_core_of = CAR
+							is_core_of = CHA
+							is_core_of = COG
+							is_core_of = RCG
+							is_core_of = EQG
+							is_core_of = GAB
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = ANG
+							is_core_of = CMR
+							is_core_of = CAR
+							is_core_of = CHA
+							is_core_of = COG
+							is_core_of = RCG
+							is_core_of = EQG
+							is_core_of = GAB
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	MUN_AFR_Core_South_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_AFR2
+		num_of_civilian_factories_available_for_projects > 14
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BOT
+							is_core_of = NMB
+							is_core_of = SAF
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = BOT
+							is_core_of = NMB
+							is_core_of = SAF
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = BOT
+							is_core_of = NMB
+							is_core_of = SAF
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	MUN_AFR_Core_West_Africa = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_AFR2
+		num_of_civilian_factories_available_for_projects > 14
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = DAH
+							is_core_of = VOL
+							is_core_of = IVO
+							is_core_of = GMB
+							is_core_of = GHA
+							is_core_of = GNA
+							is_core_of = GNB
+							is_core_of = LIB
+							is_core_of = MLI
+							is_core_of = MRT
+							is_core_of = NGA
+							is_core_of = NGR
+							is_core_of = SEN
+							is_core_of = SIE
+							is_core_of = TOG
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = DAH
+							is_core_of = VOL
+							is_core_of = IVO
+							is_core_of = GMB
+							is_core_of = GHA
+							is_core_of = GNA
+							is_core_of = GNB
+							is_core_of = LIB
+							is_core_of = MLI
+							is_core_of = MRT
+							is_core_of = NGA
+							is_core_of = NGR
+							is_core_of = SEN
+							is_core_of = SIE
+							is_core_of = TOG
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = DAH
+							is_core_of = VOL
+							is_core_of = IVO
+							is_core_of = GMB
+							is_core_of = GHA
+							is_core_of = GNA
+							is_core_of = GNB
+							is_core_of = LIB
+							is_core_of = MLI
+							is_core_of = MRT
+							is_core_of = NGA
+							is_core_of = NGR
+							is_core_of = SEN
+							is_core_of = SIE
+							is_core_of = TOG
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 #African Union
 	MUN_Formable_Decision2 = {

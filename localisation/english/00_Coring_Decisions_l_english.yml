@@ -795,3 +795,9 @@ MUN_ASI_Core_Japan:0 "Integrate Japan"
 
 MUN_AFR_Coring_Decisions:0 "African Union"
 MUN_AFR_Coring_Decisions_desc:0 "Africa, cradle of Man, is the world's second largest continent and used to contain 54 sovereign countries. Those countries used to fight each other and hold developement for the entire continent. But with unification, these dark days are gone and new bright future awaits us."
+
+MUN_AFR_Core_West_Africa:0 "Integrate West Africa"
+MUN_AFR_Core_South_Africa:0 "Integrate South Africa"
+MUN_AFR_Core_Middle_Africa:0 "Integrate Middle Africa"
+MUN_AFR_Core_East_Africa:0 "Integrate East Africa"
+MUN_AFR_Core_North_Africa:0 "Integrate North Africa"
