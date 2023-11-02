@@ -1,6 +1,6 @@
 DEBUG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_germany
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		is_debug = yes
@@ -42,7 +42,7 @@ GGR_Coring_Decisions = {
 
 FRA_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_france
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = FRA
@@ -54,7 +54,7 @@ FRA_Coring_Decisions = {
 
 ENG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_british_empire
-	icon = ger_reichskommissariats
+	icon = eng_imperial_conference
 
 	allowed = {
 		original_tag = ENG
@@ -66,7 +66,7 @@ ENG_Coring_Decisions = {
 
 SOV_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_russia
-	icon = ger_reichskommissariats
+	icon = sov_great_patriotic_war
 
 	allowed = {
 		original_tag = SOV
@@ -78,7 +78,7 @@ SOV_Coring_Decisions = {
 
 USA_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_america
-	icon = ger_reichskommissariats
+	icon = generic_democracy
 
 	allowed = {
 		original_tag = USA
@@ -90,7 +90,7 @@ USA_Coring_Decisions = {
 
 ITA_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_italy
-	icon = ger_reichskommissariats
+	icon = ITA_colonial_management
 
 	allowed = {
 		original_tag = ITA
@@ -102,7 +102,7 @@ ITA_Coring_Decisions = {
 
 JAP_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_japan
-	icon = ger_reichskommissariats
+	icon = jap_pacific_guardian
 
 	allowed = {
 		original_tag = JAP
@@ -114,7 +114,7 @@ JAP_Coring_Decisions = {
 
 SPR_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_spain
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = SPR
@@ -126,7 +126,7 @@ SPR_Coring_Decisions = {
 
 POR_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_portugal
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = POR
@@ -138,7 +138,7 @@ POR_Coring_Decisions = {
 
 HOL_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_netherlands
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -154,7 +154,7 @@ HOL_Coring_Decisions = {
 
 SWE_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_sweden
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -172,7 +172,7 @@ SWE_Coring_Decisions = {
 
 AUS_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_austria
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = AUS
@@ -184,7 +184,7 @@ AUS_Coring_Decisions = {
 
 HUN_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_hungary
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = HUN
@@ -196,7 +196,7 @@ HUN_Coring_Decisions = {
 
 AUH_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_austria_hungary
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -211,7 +211,7 @@ AUH_Coring_Decisions = {
 
 ARG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_argentina
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -229,7 +229,7 @@ ARG_Coring_Decisions = {
 #Need Formables
 LIT_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_baltics
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -245,7 +245,7 @@ LIT_Coring_Decisions = {
 	
 POL_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_poland
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = POL
@@ -257,7 +257,7 @@ POL_Coring_Decisions = {
 
 YUG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_yugoslavia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -273,7 +273,7 @@ YUG_Coring_Decisions = {
 
 ROM_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_romania
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = ROM
@@ -285,7 +285,7 @@ ROM_Coring_Decisions = {
 
 BUL_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_bulgaria
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = BUL
@@ -297,7 +297,7 @@ BUL_Coring_Decisions = {
 
 IRE_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_ireland
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = IRE
@@ -309,7 +309,7 @@ IRE_Coring_Decisions = {
 
 SWI_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_switzerland
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = SWI
@@ -321,7 +321,7 @@ SWI_Coring_Decisions = {
 
 ALB_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_albania
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = ALB
@@ -333,7 +333,7 @@ ALB_Coring_Decisions = {
 
 GRE_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_greece
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = GRE
@@ -345,7 +345,7 @@ GRE_Coring_Decisions = {
 
 AFG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_afghanistan
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = AFG
@@ -357,7 +357,7 @@ AFG_Coring_Decisions = {
 
 SAU_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_arabia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -393,7 +393,7 @@ SAU_Coring_Decisions = {
 
 AST_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_australia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -409,7 +409,7 @@ AST_Coring_Decisions = {
 
 BRA_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_brazil
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = BRA
@@ -421,7 +421,7 @@ BRA_Coring_Decisions = {
 
 CAN_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_canada
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = CAN
@@ -432,7 +432,7 @@ CAN_Coring_Decisions = {
 }
 GUA_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_central_america
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -452,7 +452,7 @@ GUA_Coring_Decisions = {
 
 CHI_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_china
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -477,7 +477,7 @@ CHI_Coring_Decisions = {
 
 COL_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_colombia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -494,7 +494,7 @@ COL_Coring_Decisions = {
 
 CUB_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_cuba
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -510,7 +510,7 @@ CUB_Coring_Decisions = {
 
 ETH_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_ethiopia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -526,7 +526,7 @@ ETH_Coring_Decisions = {
 
 RAJ_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_india
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -544,7 +544,7 @@ RAJ_Coring_Decisions = {
 
 INS_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_indonesia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -559,7 +559,7 @@ INS_Coring_Decisions = {
 
 IRQ_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_iraq
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -574,7 +574,7 @@ IRQ_Coring_Decisions = {
 
 MEX_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_mexico
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -593,7 +593,7 @@ MEX_Coring_Decisions = {
 
 MON_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_mongolia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -608,7 +608,7 @@ MON_Coring_Decisions = {
 
 PER_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_persia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -624,7 +624,7 @@ PER_Coring_Decisions = {
 
 PRU_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_peru
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -640,7 +640,7 @@ PRU_Coring_Decisions = {
 
 SAF_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_south_africa
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = SAF
@@ -652,7 +652,7 @@ SAF_Coring_Decisions = {
 
 TUR_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_turkey
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		original_tag = TUR
@@ -664,7 +664,7 @@ TUR_Coring_Decisions = {
 
 MUN_AME_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_americas
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -700,7 +700,7 @@ MUN_AME_Coring_Decisions = {
 
 MUN_EUR_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_europe
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -741,7 +741,7 @@ MUN_EUR_Coring_Decisions = {
 
 MUN_ASI_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_asia
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {
@@ -795,7 +795,7 @@ MUN_ASI_Coring_Decisions = {
 
 MUN_AFR_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_africa
-	icon = ger_reichskommissariats
+	icon = generic_foreign_policy
 
 	allowed = {
 		OR = {

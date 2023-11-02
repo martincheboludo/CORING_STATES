@@ -2699,6 +2699,7 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_German_Empire2
 				has_global_flag = FORM_GRO2
+				has_global_flag = FORM_GGR2
 			}
 			
 			custom_trigger_tooltip = {
@@ -4597,7 +4598,7 @@ FRA_Coring_Decisions = {
 	#Luxembourg
 	FRA_Core_Luxembourg = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -4652,7 +4653,7 @@ FRA_Coring_Decisions = {
 	#Wallonie
 	FRA_Core_Wallonie = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -4707,7 +4708,7 @@ FRA_Coring_Decisions = {
 	#Romandie
 	FRA_Core_Romandie = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -4763,7 +4764,7 @@ FRA_Coring_Decisions = {
 	#Quebec
 	FRA_Core_Quebec = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -4857,7 +4858,7 @@ FRA_Coring_Decisions = {
 	#Flanders
 	FRA_Core_Flanders = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 60
@@ -4913,7 +4914,7 @@ FRA_Coring_Decisions = {
 	#Brabant
 	FRA_Core_Brabant = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 60
@@ -4968,7 +4969,7 @@ FRA_Coring_Decisions = {
 	#Catalonia
 	FRA_Core_Catalonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 60
@@ -5024,7 +5025,7 @@ FRA_Coring_Decisions = {
 	#Rhineland
 	FRA_Core_Rhineland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5107,7 +5108,7 @@ FRA_Coring_Decisions = {
 	#Whole Algeria
 	FRA_Core_Algeria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores Algerian States one by one
 		fire_only_once = no
@@ -5183,7 +5184,7 @@ FRA_Coring_Decisions = {
 	#Netherlands
 	FRA_Core_Netherlands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5265,7 +5266,7 @@ FRA_Coring_Decisions = {
 	#North Germany
 	FRA_Core_North_Germany = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5353,7 +5354,7 @@ FRA_Coring_Decisions = {
 	#West Italy
 	FRA_Core_West_Italy = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5441,7 +5442,7 @@ FRA_Coring_Decisions = {
 	#Illyrian Provinces
 	FRA_Core_Illyrian_Provinces = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5531,7 +5532,7 @@ FRA_Coring_Decisions = {
 	#American Possesions
 	FRA_Core_American_Possesions = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5620,7 +5621,7 @@ FRA_Coring_Decisions = {
 	#French Indochina
 	FRA_Core_French_Indochina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5706,7 +5707,7 @@ FRA_Coring_Decisions = {
 	#French North Africa
 	FRA_Core_French_North_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5792,7 +5793,7 @@ FRA_Coring_Decisions = {
 	#French West Africa
 	FRA_Core_French_West_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5890,7 +5891,7 @@ FRA_Coring_Decisions = {
 	#French Equatorial Africa
 	FRA_Core_French_Equatorial_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -5979,7 +5980,7 @@ FRA_Coring_Decisions = {
 	#African Possesions
 	FRA_Core_African_Possesions = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6065,7 +6066,7 @@ FRA_Coring_Decisions = {
 	#French Syria
 	FRA_Core_French_Syria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6148,7 +6149,7 @@ FRA_Coring_Decisions = {
 	#Belgian Congo
 	FRA_Core_Belgian_Congo = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6443,7 +6444,7 @@ ENG_Coring_Decisions = {
 	#Whole Ireland
 	ENG_Core_Ireland = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores Irish States one by one
 		fire_only_once = no
@@ -6517,7 +6518,7 @@ ENG_Coring_Decisions = {
 	#Whole Canada
 	ENG_Core_Canada = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores Canadian States one by one
 		fire_only_once = no
@@ -6595,7 +6596,7 @@ ENG_Coring_Decisions = {
 	#Whole Australia
 	ENG_Core_Australia = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6672,7 +6673,7 @@ ENG_Coring_Decisions = {
 	#Whole New Zealand
 	ENG_Core_New_Zealand = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6753,7 +6754,7 @@ ENG_Coring_Decisions = {
 	#Whole South Africa
 	ENG_Core_South_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6829,7 +6830,7 @@ ENG_Coring_Decisions = {
 	#Whole South Africa
 	ENG_Core_Rhodesia = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6905,7 +6906,7 @@ ENG_Coring_Decisions = {
 	#Whole USA
 	ENG_Core_America = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -6981,7 +6982,7 @@ ENG_Coring_Decisions = {
 	#Whole India
 	ENG_Core_India = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7057,7 +7058,7 @@ ENG_Coring_Decisions = {
 	#Whole Pakistan
 	ENG_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7136,7 +7137,7 @@ ENG_Coring_Decisions = {
 	#Whole Bangladesh
 	ENG_Core_Bangladesh = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7212,7 +7213,7 @@ ENG_Coring_Decisions = {
 	#Whole Burma
 	ENG_Core_Burma = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7288,7 +7289,7 @@ ENG_Coring_Decisions = {
 	#Whole Afghanistan
 	ENG_Core_Afghanistan = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7364,7 +7365,7 @@ ENG_Coring_Decisions = {
 	#Whole Sri Lanka
 	ENG_Core_Sri_Lanka = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7440,7 +7441,7 @@ ENG_Coring_Decisions = {
 	#Whole Nepal
 	ENG_Core_Nepal = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7516,7 +7517,7 @@ ENG_Coring_Decisions = {
 	#Whole Malaya
 	ENG_Core_Malaya = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7592,7 +7593,7 @@ ENG_Coring_Decisions = {
 	#British Egypt
 	ENG_Core_British_Egypt = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7678,7 +7679,7 @@ ENG_Coring_Decisions = {
 	#British West Africa
 	ENG_Core_British_West_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7770,7 +7771,7 @@ ENG_Coring_Decisions = {
 	#British East Africa
 	ENG_Core_British_East_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7862,7 +7863,7 @@ ENG_Coring_Decisions = {
 	#Whole Botswana
 	ENG_Core_Botswana = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -7938,7 +7939,7 @@ ENG_Coring_Decisions = {
 	#Whole Zambia
 	ENG_Core_Zambia = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -8014,7 +8015,7 @@ ENG_Coring_Decisions = {
 	#American Possesions
 	ENG_Core_American_Possesions = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -8124,7 +8125,7 @@ ENG_Coring_Decisions = {
 	#Arabian Possesions
 	ENG_Core_Arabian_Possesions = {
 
-		icon = ger_reichskommissariats
+		icon = eng_ally_imperialist_coup
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -8667,7 +8668,7 @@ SOV_Coring_Decisions = {
 #Whole Ukraine
 	SOV_Core_Ukranian_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -8739,7 +8740,7 @@ SOV_Coring_Decisions = {
 	#Whole Belarus
 	SOV_Core_Belarus_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -8814,7 +8815,7 @@ SOV_Coring_Decisions = {
 	#Congress Poland
 	SOV_Core_Congress_Poland = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -8921,7 +8922,7 @@ SOV_Coring_Decisions = {
 	#Finnish Annexations
 	SOV_Core_Finnish_Annexations = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9008,7 +9009,7 @@ SOV_Coring_Decisions = {
 	#Romanian Annexations
 	SOV_Core_Romanian_Annexations = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9094,7 +9095,7 @@ SOV_Coring_Decisions = {
 	#Austrian Poland
 	SOV_Core_Austrian_Poland = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9184,7 +9185,7 @@ SOV_Coring_Decisions = {
 	#Rest of Poland
 	SOV_Core_Rest_Of_Poland = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9289,7 +9290,7 @@ SOV_Coring_Decisions = {
 	#Rest of Finland
 	SOV_Core_Rest_Of_Finland = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9383,7 +9384,7 @@ SOV_Coring_Decisions = {
 	#Whole Latvia
 	SOV_Core_Latvia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9455,7 +9456,7 @@ SOV_Coring_Decisions = {
 	#Whole Lithuania
 	SOV_Core_Lithuania = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9527,7 +9528,7 @@ SOV_Coring_Decisions = {
 	#Whole Estonia
 	SOV_Core_Estonia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9599,7 +9600,7 @@ SOV_Coring_Decisions = {
 	#Japanese Annexations
 	SOV_Core_Japanese_Annexations = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9683,7 +9684,7 @@ SOV_Coring_Decisions = {
 	#Koenigsberg
 	SOV_Core_Koenigsberg = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9758,7 +9759,7 @@ SOV_Coring_Decisions = {
 	#Dalian
 	SOV_Core_Dalian = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9840,7 +9841,7 @@ SOV_Coring_Decisions = {
 	#Alaska
 	SOV_Core_Alaska = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9912,7 +9913,7 @@ SOV_Coring_Decisions = {
 	#Whole Mongolia
 	SOV_Core_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -9984,7 +9985,7 @@ SOV_Coring_Decisions = {
 	#Whole Tannu Tuva
 	SOV_Core_Tannu_Tuva = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10056,7 +10057,7 @@ SOV_Coring_Decisions = {
 	#Whole Czechoslovakia
 	SOV_Core_Czechoslovakia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10139,7 +10140,7 @@ SOV_Coring_Decisions = {
 	#Whole Yugoslavia
 	SOV_Core_Yugoslavia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10237,7 +10238,7 @@ SOV_Coring_Decisions = {
 	#Whole Bulgaria
 	SOV_Core_Bulgaria = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10322,7 +10323,7 @@ SOV_Coring_Decisions = {
 	#Whole Manchuria
 	SOV_Core_Manchuria = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10401,7 +10402,7 @@ SOV_Coring_Decisions = {
 	#Whole Inner Mongolia
 	SOV_Core_Inner_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10479,7 +10480,7 @@ SOV_Coring_Decisions = {
 	#Whole Afghanistan
 	SOV_Core_Afghanistan = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10552,7 +10553,7 @@ SOV_Coring_Decisions = {
 	#Whole Hungary
 	SOV_Core_Hungary = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10635,7 +10636,7 @@ SOV_Coring_Decisions = {
 	#Whole Romania
 	SOV_Core_Romania = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10718,7 +10719,7 @@ SOV_Coring_Decisions = {
 	#Whole Albania
 	SOV_Core_Albania = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10801,7 +10802,7 @@ SOV_Coring_Decisions = {
 	#Whole Greece
 	SOV_Core_Greece = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10880,7 +10881,7 @@ SOV_Coring_Decisions = {
 	#Whole Korea
 	SOV_Core_Korea = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -10959,7 +10960,7 @@ SOV_Coring_Decisions = {
 	#Whole Persia
 	SOV_Core_Persia = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -11038,7 +11039,7 @@ SOV_Coring_Decisions = {
 	#Whole Sinkiang
 	SOV_Core_Sinkiang = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -11117,7 +11118,7 @@ SOV_Coring_Decisions = {
 	#Whole Turkey
 	SOV_Core_Turkey = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -11196,7 +11197,7 @@ SOV_Coring_Decisions = {
 	#Whole Pakistan
 	SOV_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -11275,7 +11276,7 @@ SOV_Coring_Decisions = {
 	#East Germany
 	SOV_Core_East_Germany = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -11375,7 +11376,7 @@ SOV_Coring_Decisions = {
 	#East Austria
 	SOV_Core_East_Austria = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -11457,7 +11458,7 @@ SOV_Coring_Decisions = {
 	#Polish German Annexations
 	SOV_Core_Polish_German_Annexations = {
 
-		icon = ger_reichskommissariats
+		icon = SOV_the_stalin_constitution
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12172,7 +12173,7 @@ USA_Coring_Decisions = {
 #Whole Canada
 	USA_Core_Canada = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12255,7 +12256,7 @@ USA_Coring_Decisions = {
 	#Puerto Rico
 	USA_Core_Puerto_Rico = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 
 		fire_only_once = yes
 		cost = 20
@@ -12310,7 +12311,7 @@ USA_Coring_Decisions = {
 	#North Mexico
 	USA_Core_North_Mexico = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12394,7 +12395,7 @@ USA_Coring_Decisions = {
 	#Whole Mexico
 	USA_Core_Mexico = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12471,7 +12472,7 @@ USA_Coring_Decisions = {
 	#Central America
 	USA_Core_Central_America = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12572,7 +12573,7 @@ USA_Coring_Decisions = {
 	#Whole Cuba
 	USA_Core_Cuba = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12644,7 +12645,7 @@ USA_Coring_Decisions = {
 	#Whole Hispaniola
 	USA_Core_Hispaniola = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12725,7 +12726,7 @@ USA_Coring_Decisions = {
 	#Whole Phillippines
 	USA_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12797,7 +12798,7 @@ USA_Coring_Decisions = {
 	#Whole Iceland
 	USA_Core_Iceland = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12878,7 +12879,7 @@ USA_Coring_Decisions = {
 	#Whole Colombia
 	USA_Core_Colombia = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -12954,7 +12955,7 @@ USA_Coring_Decisions = {
 	#Whole Venezuela
 	USA_Core_Venezuela = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13030,7 +13031,7 @@ USA_Coring_Decisions = {
 	#Whole Guyanas
 	USA_Core_Guyanas = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13118,7 +13119,7 @@ USA_Coring_Decisions = {
 	#Whole Brazil
 	USA_Core_Brazil = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13191,7 +13192,7 @@ USA_Coring_Decisions = {
 	#Whole Ecuador
 	USA_Core_Ecuador = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13270,7 +13271,7 @@ USA_Coring_Decisions = {
 	#Whole Peru
 	USA_Core_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13343,7 +13344,7 @@ USA_Coring_Decisions = {
 	#Whole Bolivia
 	USA_Core_Bolivia = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13416,7 +13417,7 @@ USA_Coring_Decisions = {
 	#Whole Paraguay
 	USA_Core_Paraguay = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13489,7 +13490,7 @@ USA_Coring_Decisions = {
 	#Whole Uruguay
 	USA_Core_Uruguay = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13562,7 +13563,7 @@ USA_Coring_Decisions = {
 	#Whole Chile
 	USA_Core_Chile = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -13635,7 +13636,7 @@ USA_Coring_Decisions = {
 	#Whole Argentina
 	USA_Core_Argentina = {
 
-		icon = ger_reichskommissariats
+		icon = eng_puppet_usa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14241,7 +14242,7 @@ ITA_Coring_Decisions = {
 	#Corsica
 	ITA_Core_Corsica = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 
 		fire_only_once = yes
 		cost = 20
@@ -14297,7 +14298,7 @@ ITA_Coring_Decisions = {
 	#Mediterranean Islands
 	ITA_Core_Mediterranean_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14391,7 +14392,7 @@ ITA_Coring_Decisions = {
 	#Savoy
 	ITA_Core_Savoy = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 
 		fire_only_once = yes
 		cost = 20
@@ -14446,7 +14447,7 @@ ITA_Coring_Decisions = {
 	#Ticino
 	ITA_Core_Ticino = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 
 		fire_only_once = yes
 		cost = 20
@@ -14501,7 +14502,7 @@ ITA_Coring_Decisions = {
 	#South East France
 	ITA_Core_South_East_France = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14592,7 +14593,7 @@ ITA_Coring_Decisions = {
 	#Yugoslav Coast
 	ITA_Core_Yugoslav_Coast = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14676,7 +14677,7 @@ ITA_Coring_Decisions = {
 	#Whole Spain
 	ITA_Core_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14767,7 +14768,7 @@ ITA_Coring_Decisions = {
 	#Whole Portugal
 	ITA_Core_Portugal = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14843,7 +14844,7 @@ ITA_Coring_Decisions = {
 	#Whole Greece
 	ITA_Core_Greece = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14921,7 +14922,7 @@ ITA_Coring_Decisions = {
 	#Whole Albania
 	ITA_Core_Albania = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -14999,7 +15000,7 @@ ITA_Coring_Decisions = {
 	#Whole Montenegro
 	ITA_Core_Montenegro = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15078,7 +15079,7 @@ ITA_Coring_Decisions = {
 	#Whole Romania
 	ITA_Core_Romania = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15151,7 +15152,7 @@ ITA_Coring_Decisions = {
 	#Whole Hungary
 	ITA_Core_Hungary = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15227,7 +15228,7 @@ ITA_Coring_Decisions = {
 	#Whole Yugoslavia
 	ITA_Core_Yugoslavia = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15320,7 +15321,7 @@ ITA_Coring_Decisions = {
 	#Whole Bulgaria
 	ITA_Core_Bulgaria = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15397,7 +15398,7 @@ ITA_Coring_Decisions = {
 	#Whole France
 	ITA_Core_France = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15488,7 +15489,7 @@ ITA_Coring_Decisions = {
 	#Left Bank of Rhine
 	ITA_Core_Left_Bank_of_Rhine = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15576,7 +15577,7 @@ ITA_Coring_Decisions = {
 	#Whole Germany
 	ITA_Core_Germany = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15664,7 +15665,7 @@ ITA_Coring_Decisions = {
 	#Whole Luxembourg
 	ITA_Core_Luxembourg = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15740,7 +15741,7 @@ ITA_Coring_Decisions = {
 	#Whole Belgium
 	ITA_Core_Belgium = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15816,7 +15817,7 @@ ITA_Coring_Decisions = {
 	#Whole Netherlands
 	ITA_Core_Netherlands = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15895,7 +15896,7 @@ ITA_Coring_Decisions = {
 	#Whole Britain
 	ITA_Core_Britain = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -15977,7 +15978,7 @@ ITA_Coring_Decisions = {
 	#Whole Austria
 	ITA_Core_Austria = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16053,7 +16054,7 @@ ITA_Coring_Decisions = {
 	#Whole Switzerland
 	ITA_Core_Switzerland = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16132,7 +16133,7 @@ ITA_Coring_Decisions = {
 	#Whole Turkey
 	ITA_Core_Turkey = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16209,7 +16210,7 @@ ITA_Coring_Decisions = {
 	#Whole Caucasus
 	ITA_Core_Caucasus = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16294,7 +16295,7 @@ ITA_Coring_Decisions = {
 	#Whole Ukraine
 	ITA_Core_Ukraine = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16397,7 +16398,7 @@ ITA_Coring_Decisions = {
 	#Whole Iraq
 	ITA_Core_Iraq = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16482,7 +16483,7 @@ ITA_Coring_Decisions = {
 	#Whole Syria
 	ITA_Core_Syria = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16558,7 +16559,7 @@ ITA_Coring_Decisions = {
 	#Whole Lebanon
 	ITA_Core_Lebanon = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16634,7 +16635,7 @@ ITA_Coring_Decisions = {
 	#Whole Israel
 	ITA_Core_Israel = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16710,7 +16711,7 @@ ITA_Coring_Decisions = {
 	#Whole Jordan
 	ITA_Core_Jordan = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16786,7 +16787,7 @@ ITA_Coring_Decisions = {
 	#Whole Egypt
 	ITA_Core_Egypt = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16862,7 +16863,7 @@ ITA_Coring_Decisions = {
 	#Whole Libya
 	ITA_Core_Libya = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -16938,7 +16939,7 @@ ITA_Coring_Decisions = {
 	#Whole Tunisia
 	ITA_Core_Tunisia = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -17014,7 +17015,7 @@ ITA_Coring_Decisions = {
 	#Whole Algeria
 	ITA_Core_Algeria = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -17087,7 +17088,7 @@ ITA_Coring_Decisions = {
 	#Whole Morocco
 	ITA_Core_Morocco = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -17160,7 +17161,7 @@ ITA_Coring_Decisions = {
 	#Whole Saudi_Arabia
 	ITA_Core_Saudi_Arabia = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -17251,7 +17252,7 @@ ITA_Coring_Decisions = {
 	#Whole Sudan
 	ITA_Core_Sudan = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -17324,7 +17325,7 @@ ITA_Coring_Decisions = {
 	#Whole Italian East Africa
 	ITA_Core_Italian_East_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = ITA_italian_east_africa
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18102,7 +18103,7 @@ JAP_Coring_Decisions = {
 #Whole Taiwan
 	JAP_Core_Taiwan = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18174,7 +18175,7 @@ JAP_Coring_Decisions = {
 	#Whole Korea
 	JAP_Core_Korea = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18246,7 +18247,7 @@ JAP_Coring_Decisions = {
 	#Whole North_Sakhalin
 	JAP_Core_North_Sakhalin = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18318,7 +18319,7 @@ JAP_Coring_Decisions = {
 	#Whole Pacific Islands
 	JAP_Core_Pacific_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18459,7 +18460,7 @@ JAP_Coring_Decisions = {
 	#Whole Manchukuo
 	JAP_Core_Manchukuo = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18531,7 +18532,7 @@ JAP_Coring_Decisions = {
 	#Whole Mengkukuo
 	JAP_Core_Mengkukuo = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18603,7 +18604,7 @@ JAP_Coring_Decisions = {
 	#Whole Chinese Coast
 	JAP_Core_Chinese_Coast = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18679,7 +18680,7 @@ JAP_Coring_Decisions = {
 	#Whole Chinese_Interior
 	JAP_Core_Chinese_Interior = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18755,7 +18756,7 @@ JAP_Coring_Decisions = {
 	#Whole Mongolia
 	JAP_Core_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18831,7 +18832,7 @@ JAP_Coring_Decisions = {
 	#Whole Tibet
 	JAP_Core_Tibet = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -18904,7 +18905,7 @@ JAP_Coring_Decisions = {
 	#Whole Outer Manchuria
 	JAP_Core_Outer_Manchuria = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19001,7 +19002,7 @@ JAP_Coring_Decisions = {
 	#Whole Tannu Tuva
 	JAP_Core_Tannu_Tuva = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19074,7 +19075,7 @@ JAP_Coring_Decisions = {
 #Whole Phillippines
 	JAP_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19150,7 +19151,7 @@ JAP_Coring_Decisions = {
 	#Whole Malaya
 	JAP_Core_Malaya = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19223,7 +19224,7 @@ JAP_Coring_Decisions = {
 	#Whole Indonesia
 	JAP_Core_Indonesia = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19314,7 +19315,7 @@ JAP_Coring_Decisions = {
 	#Whole Indochina
 	JAP_Core_Indochina = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19399,7 +19400,7 @@ JAP_Coring_Decisions = {
 	#Whole Siam
 	JAP_Core_Siam = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19472,7 +19473,7 @@ JAP_Coring_Decisions = {
 	#Whole India
 	JAP_Core_India = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19545,7 +19546,7 @@ JAP_Coring_Decisions = {
 	#Whole Burma
 	JAP_Core_Burma = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19618,7 +19619,7 @@ JAP_Coring_Decisions = {
 	#Whole Pakistan
 	JAP_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19694,7 +19695,7 @@ JAP_Coring_Decisions = {
 	#Whole Bangladesh
 	JAP_Core_Bangladesh = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19767,7 +19768,7 @@ JAP_Coring_Decisions = {
 	#Whole Nepal
 	JAP_Core_Nepal = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19840,7 +19841,7 @@ JAP_Coring_Decisions = {
 	#Whole Bhutan
 	JAP_Core_Bhutan = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19913,7 +19914,7 @@ JAP_Coring_Decisions = {
 	#Whole Australia
 	JAP_Core_Australia = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -19986,7 +19987,7 @@ JAP_Coring_Decisions = {
 	#Whole New_Zealand
 	JAP_Core_New_Zealand = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20059,7 +20060,7 @@ JAP_Coring_Decisions = {
 	#Whole Sri_Lanka
 	JAP_Core_Sri_Lanka = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20132,7 +20133,7 @@ JAP_Coring_Decisions = {
 	#Russian Coast
 	JAP_Core_Russian_Coast = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20220,7 +20221,7 @@ JAP_Coring_Decisions = {
 	#Russian Siberia
 	JAP_Core_Russian_Siberia = {
 
-		icon = ger_reichskommissariats
+		icon = jap_pacific_guardian
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20583,7 +20584,7 @@ SPR_Coring_Decisions = {
 #Gibraltar
 	SPR_Core_Gibraltar = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -20638,7 +20639,7 @@ SPR_Coring_Decisions = {
 #Whole Portugal
 	SPR_Core_Portugal = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20718,7 +20719,7 @@ SPR_Coring_Decisions = {
 	#South West France
 	SPR_Core_South_West_France = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20806,7 +20807,7 @@ SPR_Coring_Decisions = {
 	#Mediterranean Islands
 	SPR_Core_Mediterranean_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20891,7 +20892,7 @@ SPR_Coring_Decisions = {
 	#Morrocco
 	SPR_Core_Morocco = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -20961,7 +20962,7 @@ SPR_Coring_Decisions = {
 	#Algeria
 	SPR_Core_Algeria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21043,7 +21044,7 @@ SPR_Coring_Decisions = {
 	##Algeria
 	SPR_Core_Tunisia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21116,7 +21117,7 @@ SPR_Coring_Decisions = {
 	#African Colonies
 	SPR_Core_African_Colonies = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21192,7 +21193,7 @@ SPR_Coring_Decisions = {
 	#Whole Phillippines
 	SPR_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21265,7 +21266,7 @@ SPR_Coring_Decisions = {
 	#African Colonies
 	SPR_Core_African_Colonies_POR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21353,7 +21354,7 @@ SPR_Coring_Decisions = {
 
 	SPR_Start_Core_Mexico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
@@ -21423,7 +21424,7 @@ SPR_Coring_Decisions = {
 #Whole Mexico
 	SPR_Core_Mexico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21496,7 +21497,7 @@ SPR_Coring_Decisions = {
 	#Central America
 	SPR_Core_Central_America = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21593,7 +21594,7 @@ SPR_Coring_Decisions = {
 	#Whole Cuba
 	SPR_Core_Cuba = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21666,7 +21667,7 @@ SPR_Coring_Decisions = {
 	#Whole Hispaniola
 	SPR_Core_Hispaniola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21739,7 +21740,7 @@ SPR_Coring_Decisions = {
 	#Puerto Rico
 	SPR_Core_Puerto_Rico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -21795,7 +21796,7 @@ SPR_Coring_Decisions = {
 	#Whole Colombia
 	SPR_Core_Colombia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -21867,7 +21868,7 @@ SPR_Coring_Decisions = {
 	
 	SPR_Start_Core_Venezuela = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
@@ -21937,7 +21938,7 @@ SPR_Coring_Decisions = {
 	#Whole Venezuela
 	SPR_Core_Venezuela = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22010,7 +22011,7 @@ SPR_Coring_Decisions = {
 	#Whole Ecuador
 	SPR_Core_Ecuador = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22088,7 +22089,7 @@ SPR_Coring_Decisions = {
 	
 	SPR_Start_Core_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
@@ -22158,7 +22159,7 @@ SPR_Coring_Decisions = {
 	#Whole Peru
 	SPR_Core_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22231,7 +22232,7 @@ SPR_Coring_Decisions = {
 	#Whole Bolivia
 	SPR_Core_Bolivia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22304,7 +22305,7 @@ SPR_Coring_Decisions = {
 	#Whole Paraguay
 	SPR_Core_Paraguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22377,7 +22378,7 @@ SPR_Coring_Decisions = {
 	#Whole Uruguay
 	SPR_Core_Uruguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22449,7 +22450,7 @@ SPR_Coring_Decisions = {
 	
 	SPR_Start_Core_Chile = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
@@ -22519,7 +22520,7 @@ SPR_Coring_Decisions = {
 	#Whole Chile
 	SPR_Core_Chile = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22591,7 +22592,7 @@ SPR_Coring_Decisions = {
 	
 	SPR_Start_Core_Argentina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
@@ -22661,7 +22662,7 @@ SPR_Coring_Decisions = {
 	#Whole Argentina
 	SPR_Core_Argentina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22733,7 +22734,7 @@ SPR_Coring_Decisions = {
 	
 	SPR_Core_Florida = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -22789,7 +22790,7 @@ SPR_Coring_Decisions = {
 	#New Spain
 	SPR_Core_New_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22888,7 +22889,7 @@ SPR_Coring_Decisions = {
 	#Whole Brazil
 	SPR_Core_Brazil = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -22962,7 +22963,7 @@ SPR_Coring_Decisions = {
 	#Whole Angola
 	SPR_Core_Angola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23036,7 +23037,7 @@ SPR_Coring_Decisions = {
 	#Whole Mozambique
 	SPR_Core_Mozambique = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23319,7 +23320,7 @@ POR_Coring_Decisions = {
 #Gibraltar
 	POR_Core_Gibraltar = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -23375,7 +23376,7 @@ POR_Coring_Decisions = {
 	#Gibraltar
 	POR_Core_Galizia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -23430,7 +23431,7 @@ POR_Coring_Decisions = {
 	#Whole Spain
 	POR_Core_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23511,7 +23512,7 @@ POR_Coring_Decisions = {
 	#Morrocco
 	POR_Core_Morocco = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23581,7 +23582,7 @@ POR_Coring_Decisions = {
 	#African Colonies
 	POR_Core_African_Colonies = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23660,7 +23661,7 @@ POR_Coring_Decisions = {
 	#Whole Phillippines
 	POR_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23736,7 +23737,7 @@ POR_Coring_Decisions = {
 	#African Colonies
 	POR_Core_African_Colonies_POR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23825,7 +23826,7 @@ POR_Coring_Decisions = {
 #Whole Mexico
 	POR_Core_Mexico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -23901,7 +23902,7 @@ POR_Coring_Decisions = {
 	#Central America
 	POR_Core_Central_America = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24001,7 +24002,7 @@ POR_Coring_Decisions = {
 	#Whole Cuba
 	POR_Core_Cuba = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24077,7 +24078,7 @@ POR_Coring_Decisions = {
 	#Whole Hispaniola
 	POR_Core_Hispaniola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24153,7 +24154,7 @@ POR_Coring_Decisions = {
 	#Puerto Rico
 	POR_Core_Puerto_Rico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -24212,7 +24213,7 @@ POR_Coring_Decisions = {
 	#Whole Colombia
 	POR_Core_Colombia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24288,7 +24289,7 @@ POR_Coring_Decisions = {
 	#Whole Venezuela
 	POR_Core_Venezuela = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24364,7 +24365,7 @@ POR_Coring_Decisions = {
 	#Whole Ecuador
 	POR_Core_Ecuador = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24446,7 +24447,7 @@ POR_Coring_Decisions = {
 	#Whole Peru
 	POR_Core_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24522,7 +24523,7 @@ POR_Coring_Decisions = {
 	#Whole Bolivia
 	POR_Core_Bolivia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24598,7 +24599,7 @@ POR_Coring_Decisions = {
 	#Whole Paraguay
 	POR_Core_Paraguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24674,7 +24675,7 @@ POR_Coring_Decisions = {
 	#Whole Uruguay
 	POR_Core_Uruguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24750,7 +24751,7 @@ POR_Coring_Decisions = {
 	#Whole Chile
 	POR_Core_Chile = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24826,7 +24827,7 @@ POR_Coring_Decisions = {
 	#Whole Argentina
 	POR_Core_Argentina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -24901,7 +24902,7 @@ POR_Coring_Decisions = {
 	
 	POR_Core_Florida = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -24960,7 +24961,7 @@ POR_Coring_Decisions = {
 	##New Spain
 	POR_Core_New_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25062,7 +25063,7 @@ POR_Coring_Decisions = {
 	#Initial Landing in Brazil
 	POR_Start_Core_Brazil = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Only Once as its Initial Landing
 		fire_only_once = yes
@@ -25135,7 +25136,7 @@ POR_Coring_Decisions = {
 	#Whole Brazil
 	POR_Core_Brazil = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25211,7 +25212,7 @@ POR_Coring_Decisions = {
 	#Whole Angola
 	POR_Core_Angola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25284,7 +25285,7 @@ POR_Coring_Decisions = {
 	#Whole Mozambique
 	POR_Core_Mozambique = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25571,7 +25572,7 @@ HOL_Coring_Decisions = {
 #Luxembourg
 	HOL_Core_Luxembourg = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -25626,7 +25627,7 @@ HOL_Coring_Decisions = {
 	#Brabant
 	HOL_Core_Brabant = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -25681,7 +25682,7 @@ HOL_Coring_Decisions = {
 	#Netherlands
 	HOL_Core_Netherlands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25762,7 +25763,7 @@ HOL_Coring_Decisions = {
 	#Flanders
 	HOL_Core_Flemish_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25847,7 +25848,7 @@ HOL_Coring_Decisions = {
 	#Rest of Belgium
 	HOL_Core_Rest_of_Belgium = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -25902,7 +25903,7 @@ HOL_Coring_Decisions = {
 	##Greater_Luxembourg
 	LUX_Core_Greater_Luxembourg = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -25986,7 +25987,7 @@ HOL_Coring_Decisions = {
 	#Cape Colony
 	HOL_Core_Cape_Colony = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -26042,7 +26043,7 @@ HOL_Coring_Decisions = {
 	##South Africa
 	HOL_Core_South_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -26124,7 +26125,7 @@ HOL_Coring_Decisions = {
 	#American Colonies
 	HOL_Core_American_Colonies = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -26206,7 +26207,7 @@ HOL_Coring_Decisions = {
 	##Whole Indonesia
 	HOL_Core_Indonesia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -26300,7 +26301,7 @@ HOL_Coring_Decisions = {
 	#Belgian Congo
 	HOL_Core_Belgian_Congo = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -26436,7 +26437,7 @@ HOL_Coring_Decisions = {
 			#Curacao
 			695 = { is_controlled_by = FROM }
 		}
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			country_event = {
@@ -26500,7 +26501,7 @@ HOL_Coring_Decisions = {
 			#Burundi
 			769 = { is_controlled_by = FROM }
 		}
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			country_event = {
@@ -26692,7 +26693,7 @@ SWE_Coring_Decisions = {
 #Denmark
 	NOR_Crossing_The_North_Sea = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow One Time
 		fire_only_once = yes
@@ -26761,7 +26762,7 @@ SWE_Coring_Decisions = {
 #Whole Denmark
 	SWE_Core_Denmark = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores Danish States one by one
 		fire_only_once = no
@@ -26855,7 +26856,7 @@ SWE_Coring_Decisions = {
 #Whole Sweden
 	SWE_Core_Sweden = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -26933,7 +26934,7 @@ SWE_Coring_Decisions = {
 	#Whole Norway
 	DEN_Crossing_The_North_Sea = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow One Time
 		fire_only_once = yes
@@ -27014,7 +27015,7 @@ SWE_Coring_Decisions = {
 	#Whole Norway
 	SWE_Core_Norway = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27086,7 +27087,7 @@ SWE_Coring_Decisions = {
 	#Whole Finland
 	SWE_Core_Finland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27159,7 +27160,7 @@ SWE_Coring_Decisions = {
 	
 	SWE_Core_Jan_Mayen = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 40
@@ -27215,7 +27216,7 @@ SWE_Coring_Decisions = {
 #Faroe Islands
 	SWE_Core_Faroe_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 40
@@ -27271,7 +27272,7 @@ SWE_Coring_Decisions = {
 	#Iceland
 	SWE_Core_Iceland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 40
@@ -27327,7 +27328,7 @@ SWE_Coring_Decisions = {
 	#Greenland
 	SWE_Core_Greenland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 40
@@ -27384,7 +27385,7 @@ SWE_Coring_Decisions = {
 	#Whole Lithuania
 	SWE_Core_Lithuania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27461,7 +27462,7 @@ SWE_Coring_Decisions = {
 	#Whole Latvia
 	SWE_Core_Latvia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27538,7 +27539,7 @@ SWE_Coring_Decisions = {
 	#Whole Estonia
 	SWE_Core_Estonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27616,7 +27617,7 @@ SWE_Coring_Decisions = {
 	#Greater Finland
 	SWE_Core_Greater_Finland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27701,7 +27702,7 @@ SWE_Coring_Decisions = {
 	#North Russia
 	SWE_Core_North_Russia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27788,7 +27789,7 @@ SWE_Coring_Decisions = {
 	#North Germany
 	SWE_Core_North_Germany = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27904,7 +27905,7 @@ SWE_Coring_Decisions = {
 	#Sleswig Holstein
 	SWE_Core_Sleswig_Holstein = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -27992,7 +27993,7 @@ SWE_Coring_Decisions = {
 	#Sleswig Holstein
 	SWE_Core_Pomerania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -28078,7 +28079,7 @@ SWE_Coring_Decisions = {
 	#England
 	DEN_Core_England = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -28650,7 +28651,7 @@ LIT_Coring_Decisions = {
 #Whole Lithuania
 	LIT_Core_Lithuania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -28723,7 +28724,7 @@ LIT_Coring_Decisions = {
 	#Whole Latvia
 	LIT_Core_Latvia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -28796,7 +28797,7 @@ LIT_Coring_Decisions = {
 	#Whole Estonia
 	LIT_Core_Estonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -28869,7 +28870,7 @@ LIT_Coring_Decisions = {
 	#Prussia
 	LIT_Core_Prussia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		fire_only_once = yes
 		cost = 80
@@ -28941,7 +28942,7 @@ LIT_Coring_Decisions = {
 	#Whole Belarus
 	LIT_Core_Belarus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29014,7 +29015,7 @@ LIT_Coring_Decisions = {
 	#Whole Ukraine
 	LIT_Core_Ukraine = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29220,7 +29221,7 @@ POL_Coring_Decisions = {
 #East Germany
 	POL_Core_East_Germany = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		fire_only_once = no
 		cost = 80
@@ -29310,7 +29311,7 @@ POL_Coring_Decisions = {
 	#Koenigsberg
 	POL_Core_Koenigsberg = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29391,7 +29392,7 @@ POL_Coring_Decisions = {
 	#Zaolzie
 	POL_Core_Zaolzie = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		fire_only_once = yes
 		cost = 80
@@ -29463,7 +29464,7 @@ POL_Coring_Decisions = {
 	#Whole Lithuania
 	POL_Core_Lithuania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29537,7 +29538,7 @@ POL_Coring_Decisions = {
 	#Whole Latvia
 	POL_Core_Latvia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29611,7 +29612,7 @@ POL_Coring_Decisions = {
 	#Whole Estonia
 	POL_Core_Estonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29685,7 +29686,7 @@ POL_Coring_Decisions = {
 	#Whole Belarus
 	POL_Core_Belarus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29758,7 +29759,7 @@ POL_Coring_Decisions = {
 	#Whole Ukraine
 	POL_Core_Ukraine = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -29932,7 +29933,7 @@ AUS_Coring_Decisions = {
 #Sudetenland
 	AUS_Core_Sudetenland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30015,7 +30016,7 @@ AUS_Coring_Decisions = {
 	#Non Sudetenland Czech Lands
 	AUS_Core_Czech_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30101,7 +30102,7 @@ AUS_Coring_Decisions = {
 	#South Tyrol
 	AUS_Core_South_Tyrol = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -30157,7 +30158,7 @@ AUS_Coring_Decisions = {
 	##Austrian Empire Land
 	AUS_Core_Austrian_Empire_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30252,7 +30253,7 @@ AUS_Coring_Decisions = {
 	#Venice
 	AUS_Core_Venedig = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -30309,7 +30310,7 @@ AUS_Coring_Decisions = {
 	#Galicia
 	AUS_Core_Galicia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30394,7 +30395,7 @@ AUS_Coring_Decisions = {
 	#Bukovina
 	AUS_Core_Bukovina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -30514,7 +30515,7 @@ AUH_Coring_Decisions = {
 
 AUH_Core_Austria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30585,7 +30586,7 @@ AUH_Core_Austria = {
 	
 	AUH_Core_Hungary = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30656,7 +30657,7 @@ AUH_Core_Austria = {
 
 AUH_Core_Croatia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30737,7 +30738,7 @@ AUH_Core_Croatia = {
 	#Sudetenland
 	AUH_Core_Sudetenland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30821,7 +30822,7 @@ AUH_Core_Croatia = {
 	#Non Sudetenland Czech Lands
 	AUH_Core_Czech_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -30908,7 +30909,7 @@ AUH_Core_Croatia = {
 	#South Tyrol
 	AUH_Core_South_Tyrol = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -30965,7 +30966,7 @@ AUH_Core_Croatia = {
 	##Austrian Empire Land
 	AUH_Core_Austrian_Empire_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31061,7 +31062,7 @@ AUH_Core_Croatia = {
 	#Venice
 	AUH_Core_Venedig = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -31118,7 +31119,7 @@ AUH_Core_Croatia = {
 	#Galicia
 	AUH_Core_Galicia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31203,7 +31204,7 @@ AUH_Core_Croatia = {
 	#Bukovina
 	AUH_Core_Bukovina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 80
@@ -31259,7 +31260,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Slovakia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31346,7 +31347,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Transylvania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31436,7 +31437,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Vojvodina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -31508,7 +31509,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Rest_of_Yugoslavia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31595,7 +31596,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Rest_of_Romania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31810,7 +31811,7 @@ YUG_Coring_Decisions = {
 #Bulgaria
 	YUG_Core_Bulgaria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31897,7 +31898,7 @@ YUG_Coring_Decisions = {
 	#Albania
 	YUG_Core_Albania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -31969,7 +31970,7 @@ YUG_Coring_Decisions = {
 	#Whole Romania
 	YUG_Core_Romania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32042,7 +32043,7 @@ YUG_Coring_Decisions = {
 	#Whole Hungary
 	YUG_Core_Hungary = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32115,7 +32116,7 @@ YUG_Coring_Decisions = {
 	#Whole Greece
 	YUG_Core_Greece = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32187,7 +32188,7 @@ YUG_Coring_Decisions = {
 	
 	YUG_Core_Thrace = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32269,7 +32270,7 @@ YUG_Coring_Decisions = {
 	#Montenegro
 	SER_Core_Montenegro = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32341,7 +32342,7 @@ YUG_Coring_Decisions = {
 	#Bosnia
 	SER_Core_Bosnia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32412,7 +32413,7 @@ YUG_Coring_Decisions = {
 	
 	SER_Core_Croatia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32496,7 +32497,7 @@ YUG_Coring_Decisions = {
 	#Macedonia
 	SER_Core_Macedonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -32568,7 +32569,7 @@ YUG_Coring_Decisions = {
 	#Bosnia
 	CRO_Core_Bosnia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32640,7 +32641,7 @@ YUG_Coring_Decisions = {
 	#Montenegro
 	CRO_Core_Montenegro = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -32712,7 +32713,7 @@ YUG_Coring_Decisions = {
 	#Vojvodina
 	CRO_Core_Vojvodina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -33021,7 +33022,7 @@ BUL_Coring_Decisions = {
 #Bulgaria
 	BUL_Core_Thrace = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33105,7 +33106,7 @@ BUL_Coring_Decisions = {
 	#Bulgaria
 	BUL_Core_Dobrudja = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -33177,7 +33178,7 @@ BUL_Coring_Decisions = {
 	#Macedonia
 	BUL_Core_Macedonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33260,7 +33261,7 @@ BUL_Coring_Decisions = {
 	
 	BUL_Core_Russian_Gains = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33345,7 +33346,7 @@ BUL_Coring_Decisions = {
 	#Whole Romania
 	BUL_Core_Romania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33418,7 +33419,7 @@ BUL_Coring_Decisions = {
 	#Whole Albania
 	BUL_Core_Albania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33491,7 +33492,7 @@ BUL_Coring_Decisions = {
 	#Whole Greece
 	BUL_Core_Greece = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33564,7 +33565,7 @@ BUL_Coring_Decisions = {
 	#Montenegro
 	BUL_Core_Montenegro = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33636,7 +33637,7 @@ BUL_Coring_Decisions = {
 	#Serbia
 	BUL_Core_Serbia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33848,7 +33849,7 @@ ROM_Coring_Decisions = {
 #Romania
 	ROM_Core_Russian_Gains = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33932,7 +33933,7 @@ ROM_Coring_Decisions = {
 	#BANAT
 	ROM_Core_Banat = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -34060,7 +34061,7 @@ HUN_Coring_Decisions = {
 
 HUN_Core_Slovakia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34146,7 +34147,7 @@ HUN_Core_Slovakia = {
 	
 	HUN_Core_Transylvania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34235,7 +34236,7 @@ HUN_Core_Slovakia = {
 	
 	HUN_Core_Croatia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34316,7 +34317,7 @@ HUN_Core_Slovakia = {
 	
 	HUN_Core_Vojvodina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -34464,7 +34465,7 @@ ALB_Coring_Decisions = {
 #Montenegro
 	ALB_Core_Montenegro = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34535,7 +34536,7 @@ ALB_Coring_Decisions = {
 	#Kosovo
 	ALB_Core_Kosovo = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34662,7 +34663,7 @@ IRE_Coring_Decisions = {
 #Scotland
 	IRE_Core_Scotland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34734,7 +34735,7 @@ IRE_Coring_Decisions = {
 	#Wales
 	IRE_Core_Wales = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34806,7 +34807,7 @@ IRE_Coring_Decisions = {
 	#Brittany
 	IRE_Core_Brittany = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34988,7 +34989,7 @@ GRE_Coring_Decisions = {
 #Northern_Epirus
 	GRE_Core_Northern_Epirus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -35043,7 +35044,7 @@ GRE_Coring_Decisions = {
 	#Macedonia
 	GRE_Core_Macedonia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -35097,7 +35098,7 @@ GRE_Coring_Decisions = {
 	
 	GRE_Core_Thrace = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35180,7 +35181,7 @@ GRE_Coring_Decisions = {
 	
 	GRE_Core_Turkey_Start = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35263,7 +35264,7 @@ GRE_Coring_Decisions = {
 	
 	GRE_Core_Turkey_Continue = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35347,7 +35348,7 @@ GRE_Coring_Decisions = {
 	#Cyprus
 	GRE_Core_Cyprus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35475,7 +35476,7 @@ SWI_Coring_Decisions = {
 #Whole Austria
 	SWI_Core_Austrian_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores Austrian States one by one
 		fire_only_once = no
@@ -35547,7 +35548,7 @@ SWI_Coring_Decisions = {
 	#South Tyrol
 	SWI_Core_South_Tyrol = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -35603,7 +35604,7 @@ SWI_Coring_Decisions = {
 	#Austrian Empire Land
 	SWI_Core_Austrian_Empire_Lands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35695,7 +35696,7 @@ SWI_Coring_Decisions = {
 	#Italan Alps
 	SWI_Core_Italian_Alps = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35778,7 +35779,7 @@ SWI_Coring_Decisions = {
 	#French Alps
 	SWI_Core_French_Alps = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35867,7 +35868,7 @@ SWI_Coring_Decisions = {
 	#Venice
 	SWI_Core_Venedig = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 40
@@ -35983,7 +35984,7 @@ AFG_Coring_Decisions = {
 #Whole Pakistan
 	AFG_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36061,7 +36062,7 @@ SAU_Coring_Decisions = {
 
 SAU_Core_Afghanistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36132,7 +36133,7 @@ SAU_Core_Afghanistan = {
 	
 	SAU_Core_Persia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36204,7 +36205,7 @@ SAU_Core_Afghanistan = {
 	#Whole Turkey
 	SAU_Core_Turkey = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36276,7 +36277,7 @@ SAU_Core_Afghanistan = {
 	#Whole Iraq
 	SAU_Core_Iraq = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36357,7 +36358,7 @@ SAU_Core_Afghanistan = {
 	#Whole Syria
 	SAU_Core_Syria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36429,7 +36430,7 @@ SAU_Core_Afghanistan = {
 	#Whole Lebanon
 	SAU_Core_Lebanon = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36501,7 +36502,7 @@ SAU_Core_Afghanistan = {
 	#Whole Israel
 	SAU_Core_Israel = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36573,7 +36574,7 @@ SAU_Core_Afghanistan = {
 	#Whole Jordan
 	SAU_Core_Jordan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36645,7 +36646,7 @@ SAU_Core_Afghanistan = {
 	#Whole Egypt
 	SAU_Core_Egypt = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36717,7 +36718,7 @@ SAU_Core_Afghanistan = {
 	#Whole Libya
 	SAU_Core_Libya = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36789,7 +36790,7 @@ SAU_Core_Afghanistan = {
 	#Whole Tunisia
 	SAU_Core_Tunisia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36861,7 +36862,7 @@ SAU_Core_Afghanistan = {
 	#Whole Algeria
 	SAU_Core_Algeria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -36933,7 +36934,7 @@ SAU_Core_Afghanistan = {
 	#Whole Morocco
 	SAU_Core_Morocco = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37005,7 +37006,7 @@ SAU_Core_Afghanistan = {
 	#Whole Saudi_Arabia
 	SAU_Core_Saudi_Arabia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37095,7 +37096,7 @@ SAU_Core_Afghanistan = {
 	#Whole Sudan
 	SAU_Core_Sudan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37270,7 +37271,7 @@ ARG_Coring_Decisions = {
 #Whole Argentina
 	ARG_Core_Argentina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37342,7 +37343,7 @@ ARG_Coring_Decisions = {
 	#Whole Chile
 	ARG_Core_Chile = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37414,7 +37415,7 @@ ARG_Coring_Decisions = {
 	#Whole Paraguay
 	ARG_Core_Paraguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37486,7 +37487,7 @@ ARG_Coring_Decisions = {
 	#Whole Uruguay
 	ARG_Core_Uruguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37558,7 +37559,7 @@ ARG_Coring_Decisions = {
 	#Whole Bolivia
 	ARG_Core_Bolivia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37631,7 +37632,7 @@ ARG_Coring_Decisions = {
 	#Southern Brazil
 	ARG_Core_Southern_Brazil = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -37715,7 +37716,7 @@ ARG_Coring_Decisions = {
 	#Falklands
 	ARG_Core_Falklands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -37779,7 +37780,7 @@ ARG_Coring_Decisions = {
 	#South Georgia
 	ARG_Core_South_Georgia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -37843,7 +37844,7 @@ ARG_Coring_Decisions = {
 	#Pitcairn Island
 	CHL_Core_Pitcairn_Island = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -38221,7 +38222,7 @@ AST_Coring_Decisions = {
 #Australia
 	AST_Core_Australia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38295,7 +38296,7 @@ AST_Coring_Decisions = {
 	#New Zealand
 	AST_Core_New_Zealand = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38369,7 +38370,7 @@ AST_Coring_Decisions = {
 	#Papua
 	AST_Core_Papua = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38452,7 +38453,7 @@ AST_Coring_Decisions = {
 	#Whole Indonesia
 	AST_Core_Indonesia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38543,7 +38544,7 @@ AST_Coring_Decisions = {
 	#Whole Malaya
 	AST_Core_Malaya = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38616,7 +38617,7 @@ AST_Coring_Decisions = {
 	#Whole Phillippines
 	AST_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38753,7 +38754,7 @@ BRA_Coring_Decisions = {
 #Whole Paraguay
 	BRA_Core_Paraguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38825,7 +38826,7 @@ BRA_Coring_Decisions = {
 	##Whole Uruguay
 	BRA_Core_Uruguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38897,7 +38898,7 @@ BRA_Coring_Decisions = {
 #Whole Guyanas
 	BRA_Core_Guyanas = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -38981,7 +38982,7 @@ BRA_Coring_Decisions = {
 	#Border Regions
 	BRA_Core_Border_Regions = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39074,7 +39075,7 @@ BRA_Coring_Decisions = {
 	#Whole Portugal
 	BRA_Core_Portugal = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39146,7 +39147,7 @@ BRA_Coring_Decisions = {
 	#Whole Angola
 	BRA_Core_Angola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39218,7 +39219,7 @@ BRA_Coring_Decisions = {
 	#Whole Mozambique
 	BRA_Core_Mozambique = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39290,7 +39291,7 @@ BRA_Coring_Decisions = {
 	##African Colonies
 	BRA_Core_African_Colonies_POR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39495,7 +39496,7 @@ CAN_Coring_Decisions = {
 ##Alaska
 	CAN_Core_Alaska = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39566,7 +39567,7 @@ CAN_Coring_Decisions = {
 	
 	CAN_Core_USA = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39638,7 +39639,7 @@ CAN_Coring_Decisions = {
 	#Whole Iceland
 	CAN_Core_Iceland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39766,7 +39767,7 @@ GUA_Coring_Decisions = {
 #Central America
 	GUA_Core_Central_America = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39911,7 +39912,7 @@ CHI_Coring_Decisions = {
 	#Whole China
 	CHI_Core_China = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -39983,7 +39984,7 @@ CHI_Coring_Decisions = {
 	#Whole Manchuria
 	CHI_Core_Manchuria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40055,7 +40056,7 @@ CHI_Coring_Decisions = {
 	#Whole Outer Manchuria
 	CHI_Core_Outer_Manchuria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40150,7 +40151,7 @@ CHI_Coring_Decisions = {
 	#Whole Tibet
 	CHI_Core_Tibet = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40223,7 +40224,7 @@ CHI_Coring_Decisions = {
 	#Whole Mongolia
 	CHI_Core_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40295,7 +40296,7 @@ CHI_Coring_Decisions = {
 	#Whole Inner Mongolia
 	CHI_Core_Inner_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40368,7 +40369,7 @@ CHI_Coring_Decisions = {
 	#Whole Tannu Tuva
 	CHI_Core_Tannu_Tuva = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40440,7 +40441,7 @@ CHI_Coring_Decisions = {
 	#Whole Korea
 	CHI_Core_Korea = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40512,7 +40513,7 @@ CHI_Coring_Decisions = {
 	#Whole Japan
 	CHI_Core_Japan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40584,7 +40585,7 @@ CHI_Coring_Decisions = {
 	#Whole North_Sakhalin
 	CHI_Core_North_Sakhalin = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40656,7 +40657,7 @@ CHI_Coring_Decisions = {
 	#Whole Indochina
 	CHI_Core_Indochina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40740,7 +40741,7 @@ CHI_Coring_Decisions = {
 	#Whole Siam
 	CHI_Core_Siam = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40812,7 +40813,7 @@ CHI_Coring_Decisions = {
 	#Whole Burma
 	CHI_Core_Burma = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40884,7 +40885,7 @@ CHI_Coring_Decisions = {
 	#Whole Nepal
 	CHI_Core_Nepal = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -40956,7 +40957,7 @@ CHI_Coring_Decisions = {
 	##Whole Bhutan
 	CHI_Core_Bhutan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41182,7 +41183,7 @@ COL_Coring_Decisions = {
 #Whole Colombia
 	COL_Core_Colombia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41254,7 +41255,7 @@ COL_Coring_Decisions = {
 	#Whole Venezuela
 	COL_Core_Venezuela = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41326,7 +41327,7 @@ COL_Coring_Decisions = {
 	#Whole Ecuador
 	COL_Core_Ecuador = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41404,7 +41405,7 @@ COL_Coring_Decisions = {
 	#Whole Panama
 	COL_Core_Panama = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41476,7 +41477,7 @@ COL_Coring_Decisions = {
 	#North Peru
 	COL_Core_North_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41557,7 +41558,7 @@ COL_Coring_Decisions = {
 	#Whole Guyanas
 	VEN_Core_Guyanas = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41685,7 +41686,7 @@ CUB_Coring_Decisions = {
 #Whole Cuba
 	CUB_Core_Cuba = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41757,7 +41758,7 @@ CUB_Coring_Decisions = {
 	#Whole Hispaniola
 	CUB_Core_Hispaniola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -41838,7 +41839,7 @@ CUB_Coring_Decisions = {
 	#Puerto Rico
 	CUB_Core_Puerto_Rico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -41893,7 +41894,7 @@ CUB_Coring_Decisions = {
 	#Jamaica
 	CUB_Core_Jamaica = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -41947,7 +41948,7 @@ CUB_Coring_Decisions = {
 	
 	CUB_Core_Rest_of_Caribbean = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42158,7 +42159,7 @@ ETH_Coring_Decisions = {
 #Whole Italian East Africa
 	ETH_Core_Abyssinia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42309,7 +42310,7 @@ RAJ_Coring_Decisions = {
 #Whole India
 	RAJ_Core_India = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42381,7 +42382,7 @@ RAJ_Coring_Decisions = {
 	#Whole Burma
 	RAJ_Core_Burma = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42453,7 +42454,7 @@ RAJ_Coring_Decisions = {
 	#Whole Pakistan
 	RAJ_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42528,7 +42529,7 @@ RAJ_Coring_Decisions = {
 	#Whole Bangladesh
 	RAJ_Core_Bangladesh = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42600,7 +42601,7 @@ RAJ_Coring_Decisions = {
 	#Whole Sri_Lanka
 	RAJ_Core_Sri_Lanka = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42671,7 +42672,7 @@ RAJ_Coring_Decisions = {
 	
 	RAJ_Core_Afghanistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42743,7 +42744,7 @@ RAJ_Coring_Decisions = {
 	#Whole Tibet
 	RAJ_Core_Tibet = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42816,7 +42817,7 @@ RAJ_Coring_Decisions = {
 	#Whole Siam
 	RAJ_Core_Siam = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42889,7 +42890,7 @@ RAJ_Coring_Decisions = {
 	#Whole Malaya
 	RAJ_Core_Malaya = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -42962,7 +42963,7 @@ RAJ_Coring_Decisions = {
 	#Whole Indochina
 	RAJ_Core_Indochina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43047,7 +43048,7 @@ RAJ_Coring_Decisions = {
 	#Whole Indonesia
 	RAJ_Core_Indonesia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43138,7 +43139,7 @@ RAJ_Coring_Decisions = {
 	#Whole Phillippines
 	RAJ_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43211,7 +43212,7 @@ RAJ_Coring_Decisions = {
 	#Whole Nepal
 	RAJ_Core_Nepal = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43283,7 +43284,7 @@ RAJ_Coring_Decisions = {
 	#Whole Bhutan
 	RAJ_Core_Bhutan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43555,7 +43556,7 @@ INS_Coring_Decisions = {
 #Whole Indonesia
 	INS_Core_Indonesia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43645,7 +43646,7 @@ INS_Coring_Decisions = {
 	#Whole Malaya
 	INS_Core_Malaya = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43717,7 +43718,7 @@ INS_Coring_Decisions = {
 	#Whole Phillippines
 	INS_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43790,7 +43791,7 @@ INS_Coring_Decisions = {
 	#Whole Australia
 	INS_Core_Australia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43863,7 +43864,7 @@ INS_Coring_Decisions = {
 	#Whole New_Zealand
 	INS_Core_New_Zealand = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -43991,7 +43992,7 @@ IRQ_Coring_Decisions = {
 #Whole Iraq
 	IRQ_Core_Iraq = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44072,7 +44073,7 @@ IRQ_Coring_Decisions = {
 	#Whole Syria
 	IRQ_Core_Syria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44144,7 +44145,7 @@ IRQ_Coring_Decisions = {
 	#Whole Lebanon
 	IRQ_Core_Lebanon = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44216,7 +44217,7 @@ IRQ_Coring_Decisions = {
 	#Whole Israel
 	IRQ_Core_Israel = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44288,7 +44289,7 @@ IRQ_Coring_Decisions = {
 	#Whole Jordan
 	IRQ_Core_Jordan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44364,7 +44365,7 @@ MEX_Coring_Decisions = {
 #Central America
 	MEX_Core_Central_America = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44460,7 +44461,7 @@ MEX_Coring_Decisions = {
 #New Spain
 	MEX_Core_New_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44632,7 +44633,7 @@ MON_Coring_Decisions = {
 #Whole Mongolia
 	MON_Core_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44704,7 +44705,7 @@ MON_Coring_Decisions = {
 #Whole Inner Mongolia
 	MON_Core_Inner_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44777,7 +44778,7 @@ MON_Coring_Decisions = {
 	#Whole Tannu Tuva
 	MON_Core_Tannu_Tuva = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -44848,7 +44849,7 @@ MON_Coring_Decisions = {
 	
 	MON_Core_Buryatia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -44958,7 +44959,7 @@ PER_Coring_Decisions = {
 #Whole Caucasus
 	PER_Core_Caucasus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45042,7 +45043,7 @@ PER_Coring_Decisions = {
 	#Whole Iraq
 	PER_Core_Iraq = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45122,7 +45123,7 @@ PER_Coring_Decisions = {
 	
 	PER_Core_Afghanistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45193,7 +45194,7 @@ PER_Coring_Decisions = {
 	
 	PER_Core_Persia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45265,7 +45266,7 @@ PER_Coring_Decisions = {
 	#Whole Pakistan
 	PER_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45339,7 +45340,7 @@ PER_Coring_Decisions = {
 	
 	PER_Core_Turkmenistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45410,7 +45411,7 @@ PER_Coring_Decisions = {
 	
 	PER_Core_Uzbekistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45481,7 +45482,7 @@ PER_Coring_Decisions = {
 	
 	PER_Core_Tajikistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45552,7 +45553,7 @@ PER_Coring_Decisions = {
 	
 	PER_Core_East_Turkey = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45706,7 +45707,7 @@ PRU_Coring_Decisions = {
 #Whole Ecuador
 	PRU_Core_Ecuador = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45784,7 +45785,7 @@ PRU_Coring_Decisions = {
 	#Whole Peru
 	PRU_Core_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45856,7 +45857,7 @@ PRU_Coring_Decisions = {
 	#Whole Bolivia
 	PRU_Core_Bolivia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -45928,7 +45929,7 @@ PRU_Coring_Decisions = {
 	#Antofagasta
 	PRU_Core_Antofagasta = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -45983,7 +45984,7 @@ PRU_Coring_Decisions = {
 	#Chaco
 	PRU_Core_Chaco = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 20
@@ -46214,7 +46215,7 @@ SAF_Coring_Decisions = {
 #Border States
 	SAF_Core_Border_States = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46305,7 +46306,7 @@ TUR_Coring_Decisions = {
 #Cyprus
 	TUR_Core_Cyprus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46377,7 +46378,7 @@ TUR_Coring_Decisions = {
 	#Bulgaria
 	TUR_Core_Thrace = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46458,7 +46459,7 @@ TUR_Coring_Decisions = {
 	#North Syria
 	TUR_Core_North_Syria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46542,7 +46543,7 @@ TUR_Coring_Decisions = {
 	#North Iraq
 	TUR_Core_North_Iraq = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46614,7 +46615,7 @@ TUR_Coring_Decisions = {
 	#Whole Caucasus
 	TUR_Core_Caucasus = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46698,7 +46699,7 @@ TUR_Coring_Decisions = {
 	#Greek_Islands
 	TUR_Core_Greek_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46782,7 +46783,7 @@ TUR_Coring_Decisions = {
 	#Whole Greece
 	TUR_Core_Greece = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46855,7 +46856,7 @@ TUR_Coring_Decisions = {
 	#Bulgaria
 	TUR_Core_Bulgaria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -46928,7 +46929,7 @@ TUR_Coring_Decisions = {
 	#Albania
 	TUR_Core_Albania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47000,7 +47001,7 @@ TUR_Coring_Decisions = {
 	#Whole Romania
 	TUR_Core_Romania = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47073,7 +47074,7 @@ TUR_Coring_Decisions = {
 	#Whole Hungary
 	TUR_Core_Greater_Hungary = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47182,7 +47183,7 @@ TUR_Coring_Decisions = {
 	#Whole Yugoslavia
 	TUR_Core_Yugoslavia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47263,7 +47264,7 @@ TUR_Coring_Decisions = {
 	
 	TUR_Core_Russian_Gains = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47514,7 +47515,7 @@ MUN_AME_Coring_Decisions = {
 
 MUN_AME_Core_USA = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47590,7 +47591,7 @@ MUN_AME_Core_USA = {
 #Whole Canada
 	MUN_AME_Core_Canada = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47677,7 +47678,7 @@ MUN_AME_Core_USA = {
 	#Puerto Rico
 	MUN_AME_Core_Puerto_Rico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 60
@@ -47736,7 +47737,7 @@ MUN_AME_Core_USA = {
 	
 	MUN_AME_Core_New_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47835,7 +47836,7 @@ MUN_AME_Core_USA = {
 	#Whole Mexico
 	MUN_AME_Core_Mexico = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -47912,7 +47913,7 @@ MUN_AME_Core_USA = {
 	#Central America
 	MUN_AME_Core_Central_America = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48013,7 +48014,7 @@ MUN_AME_Core_USA = {
 	#Whole Cuba
 	MUN_AME_Core_Cuba = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48090,7 +48091,7 @@ MUN_AME_Core_USA = {
 	#Whole Hispaniola
 	MUN_AME_Core_Hispaniola = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48176,7 +48177,7 @@ MUN_AME_Core_USA = {
 	#Whole Colombia
 	MUN_AME_Core_Colombia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48253,7 +48254,7 @@ MUN_AME_Core_USA = {
 	#Whole Venezuela
 	MUN_AME_Core_Venezuela = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48330,7 +48331,7 @@ MUN_AME_Core_USA = {
 	#Whole Guyanas
 	MUN_AME_Core_Guyanas = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48418,7 +48419,7 @@ MUN_AME_Core_USA = {
 	#Whole Brazil
 	MUN_AME_Core_Brazil = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48494,7 +48495,7 @@ MUN_AME_Core_USA = {
 	#Whole Ecuador
 	MUN_AME_Core_Ecuador = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48577,7 +48578,7 @@ MUN_AME_Core_USA = {
 	#Whole Peru
 	MUN_AME_Core_Peru = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48654,7 +48655,7 @@ MUN_AME_Core_USA = {
 	#Whole Bolivia
 	MUN_AME_Core_Bolivia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48731,7 +48732,7 @@ MUN_AME_Core_USA = {
 	#Whole Paraguay
 	MUN_AME_Core_Paraguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48808,7 +48809,7 @@ MUN_AME_Core_USA = {
 	#Whole Uruguay
 	MUN_AME_Core_Uruguay = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48885,7 +48886,7 @@ MUN_AME_Core_USA = {
 	#Whole Chile
 	MUN_AME_Core_Chile = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -48964,7 +48965,7 @@ MUN_AME_Core_USA = {
 	#Whole Argentina
 	MUN_AME_Core_Argentina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -49679,7 +49680,7 @@ MUN_EUR_Coring_Decisions = {
 #Whole Spain
 	MUN_EUR_Core_Spain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -49767,7 +49768,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Portugal
 	MUN_EUR_Core_Portugal = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -49840,7 +49841,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole France
 	MUN_EUR_Core_France = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -49928,7 +49929,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Britain
 	MUN_EUR_Core_Britain = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50001,7 +50002,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Ireland
 	MUN_EUR_Core_Ireland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores Irish States one by one
 		fire_only_once = no
@@ -50074,7 +50075,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Italy
 	MUN_EUR_Core_Italy = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50147,7 +50148,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Switzerland
 	MUN_EUR_Core_Switzerland = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50220,7 +50221,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Austria
 	MUN_EUR_Core_Austria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50293,7 +50294,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Germany
 	MUN_EUR_Core_Germany = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50366,7 +50367,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Luxembourg
 	MUN_EUR_Core_Luxembourg = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50439,7 +50440,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Netherlands
 	MUN_EUR_Core_Netherlands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50512,7 +50513,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Belgium
 	MUN_EUR_Core_Belgium = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50585,7 +50586,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_DEN = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50658,7 +50659,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_NOR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50731,7 +50732,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_SWE = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50804,7 +50805,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_FIN = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50877,7 +50878,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_LAT = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -50950,7 +50951,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_LIT = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51023,7 +51024,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_EST = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51096,7 +51097,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_POL = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51169,7 +51170,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_CZE = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51242,7 +51243,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_HUN = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51315,7 +51316,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_ROM = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51388,7 +51389,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_BUL = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51461,7 +51462,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_YUG = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51534,7 +51535,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_ALB = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51607,7 +51608,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_GRE = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51680,7 +51681,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Belarus
 	MUN_EUR_Core_BLR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51753,7 +51754,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Ukraine
 	MUN_EUR_Core_UKR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -51826,7 +51827,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Russia
 	MUN_EUR_Core_SOV = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52019,7 +52020,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Georgia
 	MUN_EUR_Core_GEO = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52092,7 +52093,7 @@ MUN_EUR_Coring_Decisions = {
 #Whole Armenia
 	MUN_EUR_Core_ARM = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52165,7 +52166,7 @@ MUN_EUR_Coring_Decisions = {
 	#Whole Azerbaijan
 	MUN_EUR_Core_AZR = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52249,7 +52250,7 @@ MUN_EUR_Coring_Decisions = {
 	
 	MUN_EUR_Core_Thrace = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52331,7 +52332,7 @@ MUN_EUR_Coring_Decisions = {
 	#Mediterranean Islands
 	MUN_EUR_Core_Mediterranean_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52426,7 +52427,7 @@ MUN_EUR_Coring_Decisions = {
 	#Iceland
 	MUN_EUR_Core_ICE = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 60
@@ -52483,7 +52484,7 @@ MUN_EUR_Coring_Decisions = {
 	#Greenland
 	MUN_EUR_Core_GRL = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
 		cost = 60
@@ -52641,7 +52642,7 @@ MUN_ASI_Coring_Decisions = {
 #Whole Japan
 	MUN_ASI_Core_Japan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52715,7 +52716,7 @@ MUN_ASI_Coring_Decisions = {
 #Whole Taiwan
 	MUN_ASI_Core_Taiwan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52788,7 +52789,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Korea
 	MUN_ASI_Core_Korea = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -52861,7 +52862,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Pacific Islands
 	MUN_ASI_Core_Pacific_Islands = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53004,7 +53005,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Chinese_Interior
 	MUN_ASI_Core_Chinese_Interior = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53077,7 +53078,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Mongolia
 	MUN_ASI_Core_Mongolia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53150,7 +53151,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Tibet
 	MUN_ASI_Core_Tibet = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53223,7 +53224,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Tannu Tuva
 	MUN_ASI_Core_Tannu_Tuva = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53296,7 +53297,7 @@ MUN_ASI_Coring_Decisions = {
 #Whole Phillippines
 	MUN_ASI_Core_Phillippines = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53369,7 +53370,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Malaya
 	MUN_ASI_Core_Malaya = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53442,7 +53443,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Indonesia
 	MUN_ASI_Core_Indonesia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53533,7 +53534,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Indochina
 	MUN_ASI_Core_Indochina = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53618,7 +53619,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Siam
 	MUN_ASI_Core_Siam = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53691,7 +53692,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole India
 	MUN_ASI_Core_India = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53764,7 +53765,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Burma
 	MUN_ASI_Core_Burma = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53837,7 +53838,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Pakistan
 	MUN_ASI_Core_Pakistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53913,7 +53914,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Bangladesh
 	MUN_ASI_Core_Bangladesh = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -53986,7 +53987,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Nepal
 	MUN_ASI_Core_Nepal = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54059,7 +54060,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Bhutan
 	MUN_ASI_Core_Bhutan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54132,7 +54133,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Sri_Lanka
 	MUN_ASI_Core_Sri_Lanka = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54205,7 +54206,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Russia
 	MUN_ASI_Core_SOV = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54397,7 +54398,7 @@ MUN_ASI_Coring_Decisions = {
 	
 	MUN_ASI_Core_Afghanistan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54469,7 +54470,7 @@ MUN_ASI_Coring_Decisions = {
 	
 	MUN_ASI_Core_Persia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54542,7 +54543,7 @@ MUN_ASI_Coring_Decisions = {
 #Whole Saudi_Arabia
 	MUN_ASI_Core_Saudi_Arabia = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54633,7 +54634,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Turkey
 	MUN_ASI_Core_Turkey = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54718,7 +54719,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Iraq
 	MUN_ASI_Core_Iraq = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54800,7 +54801,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Syria
 	MUN_ASI_Core_Syria = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54873,7 +54874,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Lebanon
 	MUN_ASI_Core_Lebanon = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -54946,7 +54947,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Israel
 	MUN_ASI_Core_Israel = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -55019,7 +55020,7 @@ MUN_ASI_Coring_Decisions = {
 	#Whole Jordan
 	MUN_ASI_Core_Jordan = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -55282,7 +55283,7 @@ MUN_AFR_Coring_Decisions = {
 
 MUN_AFR_Core_North_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -55378,7 +55379,7 @@ MUN_AFR_Core_North_Africa = {
 	
 	MUN_AFR_Core_East_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -55495,7 +55496,7 @@ MUN_AFR_Core_North_Africa = {
 	
 	MUN_AFR_Core_Middle_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -55594,7 +55595,7 @@ MUN_AFR_Core_North_Africa = {
 	
 	MUN_AFR_Core_South_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -55678,7 +55679,7 @@ MUN_AFR_Core_North_Africa = {
 	
 	MUN_AFR_Core_West_Africa = {
 
-		icon = ger_reichskommissariats
+		icon = hol_exchange_intelligence_data
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
