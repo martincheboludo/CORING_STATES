@@ -1,107 +1,15 @@
-BFN aims to introduce simple Coring decisions ranging from 20-100pp, 7-35 days and 5-25 Civ Factories, depending on how hard it is to core said state. The closer the geographic location, ethnicities, language and plausible historical claims, the easier to core, on the other hand, the more distance and different the culture, the harder it will be to core.
+What is BFN?
 
-All Majors and Interesting Minors have been given Coring decisions and Formable Nations.
+BFN is a mod that aims to give players a reasonable mechanic to core their conquests, based on historical, ethnic, linguistic and geographical ties between peoples.
 
-101 Formable Nations In Total
+What features does the mod have?
+Coring decisions for all Majors and almost all minors. 
+Over 100 formables, many of which are unique
 
-Abyssinia
-Alpine Federation
-Americas
-Arab League
-Austria-Hungary
-Balkan Federation
-Benelux
-British Imperial Federation
-Bulgarian Empire
-Byzantine Empire
-Canadian-American Union
-CANZUK
-Caribbean Union
-Celtic Union
-Central American Union
-Chile-Argentinean Union
-Chinese Empire
-Commonwealth of Nations
-Denmark-Norway
-Empire of Brazil
-Erfurt Union
-European Union
-French Empire
-German Empire
-Golden Circle
-Gran Colombia
-Grand Duchy of Lithuania
-Great Britain and Ireland
-Greater Albania
-Greater America
-Greater Argentina
-Greater Australia
-Greater Austria
-Greater Belgium
-Greater Bolivia
-Greater Brazil
-Greater Bulgaria
-Greater Canada
-Greater Chile
-Greater China
-Greater Croatia
-Greater Denmark
-Greater East Asia Co-Prosperity Sphere
-Greater Finland
-Greater France
-Greater Germanic Reich
-Greater Germany
-Greater Greece
-Greater Hungary
-Greater India
-Greater Indonesia
-Greater Japan
-Greater Luxembourg
-Greater Mongolia
-Greater Netherlands
-Greater Norway
-Greater Peru
-Greater Poland
-Greater Portugal
-Greater Romania
-Greater Russia
-Greater Serbia
-Greater Spain
-Greater Turkey
-Greater Yugoslavia
-Hispaniola
-Holy Roman Empire
-Iberian Union
-Italian Empire
-Kalmar Union
-La Plata
-Lusophere
-Mexican Empire
-Mughal Empire
-Mussolin's Roman Empire
-Nordic Union
-North America
-North Sea Empire
-Ottoman Empire
-Patria Grande
-Persian Empire
-Peru-Bolivian Confederation
-Polish-Lithuanian Commonwealth
-Portugal-Brazil
-Roman Empire
-Russian Empire
-Slavic Union
-South American Union
-Spanish Empire
-Sweden-Norway
-Swedish Empire
-Unite Anglosphere
-Unite Francosphere
-United Baltic Duchy
-United Ireland
-United Southern Cone
-Untied Ireland
-Western Roman Empire
+How does it work?
+Decisions cost between 20 and 100pp, and use up between 5 and 25 civilian factories for 7-35 days, per state. After the wait, the state gets cores. The closer the state in terms of proximity, ethnicity, language, etc the easier it will be to integrate, and viceversa.
+
+Logical cores like coring Canada as the USA, German Switzerland as Germany, Uruguay as Argentina, etc will have no special requirements other than controlling the state in question. More complex cores like coring the entire European Union, will require you to proclaim the formable first to “justify” on which basis you are coring said states.
 
 CREDIT
 The orginal Formable Nations mod, by (3rewster) for being the pioneer.
