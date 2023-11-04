@@ -4,6 +4,7 @@
 GEN_Empire_Manager:0 "Manage Your Empire"
 GEN_Empire_Manager_desc:0 "An empire is a political unit made up of several territories and peoples, 'usually created by conquest, and divided between a dominant center and subordinate peripheries'. The center of the empire  exercises political control over the peripheries. Within an empire, different populations have different sets of rights and are governed differently."
 annex_puppet_targeted_decision:0 "Annex [FROM.GetName]"
+brute_force_annex_puppet_targeted_decision:0 "Annex [FROM.GetName]"
 
 GER_Coring_Decisions:0 "Greater Germany"
 GER_Coring_Decisions_desc:0 "During the debate of what was then called the German Question in the 19th century prior to the unification of Germany, the term Großdeutschland, 'Greater Germany', referred to a possible German nation consisting of the states that later comprised the German Empire and Austria."

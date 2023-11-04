@@ -504,6 +504,10 @@ GEN_Empire_Manager = {
     annex_puppet_targeted_decision = {
 	
 		icon = oppression
+		
+		allowed = {
+			always = false
+		}
 	
         visible = {
             any_state = {
@@ -524,6 +528,17 @@ GEN_Empire_Manager = {
         cost = 100
 		modifier = { civilian_factory_use = 25 }
 		days_remove = 35
+		
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
 
         available = {
 			num_of_civilian_factories_available_for_projects > 24
@@ -538,6 +553,44 @@ GEN_Empire_Manager = {
 					}
 				}
             }
+        }
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+        remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+            annex_country = {
+                target = FROM
+            }
+			clr_country_flag = Coring_In_Progress
+        }
+    }
+	
+	brute_force_annex_puppet_targeted_decision = {
+	
+		icon = oppression
+		
+		allowed = {
+		}
+	
+        visible = {
+		
+        }
+        target_trigger = {
+            FROM = {
+                is_subject_of = ROOT
+            }
+        }
+        cost = 200
+		modifier = { civilian_factory_use = 50 }
+		days_remove = 70
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+			num_of_civilian_factories_available_for_projects > 49
         }
 		complete_effect = {
 			set_country_flag = Coring_In_Progress
