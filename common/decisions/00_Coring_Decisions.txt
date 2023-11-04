@@ -6333,6 +6333,9 @@ GGR_Coring_Decisions = {
 								GER = {
 									controls_state = 195
 								}
+								FIN = {
+									controls_state = 195
+								}
 								any_other_country = {
 									is_in_faction_with = GER
 									controls_state = 195

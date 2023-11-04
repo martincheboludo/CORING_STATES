@@ -1364,8 +1364,8 @@ FORM_GSE = {
 	color_ui = rgb { 72 49 112 }
 }
 FORM_GCR = {
-	color = rgb { 230 255 122 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 230  70  180 }
+	color_ui = rgb { 230  70  180 }
 }
 FORM_GLI = {
 	color = rgb { 175 20 20 }
