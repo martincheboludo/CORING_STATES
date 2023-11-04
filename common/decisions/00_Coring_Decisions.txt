@@ -2,6 +2,85 @@
 
 DEBUG_Coring_Decisions = {
 
+#Coring Canada Test
+	DEBUG_Core_Canada = {
+
+		icon = eng_ally_imperialist_coup
+		
+		#Allow Multiple Times as it cores Canadian States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { civilian_factory_use = 10 }
+		days_remove = 14
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+			#OR = { 
+			#	has_global_flag = FORM_BIF2 
+			#	has_global_flag = Form_CANZUK2
+			#	has_global_flag = FORM_Anglosphere2
+			#}
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CAN
+						is_controlled_by_ROOT_or_subject = yes
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CAN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CAN
+						is_controlled_by_ROOT_or_subject = yes
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
 DEBUG_Core_Everything = {
 
 		icon = ger_reichskommissariats
@@ -27,6 +106,40 @@ DEBUG_Core_Everything = {
 		complete_effect = {
 			every_owned_state = {
 				limit = { NOT = { is_core_of = FROM } }
+				add_core_of = FROM
+			}
+		}
+		
+	}
+	
+	DEBUG_Core_Canada_Full = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+				NOT = { is_core_of = FROM } 
+				is_core_of = CAN
+				}
 				add_core_of = FROM
 			}
 		}
