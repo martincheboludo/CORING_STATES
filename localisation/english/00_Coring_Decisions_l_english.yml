@@ -69,6 +69,7 @@ GGR_Start_Core_Canada:0 "Einer Kolonie In Saskatchewan"
 GGR_Start_Core_USA:0 "Einer Kolonie In Pennsylvania"
 GGR_Start_Core_Brazil:0 "Einer Kolonie In Rio Grande do Sul"
 GGR_Start_Core_Argentina:0 "Einer Kolonie In Patagonien"
+GGR_Core_Caribbean:0 "Karibik Integrieren"
 
 FRA_Coring_Decisions:0 "Greater France"
 FRA_Coring_Decisions_desc:0 "The natural borders of France are a political and geographic theory developed in France, notably during the French Revolution. They correspond to the Rhine, the Atlantic Ocean and Mediterranean Sea, the Pyrenees and the Alps, according to the revolutionaries."

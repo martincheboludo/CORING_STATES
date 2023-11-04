@@ -3281,8 +3281,14 @@ GER_Coring_Decisions = {
 			769 = { is_controlled_by = FROM }
 			
 			#German East Indies
-			523 = { is_controlled_by = FROM }
-			737 = { is_controlled_by = FROM }
+			OR = {
+				523 = { is_controlled_by = FROM }
+				523 = { is_controlled_by = JAP }
+			}
+			OR = {
+				737 = { is_controlled_by = FROM }
+				737 = { is_controlled_by = JAP }
+			}
 		}
 		remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
@@ -5288,7 +5294,119 @@ GGR_Coring_Decisions = {
 		}
 	}
 	
-	
+	#Whole Caribbean
+	GGR_Core_Caribbean = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+
+		allowed = {
+			
+		}
+
+		available = {
+		#has_country_flag = FORM_German_Colonial_Empire2
+		#has_global_flag = FORM_GGR2
+		OR = {
+			has_country_flag = Integrate_Deutsch_Nordamerika2
+			has_country_flag = Integrate_Deutsch_Sudamerika2
+		}
+		num_of_civilian_factories_available_for_projects > 24
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = CUB
+							is_core_of = JAM
+							is_core_of = BAH
+							is_core_of = DOM
+							is_core_of = HAI
+							is_core_of = CRC
+							is_core_of = PUE
+							is_core_of = TRI
+							state = 694
+							state = 308
+							state = 692
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = CUB
+							is_core_of = JAM
+							is_core_of = BAH
+							is_core_of = DOM
+							is_core_of = HAI
+							is_core_of = CRC
+							is_core_of = PUE
+							is_core_of = TRI
+							state = 694
+							state = 308
+							state = 692
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = CUB
+							is_core_of = JAM
+							is_core_of = BAH
+							is_core_of = DOM
+							is_core_of = HAI
+							is_core_of = CRC
+							is_core_of = PUE
+							is_core_of = TRI
+							state = 694
+							state = 308
+							state = 692
+						}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 	
 	#Whole Venezuela
 	GGR_Core_Venezuela = {
@@ -37250,6 +37368,8 @@ IRE_Coring_Decisions = {
 		}
 		available = {
 			#is_subject = no
+			
+			119 = { is_controlled_by = FROM }
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Irish_States_tt
