@@ -44276,7 +44276,6 @@ COL_Coring_Decisions = {
 		}
 
 		available = {
-		original_tag = VEN
 		num_of_civilian_factories_available_for_projects > 9
 			any_controlled_state = {
 					AND = {
@@ -44322,6 +44321,78 @@ COL_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						state = 687
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Curacao
+	VEN_Core_Curacao = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { civilian_factory_use = 10 }
+		days_remove = 14
+
+		allowed = {
+		
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 9
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 695
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 695
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						state = 695
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -50380,66 +50451,6 @@ MUN_AME_Core_USA = {
 	}
 	
 	
-	#Puerto Rico
-	MUN_AME_Core_Puerto_Rico = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		OR = { 
-			has_global_flag = FORM_NOA2
-			has_global_flag = FORM_The_Americas2 
-			has_global_flag = FORM_Patria_Grande2
-		}
-		num_of_civilian_factories_available_for_projects > 14
-			686 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						#any_neighbor_state = {
-							#is_core_of = FROM
-						#}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			686 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			686 = {
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
 	MUN_AME_Core_New_Spain = {
 
 		icon = hol_exchange_intelligence_data
@@ -50717,84 +50728,7 @@ MUN_AME_Core_USA = {
 	}
 	
 	#Whole Cuba
-	MUN_AME_Core_Cuba = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		OR = { 
-			has_global_flag = FORM_NOA2
-			has_global_flag = FORM_The_Americas2 
-			has_global_flag = FORM_Patria_Grande2
-		}
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = CUB
-						#any_neighbor_state = {
-						#	is_core_of = FROM
-						#}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = CUB
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						is_core_of = CUB
-						#any_neighbor_state = {
-						#	is_core_of = FROM
-						#}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Whole Hispaniola
-	MUN_AME_Core_Hispaniola = {
+	MUN_AME_Core_Caribbean = {
 
 		icon = hol_exchange_intelligence_data
 		
@@ -50819,8 +50753,17 @@ MUN_AME_Core_USA = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						OR = {
+							is_core_of = CUB
+							is_core_of = JAM
+							is_core_of = BAH
 							is_core_of = DOM
 							is_core_of = HAI
+							is_core_of = CRC
+							is_core_of = PUE
+							is_core_of = TRI
+							state = 694
+							state = 308
+							state = 692
 						}
 						#any_neighbor_state = {
 						#	is_core_of = FROM
@@ -50846,8 +50789,17 @@ MUN_AME_Core_USA = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						OR = {
+							is_core_of = CUB
+							is_core_of = JAM
+							is_core_of = BAH
 							is_core_of = DOM
 							is_core_of = HAI
+							is_core_of = CRC
+							is_core_of = PUE
+							is_core_of = TRI
+							state = 694
+							state = 308
+							state = 692
 						}
 					}
 				}
@@ -50865,8 +50817,17 @@ MUN_AME_Core_USA = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						OR = {
+							is_core_of = CUB
+							is_core_of = JAM
+							is_core_of = BAH
 							is_core_of = DOM
 							is_core_of = HAI
+							is_core_of = CRC
+							is_core_of = PUE
+							is_core_of = TRI
+							state = 694
+							state = 308
+							state = 692
 						}
 						#any_neighbor_state = {
 						#	is_core_of = FROM
