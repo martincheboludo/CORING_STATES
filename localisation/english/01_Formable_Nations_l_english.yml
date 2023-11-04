@@ -1167,6 +1167,7 @@ RON_Controls_Somalian_States_tt:0 "Controls All Somalian States"
 RON_Controls_Togo_States_tt:0 "Controls All Togo States"
 RON_Controls_Ugandan_States_tt:0 "Controls All Ugandan States"
 RON_Controls_Upper_Volta_States_tt:0 "Controls All Upper Volta States"
+RON_Has_Cored_Puppet_States_tt:0 "All of your puppet's owned core states, have been cored by you."
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
