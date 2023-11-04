@@ -786,6 +786,8 @@ RON_Formable_Decision1:0 "Proclaim Greater Germanic Reich"
 RON_Formable_Decision9:0 "Proclaim Holy Roman Empire"
 RON_Formable_Decision74:0 "Proclaim German Empire"
 RON_Formable_Decision1007:0 "Integrate German Colonial Empire"
+RON_Formable_Decision1015:0 "Start Integrating Deutsch-Mittelafrika"
+RON_Formable_Decision1016:0 "Start Integrating Deutsch-Ostasien"
 
 #French Formables
 RON_Formable_Decision73:0 "Proclaim French Empire"
@@ -1025,6 +1027,8 @@ FORM_SOU2:0 "Has Proclaimed South American Union"
 FORM_ASI2:0 "Has Proclaimed Asian Union"
 FORM_Patria_Grande2:0 "Has Proclaimed Patria Grande"
 FORM_AFR2:0 "Has Proclaimed African Union"
+Integrate_Deutsch_Mittelafrika2:0 "Has Started Integrating Deutsch-Mittelafrika"
+Integrate_Deutsch_Ostasien2:0 "Has Started Integrating Deutsch-Ostasien"
 
 RON_Controls_Siamese_States_tt:0 "Controls All Siamese States"
 RON_Controls_Cambodian_States_tt:0 "Controls All Cambodian States"

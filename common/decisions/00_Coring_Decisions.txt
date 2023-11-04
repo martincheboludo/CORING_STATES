@@ -2316,7 +2316,7 @@ GER_Coring_Decisions = {
 
 		available = {
 			num_of_civilian_factories_available_for_projects > 24
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2407,7 +2407,7 @@ GER_Coring_Decisions = {
 
 		available = {
 			num_of_civilian_factories_available_for_projects > 24
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2492,7 +2492,7 @@ GER_Coring_Decisions = {
 
 		available = {
 			num_of_civilian_factories_available_for_projects > 24
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2600,16 +2600,8 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+			has_country_flag = Integrate_Deutsch_Ostasien2
 			num_of_civilian_factories_available_for_projects > 24
-			has_global_flag = FORM_German_Colonial_Empire2
-			
-			737 = {
-				is_core_of = FROM
-			}
-			
-			523 = {
-				is_core_of = FROM
-			}
 			
 			any_controlled_state = {
 					AND = {
@@ -2716,8 +2708,8 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+		has_country_flag = Integrate_Deutsch_Mittelafrika2
 		num_of_civilian_factories_available_for_projects > 24
-		has_global_flag = FORM_German_Colonial_Empire2
 			
 			any_controlled_state = {
 					AND = {
@@ -2818,8 +2810,8 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+		has_country_flag = Integrate_Deutsch_Mittelafrika2
 		num_of_civilian_factories_available_for_projects > 24
-		has_global_flag = FORM_German_Colonial_Empire2
 			
 			any_controlled_state = {
 					AND = {
@@ -2923,8 +2915,8 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+		has_country_flag = Integrate_Deutsch_Mittelafrika2
 		num_of_civilian_factories_available_for_projects > 24
-		has_global_flag = FORM_German_Colonial_Empire2
 			
 			any_controlled_state = {
 					AND = {
@@ -3007,8 +2999,8 @@ GER_Coring_Decisions = {
 		}
 
 		available = {
+		has_country_flag = Integrate_Deutsch_Mittelafrika2
 		num_of_civilian_factories_available_for_projects > 24
-		has_global_flag = FORM_German_Colonial_Empire2
 		
 			any_controlled_state = {
 				AND = {
@@ -3084,7 +3076,7 @@ GER_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
-			NOT = { has_global_flag = FORM_German_Colonial_Empire2 }
+			NOT = { has_country_flag = FORM_German_Colonial_Empire2 }
 		}
 		icon = ger_reichskommissariats
 		available = {
@@ -3144,7 +3136,175 @@ GER_Coring_Decisions = {
 				id = RON_Formable_Country.1007
 			}
 			hidden_effect = {
-				set_global_flag = FORM_German_Colonial_Empire2
+				set_country_flag = FORM_German_Colonial_Empire2
+			}
+		}
+	}
+	
+	#Deutsch-Mittelafrika
+	RON_Formable_Decision1015 = {
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+		allowed = {
+		}
+		visible = {
+			NOT = { has_country_flag = Integrate_Deutsch_Mittelafrika2 }
+		}
+		icon = ger_reichskommissariats
+		available = {
+			has_country_flag = FORM_German_Colonial_Empire2
+			num_of_civilian_factories_available_for_projects > 24
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Namibian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = NMB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Tanzania_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TZN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Togo
+			777 = { is_controlled_by = FROM }
+			
+			#West Africa
+			773 = { is_controlled_by = FROM }
+			772 = { is_controlled_by = FROM }
+			539 = { is_controlled_by = FROM }
+			
+			#Rwanda
+			768 = { is_controlled_by = FROM }
+			
+			#Burundi
+			769 = { is_controlled_by = FROM }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Congolese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = COG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+		}
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			country_event = {
+				id = RON_Formable_Country.1015
+			}
+			hidden_effect = {
+				set_country_flag = Integrate_Deutsch_Mittelafrika2
+			}
+		}
+	}
+	
+	#Deutsch-Ostasien
+	RON_Formable_Decision1016 = {
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 100
+		modifier = { civilian_factory_use = 25 }
+		days_remove = 35
+		allowed = {
+		}
+		visible = {
+			NOT = { has_country_flag = Integrate_Deutsch_Ostasien2 }
+		}
+		icon = ger_reichskommissariats
+		available = {
+			has_country_flag = FORM_German_Colonial_Empire2
+			num_of_civilian_factories_available_for_projects > 24
+			
+			737 = {
+				is_controlled_by = FROM
+			}
+			
+			523 = {
+				is_controlled_by = FROM
+			}
+			
+			#Malaya
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Malaya_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MAL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Vietnamese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VIN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Laos_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAO
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Cambodian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			country_event = {
+				id = RON_Formable_Country.1016
+			}
+			hidden_effect = {
+				set_country_flag = Integrate_Deutsch_Ostasien2
 			}
 		}
 	}
@@ -4827,7 +4987,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
 			469 = {
@@ -4885,7 +5045,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -4979,7 +5139,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
 			360 = {
@@ -5039,7 +5199,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -5136,7 +5296,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -5210,7 +5370,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -5295,7 +5455,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
 			502 = {
@@ -5353,7 +5513,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -5427,7 +5587,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -5501,7 +5661,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -5574,7 +5734,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_German_Colonial_Empire2
+			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
 			512 = {
@@ -5632,7 +5792,7 @@ GGR_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_German_Colonial_Empire2
+		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
@@ -28123,7 +28283,7 @@ HOL_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_Dutch_Empire2
+			has_country_flag = FORM_Dutch_Empire2
 			num_of_civilian_factories_available_for_projects > 19	
 			681 = {
 					AND = {
@@ -28180,7 +28340,7 @@ HOL_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_Dutch_Empire2
+			has_country_flag = FORM_Dutch_Empire2
 			num_of_civilian_factories_available_for_projects > 19
 			any_controlled_state = {
 					AND = {
@@ -28262,7 +28422,7 @@ HOL_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_Dutch_Empire2
+		has_country_flag = FORM_Dutch_Empire2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -28344,7 +28504,7 @@ HOL_Coring_Decisions = {
 		}
 
 		available = {
-		has_global_flag = FORM_Dutch_Empire2
+		has_country_flag = FORM_Dutch_Empire2
 		num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -28438,7 +28598,7 @@ HOL_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_Belgian_Empire2
+			has_country_flag = FORM_Belgian_Empire2
 			num_of_civilian_factories_available_for_projects > 24
 			any_controlled_state = {
 					AND = {
@@ -28520,7 +28680,7 @@ HOL_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
-			NOT = { has_global_flag = FORM_Dutch_Empire2 }
+			NOT = { has_country_flag = FORM_Dutch_Empire2 }
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 24
@@ -28568,7 +28728,7 @@ HOL_Coring_Decisions = {
 				id = RON_Formable_Country.103
 			}
 			hidden_effect = {
-				set_global_flag = FORM_Dutch_Empire2
+				has_country_flag = FORM_Dutch_Empire2
 			}
 		}
 	}
@@ -28585,7 +28745,7 @@ HOL_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
-			NOT = { has_global_flag = FORM_Belgian_Empire2 }
+			NOT = { has_country_flag = FORM_Belgian_Empire2 }
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 24
@@ -28632,7 +28792,7 @@ HOL_Coring_Decisions = {
 				id = RON_Formable_Country.1005
 			}
 			hidden_effect = {
-				set_global_flag = FORM_Belgian_Empire2
+				set_country_flag = FORM_Belgian_Empire2
 			}
 		}
 	}
