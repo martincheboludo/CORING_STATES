@@ -11,6 +11,20 @@ DEBUG_Coring_Decisions = {
 	}
 }
 
+GEN_Empire_Manager = {
+	picture = GFX_decision_cat_GEN_Empire_Manager
+	icon = eng_move_to_secure_the_dominions
+
+	allowed = {
+		is_debug = yes
+	}
+
+	visible = {
+		is_ai = no
+	}
+}
+
+
 GER_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_germany
 	icon = ger_reichskommissariats
