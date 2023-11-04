@@ -4355,3 +4355,249 @@ news_event = {
 		name = RON_Formable_News.2.a
 	}
 }
+
+#Japanese Pacific States
+country_event = {
+	id = RON_Formable_Country.1013
+	title = RON_Formable_Country.1013.t
+	desc = RON_Formable_Country.1013.d
+	picture = GFX_report_event_RON_Formable_Country1013
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1013.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1013 hours = 6 }
+		}
+
+	}
+
+}
+
+#Japanese Pacific States
+news_event = {
+	id = RON_Formable_News.1013
+	title = RON_Formable_News.1013.t
+	desc = RON_Formable_News.1013.d
+	picture = GFX_news_event_RON_Formable_News1013
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1013.a
+	}
+}
+
+#Japanese South America
+country_event = {
+	id = RON_Formable_Country.1014
+	title = RON_Formable_Country.1014.t
+	desc = RON_Formable_Country.1014.d
+	picture = GFX_report_event_RON_Formable_Country1014
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1014.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1014 hours = 6 }
+		}
+
+	}
+
+}
+
+#Japanese South America
+news_event = {
+	id = RON_Formable_News.1014
+	title = RON_Formable_News.1014.t
+	desc = RON_Formable_News.1014.d
+	picture = GFX_news_event_RON_Formable_News1014
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1014.a
+	}
+}
+
+#Deutsch-Mittelafrika
+country_event = {
+	id = RON_Formable_Country.1015
+	title = RON_Formable_Country.1015.t
+	desc = RON_Formable_Country.1015.d
+	picture = GFX_report_event_RON_Formable_Country1015
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1015.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1015 hours = 6 }
+		}
+
+	}
+
+}
+
+#Deutsch-Mittelafrika
+news_event = {
+	id = RON_Formable_News.1015
+	title = RON_Formable_News.1015.t
+	desc = RON_Formable_News.1015.d
+	picture = GFX_news_event_RON_Formable_News1015
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1015.a
+	}
+}
+
+#Deutsch-Ostasien
+country_event = {
+	id = RON_Formable_Country.1016
+	title = RON_Formable_Country.1016.t
+	desc = RON_Formable_Country.1016.d
+	picture = GFX_report_event_RON_Formable_Country1016
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1016.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1016 hours = 6 }
+		}
+
+	}
+
+}
+
+#Deutsch-Ostasien
+news_event = {
+	id = RON_Formable_News.1016
+	title = RON_Formable_News.1016.t
+	desc = RON_Formable_News.1016.d
+	picture = GFX_news_event_RON_Formable_News1016
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1016.a
+	}
+}
+
+#Deutsch-Nordamerika
+country_event = {
+	id = RON_Formable_Country.1017
+	title = RON_Formable_Country.1017.t
+	desc = RON_Formable_Country.1017.d
+	picture = GFX_report_event_RON_Formable_Country1017
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1017.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1017 hours = 6 }
+		}
+
+	}
+
+}
+
+#Deutsch-Nordamerika
+news_event = {
+	id = RON_Formable_News.1017
+	title = RON_Formable_News.1017.t
+	desc = RON_Formable_News.1017.d
+	picture = GFX_news_event_RON_Formable_News1017
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1017.a
+	}
+}
+
+#Deutsch-Südamerika
+country_event = {
+	id = RON_Formable_Country.1018
+	title = RON_Formable_Country.1018.t
+	desc = RON_Formable_Country.1018.d
+	picture = GFX_report_event_RON_Formable_Country1018
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1018.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1018 hours = 6 }
+		}
+
+	}
+
+}
+
+#Deutsch-Südamerika
+news_event = {
+	id = RON_Formable_News.1018
+	title = RON_Formable_News.1018.t
+	desc = RON_Formable_News.1018.d
+	picture = GFX_news_event_RON_Formable_News1018
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1018.a
+	}
+}
