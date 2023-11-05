@@ -1173,6 +1173,7 @@ RON_Has_Cored_Puppet_States_tt:0 "All of your puppet's owned core states, have b
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
 RON_FRA_Neutralized_tt:0 "France Has Been Neutralized"
 RON_SOV_Neutralized_tt:0 "Russia Has Been Neutralized"
+RON_USA_Neutralized_tt:0 "USA Has Been Neutralized"
  
  ######### Countries
  

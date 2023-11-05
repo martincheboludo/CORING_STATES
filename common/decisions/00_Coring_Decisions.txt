@@ -5209,6 +5209,60 @@ GGR_Coring_Decisions = {
 			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			469 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5372,6 +5426,60 @@ GGR_Coring_Decisions = {
 			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			360 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5542,6 +5650,23 @@ GGR_Coring_Decisions = {
 			has_country_flag = Integrate_Deutsch_Sudamerika2
 		}
 		num_of_civilian_factories_available_for_projects > 24
+		
+		OR = {
+			
+			any_controlled_state = {
+				AND = {
+					is_core_of = VEN
+					is_core_of = FROM
+				}
+			}
+			
+			366 = {
+				is_controlled_by = FROM
+				is_core_of = FROM
+			}
+			
+		}
+		
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5811,6 +5936,60 @@ GGR_Coring_Decisions = {
 			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			502 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6101,6 +6280,60 @@ GGR_Coring_Decisions = {
 			has_country_flag = FORM_German_Colonial_Empire2
 			has_global_flag = FORM_GGR2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			512 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6311,6 +6544,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
+							SOV = { surrender_progress > 0.5 }
 							OR = {
 								GER = {
 									controls_state = 219
@@ -22127,6 +22361,60 @@ JAP_Coring_Decisions = {
 		available = {
 			has_global_flag = FORM_Greater_East_Asia2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			473 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22288,6 +22576,60 @@ JAP_Coring_Decisions = {
 		available = {
 			has_global_flag = FORM_Greater_East_Asia2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			378 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22449,6 +22791,60 @@ JAP_Coring_Decisions = {
 		available = {
 			has_global_flag = FORM_Greater_East_Asia2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			475 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22758,6 +23154,60 @@ JAP_Start_Core_Peru = {
 		available = {
 			has_global_flag = FORM_Greater_East_Asia2
 			num_of_civilian_factories_available_for_projects > 25
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_USA_Neutralized_tt
+				OR = {
+						USA = {
+							has_capitulated = yes
+						}
+						USA = {
+							exists = no
+						}
+						USA = {
+							is_subject_of = GER
+						}
+						USA = {
+							is_subject_of = JAP
+						}
+						AND = {
+							USA = { surrender_progress > 0.5 }
+							OR = {
+								GER = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 361
+								}
+								JAP = {
+									controls_state = 361
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 361
+								}
+							}
+							OR = {
+								GER = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = GER
+									controls_state = 378
+								}
+								JAP = {
+									controls_state = 378
+								}
+								any_other_country = {
+									is_in_faction_with = JAP
+									controls_state = 378
+								}
+							}
+						}
+					}
+			}
+			
 			303 = {
 					AND = {
 						NOT = { is_core_of = FROM }
