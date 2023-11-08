@@ -6867,16 +6867,7 @@ GGR_Coring_Decisions = {
 					}
 			}
 		
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = USA
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
+		
 			
 			279 = {
 					AND = {
@@ -7031,23 +7022,14 @@ GGR_Coring_Decisions = {
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						is_core_of = USA
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-		
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
 						is_core_of = CHL
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
 					}
 				}
+		
+			
 		}
 
 		ai_will_do = {
