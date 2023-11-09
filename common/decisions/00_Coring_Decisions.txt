@@ -53647,11 +53647,6 @@ MUN_EUR_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = FRA
-						NOT = {
-							state = 851
-							state = 21
-							state = 32
-						}
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -53676,11 +53671,6 @@ MUN_EUR_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = FRA
-						NOT = {
-							state = 851
-							state = 21
-							state = 32
-						}
 					}
 				}
 
@@ -53697,11 +53687,6 @@ MUN_EUR_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = FRA
-						NOT = {
-							state = 851
-							state = 21
-							state = 32
-						}
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
