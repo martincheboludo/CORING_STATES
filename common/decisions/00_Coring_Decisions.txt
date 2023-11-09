@@ -506,17 +506,17 @@ GEN_Empire_Manager = {
 		icon = oppression
 		
 		allowed = {
-			always = false
+			always = no
 		}
 	
         visible = {
-            any_state = {
-                    limit = {
-                        is_owned_by = FROM
-						is_core_of = FROM
-                    }
-                    is_core_of = ROOT
-            }
+             visible = {
+				any_state = {
+					is_owned_by = FROM
+					is_core_of = FROM
+					is_core_of = ROOT
+				}
+			}
         }
         target_trigger = {
             FROM = {
@@ -30218,7 +30218,7 @@ HOL_Coring_Decisions = {
 				id = RON_Formable_Country.103
 			}
 			hidden_effect = {
-				has_country_flag = FORM_Dutch_Empire2
+				set_country_flag = FORM_Dutch_Empire2
 			}
 		}
 	}
