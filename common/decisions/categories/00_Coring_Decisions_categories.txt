@@ -167,6 +167,7 @@ HOL_Coring_Decisions = {
 			original_tag = HOL
 			original_tag = BEL
 			original_tag = LUX
+			original_tag = SAF
 		}
 	}
 
@@ -523,6 +524,8 @@ CUB_Coring_Decisions = {
 			original_tag = CUB
 			original_tag = DOM
 			original_tag = HAI
+			original_tag = JAM
+			original_tag = PUE
 		}
 	}
 
@@ -557,6 +560,7 @@ RAJ_Coring_Decisions = {
 			original_tag = BAN
 			original_tag = BRM
 			original_tag = SRL
+			original_tag = AFG
 		}
 	}
 
