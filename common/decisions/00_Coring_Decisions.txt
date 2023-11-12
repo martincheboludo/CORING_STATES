@@ -510,14 +510,12 @@ GEN_Empire_Manager = {
 		}
 	
         visible = {
-             visible = {
-				any_state = {
-					is_owned_by = FROM
-					is_core_of = FROM
-					is_core_of = ROOT
-				}
+			any_state = {
+				is_owned_by = FROM
+				is_core_of = FROM
+				is_core_of = ROOT
 			}
-        }
+		}
         target_trigger = {
             FROM = {
                 is_subject_of = ROOT
