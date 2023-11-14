@@ -57475,6 +57475,7 @@ MUN_EUR_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
+		days_remove = 35
 		visible = {
 			NOT = { has_country_flag = RON_European_Brothers }
 		}
@@ -57546,7 +57547,7 @@ MUN_EUR_Coring_Decisions = {
 
 		}
 		icon = generic_form_nation
-		complete_effect = {
+		remove_effect = {
 			country_event = {
 				id = RON_Formable_Country.1019
 			}
