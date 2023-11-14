@@ -778,6 +778,13 @@
  RON_Formable_News.1018.d:0 "The primary period of German immigration began in the mid nineteenth century, when the Latin American countries had stabilized and Germany was as yet still not unified. Germans pursued commerce and agriculture with a high degree of autonomy. However, Germany's ascent as a world power combined with Latin American nationalism to complicate the lives of the these Germans. Although most Latin American Germans were assimilating, aggressive Pan-Germanists and Nazis polarized the situation. The progress of Germans toward acculturation seemed questionable, so many national governments acted  to suppress their links to Germany."
  RON_Formable_News.1018.a:1 "OK"
  
+ RON_Formable_Country.1019.t:0 "Our Brothers Outside Europe"
+ RON_Formable_Country.1019.d:0 "European emigration is the successive emigration waves from the European continent to other continents. The origins of the various European diasporas can be traced to the people who left the European nation states or stateless ethnic communities on the European continent. From 1500 to the mid-20th century, 60-65 million people left Europe, of which less than 9% went to tropical areas (the Caribbean, Asia, and Africa). From 1815 to 1932, 65 million people left Europe, primarily to 'areas of European settlement' in North and South America, in addition to South Africa, Australia, New Zealand, and Siberia. These populations also multiplied rapidly in their new habitat; much more so than the populations of Africa and Asia. As a result, on the eve of World War I, 38% of the world's total population was of European ancestry. Most European emigrants to the New World came from Germany, Ireland, United Kingdom, Italy, Spain, Portugal, France, the Netherlands, Norway, Sweden, Poland, Russia, and Ukraine."
+ RON_Formable_Country.1019.a:1 "OK"
+ RON_Formable_News.1019.t:0 "European Ultramarine Integration Begins"
+ RON_Formable_News.1019.d:0 "European emigration is the successive emigration waves from the European continent to other continents. The origins of the various European diasporas can be traced to the people who left the European nation states or stateless ethnic communities on the European continent. From 1500 to the mid-20th century, 60-65 million people left Europe, of which less than 9% went to tropical areas (the Caribbean, Asia, and Africa). From 1815 to 1932, 65 million people left Europe, primarily to 'areas of European settlement' in North and South America, in addition to South Africa, Australia, New Zealand, and Siberia. These populations also multiplied rapidly in their new habitat; much more so than the populations of Africa and Asia. As a result, on the eve of World War I, 38% of the world's total population was of European ancestry. Most European emigrants to the New World came from Germany, Ireland, United Kingdom, Italy, Spain, Portugal, France, the Netherlands, Norway, Sweden, Poland, Russia, and Ukraine."
+ RON_Formable_News.1019.a:1 "OK"
+ 
 #Decisions
  
 #German Formables
@@ -916,6 +923,7 @@ RON_Formable_Decision117:0 "Proclaim Greater Chile"
  MUN_Formable_Decision66:0 "Proclaim The Asian Union"
  MUN_Formable_Decision88:0 "Proclaim Patria Grande"
  MUN_Formable_Decision96:0 "Proclaim The Americas"
+ MUN_Formable_Decision1019:0 "Start European Ultramarine Integration"
 
 #Others
 RON_Septemberprogramm:0 "Realize The Septemberprogramm"
@@ -1031,7 +1039,9 @@ Integrate_Deutsch_Nordamerika2:0 "Has Started Integrating Deutsch-Nordamerika"
 Integrate_Deutsch_Sudamerika2:0 "Has Started Integrating Deutsch-Südamerika"
 Integrate_Japanese_North_America2:0 "Has Started Integrating Japanese Pacific States"
 Integrate_Japanese_South_America2:0 "Has Started Integrating Japanese South America"
+RON_European_Brothers:0 "Has Started Integrating Ultramarine Europeans"
 
+RON_Controls_European_States_tt:0 "Controls All European States"
 RON_Controls_Siamese_States_tt:0 "Controls All Siamese States"
 RON_Controls_Cambodian_States_tt:0 "Controls All Cambodian States"
 RON_Controls_Laos_States_tt:0 "Controls All Laos States"

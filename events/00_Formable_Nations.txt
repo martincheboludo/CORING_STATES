@@ -4601,3 +4601,44 @@ news_event = {
 		name = RON_Formable_News.1018.a
 	}
 }
+
+#European Brothers
+country_event = {
+	id = RON_Formable_Country.1019
+	title = RON_Formable_Country.1019.t
+	desc = RON_Formable_Country.1019.d
+	picture = GFX_report_event_RON_Formable_Country1019
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1019.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1019 hours = 6 }
+		}
+
+	}
+
+}
+
+#European Brothers
+news_event = {
+	id = RON_Formable_News.1019
+	title = RON_Formable_News.1019.t
+	desc = RON_Formable_News.1019.d
+	picture = GFX_news_event_RON_Formable_News1019
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1019.a
+	}
+}
