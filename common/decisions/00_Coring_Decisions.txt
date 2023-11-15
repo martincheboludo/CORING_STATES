@@ -32727,7 +32727,10 @@ LIT_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_GLI2
+			OR = {
+				has_global_flag = FORM_GLI2
+				has_global_flag = FORM_COM2
+			}
 			num_of_civilian_factories_available_for_projects > 14	
 			any_controlled_state = {
 					AND = {
@@ -32800,7 +32803,10 @@ LIT_Coring_Decisions = {
 		}
 
 		available = {
-			has_global_flag = FORM_GLI2
+			OR = {
+				has_global_flag = FORM_GLI2
+				has_global_flag = FORM_COM2
+			}
 			num_of_civilian_factories_available_for_projects > 14	
 			any_controlled_state = {
 					AND = {
@@ -32846,6 +32852,84 @@ LIT_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	LIT_Core_POL = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+		has_global_flag = FORM_COM2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						NOT = { is_core_of = BLR }
+						NOT = { is_core_of = UKR }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						NOT = { is_core_of = BLR }
+						NOT = { is_core_of = UKR }
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = POL
+						NOT = { is_core_of = BLR }
+						NOT = { is_core_of = UKR }
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -32980,6 +33064,58 @@ LIT_Coring_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = FORM_GLI2
+			}
+		}
+	}
+	
+	#Polish-Lithuanian Commonwealth
+	LIT_Formable_Decision8 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = LIT
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_COM2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.8
+			}
+			hidden_effect = {
+				set_global_flag = FORM_COM2
 			}
 		}
 	}
