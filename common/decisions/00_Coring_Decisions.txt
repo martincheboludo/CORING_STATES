@@ -35642,10 +35642,12 @@ AUH_Core_Croatia = {
 		}
 		cost = 10
 		days_re_enable = 0
-		visible = {
-			NOT = { has_global_flag = FORM_Austro_Germany2 }
+		allowed = {
 			#Currently Only Available for Austria
 			original_tag = AUS
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Austro_Germany2 }
 		}
 		available = {
 			#is_subject = no
