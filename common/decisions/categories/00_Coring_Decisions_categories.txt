@@ -223,8 +223,10 @@ AUH_Coring_Decisions = {
 
 	allowed = {
 		OR = {
-		original_tag = AUS
-		original_tag = HUN
+			original_tag = AUS
+			original_tag = HUN
+			original_tag = CZE
+			original_tag = CRO
 		}
 	}
 
