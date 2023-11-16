@@ -785,6 +785,13 @@
  RON_Formable_News.1019.d:0 "European emigration is the successive emigration waves from the European continent to other continents. The origins of the various European diasporas can be traced to the people who left the European nation states or stateless ethnic communities on the European continent. From 1500 to the mid-20th century, 60-65 million people left Europe, of which less than 9% went to tropical areas (the Caribbean, Asia, and Africa). From 1815 to 1932, 65 million people left Europe, primarily to 'areas of European settlement' in North and South America, in addition to South Africa, Australia, New Zealand, and Siberia. These populations also multiplied rapidly in their new habitat; much more so than the populations of Africa and Asia. As a result, on the eve of World War I, 38% of the world's total population was of European ancestry."
  RON_Formable_News.1019.a:1 "OK"
  
+ RON_Formable_Country.1020.t:0 "Austrian Empire"
+ RON_Formable_Country.1020.d:0 "The Austrian Empire, officially known as the Empire of Austria, was a multinational European great power from 1804 to 1867, created by proclamation out of the realms of the Habsburgs. During its existence, it was the third most populous monarchy in Europe after the Russian Empire and the United Kingdom. Along with Prussia, it was one of the two major powers of the German Confederation. Geographically, it was the third-largest empire in Europe after the Russian Empire and the First French Empire."
+ RON_Formable_Country.1020.a:1 "OK"
+ RON_Formable_News.1020.t:0 "Austrian Empire Proclaimed"
+ RON_Formable_News.1020.d:0 "The Austrian Empire, officially known as the Empire of Austria, was a multinational European great power from 1804 to 1867, created by proclamation out of the realms of the Habsburgs. During its existence, it was the third most populous monarchy in Europe after the Russian Empire and the United Kingdom. Along with Prussia, it was one of the two major powers of the German Confederation. Geographically, it was the third-largest empire in Europe after the Russian Empire and the First French Empire."
+ RON_Formable_News.1020.a:1 "OK"
+ 
 #Decisions
  
 #German Formables
@@ -846,6 +853,7 @@ RON_Formable_Decision7:0 "Proclaim Austria-Hungary"
 RON_Formable_Decision18:0 "Proclaim Greater Hungary"
 RON_Formable_Decision97:0 "Proclaim Erfurt Union"
 ERF_Formable_Decision97:0 "Proclaim Erfurt Union"
+RON_Formable_Decision1020:0 "Proclaim Austrian Empire"
 
 #Benelux Formables
 RON_Formable_Decision15:0 "Proclaim Benelux"
@@ -968,6 +976,7 @@ Form_Portugal_Brazil_Union2:0 "Has Proclaimed Portugal-Brazil"
 FORM_Lusosphere2:0 "Has Proclaimed The Lusosphere"
 Realize_Septemberprogramm2:0 "Has Realized The Septemberprogramm"
 FORM_AUH2:0 "Has Proclaimed Austria-Hungary"
+FORM_AUE2:0 "Has Proclaimed Austrian Empire"
 FORM_HUK2:0 "Has Proclaimed Greater Hungary"
 FORM_Austro_Germany2:0 "Has Proclaimed The Erfurt Union"
 FORM_BEN2:0 "Has Proclaimed Benelux"

@@ -34436,6 +34436,10 @@ AUH_Core_Austria = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -34507,6 +34511,10 @@ AUH_Core_Austria = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -34578,6 +34586,10 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -34659,8 +34671,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -34743,8 +34758,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -34829,8 +34847,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			39 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -34887,8 +34908,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -34982,8 +35006,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 14
+		OR = {
 			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
+		num_of_civilian_factories_available_for_projects > 14
 			160 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35040,8 +35067,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 14
+		OR = {
 			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35124,8 +35154,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 14
+		OR = {
 			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
+		num_of_civilian_factories_available_for_projects > 14
 			80 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35181,8 +35214,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35268,8 +35304,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35358,8 +35397,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 14
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35430,8 +35472,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 24
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35517,8 +35562,11 @@ AUH_Core_Croatia = {
 		}
 
 		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
 		num_of_civilian_factories_available_for_projects > 24
-		has_global_flag = FORM_AUH2
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -35583,6 +35631,55 @@ AUH_Core_Croatia = {
 				add_core_of = FROM
 			}
 			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Austrian Empire
+	RON_Formable_Decision1020 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_AUE2 }
+		}
+		available = {
+			#is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HUN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1020
+			}
+			hidden_effect = {
+				set_global_flag = FORM_AUE2
+			}
 		}
 	}
 
@@ -62694,6 +62791,7 @@ ERF_Core_Croatia = {
 			#is_subject = no
 			OR = {
 				has_global_flag = FORM_AUH2
+				has_global_flag = FORM_AUE2
 				has_global_flag = FORM_German_Empire2
 			}
 			custom_trigger_tooltip = {
