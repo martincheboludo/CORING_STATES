@@ -252,6 +252,24 @@ Erfurt_Union_Coring_Decisions = {
 	}
 }
 
+Holy_Roman_Empire_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_holy_roman_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = GER
+			original_tag = CZE
+			original_tag = BEL
+			original_tag = HOL
+			#original_tag = SOV
+		}
+	}
+
+	visible = {
+	}
+}
+
 ARG_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_argentina
 	icon = generic_foreign_policy
@@ -921,7 +939,7 @@ Hispanosphere_Coring_Decisions = {
 	}
 }
 
-Balkan_Fedearation_Coring_Decisions = {
+Balkan_Federation_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_balkan_federation
 	icon = generic_foreign_policy
 
@@ -952,24 +970,6 @@ Roman_Empire_Coring_Decisions = {
 			original_tag = FRA
 			original_tag = ROM
 			original_tag = MOL
-			#original_tag = SOV
-		}
-	}
-
-	visible = {
-	}
-}
-
-Holy_Roman_Empire_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_holy_roman_empire
-	icon = generic_foreign_policy
-
-	allowed = {
-		OR = {
-			#original_tag = GER
-			original_tag = CZE
-			original_tag = BEL
-			original_tag = HOL
 			#original_tag = SOV
 		}
 	}

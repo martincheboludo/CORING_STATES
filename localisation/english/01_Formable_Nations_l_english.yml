@@ -798,6 +798,7 @@
 RON_Formable_Decision0:0 "Proclaim Greater Germany"
 RON_Formable_Decision1:0 "Proclaim Greater Germanic Reich"
 RON_Formable_Decision9:0 "Proclaim Holy Roman Empire"
+HRE_Formable_Decision9:0 "Proclaim Holy Roman Empire"
 RON_Formable_Decision74:0 "Proclaim German Empire"
 RON_Formable_Decision1007:0 "Integrate German Colonial Empire"
 
