@@ -1,6 +1,41 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_decision_cat_creating_anglosphere"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Anglosphere.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_francosphere"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Francosphere.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_hispanosphere"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Hispanosphere.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_balkan_federation"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Balkan_Federation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_erfurt_union"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Erfurt_Union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_roman_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Roman_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_holy_roman_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Holy_Roman_Empire.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decision_cat_GEN_Empire_Manager"
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Empire_Manager.dds"
 	}

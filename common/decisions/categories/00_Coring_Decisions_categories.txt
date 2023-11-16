@@ -836,3 +836,144 @@ MUN_AFR_Coring_Decisions = {
 	visible = {
 	}
 }
+
+Anglosphere_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_anglosphere
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = ENG
+			original_tag = CAN
+			original_tag = USA
+			original_tag = AST
+			original_tag = NZL
+			original_tag = IRE
+		}
+	}
+
+	visible = {
+	}
+}
+
+Francosphere_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_francosphere
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = FRA
+			original_tag = CAN
+		}
+	}
+
+	visible = {
+	}
+}
+
+Hispanosphere_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_hispanosphere
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = SPR
+			original_tag = MEX
+			original_tag = GUA
+			original_tag = ELS
+			original_tag = HON
+			original_tag = NIC
+			original_tag = COS
+			original_tag = PAN
+			original_tag = CUB
+			original_tag = DOM
+			original_tag = VEN
+			original_tag = COL
+			original_tag = ECU
+			original_tag = PRU
+			original_tag = BOL
+			original_tag = PAR
+			original_tag = URG
+			original_tag = CHL
+			original_tag = ARG
+		}
+	}
+
+	visible = {
+	}
+}
+
+Balkan_Fedearation_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_balkan_federation
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = YUG
+			original_tag = ROM
+			original_tag = BUL
+			original_tag = ALB
+			original_tag = GRE
+		}
+	}
+
+	visible = {
+	}
+}
+
+Roman_Empire_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_roman_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = ITA
+			original_tag = GRE
+			original_tag = SPR
+			original_tag = POR
+			original_tag = FRA
+			original_tag = ROM
+			original_tag = MOL
+			#original_tag = SOV
+		}
+	}
+
+	visible = {
+	}
+}
+
+Holy_Roman_Empire_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_holy_roman_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = GER
+			original_tag = CZE
+			original_tag = BEL
+			original_tag = HOL
+			#original_tag = SOV
+		}
+	}
+
+	visible = {
+	}
+}
+
+Erfurt_Union_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_erfurt_union
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = AUS
+			original_tag = GER
+			original_tag = CZE
+			original_tag = HUN
+			original_tag = CRO
+		}
+	}
+
+	visible = {
+	}
+}
