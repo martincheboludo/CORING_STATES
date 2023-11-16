@@ -195,7 +195,7 @@ SWE_Coring_Decisions = {
 
 AUS_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_austria
-	icon = generic_foreign_policy
+	icon = ger_reichskommissariats
 
 	allowed = {
 		original_tag = AUS
@@ -219,13 +219,31 @@ HUN_Coring_Decisions = {
 
 AUH_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_austria_hungary
-	icon = generic_foreign_policy
+	icon = ger_reichskommissariats
 
 	allowed = {
 		OR = {
 			original_tag = AUS
 			original_tag = HUN
 			original_tag = CZE
+			original_tag = CRO
+		}
+	}
+
+	visible = {
+	}
+}
+
+Erfurt_Union_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_erfurt_union
+	icon = ger_reichskommissariats
+
+	allowed = {
+		OR = {
+			original_tag = AUS
+			original_tag = GER
+			original_tag = CZE
+			original_tag = HUN
 			original_tag = CRO
 		}
 	}
@@ -953,24 +971,6 @@ Holy_Roman_Empire_Coring_Decisions = {
 			original_tag = BEL
 			original_tag = HOL
 			#original_tag = SOV
-		}
-	}
-
-	visible = {
-	}
-}
-
-Erfurt_Union_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_erfurt_union
-	icon = generic_foreign_policy
-
-	allowed = {
-		OR = {
-			original_tag = AUS
-			original_tag = GER
-			original_tag = CZE
-			original_tag = HUN
-			original_tag = CRO
 		}
 	}
 

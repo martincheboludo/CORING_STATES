@@ -2146,6 +2146,8 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
+				has_global_flag = FORM_AUH2
+				has_global_flag = FORM_AUE2
 			}
 			any_controlled_state = {
 					AND = {
@@ -33841,7 +33843,7 @@ AUS_Coring_Decisions = {
 #Sudetenland
 	AUS_Core_Sudetenland = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -33924,7 +33926,7 @@ AUS_Coring_Decisions = {
 	#Non Sudetenland Czech Lands
 	AUS_Core_Czech_Lands = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34010,7 +34012,7 @@ AUS_Coring_Decisions = {
 	#South Tyrol
 	AUS_Core_South_Tyrol = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 
 		fire_only_once = yes
 		cost = 20
@@ -34066,7 +34068,7 @@ AUS_Coring_Decisions = {
 	##Austrian Empire Land
 	AUS_Core_Austrian_Empire_Lands = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34161,7 +34163,7 @@ AUS_Coring_Decisions = {
 	#Venice
 	AUS_Core_Venedig = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 
 		fire_only_once = yes
 		cost = 80
@@ -34218,7 +34220,7 @@ AUS_Coring_Decisions = {
 	#Galicia
 	AUS_Core_Galicia = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34303,7 +34305,7 @@ AUS_Coring_Decisions = {
 	#Bukovina
 	AUS_Core_Bukovina = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 
 		fire_only_once = yes
 		cost = 80
@@ -34421,9 +34423,264 @@ AUS_Coring_Decisions = {
 
 AUH_Coring_Decisions = {
 
+#Silesia
+	AUH_Core_Silesia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIL
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SIL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Bavaria
+	AUH_Core_Bavaria = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 52
+							state = 53
+							state = 54
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 52
+							state = 53
+							state = 54
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 52
+							state = 53
+							state = 54
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Wurttemberg
+	AUH_Core_Wurttemberg = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = {
+			has_global_flag = FORM_AUH2
+			has_global_flag = FORM_AUE2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						state = 50
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 50
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						state = 50
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
 AUH_Core_Austria = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34498,7 +34755,7 @@ AUH_Core_Austria = {
 	
 	AUH_Core_Hungary = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34573,7 +34830,7 @@ AUH_Core_Austria = {
 
 AUH_Core_Croatia = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34658,7 +34915,7 @@ AUH_Core_Croatia = {
 	#Sudetenland
 	AUH_Core_Sudetenland = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34745,7 +35002,7 @@ AUH_Core_Croatia = {
 	#Non Sudetenland Czech Lands
 	AUH_Core_Czech_Lands = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34835,7 +35092,7 @@ AUH_Core_Croatia = {
 	#South Tyrol
 	AUH_Core_South_Tyrol = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 
 		fire_only_once = yes
 		cost = 60
@@ -34895,7 +35152,7 @@ AUH_Core_Croatia = {
 	##Austrian Empire Land
 	AUH_Core_Austrian_Empire_Lands = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -34994,7 +35251,7 @@ AUH_Core_Croatia = {
 	#Venice
 	AUH_Core_Venedig = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 
 		fire_only_once = yes
 		cost = 60
@@ -35054,7 +35311,7 @@ AUH_Core_Croatia = {
 	#Galicia
 	AUH_Core_Galicia = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35142,7 +35399,7 @@ AUH_Core_Croatia = {
 	#Bukovina
 	AUH_Core_Bukovina = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 
 		fire_only_once = yes
 		cost = 60
@@ -35201,7 +35458,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Slovakia = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35291,7 +35548,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Transylvania = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35384,7 +35641,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Vojvodina = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = yes
@@ -35459,7 +35716,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Rest_of_Yugoslavia = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35549,7 +35806,7 @@ AUH_Core_Croatia = {
 	
 	AUH_Core_Rest_of_Romania = {
 
-		icon = hol_exchange_intelligence_data
+		icon = ger_reichskommissariats
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
@@ -35733,6 +35990,1806 @@ AUH_Core_Croatia = {
 	}
 
 }
+
+
+#Erfurt Union
+Erfurt_Union_Coring_Decisions = {
+
+#Silesia
+	ERF_Core_Silesia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIL
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SIL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Bavaria
+	ERF_Core_Bavaria = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 52
+							state = 53
+							state = 54
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 52
+							state = 53
+							state = 54
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 52
+							state = 53
+							state = 54
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Wurttemberg
+	ERF_Core_Wurttemberg = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						state = 50
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 50
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						state = 50
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Free City of Danzig
+	ERF_Core_Danzig = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			85 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			85 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			85 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#GDYNIA
+	ERF_Core_West_Prussia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			807 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			807 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			807 = {
+				add_core_of = FROM
+				set_state_name = "Westpreußen"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Posen
+	ERF_Core_Posen = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			86 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			86 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			86 = {
+				add_core_of = FROM
+				set_state_name = "Posen"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Silesia
+	ERF_Core_Silesia = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			762 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			762 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			762 = {
+				add_core_of = FROM
+				set_state_name = "Schlesien"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Memel
+	ERF_Core_Memel = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			188 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			188 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			188 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Alsace
+	ERF_Core_Alsace = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			28 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			28 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			28 = {
+				add_core_of = FROM
+				set_state_name = "Elsaß-Lothringen"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Northern Sleswig
+	ERF_Core_Northern_Sleswig = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			912 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			912 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			912 = {
+				add_core_of = FROM
+				set_state_name = "Nordschleswig"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Germany
+	ERF_Core_German_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores German States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = GER
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+		ERF_Core_Austria = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AUS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	ERF_Core_Hungary = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HUN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HUN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = HUN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+ERF_Core_Croatia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = CRO
+							is_core_of = BOS
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = CRO
+							is_core_of = BOS
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = CRO
+							is_core_of = BOS
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Sudetenland
+	ERF_Core_Sudetenland = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 69
+							state = 74
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 69
+							state = 74
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 69
+							state = 74
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Non Sudetenland Czech Lands
+	ERF_Core_Czech_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 9
+							state = 75
+							state = 72
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 9
+							state = 75
+							state = 72
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 9
+							state = 75
+							state = 72
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#South Tyrol
+	ERF_Core_South_Tyrol = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			39 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			39 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			39 = {
+				add_core_of = FROM
+				set_state_name = "Südtirol"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	##Austrian Empire Land
+	ERF_Core_Austrian_Empire_Lands = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#is_core_of = AUH
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 850
+							state = 736
+							state = 852
+							state = 853
+							state = 102
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Extra Greater Austrian Cores
+	
+	#Very Hard German Cores
+	#Venice
+	ERF_Core_Venedig = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			160 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			160 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			160 = {
+				add_core_of = FROM
+				set_state_name = "Venedig"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Galicia
+	ERF_Core_Galicia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 88
+							state = 91
+							state = 89
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 88
+							state = 91
+							state = 89
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 88
+							state = 91
+							state = 89
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Bukovina
+	ERF_Core_Bukovina = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			80 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			80 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			80 = {
+				add_core_of = FROM
+				set_state_name = "Bukowina"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	ERF_Core_Slovakia = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 70
+							state = 664
+							state = 71
+							state = 73
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 70
+							state = 664
+							state = 71
+							state = 73
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 70
+							state = 664
+							state = 71
+							state = 73
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	ERF_Core_Transylvania = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 76
+							state = 84
+							state = 83
+							state = 82
+							state = 764
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 76
+							state = 84
+							state = 83
+							state = 82
+							state = 764
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 76
+							state = 84
+							state = 83
+							state = 82
+							state = 764
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	ERF_Core_Vojvodina = {
+
+		icon = ger_reichskommissariats
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Austro_Germany2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 45
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						state = 45
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						state = 45
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+
+	#Erfurt Union
+	ERF_Formable_Decision97 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_Austro_Germany2 }
+		}
+		available = {
+			#is_subject = no
+			OR = {
+				has_global_flag = FORM_AUH2
+				has_global_flag = FORM_AUE2
+				has_global_flag = FORM_German_Empire2
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HUN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Polish Corridor
+			85 = { is_controlled_by = FROM }
+			86 = { is_controlled_by = FROM }
+			807 = { is_controlled_by = FROM }
+			762 = { is_controlled_by = FROM }
+			
+			#Memel
+			188 = { is_controlled_by = FROM }
+			
+			#Alsace
+			28 = { is_controlled_by = FROM }
+			#Northern Schleswig
+			912 = { is_controlled_by = FROM }
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.97
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Austro_Germany2
+			}
+		}
+	}
+
+}
+
 
 YUG_Coring_Decisions = {
 
@@ -61304,1558 +63361,6 @@ Hispanosphere_Coring_Decisions = {
 
 #Balkan Federation
 Balkan_Federation_Coring_Decisions = {
-}
-
-#Erfurt Union
-Erfurt_Union_Coring_Decisions = {
-
-#Free City of Danzig
-	ERF_Core_Danzig = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			85 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			85 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			85 = {
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#GDYNIA
-	ERF_Core_West_Prussia = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			807 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			807 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			807 = {
-				add_core_of = FROM
-				set_state_name = "Westpreußen"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Posen
-	ERF_Core_Posen = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			86 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			86 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			86 = {
-				add_core_of = FROM
-				set_state_name = "Posen"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Silesia
-	ERF_Core_Silesia = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			762 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			762 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			762 = {
-				add_core_of = FROM
-				set_state_name = "Schlesien"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Memel
-	ERF_Core_Memel = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			188 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			188 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			188 = {
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Alsace
-	ERF_Core_Alsace = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			28 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			28 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			28 = {
-				add_core_of = FROM
-				set_state_name = "Elsaß-Lothringen"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Northern Sleswig
-	ERF_Core_Northern_Sleswig = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			912 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			912 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			912 = {
-				add_core_of = FROM
-				set_state_name = "Nordschleswig"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Whole Germany
-	ERF_Core_German_Lands = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores German States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = GER
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = GER
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						is_core_of = GER
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-
-		ERF_Core_Austria = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = AUS
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = AUS
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						is_core_of = AUS
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	ERF_Core_Hungary = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = HUN
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = HUN
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						is_core_of = HUN
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-
-ERF_Core_Croatia = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							is_core_of = CRO
-							is_core_of = BOS
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							is_core_of = CRO
-							is_core_of = BOS
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						OR = {
-							is_core_of = CRO
-							is_core_of = BOS
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Sudetenland
-	ERF_Core_Sudetenland = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = CZE
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-						OR = {
-							state = 69
-							state = 74
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 69
-							state = 74
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						is_core_of = CZE
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-						OR = {
-							state = 69
-							state = 74
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Non Sudetenland Czech Lands
-	ERF_Core_Czech_Lands = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_core_of = CZE
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-						OR = {
-							state = 9
-							state = 75
-							state = 72
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 9
-							state = 75
-							state = 72
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						is_core_of = CZE
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-						OR = {
-							state = 9
-							state = 75
-							state = 72
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#South Tyrol
-	ERF_Core_South_Tyrol = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			39 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			39 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			39 = {
-				add_core_of = FROM
-				set_state_name = "Südtirol"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	##Austrian Empire Land
-	ERF_Core_Austrian_Empire_Lands = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						#is_core_of = AUH
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-						OR = {
-							state = 850
-							state = 736
-							state = 852
-							state = 853
-							state = 102
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 850
-							state = 736
-							state = 852
-							state = 853
-							state = 102
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						#is_core_of = AUH
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-						OR = {
-							state = 850
-							state = 736
-							state = 852
-							state = 853
-							state = 102
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Extra Greater Austrian Cores
-	
-	#Very Hard German Cores
-	#Venice
-	ERF_Core_Venedig = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			160 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			160 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			160 = {
-				add_core_of = FROM
-				set_state_name = "Venedig"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Galicia
-	ERF_Core_Galicia = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 88
-							state = 91
-							state = 89
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 88
-							state = 91
-							state = 89
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						OR = {
-							state = 88
-							state = 91
-							state = 89
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	#Bukovina
-	ERF_Core_Bukovina = {
-
-		icon = hol_exchange_intelligence_data
-
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			80 = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						is_controlled_by = FROM
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			80 = { NOT = { is_core_of = FROM } }
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			80 = {
-				add_core_of = FROM
-				set_state_name = "Bukowina"
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	ERF_Core_Slovakia = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 70
-							state = 664
-							state = 71
-							state = 73
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 70
-							state = 664
-							state = 71
-							state = 73
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						OR = {
-							state = 70
-							state = 664
-							state = 71
-							state = 73
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	ERF_Core_Transylvania = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 76
-							state = 84
-							state = 83
-							state = 82
-							state = 764
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						OR = {
-							state = 76
-							state = 84
-							state = 83
-							state = 82
-							state = 764
-						}
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						OR = {
-							state = 76
-							state = 84
-							state = 83
-							state = 82
-							state = 764
-						}
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-	
-	ERF_Core_Vojvodina = {
-
-		icon = hol_exchange_intelligence_data
-		
-		#Allow Multiple Times as it cores States one by one
-		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
-
-		allowed = {
-			
-		}
-
-		available = {
-		has_global_flag = FORM_Austro_Germany2
-		num_of_civilian_factories_available_for_projects > 14
-			any_controlled_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						state = 45
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-		}
-
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AND = {
-					has_country_flag = Coring_In_Progress
-					is_major = no
-				}
-			}
-		}
-
-		visible = {
-			
-			any_state = {
-					AND = {
-						NOT = { is_core_of = FROM }
-						state = 45
-					}
-				}
-
-		}
-
-		complete_effect = {
-			set_country_flag = Coring_In_Progress
-		}
-		
-		remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			random_controlled_state = {
-				limit = {		
-					AND = {
-						NOT = {is_core_of = FROM}
-						state = 45
-						any_neighbor_state = {
-							is_core_of = FROM
-						}
-					}
-				}
-				add_core_of = FROM
-			}
-			clr_country_flag = Coring_In_Progress
-		}
-	}
-
-
-	#Erfurt Union
-	ERF_Formable_Decision97 = {
-		ai_will_do = {
-			factor = 200
-		}
-		cost = 10
-		days_re_enable = 0
-		allowed = {
-		}
-		visible = {
-			NOT = { has_global_flag = FORM_Austro_Germany2 }
-		}
-		available = {
-			#is_subject = no
-			OR = {
-				has_global_flag = FORM_AUH2
-				has_global_flag = FORM_AUE2
-				has_global_flag = FORM_German_Empire2
-			}
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Austrian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = AUS
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Hungarian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = HUN
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_German_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = GER
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
-			
-			#Polish Corridor
-			85 = { is_controlled_by = FROM }
-			86 = { is_controlled_by = FROM }
-			807 = { is_controlled_by = FROM }
-			762 = { is_controlled_by = FROM }
-			
-			#Memel
-			188 = { is_controlled_by = FROM }
-			
-			#Alsace
-			28 = { is_controlled_by = FROM }
-			#Northern Schleswig
-			912 = { is_controlled_by = FROM }
-
-		}
-		icon = generic_form_nation
-		complete_effect = {
-			country_event = {
-				id = RON_Formable_Country.97
-			}
-			hidden_effect = {
-				set_global_flag = FORM_Austro_Germany2
-			}
-		}
-	}
-
 }
 
 #Roman Empire, Byzantine Empire, Western Roman Empire
