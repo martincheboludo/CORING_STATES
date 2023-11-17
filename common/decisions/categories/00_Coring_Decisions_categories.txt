@@ -726,6 +726,24 @@ TUR_Coring_Decisions = {
 	}
 }
 
+Balkan_Federation_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_balkan_federation
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			#original_tag = YUG
+			original_tag = ROM
+			original_tag = BUL
+			original_tag = ALB
+			original_tag = GRE
+		}
+	}
+
+	visible = {
+	}
+}
+
 MUN_AME_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_americas
 	icon = generic_foreign_policy
@@ -866,24 +884,6 @@ MUN_AFR_Coring_Decisions = {
 			original_tag = ETH
 			original_tag = LIB
 			original_tag = SAF
-		}
-	}
-
-	visible = {
-	}
-}
-
-Balkan_Federation_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_balkan_federation
-	icon = generic_foreign_policy
-
-	allowed = {
-		OR = {
-			#original_tag = YUG
-			original_tag = ROM
-			original_tag = BUL
-			original_tag = ALB
-			original_tag = GRE
 		}
 	}
 
