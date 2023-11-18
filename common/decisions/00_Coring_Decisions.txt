@@ -3467,6 +3467,11 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_GGR2
 			}
 			
+			OR = {
+				NOT = { has_government = fascism }
+				has_global_flag = FORM_GGR2
+			}
+			
 			NOT = {
 				any_country = {
 					is_major = yes
