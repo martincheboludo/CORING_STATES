@@ -3468,6 +3468,7 @@ GER_Coring_Decisions = {
 			
 			OR = {
 				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
 			}
 			
