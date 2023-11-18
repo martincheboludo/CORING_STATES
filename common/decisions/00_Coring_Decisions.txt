@@ -39133,6 +39133,114 @@ Holy_Roman_Empire_Coring_Decisions = {
 		}
 		available = {
 			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = TAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belarusian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BLR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ukranian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UKR
+							OR = {
+							state = 93
+								AND = {
+									NOT = { is_core_of = CZE }
+									NOT = { is_core_of = HUN }
+									NOT = { is_core_of = POL }
+									NOT = { is_core_of = ROM }
+								}
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Latvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+							NOT = { state = 188 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Estonian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EST
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Finnish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FIN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+			#Congress Poland
+			87 = { is_controlled_by = FROM }
+			98 = { is_controlled_by = FROM }
+			10 = { is_controlled_by = FROM }
+			90 = { is_controlled_by = FROM }
+			92 = { is_controlled_by = FROM }
+			97 = { is_controlled_by = FROM }
+			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
 				all_state = {
@@ -58729,6 +58837,113 @@ Roman_Empire_Coring_Decisions = {
 		}
 		available = {
 			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = TAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belarusian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BLR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Ukranian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UKR
+							OR = {
+							state = 93
+								AND = {
+									NOT = { is_core_of = CZE }
+									NOT = { is_core_of = HUN }
+									NOT = { is_core_of = POL }
+									NOT = { is_core_of = ROM }
+								}
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Latvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+							NOT = { state = 188 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Estonian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EST
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Finnish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FIN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+			#Congress Poland
+			87 = { is_controlled_by = FROM }
+			98 = { is_controlled_by = FROM }
+			10 = { is_controlled_by = FROM }
+			90 = { is_controlled_by = FROM }
+			92 = { is_controlled_by = FROM }
+			97 = { is_controlled_by = FROM }
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
