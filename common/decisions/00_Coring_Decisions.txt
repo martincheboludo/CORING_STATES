@@ -3464,19 +3464,11 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_German_Empire2
 				has_global_flag = FORM_GRO2
-				has_global_flag = FORM_GGR2
 			}
 			
 			OR = {
 				NOT = { has_government = fascism }
 				has_global_flag = FORM_GGR2
-			}
-			
-			NOT = {
-				any_country = {
-					is_major = yes
-					has_war_with = ROOT
-				}
 			}
 			
 			custom_trigger_tooltip = {
