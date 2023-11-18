@@ -3467,6 +3467,13 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_GGR2
 			}
 			
+			NOT = {
+				any_country = {
+					is_major = yes
+					has_war_with = ROOT
+				}
+			}
+			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Namibian_States_tt
 				all_state = {
@@ -5226,7 +5233,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -5443,7 +5450,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -5663,7 +5670,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -5713,7 +5720,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							JAP = { surrender_progress > 0.5 }
+							JAP = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 282
@@ -5818,7 +5825,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -5868,7 +5875,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							JAP = { surrender_progress > 0.5 }
+							JAP = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 282
@@ -6263,7 +6270,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -6607,7 +6614,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -6803,7 +6810,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -6853,7 +6860,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							JAP = { surrender_progress > 0.5 }
+							JAP = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 282
@@ -6955,7 +6962,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -7005,7 +7012,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							JAP = { surrender_progress > 0.5 }
+							JAP = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 282
@@ -7162,7 +7169,7 @@ GGR_Coring_Decisions = {
 							is_subject_of = GER
 						}
 						AND = {
-							SOV = { surrender_progress > 0.5 }
+							SOV = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 219
@@ -23377,7 +23384,7 @@ JAP_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -23592,7 +23599,7 @@ JAP_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -23807,7 +23814,7 @@ JAP_Coring_Decisions = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
@@ -24170,7 +24177,7 @@ JAP_Start_Core_Peru = {
 							is_subject_of = JAP
 						}
 						AND = {
-							USA = { surrender_progress > 0.5 }
+							USA = { surrender_progress > 0.7 }
 							OR = {
 								GER = {
 									controls_state = 361
