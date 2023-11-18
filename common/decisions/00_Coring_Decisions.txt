@@ -17174,7 +17174,7 @@ USA_Coring_Decisions = {
 		days_re_enable = 0
 		visible = {
 			NOT = { has_global_flag = FORM_Anglosphere2 }
-			original_tag = ENG
+			original_tag = USA
 		}
 		available = {
 			#is_subject = no
