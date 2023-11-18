@@ -3471,6 +3471,13 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_GGR2
 			}
 			
+			#NOT = {
+			#	any_country = {
+			#		is_major = yes
+			#		has_war_with = ROOT
+			#	}
+			#}
+			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Namibian_States_tt
 				all_state = {
