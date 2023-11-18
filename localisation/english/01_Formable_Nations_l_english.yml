@@ -825,6 +825,7 @@ RON_Formable_Decision53:0 "Proclaim Golden Circle"
 RON_Formable_Decision96:0 "Proclaim The Americas"
 RON_Formable_Decision105:0 "Proclaim Greater America"
 RON_Formable_Decision106:0 "Proclaim Canadian-American Union"
+USA_Formable_Decision89:0 "Unite The Anglosphere"
 
 #Italian Formables
 RON_Formable_Decision20:0 "Proclaim Byzantine Empire"

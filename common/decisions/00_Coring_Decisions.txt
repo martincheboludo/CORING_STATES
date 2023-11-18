@@ -11234,7 +11234,7 @@ ENG_Coring_Decisions = {
 		}
 	}
 	
-	#CANZUK
+	#Anglosphere
 	RON_Formable_Decision89 = {
 		ai_will_do = {
 			factor = 200
@@ -16368,6 +16368,297 @@ USA_Coring_Decisions = {
 		}
 	}
 	
+	#Hard British Cores
+	#Whole Australia
+	USA_Core_Australia = {
+
+		icon = eng_puppet_usa
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_Anglosphere2
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AST
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AST
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AST
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole New Zealand
+	USA_Core_New_Zealand = {
+
+		icon = eng_puppet_usa
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_Anglosphere2
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NZL
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NZL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = NZL
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Britain
+	USA_Core_Britain = {
+
+		icon = eng_puppet_usa
+		
+		#Allow Multiple Times as it cores Irish States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ENG
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Whole Ireland
+	USA_Core_Ireland = {
+
+		icon = eng_puppet_usa
+		
+		#Allow Multiple Times as it cores Irish States one by one
+		fire_only_once = no
+		cost = 80
+		modifier = { civilian_factory_use = 20 }
+		days_remove = 28
+
+		allowed = {
+			
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 19
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = IRE
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Greater USA
 	RON_Formable_Decision105 = {
 		ai_will_do = {
@@ -16869,6 +17160,92 @@ USA_Coring_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = FORM_The_Americas2
+			}
+		}
+	}
+	
+	#Anglosphere
+	USA_Formable_Decision89 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Anglosphere2 }
+			original_tag = ENG
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_British_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Australian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AST
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_New_Zealand_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = NZL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.89
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Anglosphere2
 			}
 		}
 	}
