@@ -39046,6 +39046,9 @@ Holy_Roman_Empire_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
+		allowed = {
+			NOT = { original_tag = SOV }
+		}
 		visible = {
 			NOT = { has_global_flag = FORM_HRE2 }
 		}
@@ -39108,6 +39111,85 @@ Holy_Roman_Empire_Coring_Decisions = {
 		complete_effect = {
 			country_event = {
 				id = RON_Formable_Country.9
+			}
+			hidden_effect = {
+				set_global_flag = FORM_HRE2
+			}
+		}
+	}
+	
+	#Holy Russian Empire
+	RON_Formable_Decision138 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_HRE2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belgian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BEL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Luxembourg
+			8 = { is_controlled_by = FROM }
+			
+			#Sudetenland
+			69 = { is_controlled_by = FROM }
+			74 = { is_controlled_by = FROM }
+			
+			#Bohemia and Moravia
+			9 = { is_controlled_by = FROM }
+			75 = { is_controlled_by = FROM }
+			
+			#Austrian Italy, Slovenia and Croatia
+			850 = { is_controlled_by = FROM }
+			736 = { is_controlled_by = FROM }
+			852 = { is_controlled_by = FROM }
+			853 = { is_controlled_by = FROM }
+			102 = { is_controlled_by = FROM }
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.138
 			}
 			hidden_effect = {
 				set_global_flag = FORM_HRE2
@@ -58168,13 +58250,15 @@ Roman_Empire_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
-		visible = {
-			NOT = { has_global_flag = FORM_WROE2 }
+		allowed = {
 			OR = {
 				original_tag = FRA
 				original_tag = POR
 				original_tag = SPR
 			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_WROE2 }
 		}
 		available = {
 			#is_subject = no
@@ -58337,9 +58421,11 @@ Roman_Empire_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
+		allowed = {
+			original_tag = GRE
+		}
 		visible = {
 			NOT = { has_global_flag = FORM_BYZ2 }
-			original_tag = GRE
 		}
 		available = {
 			#is_subject = no
@@ -58388,8 +58474,7 @@ Roman_Empire_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
-		visible = {
-			NOT = { has_global_flag = FORM_ROE2 }
+		allowed = {
 			OR = {
 				original_tag = GRE
 				original_tag = SPR
@@ -58397,8 +58482,10 @@ Roman_Empire_Coring_Decisions = {
 				original_tag = FRA
 				original_tag = ROM
 				original_tag = MOL
-				#original_tag = SOV
 			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_ROE2 }
 		}
 		available = {
 			#is_subject = no
@@ -58626,7 +58713,307 @@ Roman_Empire_Coring_Decisions = {
 			}
 		}
 	}
+	
+	#Moscow Third Rome
+	RON_Formable_Decision141 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_ROE2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Italian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ITA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_French_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Spanish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SPR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Portuguese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belgian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BEL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Left_Bank_tt
+				AND = {
+					42 = { is_controlled_by = FROM }
+					51 = { is_controlled_by = FROM }
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dutch_States_tt
+				AND = {
+					35 = { is_controlled_by = FROM }
+					7 = { is_controlled_by = FROM }
+					36 = { is_controlled_by = FROM }
+				}
+			}
+					
+			#Luxembourg
+			8 = { is_controlled_by = FROM }
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Swiss_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SWI
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Slovenian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SLV
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Croatian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CRO
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bosnian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BOS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Montenegrin_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MNT
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Greek_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GRE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bulgarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BUL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Serbian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Albanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ALB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Turkish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TUR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
 
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.141
+			}
+			hidden_effect = {
+				set_global_flag = FORM_ROE2
+			}
+		}
+	}
+
+}
+
+#Austro Spanish Empire
+Austro_Spanish_Empire_Coring_Decisions = {
+}
+
+#Canzuk
+Canzuk_Coring_Decisions = {
+}
+
+#Franco British Union
+Franco_British_Union_Coring_Decisions = {
+}
+
+#Frankish Empire
+Frankish_Empire_Coring_Decisions = {
+}
+
+#Germanic Union
+Germanic_Union_Coring_Decisions = {
+}
+
+#Greater Israel
+Greater_Israel_Coring_Decisions = {
+}
+
+#Indochina
+Indochina_Coring_Decisions = {
+}
+
+#Intermarium
+Intermarium_Coring_Decisions = {
+}
+
+#Latin Union
+Latin_Union_Coring_Decisions = {
+}
+
+#Macedonian Empire
+Macedonian_Empire_Coring_Decisions = {
+}
+
+#Mongol Empire
+Mongol_Empire_Coring_Decisions = {
+}
+
+#North Sea Empire
+North_Sea_Empire_Coring_Decisions = {
+}
+
+#Slavic Union
+Slavic_Union_Coring_Decisions = {
+}
+
+#Transcaucasia
+Transcaucasia_Coring_Decisions = {
+}
+
+#Turan
+Turan_Coring_Decisions = {
 }
 
 #The Americas
@@ -68341,4 +68728,12 @@ MUN_AFR_Core_North_Africa = {
 		}
 	}
 
+}
+
+#Eurasian Union
+Eurasian_Union_Coring_Decisions = {
+}
+
+#United Nations
+United_Nations_Coring_Decisions = {
 }

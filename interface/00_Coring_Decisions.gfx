@@ -295,4 +295,89 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Patria_Grande.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_creating_austro_spanish_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Austro_Spanish_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_canzuk"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_CANZUK.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_eurasian_union"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Eurasian_Union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_franco_british_union"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Franco_British_Union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_frankish_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Frankish_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_germanic_union"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Germanic_Union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_greater_israel"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Greater_Israel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_indochina"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Indochina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_intermarium"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Intermarium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_latin_union"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Latin_Union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_macedonian_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Macedonian_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_mongol_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Mongol_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_north_sea_empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_North_Sea_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_slavic_union"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Slavic_Union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_transcaucasia"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Transcaucasia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_turan"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Turan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_creating_united_nations"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_United_Nations.dds"
+	}
+	
 }

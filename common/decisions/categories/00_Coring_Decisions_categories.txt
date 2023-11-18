@@ -262,7 +262,7 @@ Holy_Roman_Empire_Coring_Decisions = {
 			original_tag = CZE
 			original_tag = BEL
 			original_tag = HOL
-			#original_tag = SOV
+			original_tag = SOV
 		}
 	}
 
@@ -757,11 +757,240 @@ Roman_Empire_Coring_Decisions = {
 			original_tag = FRA
 			original_tag = ROM
 			original_tag = MOL
-			#original_tag = SOV
+			original_tag = SOV
 		}
 	}
 
 	visible = {
+	}
+}
+
+#Austro Spanish Empire
+Austro_Spanish_Empire_Coring_Decisions = {
+picture = GFX_decision_cat_creating_austro_spanish_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = AUS
+			original_tag = HUN
+			original_tag = SPR
+		}
+	}
+}
+
+#Canzuk
+Canzuk_Coring_Decisions = {
+picture = GFX_decision_cat_creating_canzuk
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+			original_tag = NZL
+		}
+	}
+}
+
+#Franco British Union
+Franco_British_Union_Coring_Decisions = {
+picture = GFX_decision_cat_creating_franco_british_union
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = FRA
+			original_tag = ENG
+		}
+	}
+}
+
+#Frankish Empire
+Frankish_Empire_Coring_Decisions = {
+picture = GFX_decision_cat_creating_frankish_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = FRA
+			original_tag = GER
+		}
+	}
+}
+
+#Germanic Union
+Germanic_Union_Coring_Decisions = {
+picture = GFX_decision_cat_creating_germanic_union
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = AUS
+			original_tag = SWI
+			original_tag = LUX
+			original_tag = BEL
+			original_tag = HOL
+			original_tag = ENG
+			original_tag = DEN
+			original_tag = NOR
+			original_tag = SWE
+		}
+	}
+}
+
+#Greater Israel
+Greater_Israel_Coring_Decisions = {
+picture = GFX_decision_cat_creating_greater_israel
+	icon = generic_foreign_policy
+
+	allowed = {
+		original_tag = ISR
+	}
+}
+
+#Indochina
+Indochina_Coring_Decisions = {
+picture = GFX_decision_cat_creating_indochina
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = SIA
+			original_tag = VIN
+			original_tag = LAO
+			original_tag = CAM
+			original_tag = BRM
+		}
+	}
+}
+
+#Intermarium
+Intermarium_Coring_Decisions = {
+picture = GFX_decision_cat_creating_intermarium
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = POL
+			original_tag = BLR
+			original_tag = UKR
+			original_tag = LIT
+			original_tag = LAT
+			original_tag = EST
+			original_tag = CZE
+			original_tag = HUN
+			original_tag = YUG
+			original_tag = ROM
+		}
+	}
+}
+
+#Latin Union
+Latin_Union_Coring_Decisions = {
+picture = GFX_decision_cat_creating_latin_union
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = POR
+			original_tag = SPR
+			original_tag = FRA
+			original_tag = ITA
+			original_tag = ROM
+		}
+	}
+}
+
+#Macedonian Empire
+Macedonian_Empire_Coring_Decisions = {
+picture = GFX_decision_cat_creating_macedonian_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = GRE
+			original_tag = MAC
+		}
+	}
+}
+
+#Mongol Empire
+Mongol_Empire_Coring_Decisions = {
+picture = GFX_decision_cat_creating_mongol_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = MON
+			original_tag = MEN
+		}
+	}
+}
+
+#North Sea Empire
+North_Sea_Empire_Coring_Decisions = {
+picture = GFX_decision_cat_creating_north_sea_empire
+	icon = generic_foreign_policy
+
+	allowed = {
+		original_tag = ENG
+	}
+}
+
+#Slavic Union
+Slavic_Union_Coring_Decisions = {
+picture = GFX_decision_cat_creating_slavic_union
+	icon = generic_foreign_policy
+
+	allowed = {
+		original_tag = UKR
+		original_tag = BLR
+		original_tag = POL
+		original_tag = CZE
+		original_tag = SLO
+		original_tag = YUG
+		original_tag = BUL
+		original_tag = SLV
+		original_tag = CRO
+		original_tag = BOS
+		original_tag = SER
+		original_tag = MNT
+		original_tag = MAC
+	}
+}
+
+#Transcaucasia
+Transcaucasia_Coring_Decisions = {
+picture = GFX_decision_cat_creating_transcaucasia
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = AZR
+			original_tag = ARM
+			original_tag = GEO
+		}
+	}
+}
+
+#Turan
+Turan_Coring_Decisions = {
+picture = GFX_decision_cat_creating_turan
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = KAZ
+			original_tag = TUR
+			original_tag = SIK
+			original_tag = TAN
+			original_tag = AZR
+			original_tag = TMS
+			original_tag = UZB
+			original_tag = KYR
+		}
 	}
 }
 
@@ -910,4 +1139,89 @@ MUN_AFR_Coring_Decisions = {
 
 	visible = {
 	}
+}
+
+#Eurasian Union
+Eurasian_Union_Coring_Decisions = {
+picture = GFX_decision_cat_creating_eurasian_union
+	icon = generic_foreign_policy
+
+	allowed = {
+		OR = {
+			original_tag = POR
+			original_tag = SPR
+			original_tag = FRA
+			original_tag = IRE
+			original_tag = ENG
+			original_tag = BEL
+			original_tag = HOL
+			original_tag = LUX
+			original_tag = GER
+			original_tag = SWI
+			original_tag = AUS
+			original_tag = DEN
+			original_tag = NOR
+			original_tag = SWE
+			original_tag = FIN
+			original_tag = POL
+			original_tag = CZE
+			original_tag = HUN
+			original_tag = ROM
+			original_tag = YUG
+			original_tag = ALB
+			original_tag = BUL
+			original_tag = GRE
+			original_tag = ITA
+			original_tag = LIT
+			original_tag = LAT
+			original_tag = EST
+			original_tag = SOV
+			original_tag = TUR
+			original_tag = SYR
+			original_tag = LEB
+			original_tag = JOR
+			original_tag = ISR
+			original_tag = PAL
+			original_tag = SAU
+			original_tag = IRQ
+			original_tag = YEM
+			original_tag = OMA
+			original_tag = PER
+			original_tag = AFG
+			original_tag = RAJ
+			original_tag = PAK
+			original_tag = BAN
+			original_tag = BRM
+			original_tag = TIB
+			original_tag = NEP
+			original_tag = BHU
+			original_tag = SIA
+			original_tag = LAO
+			original_tag = VIN
+			original_tag = CAM
+			original_tag = KOR
+			original_tag = JAP
+			original_tag = MAL
+			original_tag = INS
+			original_tag = PHI
+			original_tag = CHI
+			original_tag = XSM
+			original_tag = PRC
+			original_tag = GXC
+			original_tag = SIK
+			original_tag = SHX
+			original_tag = YUN
+			original_tag = MON
+			original_tag = TIB
+			original_tag = MAN
+			original_tag = MEN
+			original_tag = TAN
+		}
+	}
+}
+
+#United Nations
+United_Nations_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_united_nations
+	icon = generic_foreign_policy
 }

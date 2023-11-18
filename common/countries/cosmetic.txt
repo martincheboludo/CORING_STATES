@@ -1491,3 +1491,11 @@ FORM_AFR = {
 	color = rgb { 49 148 0 }
 	color_ui = rgb { 49 148 0 }
 }
+FORM_Russian_Roman_Empire = {
+	color = rgb { 181 0 0 }
+	color_ui = rgb { 181 0 0 }
+}
+FORM_Holy_Russian_Empire = {
+	color = rgb { 251  199  1 }
+	color_ui = rgb { 251  199  1 }
+}
