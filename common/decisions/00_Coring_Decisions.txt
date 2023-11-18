@@ -14606,6 +14606,7 @@ SOV_Coring_Decisions = {
 								is_core_of = SYR
 								state = 341
 								state = 797
+								state = 799
 							}
 						}
 						is_controlled_by = FROM
@@ -55577,6 +55578,11 @@ Roman_Empire_Coring_Decisions = {
 		}
 
 		available = {
+			OR = {
+				has_global_flag = FORM_WROE2
+				has_global_flag = FORM_ROE2
+				has_global_flag = FORM_BYZ2
+			}
 			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
@@ -58343,6 +58349,7 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = GRE
+							NOT = { state = 164 }
 						}
 						is_controlled_by = FROM
 					}
@@ -58355,6 +58362,7 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = { state = 799 }
 						}
 						is_controlled_by = FROM
 					}
