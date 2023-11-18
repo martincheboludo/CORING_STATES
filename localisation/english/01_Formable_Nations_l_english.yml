@@ -832,6 +832,9 @@ RON_Formable_Decision27:0 "Proclaim Roman Empire"
 RON_Formable_Decision85:0 "Proclaim Western Roman Empire"
 RON_Formable_Decision121:0 "Proclaim Italian Empire"
 RON_Formable_Decision1000:0 "Il Duce's Ambitions Realized"
+ROE_Formable_Decision20:0 "Proclaim Byzantine Empire"
+ROE_Formable_Decision27:0 "Proclaim Roman Empire"
+ROE_Formable_Decision85:0 "Proclaim Western Roman Empire"
 
 #Japanese Formables
 RON_Formable_Decision93:0 "Proclaim Greater East Asia Co-Prosperity Sphere"

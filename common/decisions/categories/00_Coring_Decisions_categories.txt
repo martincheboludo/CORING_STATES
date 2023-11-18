@@ -744,6 +744,27 @@ Balkan_Federation_Coring_Decisions = {
 	}
 }
 
+Roman_Empire_Coring_Decisions = {
+	picture = GFX_decision_cat_creating_roman_empire
+	icon = ITA_colonial_management
+
+	allowed = {
+		OR = {
+			#original_tag = ITA
+			original_tag = GRE
+			original_tag = SPR
+			original_tag = POR
+			original_tag = FRA
+			original_tag = ROM
+			original_tag = MOL
+			#original_tag = SOV
+		}
+	}
+
+	visible = {
+	}
+}
+
 MUN_AME_Coring_Decisions = {
 	picture = GFX_decision_cat_creating_greater_americas
 	icon = generic_foreign_policy
@@ -884,27 +905,6 @@ MUN_AFR_Coring_Decisions = {
 			original_tag = ETH
 			original_tag = LIB
 			original_tag = SAF
-		}
-	}
-
-	visible = {
-	}
-}
-
-Roman_Empire_Coring_Decisions = {
-	picture = GFX_decision_cat_creating_roman_empire
-	icon = generic_foreign_policy
-
-	allowed = {
-		OR = {
-			#original_tag = ITA
-			original_tag = GRE
-			original_tag = SPR
-			original_tag = POR
-			original_tag = FRA
-			original_tag = ROM
-			original_tag = MOL
-			#original_tag = SOV
 		}
 	}
 
