@@ -2075,16 +2075,16 @@ GER_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_HRE2
 			160 = {
 					AND = {
@@ -2133,16 +2133,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
@@ -2240,16 +2240,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_HRE2
 				has_global_flag = FORM_GGR2
@@ -2331,16 +2331,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_HRE2
 			any_controlled_state = {
 					AND = {
@@ -2434,16 +2434,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_HRE2
 			any_controlled_state = {
 					AND = {
@@ -2531,16 +2531,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_country_flag = FORM_German_Colonial_Empire2
 			any_controlled_state = {
 					AND = {
@@ -2622,16 +2622,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_country_flag = FORM_German_Colonial_Empire2
 			any_controlled_state = {
 					AND = {
@@ -2707,16 +2707,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_country_flag = FORM_German_Colonial_Empire2
 			any_controlled_state = {
 					AND = {
@@ -2816,9 +2816,9 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -2826,7 +2826,7 @@ GER_Coring_Decisions = {
 
 		available = {
 			has_country_flag = FORM_German_Colonial_Empire2
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			
 			#Malaya
 			custom_trigger_tooltip = {
@@ -2985,16 +2985,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 		}
 
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_Controls_Congolese_States_tt
@@ -3111,16 +3111,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 		}
 
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_Controls_Congolese_States_tt
@@ -3240,16 +3240,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 		}
 
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_Controls_Congolese_States_tt
@@ -3347,16 +3347,16 @@ GER_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 		}
 
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_Controls_Congolese_States_tt
@@ -3449,9 +3449,9 @@ GER_Coring_Decisions = {
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 		allowed = {
 		}
 		visible = {
@@ -3459,7 +3459,7 @@ GER_Coring_Decisions = {
 		}
 		icon = ger_reichskommissariats
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			
 			OR = {
 				has_global_flag = FORM_German_Empire2
@@ -3924,16 +3924,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4002,16 +4002,17 @@ GGR_Coring_Decisions = {
 		
 		#Allow One Time
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 		}
 
 		available = {
 			has_global_flag = FORM_GGR2
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
+			99 = { is_core_of = ROOT }
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -4083,16 +4084,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4156,16 +4157,16 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24	
+		num_of_civilian_factories_available_for_projects > 14	
 		has_global_flag = FORM_GGR2
 			914 = {
 					AND = {
@@ -4213,16 +4214,16 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24	
+		num_of_civilian_factories_available_for_projects > 14	
 		has_global_flag = FORM_GGR2
 			337 = {
 					AND = {
@@ -4271,16 +4272,16 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24	
+		num_of_civilian_factories_available_for_projects > 14	
 		has_global_flag = FORM_GGR2
 			100 = {
 					AND = {
@@ -4329,16 +4330,16 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24	
+		num_of_civilian_factories_available_for_projects > 14	
 		has_global_flag = FORM_GGR2
 			101 = {
 					AND = {
@@ -4388,16 +4389,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24	
+		num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4470,16 +4471,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4543,16 +4544,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4616,16 +4617,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4689,16 +4690,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4780,16 +4781,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -4979,16 +4980,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -5052,16 +5053,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -5125,16 +5126,16 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			has_global_flag = FORM_GGR2
 			any_controlled_state = {
 					AND = {
@@ -5209,9 +5210,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5332,9 +5333,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5343,7 +5344,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5426,9 +5427,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5551,9 +5552,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5562,7 +5563,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -5646,9 +5647,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5657,7 +5658,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_USA_Neutralized_tt
@@ -5801,9 +5802,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5812,7 +5813,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_USA_Neutralized_tt
@@ -5956,9 +5957,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -5971,7 +5972,7 @@ GGR_Coring_Decisions = {
 			has_country_flag = Integrate_Deutsch_Nordamerika2
 			has_country_flag = Integrate_Deutsch_Sudamerika2
 		}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		OR = {
 			
@@ -6087,9 +6088,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6098,7 +6099,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6161,9 +6162,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6172,7 +6173,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6246,9 +6247,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6369,9 +6370,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6380,7 +6381,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6443,9 +6444,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6454,7 +6455,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6517,9 +6518,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6528,7 +6529,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6590,9 +6591,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6713,9 +6714,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6724,7 +6725,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -6786,9 +6787,9 @@ GGR_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6938,9 +6939,9 @@ GGR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -6949,7 +6950,7 @@ GGR_Coring_Decisions = {
 		available = {
 		has_country_flag = FORM_German_Colonial_Empire2
 		has_global_flag = FORM_GGR2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 		custom_trigger_tooltip = {
 				tooltip = RON_USA_Neutralized_tt
@@ -7786,16 +7787,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Algerian States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24	
+			num_of_civilian_factories_available_for_projects > 14	
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -7862,16 +7863,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_FRN2
 			any_controlled_state = {
 					AND = {
@@ -7944,16 +7945,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_FRN2
 			any_controlled_state = {
 					AND = {
@@ -8032,16 +8033,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_FRN2
 			any_controlled_state = {
 					AND = {
@@ -8120,16 +8121,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_FRN2
 			any_controlled_state = {
 					AND = {
@@ -8210,16 +8211,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8299,16 +8300,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8385,16 +8386,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8471,16 +8472,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8569,16 +8570,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8658,16 +8659,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8744,16 +8745,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -8827,16 +8828,16 @@ FRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_French_Union2
 			any_controlled_state = {
 					AND = {
@@ -9432,16 +9433,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -9508,16 +9509,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -9584,16 +9585,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Anglosphere2
 			any_controlled_state = {
 					AND = {
@@ -9660,16 +9661,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -9736,16 +9737,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -9815,16 +9816,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -9891,16 +9892,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -9967,16 +9968,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10043,16 +10044,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10119,16 +10120,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10195,16 +10196,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10271,16 +10272,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10357,16 +10358,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10449,16 +10450,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10541,16 +10542,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10617,16 +10618,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10693,16 +10694,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -10803,16 +10804,16 @@ ENG_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = FORM_BIF2
 				has_global_flag = Form_British_Commonwealth2
@@ -12735,16 +12736,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = Form_Slavic_Union2
 				has_global_flag = FORM_Greater_Russia2
@@ -12818,16 +12819,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = Form_Slavic_Union2
 				has_global_flag = FORM_Greater_Russia2
@@ -12916,16 +12917,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = Form_Slavic_Union2
 				has_global_flag = FORM_Greater_Russia2
@@ -13001,16 +13002,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13080,16 +13081,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -13158,16 +13159,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13231,16 +13232,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = Form_Slavic_Union2
 				has_global_flag = FORM_Greater_Russia2
@@ -13314,16 +13315,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = Form_Slavic_Union2
 				has_global_flag = FORM_Greater_Russia2
@@ -13397,16 +13398,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			OR = {
 				has_global_flag = Form_Slavic_Union2
 				has_global_flag = FORM_Greater_Russia2
@@ -13480,16 +13481,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_Slavic_Union2
 			any_controlled_state = {
 					AND = {
@@ -13559,16 +13560,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13638,16 +13639,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13717,16 +13718,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13796,16 +13797,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13875,16 +13876,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -13954,16 +13955,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -14054,16 +14055,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_Greater_Russia2
 			any_controlled_state = {
 					AND = {
@@ -14136,16 +14137,16 @@ SOV_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 		
 			OR = {
 				has_global_flag = Form_Slavic_Union2
@@ -15558,16 +15559,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 		OR = { 
 			has_global_flag = FORM_GOL2
 			has_global_flag = FORM_The_Americas2 
@@ -15634,16 +15635,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			OR = { 
 				has_global_flag = FORM_GOL2
 				has_global_flag = FORM_The_Americas2 
@@ -15710,16 +15711,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			OR = { 
 				has_global_flag = FORM_GOL2
 				has_global_flag = FORM_The_Americas2 
@@ -15798,16 +15799,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -15871,16 +15872,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -15950,16 +15951,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -16023,16 +16024,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -16096,16 +16097,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -16169,16 +16170,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -16242,16 +16243,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -16315,16 +16316,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_The_Americas2 
 			any_controlled_state = {
 					AND = {
@@ -16389,9 +16390,9 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -16399,7 +16400,7 @@ USA_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_Anglosphere2
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -16462,9 +16463,9 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -16472,7 +16473,7 @@ USA_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_Anglosphere2
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -16535,16 +16536,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Irish States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -16607,16 +16608,16 @@ USA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores Irish States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18117,9 +18118,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18127,7 +18128,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_ROE2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18190,9 +18191,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18200,7 +18201,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_ROE2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18266,9 +18267,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18281,7 +18282,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_BYZ2
 				has_global_flag = Mussolinis_Ambitions2
 			}	
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18359,9 +18360,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18373,7 +18374,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_BYZ2
 				has_global_flag = Mussolinis_Ambitions2
 			}	
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18436,9 +18437,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18449,7 +18450,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}	
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18527,9 +18528,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18540,7 +18541,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18615,9 +18616,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18628,7 +18629,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18703,9 +18704,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18716,7 +18717,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18779,9 +18780,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18792,7 +18793,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18855,9 +18856,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18868,7 +18869,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -18934,9 +18935,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -18947,7 +18948,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19016,9 +19017,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19029,7 +19030,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19092,9 +19093,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19105,7 +19106,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_WROE2
 				has_global_flag = FORM_ROE2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19171,9 +19172,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19185,7 +19186,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_BYZ2
 				has_global_flag = Mussolinis_Ambitions2
 			}	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19248,9 +19249,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19258,7 +19259,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_ROE2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19333,9 +19334,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19343,7 +19344,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_ROE2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19436,9 +19437,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19449,7 +19450,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19521,9 +19522,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19534,7 +19535,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19597,9 +19598,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19610,7 +19611,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19673,9 +19674,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19686,7 +19687,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19749,9 +19750,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19762,7 +19763,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19825,9 +19826,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19838,7 +19839,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19901,9 +19902,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19914,7 +19915,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -19977,9 +19978,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -19990,7 +19991,7 @@ ITA_Coring_Decisions = {
 				has_global_flag = FORM_ROE2
 				has_global_flag = Mussolinis_Ambitions2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -20053,9 +20054,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -20063,7 +20064,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_ROE2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -20126,9 +20127,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -20136,7 +20137,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_ROE2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -20199,9 +20200,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -20209,7 +20210,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Mussolinis_Ambitions2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -20290,9 +20291,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -20300,7 +20301,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Mussolinis_Ambitions2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -20363,9 +20364,9 @@ ITA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -20373,7 +20374,7 @@ ITA_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Mussolinis_Ambitions2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22113,9 +22114,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22126,7 +22127,7 @@ JAP_Coring_Decisions = {
 			has_global_flag = Form_Greater_Japan2
 			has_global_flag = FORM_Greater_East_Asia2
 		}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22189,9 +22190,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22199,7 +22200,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22262,9 +22263,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22272,7 +22273,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22353,9 +22354,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22363,7 +22364,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22438,9 +22439,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22448,7 +22449,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22511,9 +22512,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22521,7 +22522,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22584,9 +22585,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22594,7 +22595,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22657,9 +22658,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22667,7 +22668,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22733,9 +22734,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22743,7 +22744,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22806,9 +22807,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22816,7 +22817,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22879,9 +22880,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22889,7 +22890,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -22952,9 +22953,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -22962,7 +22963,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -23025,9 +23026,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23035,7 +23036,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -23098,9 +23099,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23108,7 +23109,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -23171,9 +23172,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23181,7 +23182,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -23259,9 +23260,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23269,7 +23270,7 @@ JAP_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_East_Asia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -23361,9 +23362,9 @@ JAP_Coring_Decisions = {
 		icon = jap_pacific_guardian
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23483,9 +23484,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23576,9 +23577,9 @@ JAP_Coring_Decisions = {
 		icon = jap_pacific_guardian
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23698,9 +23699,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23791,9 +23792,9 @@ JAP_Coring_Decisions = {
 		icon = jap_pacific_guardian
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23913,9 +23914,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -23986,9 +23987,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -24083,9 +24084,9 @@ JAP_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -24154,9 +24155,9 @@ JAP_Start_Core_Peru = {
 		icon = jap_pacific_guardian
 
 		fire_only_once = yes
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -24276,9 +24277,9 @@ JAP_Start_Core_Peru = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -24349,9 +24350,9 @@ JAP_Start_Core_Peru = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -24422,9 +24423,9 @@ JAP_Start_Core_Peru = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25063,9 +25064,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25076,7 +25077,7 @@ SPR_Coring_Decisions = {
 				has_global_flag = Form_Greater_Spain2
 				has_global_flag = FORM_Hispanosphere2
 			}
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25133,9 +25134,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25143,7 +25144,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Spain2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25215,9 +25216,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25225,7 +25226,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Spain2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25288,9 +25289,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25298,7 +25299,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_Hispanosphere2
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25364,9 +25365,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25374,7 +25375,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25437,9 +25438,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25448,7 +25449,7 @@ SPR_Coring_Decisions = {
 		available = {
 			has_global_flag = FORM_IBE2
 			has_global_flag = FORM_Hispanosphere2
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25525,9 +25526,9 @@ SPR_Coring_Decisions = {
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25535,7 +25536,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25595,9 +25596,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25605,7 +25606,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25668,9 +25669,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25678,7 +25679,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25765,9 +25766,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25775,7 +25776,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		#has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25838,9 +25839,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25848,7 +25849,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25910,9 +25911,9 @@ SPR_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25920,7 +25921,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		#has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			686 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -25967,9 +25968,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -25977,7 +25978,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26039,9 +26040,9 @@ SPR_Coring_Decisions = {
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26049,7 +26050,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26109,9 +26110,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26119,7 +26120,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26182,9 +26183,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26192,7 +26193,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26260,9 +26261,9 @@ SPR_Coring_Decisions = {
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26270,7 +26271,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26330,9 +26331,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26340,7 +26341,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26403,9 +26404,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26413,7 +26414,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26476,9 +26477,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26486,7 +26487,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26549,9 +26550,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26559,7 +26560,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26621,9 +26622,9 @@ SPR_Coring_Decisions = {
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26631,7 +26632,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26691,9 +26692,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26701,7 +26702,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26763,9 +26764,9 @@ SPR_Coring_Decisions = {
 		
 		#Only One Time as its Initial Landing
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26773,7 +26774,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26833,9 +26834,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26843,7 +26844,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26904,9 +26905,9 @@ SPR_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26914,7 +26915,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			366 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -26961,9 +26962,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -26971,7 +26972,7 @@ SPR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27060,9 +27061,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27071,7 +27072,7 @@ SPR_Coring_Decisions = {
 		available = {
 		has_global_flag = FORM_IBE2
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27134,9 +27135,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27145,7 +27146,7 @@ SPR_Coring_Decisions = {
 		available = {
 		has_global_flag = FORM_IBE2
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27208,9 +27209,9 @@ SPR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27219,7 +27220,7 @@ SPR_Coring_Decisions = {
 		available = {
 		has_global_flag = FORM_IBE2
 		has_global_flag = FORM_Hispanosphere2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27683,9 +27684,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27696,7 +27697,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27753,9 +27754,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27766,7 +27767,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27832,9 +27833,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27845,7 +27846,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27908,9 +27909,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -27918,7 +27919,7 @@ POR_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_Lusosphere2
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -27997,9 +27998,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28010,7 +28011,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28073,9 +28074,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28086,7 +28087,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28173,9 +28174,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28186,7 +28187,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28249,9 +28250,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28262,7 +28263,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28324,9 +28325,9 @@ POR_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28337,7 +28338,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			686 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28384,9 +28385,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28397,7 +28398,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28460,9 +28461,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28473,7 +28474,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28536,9 +28537,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28549,7 +28550,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28618,9 +28619,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28631,7 +28632,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28694,9 +28695,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28707,7 +28708,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28770,9 +28771,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28783,7 +28784,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28846,9 +28847,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28859,7 +28860,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28922,9 +28923,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -28935,7 +28936,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -28998,9 +28999,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29011,7 +29012,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -29072,9 +29073,9 @@ POR_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29085,7 +29086,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			366 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -29132,9 +29133,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29145,7 +29146,7 @@ POR_Coring_Decisions = {
 				has_global_flag = FORM_IBE2
 				has_global_flag = FORM_Lusosphere2
 			}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -29234,9 +29235,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Only Once as its Initial Landing
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29247,7 +29248,7 @@ POR_Coring_Decisions = {
 			has_global_flag = Form_Portugal_Brazil_Union2
 			has_global_flag = FORM_Lusosphere2
 		}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -29307,9 +29308,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29320,7 +29321,7 @@ POR_Coring_Decisions = {
 			has_global_flag = Form_Portugal_Brazil_Union2
 			has_global_flag = FORM_Lusosphere2
 		}
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -29383,9 +29384,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29393,7 +29394,7 @@ POR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Lusosphere2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -29456,9 +29457,9 @@ POR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -29466,7 +29467,7 @@ POR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Lusosphere2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30157,9 +30158,9 @@ HOL_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -30167,7 +30168,7 @@ HOL_Coring_Decisions = {
 
 		available = {
 			has_country_flag = FORM_Dutch_Empire2
-			num_of_civilian_factories_available_for_projects > 19	
+			num_of_civilian_factories_available_for_projects > 14	
 			681 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30214,9 +30215,9 @@ HOL_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -30224,7 +30225,7 @@ HOL_Coring_Decisions = {
 
 		available = {
 			has_country_flag = FORM_Dutch_Empire2
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30296,9 +30297,9 @@ HOL_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -30306,7 +30307,7 @@ HOL_Coring_Decisions = {
 
 		available = {
 		has_country_flag = FORM_Dutch_Empire2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30378,9 +30379,9 @@ HOL_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -30388,7 +30389,7 @@ HOL_Coring_Decisions = {
 
 		available = {
 		has_country_flag = FORM_Dutch_Empire2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30472,9 +30473,9 @@ HOL_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -30482,7 +30483,7 @@ HOL_Coring_Decisions = {
 
 		available = {
 			has_country_flag = FORM_Belgian_Empire2
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30557,16 +30558,16 @@ HOL_Coring_Decisions = {
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 		allowed = {
 		}
 		visible = {
 			NOT = { has_country_flag = FORM_Dutch_Empire2 }
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			
 			OR = {
 				has_global_flag = FORM_BEN2
@@ -30622,16 +30623,16 @@ HOL_Coring_Decisions = {
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 		allowed = {
 		}
 		visible = {
 			NOT = { has_country_flag = FORM_Belgian_Empire2 }
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			
 			OR = {
 				has_global_flag = FORM_BEN2
@@ -30869,11 +30870,22 @@ SWE_Coring_Decisions = {
 		days_remove = 7
 
 		allowed = {
-			original_tag = NOR
+			OR = {
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+			}
 		}
 
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
+			
+			OR = {
+				110 = { is_core_of = ROOT }
+				921 = { is_core_of = ROOT }
+				922 = { is_core_of = ROOT }
+			}	
+			
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -30881,6 +30893,7 @@ SWE_Coring_Decisions = {
 						state = 99
 					}
 				}
+
 		}
 
 		ai_will_do = {
@@ -31115,6 +31128,7 @@ SWE_Coring_Decisions = {
 
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
+			99 = { is_core_of = ROOT }
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -31788,16 +31802,16 @@ SWE_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -31873,9 +31887,9 @@ SWE_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -31887,7 +31901,7 @@ SWE_Coring_Decisions = {
 				has_global_flag = FORM_SEP2
 				has_global_flag = FORM_GFI2
 			}
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -31960,9 +31974,9 @@ SWE_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -31973,7 +31987,7 @@ SWE_Coring_Decisions = {
 				has_global_flag = FORM_Nordic_Union2
 				has_global_flag = FORM_SEP2
 			}
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -32076,9 +32090,9 @@ SWE_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -32091,7 +32105,7 @@ SWE_Coring_Decisions = {
 				has_global_flag = FORM_KDN2
 				original_tag = DEN
 			}
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -32164,9 +32178,9 @@ SWE_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -32177,7 +32191,7 @@ SWE_Coring_Decisions = {
 				has_global_flag = FORM_Nordic_Union2
 				has_global_flag = FORM_SEP2
 			}
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -32250,9 +32264,9 @@ SWE_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			OR = {
@@ -32263,7 +32277,7 @@ SWE_Coring_Decisions = {
 
 		available = {
 			has_global_flag = FORM_NSE2
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -33040,16 +33054,16 @@ LIT_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 		
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -33527,16 +33541,16 @@ POL_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 		
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -33618,16 +33632,16 @@ POL_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -33698,16 +33712,16 @@ POL_Coring_Decisions = {
 		icon = hol_exchange_intelligence_data
 		
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 19
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -34630,16 +34644,16 @@ AUS_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_Greater_Austria2
 			160 = {
 					AND = {
@@ -34688,16 +34702,16 @@ AUS_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_Greater_Austria2
 			any_controlled_state = {
 					AND = {
@@ -34772,16 +34786,16 @@ AUS_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = Form_Greater_Austria2
 			80 = {
 					AND = {
@@ -36184,9 +36198,9 @@ AUH_Core_Croatia = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -36197,7 +36211,7 @@ AUH_Core_Croatia = {
 			has_global_flag = FORM_AUH2
 			has_global_flag = FORM_AUE2
 		}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -36274,9 +36288,9 @@ AUH_Core_Croatia = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -36287,7 +36301,7 @@ AUH_Core_Croatia = {
 			has_global_flag = FORM_AUH2
 			has_global_flag = FORM_AUE2
 		}
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -46034,9 +46048,9 @@ AST_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -46044,7 +46058,7 @@ AST_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Australia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -46125,9 +46139,9 @@ AST_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -46135,7 +46149,7 @@ AST_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Australia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -46198,9 +46212,9 @@ AST_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -46208,7 +46222,7 @@ AST_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Australia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -46728,16 +46742,16 @@ BRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -46800,16 +46814,16 @@ BRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -46872,16 +46886,16 @@ BRA_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -48238,16 +48252,16 @@ CHI_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -48322,16 +48336,16 @@ CHI_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 80
-		modifier = { civilian_factory_use = 20 }
-		days_remove = 28
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 19
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -48394,16 +48408,16 @@ CHI_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -48466,16 +48480,16 @@ CHI_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -48538,16 +48552,16 @@ CHI_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50396,9 +50410,9 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -50406,7 +50420,7 @@ RAJ_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_India2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50469,9 +50483,9 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -50479,7 +50493,7 @@ RAJ_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_India2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50542,9 +50556,9 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -50552,7 +50566,7 @@ RAJ_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_India2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50615,9 +50629,9 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -50625,7 +50639,7 @@ RAJ_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_India2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50700,9 +50714,9 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -50710,7 +50724,7 @@ RAJ_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_India2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50791,9 +50805,9 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -50801,7 +50815,7 @@ RAJ_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_Greater_India2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50864,16 +50878,16 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -50936,16 +50950,16 @@ RAJ_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -51443,9 +51457,9 @@ INS_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -51453,7 +51467,7 @@ INS_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Indonesia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -51516,9 +51530,9 @@ INS_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -51526,7 +51540,7 @@ INS_Coring_Decisions = {
 
 		available = {
 		has_global_flag = Form_Greater_Indonesia2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54506,9 +54520,9 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -54516,7 +54530,7 @@ TUR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_OTT2	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54579,9 +54593,9 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -54589,7 +54603,7 @@ TUR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_OTT2	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54652,16 +54666,16 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 		}
 
 		available = {
 		has_global_flag = FORM_OTT2	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54724,9 +54738,9 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -54734,7 +54748,7 @@ TUR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_OTT2
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54797,9 +54811,9 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -54807,7 +54821,7 @@ TUR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_OTT2	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54906,9 +54920,9 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -54916,7 +54930,7 @@ TUR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_OTT2	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -54987,9 +55001,9 @@ TUR_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 100
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 
 		allowed = {
 			
@@ -54997,7 +55011,7 @@ TUR_Coring_Decisions = {
 
 		available = {
 		has_global_flag = FORM_OTT2	
-		num_of_civilian_factories_available_for_projects > 24
+		num_of_civilian_factories_available_for_projects > 14
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -59660,6 +59674,62 @@ Germanic_Union_Coring_Decisions = {
 		}
 	}
 	
+	#Flanders
+	Germanic_Union_Core_French_Flanders = {
+
+		icon = hol_exchange_intelligence_data
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = FORM_Germanic_Union2
+			num_of_civilian_factories_available_for_projects > 14	
+			29 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			29 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			29 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Northern Sleswig
 	Germanic_Union_Core_Northern_Sleswig = {
 
@@ -59800,6 +59870,160 @@ Germanic_Union_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Crossing the English Channel as Non Britain
+	Germanic_Union_CTEC = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			NOT = {
+				original_tag = ENG
+				original_tag = WLS
+				original_tag = IRE
+				original_tag = SCO
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_Germanic_Union2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			29 = { is_core_of = ROOT }
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						state = 127
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						state = 127
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ENG
+						state = 127
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Crossing the English Channel as Britain
+	Germanic_Union_CTEC2 = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = WLS
+				original_tag = IRE
+				original_tag = SCO
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_Germanic_Union2
+			num_of_civilian_factories_available_for_projects > 14
+			127 = { is_core_of = ROOT }
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						state = 29
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						state = 29
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = FRA
+						state = 29
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 #Whole Britain
 	Germanic_Union_Core_Britain = {
@@ -59823,9 +60047,9 @@ Germanic_Union_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = ENG
-						#any_neighbor_state = {
-						#	is_core_of = FROM
-						#}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
 					}
 				}
 		}
@@ -59863,9 +60087,9 @@ Germanic_Union_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = ENG
-						#any_neighbor_state = {
-						#	is_core_of = FROM
-						#}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
 					}
 				}
 				add_core_of = FROM
@@ -60312,6 +60536,174 @@ Germanic_Union_Coring_Decisions = {
 		}
 	}
 	
+	#Crossing the North Sea as Non Denmark
+	Germanic_Union_CTNS = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			OR = {
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_Germanic_Union2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			OR = {
+				110 = { is_core_of = ROOT }
+				921 = { is_core_of = ROOT }
+				922 = { is_core_of = ROOT }
+			}	
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						state = 99
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						state = 99
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = DEN
+						state = 99
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Crossing the North Sea as Denmark
+	Germanic_Union_CTNS2 = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			NOT = {
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_Germanic_Union2
+			num_of_civilian_factories_available_for_projects > 14
+			99 = { is_core_of = ROOT }
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						OR = {
+							state = 110
+							state = 921
+							state = 922
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						OR = {
+							state = 110
+							state = 921
+							state = 922
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = NOR
+						OR = {
+							state = 110
+							state = 921
+							state = 922
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	
 	Germanic_Union_Core_DEN = {
 
@@ -60526,6 +60918,122 @@ Germanic_Union_Coring_Decisions = {
 					}
 				}
 				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Iceland
+	Germanic_Union_Core_Iceland = {
+
+		icon = hol_exchange_intelligence_data
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Germanic_Union2
+		num_of_civilian_factories_available_for_projects > 14	
+			100 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						#Not Needed Because Its an Island
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			100 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			100 = {
+				add_core_of = FROM
+				set_state_name = "Island"
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greenland
+	Germanic_Union_Core_Greenland = {
+
+		icon = hol_exchange_intelligence_data
+
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Germanic_Union2
+		num_of_civilian_factories_available_for_projects > 14	
+			101 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_controlled_by = FROM
+						#Not Needed Because Its an Island
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			101 = { NOT = { is_core_of = FROM } }
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			101 = {
+				add_core_of = FROM
+				set_state_name = "Grönland"
 			}
 			clr_country_flag = Coring_In_Progress
 		}
@@ -62980,6 +63488,160 @@ MUN_EUR_Coring_Decisions = {
 		}
 	}
 	
+	#Crossing the English Channel as Non Britain
+	MUN_EUR_CTEC = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			NOT = {
+				original_tag = ENG
+				original_tag = WLS
+				original_tag = IRE
+				original_tag = SCO
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_EUR2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			29 = { is_core_of = ROOT }
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						state = 127
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						state = 127
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ENG
+						state = 127
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Crossing the English Channel as Britain
+	MUN_EUR_CTEC2 = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = WLS
+				original_tag = IRE
+				original_tag = SCO
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_EUR2
+			num_of_civilian_factories_available_for_projects > 14
+			127 = { is_core_of = ROOT }
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						state = 29
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						state = 29
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = FRA
+						state = 29
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Whole Britain
 	MUN_EUR_Core_Britain = {
 
@@ -63002,9 +63664,9 @@ MUN_EUR_Coring_Decisions = {
 					AND = {
 						NOT = { is_core_of = FROM }
 						is_core_of = ENG
-						#any_neighbor_state = {
-						#	is_core_of = FROM
-						#}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
 					}
 				}
 		}
@@ -63042,9 +63704,9 @@ MUN_EUR_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = ENG
-						#any_neighbor_state = {
-						#	is_core_of = FROM
-						#}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
 					}
 				}
 				add_core_of = FROM
@@ -63628,6 +64290,174 @@ MUN_EUR_Coring_Decisions = {
 						is_core_of = BEL
 						any_neighbor_state = {
 							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Crossing the North Sea as Non Denmark
+	MUN_EUR_CTNS = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			OR = {
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_EUR2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			OR = {
+				110 = { is_core_of = ROOT }
+				921 = { is_core_of = ROOT }
+				922 = { is_core_of = ROOT }
+			}	
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						state = 99
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						state = 99
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = DEN
+						state = 99
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Crossing the North Sea as Denmark
+	MUN_EUR_CTNS2 = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			NOT = {
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_EUR2
+			num_of_civilian_factories_available_for_projects > 14
+			99 = { is_core_of = ROOT }
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						OR = {
+							state = 110
+							state = 921
+							state = 922
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						OR = {
+							state = 110
+							state = 921
+							state = 922
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = NOR
+						OR = {
+							state = 110
+							state = 921
+							state = 922
 						}
 					}
 				}
@@ -66663,10 +67493,10 @@ MUN_EUR_Coring_Decisions = {
 		ai_will_do = {
 			factor = 200
 		}
-		cost = 100
+		cost = 60
 		days_re_enable = 0
-		modifier = { civilian_factory_use = 25 }
-		days_remove = 35
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
 		visible = {
 			NOT = { has_country_flag = RON_European_Brothers }
 		}
@@ -66674,7 +67504,7 @@ MUN_EUR_Coring_Decisions = {
 			#is_subject = no
 			has_global_flag = FORM_EUR2
 			
-			num_of_civilian_factories_available_for_projects > 24
+			num_of_civilian_factories_available_for_projects > 14
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_European_States_tt
