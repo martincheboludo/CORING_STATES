@@ -1499,7 +1499,74 @@ FORM_Holy_Russian_Empire = {
 	color = rgb { 251  199  1 }
 	color_ui = rgb { 251  199  1 }
 }
-
+FORM_LAU = {
+	color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
+}
+FORM_FRE = {
+	color = rgb { 106 0 0 }
+	color_ui = rgb { 106 0 0 }
+}
+FORM_CAU = {
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
+FORM_POH = {
+	color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
+}
+FORM_ANE = {
+	color = rgb { 208 12 39 }
+	color_ui = rgb { 208 12 39 }
+}
+FORM_MAC = {
+	color = rgb { 56 115 255 }
+	color_ui = rgb { 56 115 255 }
+}
+FORM_WOR = {
+	color = rgb { 57 123 206 }
+	color_ui = rgb { 57 123 206 }
+}
+FORM_MOE = {
+	color = rgb { 51 104 204 }
+	color_ui = rgb { 51 104 204 }
+}
+FORM_GIS = {
+	color = rgb { 128 156 220 }
+	color_ui = rgb { 128 156 220 }
+}
+FORM_TKS = {
+	color = rgb { 102 204 255 }
+	color_ui = rgb { 102 204 255 }
+}
+FORM_ICH = {
+	color = rgb { 127 128 255 }
+	color_ui = rgb { 127 128 255 }
+}
+FORM_VIS = {
+	color = rgb { 197 92 106 }
+	color_ui = rgb { 197 92 106 }
+}
+FORM_EUA = {
+	color = rgb { 23 23 69 }
+	color_ui = rgb { 23 23 69 }
+}
+FORM_FBU = {
+	color = rgb { 208 12 39 }
+	color_ui = rgb { 208 12 39 }
+}
+FORM_Intermarium = {
+	color = rgb { 200 100 100 }
+	color_ui = rgb { 200 100 100 }
+}
+FORM_Germanic_Union = {
+	color = rgb { 1 82 147 }
+	color_ui = rgb { 1 82 147 }
+}
+Form_Austro_Spain = {
+	color = rgb { 255 237 165 }
+	color_ui = rgb { 255 237 165 }
+}
 Form_Zapadoslavia = {
     color = rgb { 2 13 39 }
     color_ui = rgb { 2 13 39 }
