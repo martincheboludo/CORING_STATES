@@ -1499,3 +1499,8 @@ FORM_Holy_Russian_Empire = {
 	color = rgb { 251  199  1 }
 	color_ui = rgb { 251  199  1 }
 }
+
+Form_Zapadoslavia = {
+    color = rgb { 2 13 39 }
+    color_ui = rgb { 2 13 39 }
+}
