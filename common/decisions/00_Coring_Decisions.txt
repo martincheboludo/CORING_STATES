@@ -20684,6 +20684,8 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -20696,6 +20698,8 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -20935,6 +20939,8 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -20947,6 +20953,8 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -27295,6 +27303,8 @@ SPR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -27306,6 +27316,8 @@ SPR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -27350,6 +27362,8 @@ SPR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -27361,6 +27375,8 @@ SPR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -27400,6 +27416,8 @@ SPR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -29541,6 +29559,8 @@ POR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -29579,6 +29599,8 @@ POR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -29590,6 +29612,8 @@ POR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -29628,6 +29652,8 @@ POR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -29677,6 +29703,8 @@ POR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -34891,6 +34919,7 @@ AUS_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SLV
+							NOT = { is_core_of = ITA }
 						}
 						is_controlled_by = FROM
 					}
@@ -58499,6 +58528,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -58511,6 +58542,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -58727,6 +58760,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -58739,6 +58774,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -59074,6 +59111,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
 						}
 						is_controlled_by = FROM
 					}
@@ -59086,6 +59125,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = POR
+							NOT = { state = 697 }
+							NOT = { state = 698 }
 						}
 						is_controlled_by = FROM
 					}
@@ -59272,6 +59313,1477 @@ Roman_Empire_Coring_Decisions = {
 
 #Austro Spanish Empire
 Austro_Spanish_Empire_Coring_Decisions = {
+
+
+#AUS
+	Austro_Spanish_Empire_Core_AUS = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = AUS
+							state = 39
+							state = 850
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = AUS
+							state = 39
+							state = 850
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = AUS
+							state = 39
+							state = 850
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#GER
+	Austro_Spanish_Empire_Core_GER = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = GER
+							state = 28
+							state = 912
+							state = 188
+							state = 85
+							state = 86
+							state = 807
+							state = 762
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = GER
+							state = 28
+							state = 912
+							state = 188
+							state = 85
+							state = 86
+							state = 807
+							state = 762
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = GER
+							state = 28
+							state = 912
+							state = 188
+							state = 85
+							state = 86
+							state = 807
+							state = 762
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#SWI
+	Austro_Spanish_Empire_Core_SWI = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SWI
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SWI
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SWI
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#LUX
+	Austro_Spanish_Empire_Core_LUX = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LUX
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LUX
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LUX
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#HOL
+	Austro_Spanish_Empire_Core_HOL = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HOL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HOL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = HOL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#BEL
+	Austro_Spanish_Empire_Core_BEL = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BEL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BEL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BEL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#CZE
+	Austro_Spanish_Empire_Core_CZE = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						OR = {
+							state = 72
+							state = 74
+							state = 75
+							state = 9
+							state = 69
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						OR = {
+							state = 72
+							state = 74
+							state = 75
+							state = 9
+							state = 69
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CZE
+						OR = {
+							state = 72
+							state = 74
+							state = 75
+							state = 9
+							state = 69
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#FRA
+	Austro_Spanish_Empire_Core_FRA = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						OR = {
+							state = 29
+							state = 785
+							state = 18
+							state = 17
+							state = 32
+							state = 21
+							state = 735
+							state = 851
+							state = 1
+						}
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 1
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						OR = {
+							state = 29
+							state = 785
+							state = 18
+							state = 17
+							state = 32
+							state = 21
+							state = 735
+							state = 851
+							state = 1
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = FRA
+						OR = {
+							state = 29
+							state = 785
+							state = 18
+							state = 17
+							state = 32
+							state = 21
+							state = 735
+							state = 851
+							state = 1
+						}
+						OR = {
+							any_neighbor_state = {
+								is_core_of = FROM
+							}
+							state = 1
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#ITA
+	Austro_Spanish_Empire_Core_ITA = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ITA
+						OR = {
+							state = 158
+							state = 159
+							state = 160
+							state = 161
+							state = 162
+							state = 157
+							state = 2
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ITA
+						OR = {
+							state = 158
+							state = 159
+							state = 160
+							state = 161
+							state = 162
+							state = 157
+							state = 2
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ITA
+						OR = {
+							state = 158
+							state = 159
+							state = 160
+							state = 161
+							state = 162
+							state = 157
+							state = 2
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#SLV
+	Austro_Spanish_Empire_Core_Sicily = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 117
+							state = 849
+							state = 156
+							state = 115
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 117
+							state = 849
+							state = 156
+							state = 115
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 117
+							state = 849
+							state = 156
+							state = 115
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#SLV
+	Austro_Spanish_Empire_Core_SLV = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = SLV
+							state = 852
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = SLV
+							state = 852
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = SLV
+							state = 852
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+
+Austro_Spanish_Empire_Core_Spain = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = SPR
+							state = 118
+						}
+						NOT = { state = 177 }
+						NOT = { state = 178 }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = SPR
+							state = 118
+						}
+						NOT = { state = 177 }
+						NOT = { state = 178 }
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = SPR
+							state = 118
+						}
+						NOT = { state = 177 }
+						NOT = { state = 178 }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole Portugal
+	Austro_Spanish_Empire_Core_Portugal = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = Form_Austro_Spain2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = POR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Coronation in Madrid
+	Austro_Spanish_Empire_Coronation_In_Madrid = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+
+		}
+
+		available = {
+			has_global_flag = Form_Austro_Spain2
+			num_of_civilian_factories_available_for_projects > 14
+			
+				41 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SPR
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+				41 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SPR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			41 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Coronation in Vienna
+	Austro_Spanish_Empire_Coronation_In_Vienna = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+
+		}
+
+		available = {
+			has_global_flag = Form_Austro_Spain2
+			num_of_civilian_factories_available_for_projects > 14
+			
+				4 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+				4 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AUS
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			4 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Coronation in Rome
+	Austro_Spanish_Empire_Coronation_In_Rome = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+
+		}
+
+		available = {
+			has_global_flag = Form_Austro_Spain2
+			num_of_civilian_factories_available_for_projects > 14
+			
+				2 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ITA
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+				2 = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ITA
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			2 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Mediterranean Islands
+	Austro_Spanish_Empire_Core_Mediterranean_Islands = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_global_flag = Form_Austro_Spain2
+			num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 177
+							state = 178
+							state = 697
+							state = 698
+							state = 114
+							state = 115
+							state = 116
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 177
+							state = 178
+							state = 697
+							state = 698
+							state = 114
+							state = 115
+							state = 116
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						#any_neighbor_state = {
+						#	is_core_of = FROM
+						#}
+						OR = {
+							state = 177
+							state = 178
+							state = 697
+							state = 698
+							state = 114
+							state = 115
+							state = 116
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#Austro-Spanish Empire
+	RON_Formable_Decision143 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = Form_Austro_Spain2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Austrian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AUS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Czech_States_tt
+				69 = { is_controlled_by = FROM }
+				74 = { is_controlled_by = FROM }
+				9 = { is_controlled_by = FROM }
+				75 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Slovene_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SLV
+							NOT = { is_core_of = ITA }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Spanish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SPR
+							NOT = { state = 177 }
+							NOT = { state = 178 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.143
+			}
+			hidden_effect = {
+				set_global_flag = Form_Austro_Spain2
+			}
+		}
+	}
+
 }
 
 #Canzuk
