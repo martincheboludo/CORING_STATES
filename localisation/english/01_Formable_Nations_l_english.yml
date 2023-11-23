@@ -1004,6 +1004,8 @@ RON_Formable_Decision18:0 "Proclaim Greater Hungary"
 RON_Formable_Decision97:0 "Proclaim Erfurt Union"
 ERF_Formable_Decision97:0 "Proclaim Erfurt Union"
 RON_Formable_Decision1020:0 "Proclaim Austrian Empire"
+AUS_Formable_Decision10:0 "Proclaim Iberian Union"
+AUS_Formable_Decision91:0 "Proclaim Spanish Empire"
 
 #Benelux Formables
 RON_Formable_Decision15:0 "Proclaim Benelux"

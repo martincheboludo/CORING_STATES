@@ -192,6 +192,23 @@ country_event = {
 			}
 
 	}
+	
+	option = {
+		name = "Maintain Current Cosmetic Tag"
+		
+		trigger = {
+			original_tag = AUS
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.10 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1073,6 +1090,23 @@ country_event = {
 			hidden_effect = { 
 				news_event = { id = RON_Formable_News.91 hours = 6 }
 			}
+
+	}
+	
+	option = {
+		name = "Maintain Current Cosmetic Tag"
+		
+		trigger = {
+			original_tag = AUS
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.91 hours = 6 }
+		}
 
 	}
 
@@ -5457,6 +5491,24 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Germanic_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.109 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Maintain Current Cosmetic Tag"
+		
+		trigger = {
+			original_tag = GER
+			has_global_flag = FORM_GGR2
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.109 hours = 6 }
 		}
