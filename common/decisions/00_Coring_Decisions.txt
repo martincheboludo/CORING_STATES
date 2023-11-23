@@ -32373,14 +32373,16 @@ SWE_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -32428,14 +32430,16 @@ SWE_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -32499,14 +32503,16 @@ SWE_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -32569,14 +32575,16 @@ SWE_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			
 		}
@@ -32620,14 +32628,16 @@ SWE_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			
 		}
@@ -32794,14 +32804,16 @@ SWE_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			#Long Tail
 			722 = { is_controlled_by = FROM }
@@ -61051,7 +61063,13 @@ Germanic_Union_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Germanic_Union2 }
 		}
 		available = {
-			#is_subject = no			
+			#is_subject = no		
+
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}			
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
@@ -61129,14 +61147,16 @@ Germanic_Union_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Norwegian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = NOR
-						}
-						is_controlled_by = FROM
-					}
-				}
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
