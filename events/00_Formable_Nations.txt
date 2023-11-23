@@ -4768,3 +4768,799 @@ news_event = {
 		name = RON_Formable_News.1020.a
 	}
 }
+
+#Latin Union
+country_event = {
+	id = RON_Formable_Country.3
+	title = RON_Formable_Country.3.t
+	desc = RON_Formable_Country.3.d
+	picture = GFX_report_event_RON_Formable_Country3
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.3.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_LAU
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.3 hours = 6 }
+		}
+
+	}
+
+}
+
+#Latin Union
+news_event = {
+	id = RON_Formable_News.3
+	title = RON_Formable_News.3.t
+	desc = RON_Formable_News.3.d
+	picture = GFX_news_event_RON_Formable_News3
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.3.a
+	}
+}
+
+#Frankish Empire
+country_event = {
+	id = RON_Formable_Country.6
+	title = RON_Formable_Country.6.t
+	desc = RON_Formable_Country.6.d
+	picture = GFX_report_event_RON_Formable_Country6
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.6.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_FRE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.6 hours = 6 }
+		}
+
+	}
+
+}
+
+#Frankish Empire
+news_event = {
+	id = RON_Formable_News.6
+	title = RON_Formable_News.6.t
+	desc = RON_Formable_News.6.d
+	picture = GFX_news_event_RON_Formable_News6
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.6.a
+	}
+}
+
+#Transcaucasia
+country_event = {
+	id = RON_Formable_Country.14
+	title = RON_Formable_Country.14.t
+	desc = RON_Formable_Country.14.d
+	picture = GFX_report_event_RON_Formable_Country14
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.14.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_CAU
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.14 hours = 6 }
+		}
+
+	}
+
+}
+
+#Transcaucasia
+news_event = {
+	id = RON_Formable_News.14
+	title = RON_Formable_News.14.t
+	desc = RON_Formable_News.14.d
+	picture = GFX_news_event_RON_Formable_News14
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.14.a
+	}
+}
+
+#Polish-Hungarian Union
+country_event = {
+	id = RON_Formable_Country.26
+	title = RON_Formable_Country.26.t
+	desc = RON_Formable_Country.26.d
+	picture = GFX_report_event_RON_Formable_Country26
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.26.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_POH
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.26 hours = 6 }
+		}
+
+	}
+
+}
+
+#Polish-Hungarian Union
+news_event = {
+	id = RON_Formable_News.26
+	title = RON_Formable_News.26.t
+	desc = RON_Formable_News.26.d
+	picture = GFX_news_event_RON_Formable_News26
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.26.a
+	}
+}
+
+#Angevin Empire
+country_event = {
+	id = RON_Formable_Country.28
+	title = RON_Formable_Country.28.t
+	desc = RON_Formable_Country.28.d
+	picture = GFX_report_event_RON_Formable_Country28
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.28.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_ANE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.28 hours = 6 }
+		}
+
+	}
+
+}
+
+#Angevin Empire
+news_event = {
+	id = RON_Formable_News.28
+	title = RON_Formable_News.28.t
+	desc = RON_Formable_News.28.d
+	picture = GFX_news_event_RON_Formable_News28
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.28.a
+	}
+}
+
+#Macedonian Empire
+country_event = {
+	id = RON_Formable_Country.29
+	title = RON_Formable_Country.29.t
+	desc = RON_Formable_Country.29.d
+	picture = GFX_report_event_RON_Formable_Country29
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.29.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_MAC
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.29 hours = 6 }
+		}
+
+	}
+
+}
+
+#Macedonian Empire
+news_event = {
+	id = RON_Formable_News.29
+	title = RON_Formable_News.29.t
+	desc = RON_Formable_News.29.d
+	picture = GFX_news_event_RON_Formable_News29
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.29.a
+	}
+}
+
+#United Nations
+country_event = {
+	id = RON_Formable_Country.31
+	title = RON_Formable_Country.31.t
+	desc = RON_Formable_Country.31.d
+	picture = GFX_report_event_RON_Formable_Country31
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.31.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_WOR
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.31 hours = 6 }
+		}
+
+	}
+
+}
+
+#United Nations
+news_event = {
+	id = RON_Formable_News.31
+	title = RON_Formable_News.31.t
+	desc = RON_Formable_News.31.d
+	picture = GFX_news_event_RON_Formable_News31
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.31.a
+	}
+}
+
+#Mongol Empire
+country_event = {
+	id = RON_Formable_Country.33
+	title = RON_Formable_Country.33.t
+	desc = RON_Formable_Country.33.d
+	picture = GFX_report_event_RON_Formable_Country33
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.33.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_MOE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.33 hours = 6 }
+		}
+
+	}
+
+}
+
+#Mongol Empire
+news_event = {
+	id = RON_Formable_News.33
+	title = RON_Formable_News.33.t
+	desc = RON_Formable_News.33.d
+	picture = GFX_news_event_RON_Formable_News33
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.33.a
+	}
+}
+
+#Greater Israel
+country_event = {
+	id = RON_Formable_Country.34
+	title = RON_Formable_Country.34.t
+	desc = RON_Formable_Country.34.d
+	picture = GFX_report_event_RON_Formable_Country34
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.34.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_GIS
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.34 hours = 6 }
+		}
+
+	}
+
+}
+
+#Greater Israel
+news_event = {
+	id = RON_Formable_News.34
+	title = RON_Formable_News.34.t
+	desc = RON_Formable_News.34.d
+	picture = GFX_news_event_RON_Formable_News34
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.34.a
+	}
+}
+
+#Turan
+country_event = {
+	id = RON_Formable_Country.41
+	title = RON_Formable_Country.41.t
+	desc = RON_Formable_Country.41.d
+	picture = GFX_report_event_RON_Formable_Country41
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.41.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_TKS
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.41 hours = 6 }
+		}
+
+	}
+
+}
+
+#Turan
+news_event = {
+	id = RON_Formable_News.41
+	title = RON_Formable_News.41.t
+	desc = RON_Formable_News.41.d
+	picture = GFX_news_event_RON_Formable_News41
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.41.a
+	}
+}
+
+#Indochina
+country_event = {
+	id = RON_Formable_Country.42
+	title = RON_Formable_Country.42.t
+	desc = RON_Formable_Country.42.d
+	picture = GFX_report_event_RON_Formable_Country42
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.42.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_ICH
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.42 hours = 6 }
+		}
+
+	}
+
+}
+
+#Indochina
+news_event = {
+	id = RON_Formable_News.42
+	title = RON_Formable_News.42.t
+	desc = RON_Formable_News.42.d
+	picture = GFX_news_event_RON_Formable_News42
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.42.a
+	}
+}
+
+#Visegrad
+country_event = {
+	id = RON_Formable_Country.56
+	title = RON_Formable_Country.56.t
+	desc = RON_Formable_Country.56.d
+	picture = GFX_report_event_RON_Formable_Country56
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.56.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_VIS
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.56 hours = 6 }
+		}
+
+	}
+
+}
+
+#Visegrad
+news_event = {
+	id = RON_Formable_News.56
+	title = RON_Formable_News.56.t
+	desc = RON_Formable_News.56.d
+	picture = GFX_news_event_RON_Formable_News56
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.56.a
+	}
+}
+
+#Eurasian Union
+country_event = {
+	id = RON_Formable_Country.67
+	title = RON_Formable_Country.67.t
+	desc = RON_Formable_Country.67.d
+	picture = GFX_report_event_RON_Formable_Country67
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.67.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_EUA
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.67 hours = 6 }
+		}
+
+	}
+
+}
+
+#Eurasian Union
+news_event = {
+	id = RON_Formable_News.67
+	title = RON_Formable_News.67.t
+	desc = RON_Formable_News.67.d
+	picture = GFX_news_event_RON_Formable_News67
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.67.a
+	}
+}
+
+#Franco-British Union
+country_event = {
+	id = RON_Formable_Country.72
+	title = RON_Formable_Country.72.t
+	desc = RON_Formable_Country.72.d
+	picture = GFX_report_event_RON_Formable_Country72
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.72.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_FBU
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.72 hours = 6 }
+		}
+
+	}
+
+}
+
+#Franco-British Union
+news_event = {
+	id = RON_Formable_News.72
+	title = RON_Formable_News.72.t
+	desc = RON_Formable_News.72.d
+	picture = GFX_news_event_RON_Formable_News72
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.72.a
+	}
+}
+
+#Intermarium
+country_event = {
+	id = RON_Formable_Country.98
+	title = RON_Formable_Country.98.t
+	desc = RON_Formable_Country.98.d
+	picture = GFX_report_event_RON_Formable_Country98
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.98.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Intermarium
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.98 hours = 6 }
+		}
+
+	}
+
+}
+
+#Intermarium
+news_event = {
+	id = RON_Formable_News.98
+	title = RON_Formable_News.98.t
+	desc = RON_Formable_News.98.d
+	picture = GFX_news_event_RON_Formable_News98
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.98.a
+	}
+}#Intermarium
+country_event = {
+	id = RON_Formable_Country.98
+	title = RON_Formable_Country.98.t
+	desc = RON_Formable_Country.98.d
+	picture = GFX_report_event_RON_Formable_Country98
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.98.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Intermarium
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.98 hours = 6 }
+		}
+
+	}
+
+}
+
+#Intermarium
+news_event = {
+	id = RON_Formable_News.98
+	title = RON_Formable_News.98.t
+	desc = RON_Formable_News.98.d
+	picture = GFX_news_event_RON_Formable_News98
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.98.a
+	}
+}
+
+#Germanic Union
+country_event = {
+	id = RON_Formable_Country.109
+	title = RON_Formable_Country.109.t
+	desc = RON_Formable_Country.109.d
+	picture = GFX_report_event_RON_Formable_Country109
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.109.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Germanic_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.109 hours = 6 }
+		}
+
+	}
+
+}
+
+#Germanic Union
+news_event = {
+	id = RON_Formable_News.109
+	title = RON_Formable_News.109.t
+	desc = RON_Formable_News.109.d
+	picture = GFX_news_event_RON_Formable_News109
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.109.a
+	}
+}
+
+#Austria Spain
+country_event = {
+	id = RON_Formable_Country.143
+	title = RON_Formable_Country.143.t
+	desc = RON_Formable_Country.143.d
+	picture = GFX_report_event_RON_Formable_Country143
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.143.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Austro_Spain
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.143 hours = 6 }
+		}
+
+	}
+
+}
+
+#Austria Spain
+news_event = {
+	id = RON_Formable_News.143
+	title = RON_Formable_News.143.t
+	desc = RON_Formable_News.143.d
+	picture = GFX_news_event_RON_Formable_News143
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.143.a
+	}
+}
+
+#Zapadoslavia
+country_event = {
+	id = RON_Formable_Country.1021
+	title = RON_Formable_Country.1021.t
+	desc = RON_Formable_Country.1021.d
+	picture = GFX_report_event_RON_Formable_Country1021
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1021.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Zapadoslavia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1021 hours = 6 }
+		}
+
+	}
+
+}
+
+#Zapadoslavia
+news_event = {
+	id = RON_Formable_News.1021
+	title = RON_Formable_News.1021.t
+	desc = RON_Formable_News.1021.d
+	picture = GFX_news_event_RON_Formable_News1021
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1021.a
+	}
+}
