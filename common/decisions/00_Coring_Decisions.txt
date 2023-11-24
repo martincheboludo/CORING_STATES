@@ -80491,7 +80491,7 @@ Eurasian_Union_Coring_Decisions = {
 	}
 	
 	#Whole Russia
-	Eurasia_Core_SOV = {
+	Eurasia_Core_SOV2 = {
 
 		icon = hol_exchange_intelligence_data
 		
