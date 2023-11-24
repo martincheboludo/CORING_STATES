@@ -181,6 +181,10 @@ country_event = {
 
 	option = {
 		name = RON_Formable_Country.10.a
+		
+		trigger = {
+			NOT = { original_tag = AUS }
+		}
 
 		ai_chance = {
 			factor = 10
@@ -829,12 +833,33 @@ country_event = {
 
 	option = {
 		name = RON_Formable_Country.71.a
+		
+		trigger = {
+			NOT = { original_tag = FRA }
+		}
 
 		ai_chance = {
 			factor = 10
 		}
 		
 		set_cosmetic_tag = FORM_BIF
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.71 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Maintain Current Cosmetic Tag"
+		
+		trigger = {
+			original_tag = FRA
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.71 hours = 6 }
 		}
@@ -1039,12 +1064,33 @@ country_event = {
 
 	option = {
 		name = RON_Formable_Country.89.a
+		
+		trigger = {
+			NOT = { original_tag = FRA }
+		}
 
 		ai_chance = {
 			factor = 10
 		}
 		
 		set_cosmetic_tag = FORM_Anglosphere
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.89 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Maintain Current Cosmetic Tag"
+		
+		trigger = {
+			original_tag = FRA
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.89 hours = 6 }
 		}
@@ -1081,6 +1127,10 @@ country_event = {
 
 	option = {
 		name = RON_Formable_Country.91.a
+		
+		trigger = {
+			NOT = { original_tag = AUS }
+		}
 
 		ai_chance = {
 			factor = 10
@@ -2120,12 +2170,33 @@ country_event = {
 
 	option = {
 		name = RON_Formable_Country.134.a
+		
+		trigger = {
+			NOT = { original_tag = ENG }
+		}
 
 		ai_chance = {
 			factor = 10
 		}
 		
 		set_cosmetic_tag = Form_French_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.134 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Maintain Current Cosmetic Tag"
+		
+		trigger = {
+			original_tag = ENG
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.134 hours = 6 }
 		}

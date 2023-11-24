@@ -1051,6 +1051,9 @@ RON_Formable_Decision117:0 "Proclaim Greater Chile"
  RON_Formable_Decision131:0 "Proclaim Greater Romania"
  RON_Formable_Decision132:0 "Proclaim Greater Bulgaria"
  RON_Formable_Decision21:0 "Proclaim Bulgarian Empire"
+ FBU_Formable_Decision71:0 "Proclaim British Imperial Federation"
+ FBU_Formable_Decision134:0 "Unite The Francosphere"
+ FBU_Formable_Decision89:0 "Unite The Anglosphere"
 
 #Rest of the world Formables
  RON_Formable_Decision5:0 "Proclaim The Chinese Empire"
