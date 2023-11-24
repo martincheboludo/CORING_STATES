@@ -63624,7 +63624,16 @@ Franco_British_Union_Coring_Decisions = {
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						is_core_of = FRA
+						OR = {
+							is_core_of = FRA
+							is_core_of = BEL
+							is_core_of = LUX
+							state = 51
+							state = 42
+							state = 35
+							state = 845
+							state = 165
+						}
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -63648,7 +63657,16 @@ Franco_British_Union_Coring_Decisions = {
 			any_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						is_core_of = FRA
+						OR = {
+							is_core_of = FRA
+							is_core_of = BEL
+							is_core_of = LUX
+							state = 51
+							state = 42
+							state = 35
+							state = 845
+							state = 165
+						}
 					}
 				}
 
@@ -63664,7 +63682,16 @@ Franco_British_Union_Coring_Decisions = {
 				limit = {		
 					AND = {
 						NOT = {is_core_of = FROM}
-						is_core_of = FRA
+						OR = {
+							is_core_of = FRA
+							is_core_of = BEL
+							is_core_of = LUX
+							state = 51
+							state = 42
+							state = 35
+							state = 845
+							state = 165
+						}
 						any_neighbor_state = {
 							is_core_of = FROM
 						}

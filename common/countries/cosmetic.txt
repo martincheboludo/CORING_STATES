@@ -1552,8 +1552,8 @@ FORM_EUA = {
 	color_ui = rgb { 23 23 69 }
 }
 FORM_FBU = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 103 61 190 }
+	color_ui = rgb { 103 61 190 }
 }
 FORM_Intermarium = {
 	color = rgb { 200 100 100 }

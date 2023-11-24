@@ -1246,6 +1246,7 @@ RON_European_Brothers:0 "Has Started Integrating Transoceanic Europeans"
  Form_Austro_Spain2:0 "Has Proclaimed Austro-Spanish Empire"
  Form_Zapadoslavia2:0 "Has Proclaimed Zapadoslavia"
 
+RON_Controls_Quebec_States_tt:0 "Controls All Quebec States"
 RON_Controls_European_States_tt:0 "Controls All European States"
 RON_Controls_Siamese_States_tt:0 "Controls All Siamese States"
 RON_Controls_Cambodian_States_tt:0 "Controls All Cambodian States"
