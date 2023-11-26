@@ -862,6 +862,7 @@ picture = GFX_decision_cat_creating_indochina
 			original_tag = LAO
 			original_tag = CAM
 			original_tag = BRM
+			original_tag = MAL
 		}
 	}
 }

@@ -14517,14 +14517,9 @@ SOV_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Hungarian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = HUN
-						}
-						is_controlled_by = FROM
-					}
-				}
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -34590,16 +34585,16 @@ AUS_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 40
-		modifier = { civilian_factory_use = 10 }
-		days_remove = 14
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 9
+		num_of_civilian_factories_available_for_projects > 4
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -34684,16 +34679,16 @@ AUS_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 14
+		num_of_civilian_factories_available_for_projects > 4
 			has_global_flag = Form_Greater_Austria2
 			160 = {
 					AND = {
@@ -34742,16 +34737,16 @@ AUS_Coring_Decisions = {
 		
 		#Allow Multiple Times as it cores States one by one
 		fire_only_once = no
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 14
+		num_of_civilian_factories_available_for_projects > 4
 			has_global_flag = Form_Greater_Austria2
 			any_controlled_state = {
 					AND = {
@@ -34826,16 +34821,16 @@ AUS_Coring_Decisions = {
 		icon = ger_reichskommissariats
 
 		fire_only_once = yes
-		cost = 60
-		modifier = { civilian_factory_use = 15 }
-		days_remove = 21
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
 
 		allowed = {
 			
 		}
 
 		available = {
-		num_of_civilian_factories_available_for_projects > 14
+		num_of_civilian_factories_available_for_projects > 4
 			has_global_flag = Form_Greater_Austria2
 			80 = {
 					AND = {
@@ -38249,14 +38244,9 @@ ERF_Core_Croatia = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Hungarian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = HUN
-						}
-						is_controlled_by = FROM
-					}
-				}
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -42034,10 +42024,12 @@ HUN_Core_Slovakia = {
 		available = {
 			#is_subject = no
 			
-			#Hungarian States
-			154 = { is_controlled_by = FROM }
-			155 = { is_controlled_by = FROM }
-			43 = { is_controlled_by = FROM }
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
+			}
 			
 			#custom_trigger_tooltip = {
 			#	tooltip = RON_Controls_Hungarian_States_tt
@@ -63458,6 +63450,81 @@ Franco_British_Union_Coring_Decisions = {
 			clr_country_flag = Coring_In_Progress
 		}
 	}
+	
+	#Crossing the English Channel as Non Britain
+	FBU_CTEC4 = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			NOT = {
+				original_tag = ENG
+			}
+		}
+
+		available = {
+			has_global_flag = FORM_ANE2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			15 = { is_core_of = ROOT }
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						state = 127
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						state = 127
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ENG
+						state = 127
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
 
 #Crossing the English Channel as Britain
 	FBU_CTEC2 = {
@@ -63530,6 +63597,77 @@ Franco_British_Union_Coring_Decisions = {
 		}
 	}
 	
+	#Crossing the English Channel as Angevin England
+	FBU_CTEC3 = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			has_global_flag = FORM_ANE2
+			num_of_civilian_factories_available_for_projects > 14
+			127 = { is_core_of = ROOT }
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						state = 15
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = FRA
+						state = 15
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = FRA
+						state = 15
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Whole Britain
 	FBU_Core_Britain = {
 
@@ -63592,6 +63730,238 @@ Franco_British_Union_Coring_Decisions = {
 					AND = {
 						NOT = {is_core_of = FROM}
 						is_core_of = ENG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	FBU_Core_Ireland = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_FBU2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = IRE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Crossing the Irish Sea
+	FBU_CTIS = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+			has_global_flag = FORM_FBU2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			122 = { is_core_of = ROOT }
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+						state = 113
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+						state = 113
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = IRE
+						state = 113
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#WholeEngland
+	FBU_Core_Angevin_England = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ANE2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						NOT = {
+							is_core_of = IRE
+							is_core_of = WLS
+							is_core_of = SCO
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ENG
+						NOT = {
+							is_core_of = IRE
+							is_core_of = WLS
+							is_core_of = SCO
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ENG
+						NOT = {
+							is_core_of = IRE
+							is_core_of = WLS
+							is_core_of = SCO
+						}
 						any_neighbor_state = {
 							is_core_of = FROM
 						}
@@ -63691,6 +64061,100 @@ Franco_British_Union_Coring_Decisions = {
 							state = 35
 							state = 845
 							state = 165
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Whole France
+	FBU_Core_Angevin_France = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ANE2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 806
+							state = 19
+							state = 23
+							state = 30
+							state = 14
+							state = 15
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 806
+							state = 19
+							state = 23
+							state = 30
+							state = 14
+							state = 15
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 806
+							state = 19
+							state = 23
+							state = 30
+							state = 14
+							state = 15
 						}
 						any_neighbor_state = {
 							is_core_of = FROM
@@ -66353,6 +66817,52 @@ Franco_British_Union_Coring_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = Form_French_Union2
+			}
+		}
+	}
+	
+	#Angevin Empire
+	RON_Formable_Decision28 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_ANE2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_English_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+							NOT = { is_core_of = IRE }
+							NOT = { is_core_of = SCO }
+							NOT = { is_core_of = WLS }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			806 = { is_controlled_by = FROM }
+			19 = { is_controlled_by = FROM }
+			23 = { is_controlled_by = FROM }
+			30 = { is_controlled_by = FROM }
+			14 = { is_controlled_by = FROM }
+			15 = { is_controlled_by = FROM }
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.28
+			}
+			hidden_effect = {
+				set_global_flag = FORM_ANE2
 			}
 		}
 	}
@@ -69326,14 +69836,2610 @@ Germanic_Union_Coring_Decisions = {
 
 #Greater Israel
 Greater_Israel_Coring_Decisions = {
+
+#JOR
+	Greater_Israel_Core_JOR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = JOR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = JOR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = JOR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#EGY
+	Greater_Israel_Core_Sinai = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 453
+							state = 446
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 453
+							state = 446
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 453
+							state = 446
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#LEB
+	Greater_Israel_Core_LEB = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LEB
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LEB
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LEB
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#EGY
+	Greater_Israel_Core_EGY = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GIS2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 447
+							state = 907
+							state = 456
+							state = 457
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 447
+							state = 907
+							state = 456
+							state = 457
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 447
+							state = 907
+							state = 456
+							state = 457
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#SYR
+	Greater_Israel_Core_SYR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GIS2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SYR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SYR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SYR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#IRQ
+	Greater_Israel_Core_IRQ = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GIS2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 675
+							state = 656
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 675
+							state = 656
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 675
+							state = 656
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#SAU
+	Greater_Israel_Core_SAU = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_GIS2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 857
+							state = 679
+							state = 854
+							state = 855
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 857
+							state = 679
+							state = 854
+							state = 855
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							state = 857
+							state = 679
+							state = 854
+							state = 855
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Greater Israel
+	RON_Formable_Decision34 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_GIS2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Israeli_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ISR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Jordan_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = JOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Sinai
+			453 = { is_controlled_by = FROM }
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.34
+			}
+			hidden_effect = {
+				set_global_flag = FORM_GIS2
+			}
+		}
+	}
+
 }
 
 #Indochina
 Indochina_Coring_Decisions = {
+
+Greater_Indochina_Core_VIN = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ICH2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = VIN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = VIN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = VIN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Greater_Indochina_Core_LAO = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ICH2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LAO
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LAO
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LAO
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Greater_Indochina_Core_CAM = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ICH2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CAM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CAM
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CAM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Greater_Indochina_Core_BRM = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ICH2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BRM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BRM
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BRM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Greater_Indochina_Core_SIA = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ICH2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIA
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SIA
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Greater_Indochina_Core_MAL = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_ICH2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MAL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = MAL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = MAL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Indochina
+	RON_Formable_Decision42 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_ICH2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Vietnamese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VIN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Laos_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAO
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Cambodian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.42
+			}
+			hidden_effect = {
+				set_global_flag = FORM_ICH2
+			}
+		}
+	}
+
 }
 
 #Intermarium
 Intermarium_Coring_Decisions = {
+
+Intermarium_Core_LIT = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LIT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LIT
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LIT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_LAT = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LAT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = LAT
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = LAT
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_EST = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = EST
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = EST
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = EST
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_POL = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = {
+				has_global_flag = FORM_Intermarium2
+				has_global_flag = FORM_VIS2
+				has_global_flag = Form_Zapadoslavia2
+				has_global_flag = FORM_POH2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = POL
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = POL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_BLR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BLR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = BLR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = BLR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_UKR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UKR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = UKR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_CZE = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = {
+				has_global_flag = FORM_Intermarium2
+				has_global_flag = FORM_VIS2
+				has_global_flag = Form_Zapadoslavia2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = CZE
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = CZE
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_HUN = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = {
+				has_global_flag = FORM_Intermarium2
+				has_global_flag = FORM_VIS2
+				has_global_flag = FORM_POH2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HUN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = HUN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = HUN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_Greater_HUN = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_POH2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = HUN
+							is_core_of = TRA
+							state = 45
+							state = 109
+							state = 103
+							state = 664
+							state = 70
+							state = 71
+							state = 73
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							is_core_of = HUN
+							is_core_of = TRA
+							state = 45
+							state = 109
+							state = 103
+							state = 664
+							state = 70
+							state = 71
+							state = 73
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						OR = {
+							is_core_of = HUN
+							is_core_of = TRA
+							state = 45
+							state = 109
+							state = 103
+							state = 664
+							state = 70
+							state = 71
+							state = 73
+						}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_ROM = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ROM
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ROM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_YUG = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_Intermarium2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = YUG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = YUG
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = YUG
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Intermarium_Core_Silesia = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = {
+				has_global_flag = FORM_Intermarium2
+				has_global_flag = FORM_VIS2
+				has_global_flag = Form_Zapadoslavia2
+			}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIL
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SIL
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 66
+							state = 67
+							state = 762
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#East Germany
+	Intermarium_Core_East_Germany = {
+
+		icon = hol_exchange_intelligence_data
+		
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+			OR = {
+				has_global_flag = FORM_Intermarium2
+				has_global_flag = FORM_VIS2
+				has_global_flag = Form_Zapadoslavia2
+				has_global_flag = FORM_POH2
+			}
+			num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						#No land connection
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 5
+							state = 63
+							state = 66
+							state = 67
+							state = 68
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						OR = {
+							state = 5
+							state = 63
+							state = 66
+							state = 67
+							state = 68
+						}
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						OR = {
+							state = 5
+							state = 63
+							state = 66
+							state = 67
+							state = 68
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Koenigsberg
+	Intermarium_Core_Koenigsberg = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		OR = {
+			has_global_flag = FORM_Intermarium2
+			has_global_flag = FORM_VIS2
+			has_global_flag = Form_Zapadoslavia2
+			has_global_flag = FORM_POH2
+		}
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = GER
+						state = 763
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_global_flag = FORM_COM2
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GER
+						state = 763
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+						is_core_of = GER
+						state = 763
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Poland-Hungary
+	RON_Formable_Decision26 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+				original_tag = POL
+				original_tag = HUN
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_POH2 }
+		}
+		available = {
+			#is_subject = no
+			
+			OR = {
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = LIT }
+						}
+						is_controlled_by = FROM
+					}
+				}
+				#Polish Germany
+				5 = { is_controlled_by = FROM }
+				63 = { is_controlled_by = FROM }
+				66 = { is_controlled_by = FROM }
+				67 = { is_controlled_by = FROM }
+				68 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
+			}
+			
+			76 = { is_controlled_by = FROM }
+			45 = { is_controlled_by = FROM }
+			664 = { is_controlled_by = FROM }
+			73 = { is_controlled_by = FROM }
+			
+			
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.26
+			}
+			hidden_effect = {
+				set_global_flag = FORM_POH2
+			}
+		}
+	}
+	
+	#Zapadoslavia
+	RON_Formable_Decision1021 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = Form_Zapadoslavia2 }
+		}
+		available = {
+			#is_subject = no
+			
+			OR = {
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = LIT }
+						}
+						is_controlled_by = FROM
+					}
+				}
+				#Polish Germany
+				5 = { is_controlled_by = FROM }
+				63 = { is_controlled_by = FROM }
+				66 = { is_controlled_by = FROM }
+				67 = { is_controlled_by = FROM }
+				68 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Czechoslovak_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+							NOT = { state = 73 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1021
+			}
+			hidden_effect = {
+				set_global_flag = Form_Zapadoslavia2
+			}
+		}
+	}
+	
+	#Visegrad
+	RON_Formable_Decision56 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		allowed = {
+			OR = {
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+				original_tag = HUN
+			}
+		}
+		visible = {
+			NOT = { has_global_flag = FORM_VIS2 }
+		}
+		available = {
+			#is_subject = no
+			
+			OR = {
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = LIT }
+						}
+						is_controlled_by = FROM
+					}
+				}
+				#Polish Germany
+				5 = { is_controlled_by = FROM }
+				63 = { is_controlled_by = FROM }
+				66 = { is_controlled_by = FROM }
+				67 = { is_controlled_by = FROM }
+				68 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Czechoslovak_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+							NOT = { state = 73 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
+			}
+			
+			
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.56
+			}
+			hidden_effect = {
+				set_global_flag = FORM_VIS2
+			}
+		}
+	}
+
+#Intermarium
+	RON_Formable_Decision98 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Intermarium2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Estonian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = EST
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Latvian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LAT
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Lithuanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LIT
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Czechoslovak_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Romanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ROM
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Yugoslav_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = YUG
+							NOT = {
+								state = 163
+								state = 852
+								state = 736
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.98
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Intermarium2
+			}
+		}
+	}
+
 }
 
 #Latin Union
@@ -69350,6 +72456,360 @@ Mongol_Empire_Coring_Decisions = {
 
 #North Sea Empire
 North_Sea_Empire_Coring_Decisions = {
+
+#Start Integration of NOR
+	NSE_Start_NOR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+			has_global_flag = FORM_NSE2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			130 = { is_core_of = ROOT }
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						state = 110
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						state = 110
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = NOR
+						state = 110
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Start Integration of DEN
+	NSE_Start_DEN = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+			has_global_flag = FORM_NSE2
+			num_of_civilian_factories_available_for_projects > 14
+			
+			130 = { is_core_of = ROOT }
+			
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						state = 37
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						state = 37
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = DEN
+						state = 37
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+NSE_Core_DEN = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_NSE2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = DEN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = DEN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	
+	NSE_Core_NOR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_NSE2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = NOR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = NOR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+
+#North Sea Empire
+	ENG_Formable_Decision38 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_NSE2 }
+		}
+		available = {
+			#is_subject = no
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Danish_States_tt
+				37 = { is_controlled_by = FROM }
+				99 = { is_controlled_by = FROM }
+				911 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Norwegian_States_tt
+				110 = { is_controlled_by = FROM }
+				142 = { is_controlled_by = FROM }
+				143 = { is_controlled_by = FROM }
+				144 = { is_controlled_by = FROM }
+				920 = { is_controlled_by = FROM }
+				921 = { is_controlled_by = FROM }
+				922 = { is_controlled_by = FROM }
+				923 = { is_controlled_by = FROM }
+				924 = { is_controlled_by = FROM }
+				925 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_English_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+							NOT = { is_core_of = IRE }
+							NOT = { is_core_of = SCO }
+							NOT = { is_core_of = WLS }
+							
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.38
+			}
+			hidden_effect = {
+				set_global_flag = FORM_NSE2
+			}
+		}
+	}
+
 }
 
 #Slavic Union
@@ -69358,6 +72818,252 @@ Slavic_Union_Coring_Decisions = {
 
 #Transcaucasia
 Transcaucasia_Coring_Decisions = {
+
+Transcaucasia_Core_GEO = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_CAU2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GEO
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = GEO
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = GEO
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Transcaucasia_Core_ARM = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_CAU2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ARM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = ARM
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = ARM
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Transcaucasia_Core_AZR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_CAU2
+		num_of_civilian_factories_available_for_projects > 4
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AZR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AZR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AZR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#Transcaucasia
+	RON_Formable_Decision14 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_CAU2 }
+		}
+		available = {
+			#is_subject = no
+			
+			231 = { is_controlled_by = FROM }
+			230 = { is_controlled_by = FROM }
+			229 = { is_controlled_by = FROM }
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.14
+			}
+			hidden_effect = {
+				set_global_flag = FORM_CAU2
+			}
+		}
+	}
+
 }
 
 #Turan

@@ -1516,8 +1516,8 @@ FORM_POH = {
 	color_ui = rgb { 255 128 128 }
 }
 FORM_ANE = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 180 0 0 }
 }
 FORM_MAC = {
 	color = rgb { 56 115 255 }
