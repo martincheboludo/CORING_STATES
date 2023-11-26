@@ -27630,7 +27630,7 @@ POR_Coring_Decisions = {
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						is_core_of = POR
+						is_core_of = SPR
 						OR = {
 							state = 177
 							state = 178
@@ -27658,7 +27658,7 @@ POR_Coring_Decisions = {
 			any_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
-						is_core_of = POR
+						is_core_of = SPR
 					}
 				}
 
@@ -27674,7 +27674,7 @@ POR_Coring_Decisions = {
 				limit = {		
 					AND = {
 						NOT = {is_core_of = FROM}
-						is_core_of = POR
+						is_core_of = SPR
 						OR = {
 							state = 177
 							state = 178
