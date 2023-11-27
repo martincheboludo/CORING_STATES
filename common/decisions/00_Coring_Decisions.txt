@@ -535,48 +535,27 @@ GEN_Empire_Manager = {
 		}
 		
 	}
+	
+	#Core Puppets Easy
+	Core_Puppets_Easy = {
 
-    annex_puppet_targeted_decision = {
-	
-		icon = eng_trade_unions_support
+		icon = hol_exchange_intelligence_data
 		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
 		allowed = {
-			always = no
+
 		}
-	
-        visible = {
-			#any_state = {
-			#	is_owned_by = FROM
-			#	is_core_of = FROM
-			#	is_core_of = ROOT
-			#}
-		}
-        target_trigger = {
+		
+		target_trigger = {
             FROM = {
                 is_subject_of = ROOT
             }
-			OR = {
-				#BRITISH PUPPETS
-				AND = {
-					FROM = {
-						OR = {
-							original_tag = CAN
-							original_tag = AST
-							original_tag = NZL
-							original_tag = IRE
-							original_tag = ENG
-						}
-					}
-					ROOT = {
-						OR = {
-							original_tag = CAN
-							original_tag = AST
-							original_tag = NZL
-							original_tag = IRE
-							original_tag = ENG
-						}
-					}
-				}
+				OR = {
 				##GERMAN PUPPETS
 				AND = {
 					FROM = {
@@ -595,23 +574,6 @@ GEN_Empire_Manager = {
 							original_tag = GER
 						}
 					}
-				}
-				##GERMANIC PUPPETS
-				AND = {
-					FROM = {
-						OR = {
-							original_tag = SWE
-							original_tag = DEN
-							original_tag = NOR
-							original_tag = ICE
-							original_tag = HOL
-							original_tag = BEL
-						}
-					}
-					ROOT = {
-						original_tag = GER
-					}
-					has_global_flag = FORM_GGR2
 				}
 				#FRENCH PUPPETS
 				AND = {
@@ -869,6 +831,547 @@ GEN_Empire_Manager = {
 					}
 				}
 			}
+
+        }
+		
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+		
+			FROM = {
+                is_subject_of = ROOT
+            }
+			FROM = {
+				any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+					}
+				}
+
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = ROOT}
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				add_core_of = ROOT
+			}
+			clr_country_flag = Coring_In_Progress
+			}
+		}
+	}
+	
+	#Core Puppets Easy
+	Core_Puppets_Easy_No_Land_Link = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores Austrian States one by one
+		fire_only_once = no
+		cost = 20
+		modifier = { civilian_factory_use = 5 }
+		days_remove = 7
+
+		allowed = {
+
+		}
+		
+		target_trigger = {
+            FROM = {
+                is_subject_of = ROOT
+            }
+				OR = {
+				#BRITISH PUPPETS
+				AND = {
+					FROM = {
+						OR = {
+							original_tag = CAN
+							original_tag = AST
+							original_tag = NZL
+							original_tag = IRE
+							original_tag = ENG
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = CAN
+							original_tag = AST
+							original_tag = NZL
+							original_tag = IRE
+							original_tag = ENG
+						}
+					}
+				}
+			}
+
+        }
+		
+		available = {
+		num_of_civilian_factories_available_for_projects > 4
+		
+			FROM = {
+                is_subject_of = ROOT
+            }
+			FROM = {
+				any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+						#any_neighbor_state = {
+						#	is_core_of = ROOT
+						#}
+					}
+				}
+			}
+		}
+		
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+					}
+				}
+
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = ROOT}
+						is_core_of = FROM
+						#any_neighbor_state = {
+						#	is_core_of = ROOT
+						#}
+					}
+				}
+				add_core_of = ROOT
+			}
+			clr_country_flag = Coring_In_Progress
+			}
+		}
+	}
+	
+	#Core Puppets Medium
+	Core_Puppets_Medium = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 40
+		modifier = { civilian_factory_use = 10 }
+		days_remove = 14
+
+		allowed = {
+
+		}
+		
+		target_trigger = {
+            FROM = {
+                is_subject_of = ROOT
+            }
+				OR = {
+					AND = {
+						FROM = {
+							OR = {
+								original_tag = HOL
+								original_tag = BEL
+							}
+						}
+						ROOT = {
+							original_tag = GER
+						}
+						OR = {
+							has_global_flag = FORM_GRO2
+							has_global_flag = FORM_HRE2
+							has_global_flag = FORM_GGR2
+						}
+					}
+					#BRITISH PUPPETS
+					AND = {
+						FROM = {
+							OR = {
+								original_tag = HUN
+								original_tag = CZE
+								original_tag = CRO
+								original_tag = AUS
+							}
+						}
+						ROOT = {
+							OR = {
+								original_tag = HUN
+								original_tag = CZE
+								original_tag = CRO
+								original_tag = AUS
+							}
+						}
+					has_global_flag = FORM_AUH2
+					}
+			}
+
+        }
+		
+		available = {
+		num_of_civilian_factories_available_for_projects > 9
+		
+			FROM = {
+                is_subject_of = ROOT
+            }
+			FROM = {
+				any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+					}
+				}
+
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = ROOT}
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				add_core_of = ROOT
+			}
+			clr_country_flag = Coring_In_Progress
+			}
+		}
+	}
+	
+	
+	#Core Puppets Hard
+	Core_Puppets_Hard = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		always = no
+		}
+		
+		target_trigger = {
+            FROM = {
+                is_subject_of = ROOT
+            }
+				OR = {
+				##GERMANIC PUPPETS
+				AND = {
+					FROM = {
+						OR = {
+							original_tag = SWE
+							original_tag = DEN
+							original_tag = NOR
+							original_tag = ICE
+						}
+					}
+					ROOT = {
+						original_tag = GER
+					}
+					has_global_flag = FORM_GGR2
+				}
+			}
+
+        }
+		
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+		
+			FROM = {
+                is_subject_of = ROOT
+            }
+			FROM = {
+				any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+					}
+				}
+
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = ROOT}
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				add_core_of = ROOT
+			}
+			clr_country_flag = Coring_In_Progress
+			}
+		}
+	}
+	
+	#Core Puppets Hard
+	Core_Puppets_Hard_No_Land_Link = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+
+		}
+		
+		target_trigger = {
+            FROM = {
+                is_subject_of = ROOT
+            }
+				OR = {
+				##GERMANIC PUPPETS
+				AND = {
+					FROM = {
+						OR = {
+							original_tag = SWE
+							original_tag = DEN
+							original_tag = NOR
+							original_tag = ICE
+						}
+					}
+					ROOT = {
+						original_tag = GER
+					}
+					has_global_flag = FORM_GGR2
+				}
+			}
+
+        }
+		
+		available = {
+		num_of_civilian_factories_available_for_projects > 14
+		
+			FROM = {
+                is_subject_of = ROOT
+            }
+			FROM = {
+				any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = ROOT }
+						is_core_of = FROM
+					}
+				}
+
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = ROOT}
+						is_core_of = FROM
+						any_neighbor_state = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				add_core_of = ROOT
+			}
+			clr_country_flag = Coring_In_Progress
+			}
+		}
+	}
+
+    annex_puppet_targeted_decision = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+			#always = no
+		}
+	
+        visible = {
+			any_state = {
+				is_owned_by = FROM
+				is_core_of = FROM
+				is_core_of = ROOT
+			}
+		}
+        target_trigger = {
+            FROM = {
+                is_subject_of = ROOT
+            }
         }
         cost = 100
 		modifier = { civilian_factory_use = 25 }
@@ -957,6 +1460,8 @@ GEN_Empire_Manager = {
 			clr_country_flag = Coring_In_Progress
         }
     }
+	
+	
 }
 
 #Greater Germany
