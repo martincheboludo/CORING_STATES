@@ -24,6 +24,19 @@ country_event = {
 			}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.0 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -66,6 +79,19 @@ country_event = {
 			}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -103,6 +129,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_AUH
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.7 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.7 hours = 6 }
 		}
@@ -148,6 +187,19 @@ country_event = {
 			hidden_effect = { 
 				news_event = { id = RON_Formable_News.9 hours = 6 }
 			}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.9 hours = 6 }
+		}
 
 	}
 
@@ -198,7 +250,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Maintain Current Cosmetic Tag"
+		name = "Keep Current Flag"
 		
 		trigger = {
 			original_tag = AUS
@@ -210,6 +262,23 @@ country_event = {
 		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.10 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+		
+		trigger = {
+			NOT = { original_tag = AUS }
+		}
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.0 hours = 6 }
 		}
 
 	}
@@ -255,6 +324,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.11 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -292,6 +374,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BEN
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.15 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.15 hours = 6 }
 		}
@@ -340,6 +435,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.18 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -377,6 +485,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BYZ
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.20 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.20 hours = 6 }
 		}
@@ -424,6 +545,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.27 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -461,6 +595,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_NSE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.38 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.38 hours = 6 }
 		}
@@ -508,6 +655,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.40 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -545,6 +705,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_SEP
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.43 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.43 hours = 6 }
 		}
@@ -592,6 +765,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.47 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -629,6 +815,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_GOL
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.53 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.53 hours = 6 }
 		}
@@ -676,6 +875,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.57 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -713,6 +925,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_CHG
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.63 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.63 hours = 6 }
 		}
@@ -760,6 +985,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.68 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -797,6 +1035,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_RUE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.69 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.69 hours = 6 }
 		}
@@ -850,7 +1101,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Maintain Current Cosmetic Tag"
+		name = "Keep Current Flag"
 		
 		trigger = {
 			original_tag = FRA
@@ -858,6 +1109,23 @@ country_event = {
 
 		ai_chance = {
 			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.71 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+		
+		trigger = {
+			NOT = { original_tag = FRA }
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 		
 		hidden_effect = { 
@@ -907,6 +1175,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.73 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -944,6 +1225,19 @@ country_event = {
 		}
 
 		set_cosmetic_tag = FORM_German_Empire
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.74 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.74 hours = 6 }
 		}
@@ -991,6 +1285,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.77 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1028,6 +1335,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_ROE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.85 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.85 hours = 6 }
 		}
@@ -1081,7 +1401,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Maintain Current Cosmetic Tag"
+		name = "Keep Current Flag"
 		
 		trigger = {
 			original_tag = FRA
@@ -1089,6 +1409,23 @@ country_event = {
 
 		ai_chance = {
 			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.89 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+		
+		trigger = {
+			NOT = { original_tag = FRA }
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 		
 		hidden_effect = { 
@@ -1144,7 +1481,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Maintain Current Cosmetic Tag"
+		name = "Keep Current Flag"
 		
 		trigger = {
 			original_tag = AUS
@@ -1152,6 +1489,23 @@ country_event = {
 
 		ai_chance = {
 			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.91 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+		
+		trigger = {
+			NOT = { original_tag = AUS }
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 		
 		hidden_effect = { 
@@ -1201,6 +1555,19 @@ country_event = {
 			}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.92 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1238,6 +1605,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Greater_East_Asia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.93 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.93 hours = 6 }
 		}
@@ -1285,6 +1665,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.94 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1327,6 +1720,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.95 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1364,6 +1770,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_The_Americas
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.96 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.96 hours = 6 }
 		}
@@ -1425,6 +1844,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.97 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1462,6 +1894,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Southern_Cone
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.101 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.101 hours = 6 }
 		}
@@ -1551,6 +1996,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.104 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1588,6 +2046,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Greater_USA
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.105 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.105 hours = 6 }
 		}
@@ -1635,6 +2106,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.106 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1672,6 +2156,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Austria
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.107 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.107 hours = 6 }
 		}
@@ -1719,6 +2216,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.112 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1756,6 +2266,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_British_Commonwealth
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.113 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.113 hours = 6 }
 		}
@@ -1803,6 +2326,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.114 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1840,6 +2376,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Chile
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.117 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.117 hours = 6 }
 		}
@@ -1887,6 +2436,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.118 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -1924,6 +2486,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_France
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.119 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.119 hours = 6 }
 		}
@@ -1971,6 +2546,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.121 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2008,6 +2596,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Norway
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.122 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.122 hours = 6 }
 		}
@@ -2055,6 +2656,19 @@ country_event = {
 			}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.124 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2097,6 +2711,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.127 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2134,6 +2761,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Japan
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.133 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.133 hours = 6 }
 		}
@@ -2187,7 +2827,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Maintain Current Cosmetic Tag"
+		name = "Keep Current Flag"
 		
 		trigger = {
 			original_tag = ENG
@@ -2195,6 +2835,23 @@ country_event = {
 
 		ai_chance = {
 			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.134 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+		
+		trigger = {
+			NOT = { original_tag = ENG }
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 		
 		hidden_effect = { 
@@ -2242,6 +2899,19 @@ country_event = {
 			hidden_effect = { 
 				news_event = { id = RON_Formable_News.147 hours = 6 }
 			}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.147 hours = 6 }
+		}
 
 	}
 
@@ -2299,6 +2969,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1000 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2339,6 +3022,19 @@ country_event = {
 			hidden_effect = { 
 				news_event = { id = RON_Formable_News.1001 hours = 6 }
 			}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1001 hours = 6 }
+		}
 
 	}
 
@@ -2424,6 +3120,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1003 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2462,6 +3171,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Greater_Belgium
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1004 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.1004 hours = 6 }
 		}
@@ -2552,6 +3274,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1006 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2636,6 +3371,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.5 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2673,6 +3421,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_COM
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.8 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.8 hours = 6 }
 		}
@@ -2720,6 +3481,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.12 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2757,6 +3531,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BAL
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.16 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.16 hours = 6 }
 		}
@@ -2804,6 +3591,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.17 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2841,6 +3641,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BUE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.21 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.21 hours = 6 }
 		}
@@ -2888,6 +3701,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.22 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -2925,6 +3751,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_MEE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.23 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.23 hours = 6 }
 		}
@@ -2972,6 +3811,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.24 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3009,6 +3861,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_BAK
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.25 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.25 hours = 6 }
 		}
@@ -3056,6 +3921,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.32 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3093,6 +3971,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_CHI
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.35 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.35 hours = 6 }
 		}
@@ -3140,6 +4031,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.36 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3177,6 +4081,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_PEE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.37 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.37 hours = 6 }
 		}
@@ -3224,6 +4141,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.45 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3261,6 +4191,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_ABY
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.46 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.46 hours = 6 }
 		}
@@ -3308,6 +4251,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.49 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3345,6 +4301,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_PRB
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.50 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.50 hours = 6 }
 		}
@@ -3392,6 +4361,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.51 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3429,6 +4411,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_GCA
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.55 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.55 hours = 6 }
 		}
@@ -3476,6 +4471,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.58 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3513,6 +4521,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_ALP
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.59 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.59 hours = 6 }
 		}
@@ -3560,6 +4581,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.60 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3597,6 +4631,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_GSE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.61 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.61 hours = 6 }
 		}
@@ -3644,6 +4691,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.62 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3681,6 +4741,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Greater_India
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.87 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.87 hours = 6 }
 		}
@@ -3728,6 +4801,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.100 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3765,6 +4851,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = BRA_IDB
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.102 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.102 hours = 6 }
 		}
@@ -3812,6 +4911,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.115 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3849,6 +4961,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Brazil
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.116 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.116 hours = 6 }
 		}
@@ -3896,6 +5021,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.120 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -3933,6 +5071,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Turkey
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.125 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.125 hours = 6 }
 		}
@@ -3980,6 +5131,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.131 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4017,6 +5181,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Bulgaria
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.132 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.132 hours = 6 }
 		}
@@ -4064,6 +5241,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.138 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4101,6 +5291,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_Russian_Roman_Empire
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.141 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.141 hours = 6 }
 		}
@@ -4148,6 +5351,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1008 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4185,6 +5401,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Indonesia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1009 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.1009 hours = 6 }
 		}
@@ -4232,6 +5461,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1010 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4269,6 +5511,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Greater_Mongolia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1011 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.1011 hours = 6 }
 		}
@@ -4316,6 +5571,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1012 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4353,6 +5621,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_EUR
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.4 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.4 hours = 6 }
 		}
@@ -4400,6 +5681,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.30 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4437,6 +5731,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_ASI
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.66 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.66 hours = 6 }
 		}
@@ -4484,6 +5791,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.88 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4521,6 +5841,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_AFR
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.2 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.2 hours = 6 }
 		}
@@ -4855,6 +6188,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1020 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4892,6 +6238,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_LAU
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.3 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.3 hours = 6 }
 		}
@@ -4939,6 +6298,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.6 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -4976,6 +6348,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_CAU
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.14 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.14 hours = 6 }
 		}
@@ -5023,6 +6408,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.26 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5060,6 +6458,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_ANE
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.28 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.28 hours = 6 }
 		}
@@ -5107,6 +6518,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.29 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5144,6 +6568,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_WOR
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.31 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.31 hours = 6 }
 		}
@@ -5191,6 +6628,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.33 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5228,6 +6678,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_GIS
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.34 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.34 hours = 6 }
 		}
@@ -5275,6 +6738,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.41 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5312,6 +6788,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_ICH
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.42 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.42 hours = 6 }
 		}
@@ -5359,6 +6848,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.56 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5396,6 +6898,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = FORM_EUA
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.67 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.67 hours = 6 }
 		}
@@ -5443,6 +6958,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.72 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5485,41 +7013,14 @@ country_event = {
 		}
 
 	}
-
-}
-
-#Intermarium
-news_event = {
-	id = RON_Formable_News.98
-	title = RON_Formable_News.98.t
-	desc = RON_Formable_News.98.d
-	picture = GFX_news_event_RON_Formable_News98
-
-	major = yes
-
-	is_triggered_only = yes
-
+	
 	option = {
-		name = RON_Formable_News.98.a
-	}
-}#Intermarium
-country_event = {
-	id = RON_Formable_Country.98
-	title = RON_Formable_Country.98.t
-	desc = RON_Formable_Country.98.d
-	picture = GFX_report_event_RON_Formable_Country98
-
-	is_triggered_only = yes
-
-
-	option = {
-		name = RON_Formable_Country.98.a
+		name = "Keep Current Flag"
 
 		ai_chance = {
-			factor = 10
+			factor = 0
 		}
 		
-		set_cosmetic_tag = FORM_Intermarium
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.98 hours = 6 }
 		}
@@ -5569,7 +7070,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Maintain Current Cosmetic Tag"
+		name = "Keep Current Flag"
 		
 		trigger = {
 			original_tag = GER
@@ -5578,6 +7079,26 @@ country_event = {
 
 		ai_chance = {
 			factor = 1000
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.109 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+		
+		trigger = {
+			OR = {
+				NOT = { original_tag = GER }
+				NOT = { has_global_flag = FORM_GGR2 }
+			}
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 		
 		hidden_effect = { 
@@ -5627,6 +7148,19 @@ country_event = {
 		}
 
 	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.143 hours = 6 }
+		}
+
+	}
 
 }
 
@@ -5664,6 +7198,19 @@ country_event = {
 		}
 		
 		set_cosmetic_tag = Form_Zapadoslavia
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1021 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
 		hidden_effect = { 
 			news_event = { id = RON_Formable_News.1021 hours = 6 }
 		}
