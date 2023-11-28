@@ -962,6 +962,7 @@ ENG_Formable_Decision38:0 "Proclaim The North Sea Empire"
 RON_Formable_Decision69:0 "Proclaim Russian Empire"
 RON_Formable_Decision104:0 "Proclaim Greater Russia"
 RON_Formable_Decision127:0 "Unite The Slavs"
+SLA_Formable_Decision127:0 "Unite The Slavs"
 RON_Formable_Decision138:0 "Proclaim Holy Russian Empire"
 RON_Formable_Decision141:0 "Proclaim Third Rome"
 
