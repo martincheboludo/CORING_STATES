@@ -1,6 +1,37 @@
 #Coring Decisions
 
 DEBUG_Coring_Decisions = {
+
+DEBUG_Core_Owned_States = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { is_controlled_by = FROM NOT = { is_core_of = FROM } }
+				add_core_of = FROM
+			}
+		}
+		
+	}
 	
 	DEBUG_Transfer_Cores = {
 
@@ -14961,6 +14992,11 @@ SOV_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = YUG
+							NOT = {
+								state = 163
+								state = 852
+								state = 736
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -15177,6 +15213,8 @@ SOV_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = UKR
+							NOT = { is_core_of = ROM }
+							NOT = { is_core_of = CZE }
 						}
 						is_controlled_by = FROM
 					}
@@ -15228,6 +15266,11 @@ SOV_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = YUG
+							NOT = {
+								state = 163
+								state = 852
+								state = 736
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -21373,6 +21416,12 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -21615,6 +21664,12 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -55863,6 +55918,12 @@ TUR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -55926,6 +55987,12 @@ TUR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -59518,7 +59585,12 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
-							NOT = { state = 799 }
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -59770,6 +59842,12 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -60121,6 +60199,12 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -77040,7 +77124,12 @@ Macedonian_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = TUR
-							NOT = { state = 799 }
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -80381,6 +80470,8 @@ Slavic_Union_Core_SOV = {
 					if = {
 						limit = {
 							is_core_of = UKR
+							NOT = { is_core_of = ROM }
+							NOT = { is_core_of = CZE }
 						}
 						is_controlled_by = FROM
 					}
@@ -80432,6 +80523,11 @@ Slavic_Union_Core_SOV = {
 					if = {
 						limit = {
 							is_core_of = YUG
+							NOT = {
+								state = 163
+								state = 852
+								state = 736
+							}
 						}
 						is_controlled_by = FROM
 					}
@@ -80703,6 +80799,689 @@ Transcaucasia_Core_GEO = {
 
 #Turan
 Turan_Coring_Decisions = {
+
+Turan_Core_KAZ = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = KAZ
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = KAZ
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = KAZ
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_TUR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TUR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TUR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = TUR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_SIK = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIK
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = SIK
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = SIK
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_TAN = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TAN
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = TAN
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_AZR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AZR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = AZR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = AZR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_TMS = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TMS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = TMS
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = TMS
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_UZB = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UZB
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = UZB
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = UZB
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	Turan_Core_KYR = {
+
+		icon = hol_exchange_intelligence_data
+		
+		#Allow Multiple Times as it cores States one by one
+		fire_only_once = no
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+			
+		}
+
+		available = {
+		has_global_flag = FORM_TKS2
+		num_of_civilian_factories_available_for_projects > 14
+			any_controlled_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = KYR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+			
+			any_state = {
+					AND = {
+						NOT = { is_core_of = FROM }
+						is_core_of = KYR
+					}
+				}
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			random_controlled_state = {
+				limit = {		
+					AND = {
+						NOT = {is_core_of = FROM}
+						is_core_of = KYR
+						any_neighbor_state = {
+							is_core_of = FROM
+						}
+					}
+				}
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
+	#German Empire
+	RON_Formable_Decision41 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = TKS2 }
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_KAZ_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = KAZ
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Turkish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TUR
+							NOT = {
+								is_core_of = SYR
+								state = 341
+								state = 797
+								state = 799
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_AZR_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = AZR
+							NOT = {
+								is_core_of = PER
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_TMS_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = TMS
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_UZB_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = UZB
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_KYR_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = KYR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.41
+			}
+			hidden_effect = {
+				set_global_flag = FORM_TKS2
+			}
+		}
+	}
+
 }
 
 #The Americas

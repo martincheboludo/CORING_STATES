@@ -946,19 +946,21 @@ picture = GFX_decision_cat_creating_slavic_union
 	icon = generic_foreign_policy
 
 	allowed = {
-		original_tag = UKR
-		original_tag = BLR
-		original_tag = POL
-		original_tag = CZE
-		original_tag = SLO
-		original_tag = YUG
-		original_tag = BUL
-		original_tag = SLV
-		original_tag = CRO
-		original_tag = BOS
-		original_tag = SER
-		original_tag = MNT
-		original_tag = MAC
+		OR = {
+			original_tag = UKR
+			original_tag = BLR
+			original_tag = POL
+			original_tag = CZE
+			original_tag = SLO
+			original_tag = YUG
+			original_tag = BUL
+			original_tag = SLV
+			original_tag = CRO
+			original_tag = BOS
+			original_tag = SER
+			original_tag = MNT
+			original_tag = MAC
+		}
 	}
 }
 
