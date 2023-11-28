@@ -3,9 +3,9 @@
 #Empire Manager
 GEN_Empire_Manager:0 "Manage Your Empire"
 GEN_Empire_Manager_desc:0 "An empire is a political unit made up of several territories and peoples, 'usually created by conquest, and divided between a dominant center and subordinate peripheries'. The center of the empire  exercises political control over the peripheries. Within an empire, different populations have different sets of rights and are governed differently."
-Core_Puppets_Easy:0 "Integrate [FROM.GetName]"
-Core_Puppets_Medium:0 "Integrate [FROM.GetName]"
-Core_Puppets_Hard:0 "Integrate [FROM.GetName]"
+Core_Puppets_Easy_GER:0 "Integrate [FROM.GetName]"
+Core_Puppets_Medium_GER:0 "Integrate [FROM.GetName]"
+Core_Puppets_Hard_GER:0 "Integrate [FROM.GetName]"
 Core_Puppets_Easy_No_Land_Link:0 "Integrate [FROM.GetName]"
 Core_Puppets_Medium_No_Land_Link:0 "Integrate [FROM.GetName]"
 Core_Puppets_Hard_No_Land_Link:0 "Integrate [FROM.GetName]"
