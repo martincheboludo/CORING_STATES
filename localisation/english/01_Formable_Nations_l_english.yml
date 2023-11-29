@@ -1248,6 +1248,7 @@ RON_European_Brothers:0 "Has Started Integrating Transoceanic Europeans"
  Form_Austro_Spain2:0 "Has Proclaimed Austro-Spanish Empire"
  Form_Zapadoslavia2:0 "Has Proclaimed Zapadoslavia"
 
+RON_Controls_Soviet_States_tt:0 "Controls All Soviet States"
 RON_Controls_KAZ_States_tt:0 "Controls All Kazakh States"
 RON_Controls_AZR_States_tt:0 "Controls All Azerbaijan States"
 RON_Controls_TMS_States_tt:0 "Controls All Turkmenistan States"
