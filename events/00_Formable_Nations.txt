@@ -7234,3 +7234,168 @@ news_event = {
 		name = RON_Formable_News.1021.a
 	}
 }
+
+#American Imperial Federation
+country_event = {
+	id = RON_Formable_Country.135
+	title = RON_Formable_Country.135.t
+	desc = RON_Formable_Country.135.d
+	picture = GFX_report_event_RON_Formable_Country135
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.135.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_American_Imperial_Federation
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.135 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.135 hours = 6 }
+		}
+
+	}
+
+}
+
+#American Imperial Federation
+news_event = {
+	id = RON_Formable_News.135
+	title = RON_Formable_News.135.t
+	desc = RON_Formable_News.135.d
+	picture = GFX_news_event_RON_Formable_News135
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.135.a
+	}
+}
+
+#United States of Earth
+country_event = {
+	id = RON_Formable_Country.136
+	title = RON_Formable_Country.136.t
+	desc = RON_Formable_Country.136.d
+	picture = GFX_report_event_RON_Formable_Country136
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.136.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_United_States_of_Earth
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.136 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.136 hours = 6 }
+		}
+
+	}
+
+}
+
+#United States of Earth
+news_event = {
+	id = RON_Formable_News.136
+	title = RON_Formable_News.136.t
+	desc = RON_Formable_News.136.d
+	picture = GFX_news_event_RON_Formable_News136
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.136.a
+	}
+}
+
+#Pacific Federation
+country_event = {
+	id = RON_Formable_Country.137
+	title = RON_Formable_Country.137.t
+	desc = RON_Formable_Country.137.d
+	picture = GFX_report_event_RON_Formable_Country137
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.137.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_Pacific_Federation
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.137 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.137 hours = 6 }
+		}
+
+	}
+
+}
+
+#Pacific Federation
+news_event = {
+	id = RON_Formable_News.137
+	title = RON_Formable_News.137.t
+	desc = RON_Formable_News.137.d
+	picture = GFX_news_event_RON_Formable_News137
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.137.a
+	}
+}
