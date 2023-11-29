@@ -2,6 +2,37 @@
 
 DEBUG_Coring_Decisions = {
 
+DEBUG_Core_Whole_World = {
+
+		icon = ger_reichskommissariats
+
+		fire_only_once = no
+		cost = 0
+		modifier = { }
+
+		allowed = {
+			
+		}
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = {NOT = { is_core_of = FROM } }
+				add_core_of = FROM
+			}
+		}
+		
+	}
+
 DEBUG_Core_Owned_States = {
 
 		icon = ger_reichskommissariats
