@@ -302,6 +302,13 @@ GEN_Empire_Manager = {
 				has_global_flag = FORM_GGR2
 				has_global_flag = FORM_HRE2
 			}
+			
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
+			
 			FROM = {
                 is_subject_of = ROOT
             }
@@ -2341,6 +2348,13 @@ GER_Coring_Decisions = {
 			has_global_flag = FORM_GRO2
 			has_global_flag = FORM_HRE2
 		}
+		
+		OR = {
+			NOT = { has_government = fascism }
+			NOT = { original_tag = GER }
+			has_global_flag = FORM_GGR2
+		}
+			
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2438,6 +2452,13 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
 			}
+			
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
+			
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2541,6 +2562,13 @@ GER_Coring_Decisions = {
 			has_global_flag = FORM_GRO2
 			has_global_flag = FORM_HRE2
 		}
+		
+		OR = {
+			NOT = { has_government = fascism }
+			NOT = { original_tag = GER }
+			has_global_flag = FORM_GGR2
+		}
+		
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2625,6 +2653,13 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_HRE2
 				has_global_flag = FORM_German_Empire2
 			}
+			
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
+			
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2721,6 +2756,13 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_HRE2
 				has_global_flag = FORM_German_Empire2
 			}
+			
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
+			
 			34 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2787,6 +2829,11 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
+			}
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
 			}
 			any_controlled_state = {
 					AND = {
@@ -2882,6 +2929,11 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_HRE2
 				has_global_flag = FORM_German_Empire2
 			}
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -2975,6 +3027,11 @@ GER_Coring_Decisions = {
 		available = {
 		num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_HRE2
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
 			160 = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -3037,6 +3094,11 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_HRE2
 				has_global_flag = FORM_AUH2
 				has_global_flag = FORM_AUE2
+			}
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
 			}
 			any_controlled_state = {
 					AND = {
@@ -3143,6 +3205,11 @@ GER_Coring_Decisions = {
 				has_global_flag = FORM_HRE2
 				has_global_flag = FORM_GGR2
 			}
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -3231,6 +3298,11 @@ GER_Coring_Decisions = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_HRE2
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -3334,6 +3406,11 @@ GER_Coring_Decisions = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 14
 			has_global_flag = FORM_HRE2
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
