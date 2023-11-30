@@ -1393,7 +1393,7 @@ GEN_Empire_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
-			#always = no
+			always = no
 		}
 	
         visible = {
