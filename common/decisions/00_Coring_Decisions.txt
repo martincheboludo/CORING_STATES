@@ -169,6 +169,7 @@ GEN_Empire_Manager = {
 		}
 
         available = {
+			always = no
 			num_of_civilian_factories_available_for_projects > 24
 			custom_trigger_tooltip = {
 			tooltip = RON_Has_Cored_Puppet_States_tt
@@ -228,6 +229,9 @@ GEN_Empire_Manager = {
 
         available = {
 			num_of_civilian_factories_available_for_projects > 24
+				FROM = {
+					surrender_progress < 0.01	
+				}
         }
 		complete_effect = {
 			set_country_flag = Coring_In_Progress
