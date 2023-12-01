@@ -232,6 +232,9 @@ GEN_Empire_Manager = {
 				FROM = {
 					surrender_progress < 0.01	
 				}
+				ROOT = {
+					surrender_progress < 0.01	
+				}
         }
 		complete_effect = {
 			set_country_flag = Coring_In_Progress
