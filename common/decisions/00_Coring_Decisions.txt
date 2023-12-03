@@ -549,11 +549,35 @@ GEN_Empire_Manager = {
 									original_tag = DEN
 									original_tag = NOR
 									original_tag = SWE
+									original_tag = ICE
 								}
 							}
 							ROOT = {
 								original_tag = GER
 								#has_government = fascism
+							}
+						}
+						#Greater India
+						AND = {
+							FROM = {
+								OR = {
+									original_tag = RAJ
+									original_tag = PAK
+									original_tag = BAN
+									original_tag = BRM
+									original_tag = SRL
+									original_tag = AFG
+								}
+							}
+							ROOT = {
+								OR = {
+									original_tag = RAJ
+									original_tag = PAK
+									original_tag = BAN
+									original_tag = BRM
+									original_tag = SRL
+									original_tag = AFG
+								}
 							}
 						}
 						#Greater China
