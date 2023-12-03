@@ -206,6 +206,21 @@ GEN_Empire_Manager = {
 								original_tag = USA
 							}
 						}
+						#Greater Australia
+						AND = {
+							FROM = {
+								OR = {
+									original_tag = AST
+									original_tag = NZL
+								}
+							}
+							ROOT = {
+								OR = {
+									original_tag = AST
+									original_tag = NZL
+								}
+							}
+						}
 						##GERMAN PUPPETS
 						AND = {
 							FROM = {
@@ -619,6 +634,21 @@ GEN_Empire_Manager = {
 									original_tag = BRM
 									original_tag = SRL
 									original_tag = AFG
+								}
+							}
+						}
+						#Greater Indonesia
+						AND = {
+							FROM = {
+								OR = {
+									original_tag = INS
+									original_tag = MAL
+								}
+							}
+							ROOT = {
+								OR = {
+									original_tag = INS
+									original_tag = MAL
 								}
 							}
 						}
