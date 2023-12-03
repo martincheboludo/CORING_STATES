@@ -542,6 +542,48 @@ GEN_Empire_Manager = {
 								original_tag = GER
 							}
 						}
+						#ITALIAN EMPIRE
+						AND = {
+							FROM = {
+								OR = {
+									original_tag = YUG
+									original_tag = ALB
+									original_tag = MNT
+									original_tag = GRE
+									original_tag = BUL
+								}
+							}
+							ROOT = {
+								original_tag = ITA
+							}
+						}
+						#Greater Yugoslavia
+						AND = {
+							FROM = {
+								OR = {
+									original_tag = BUL
+									original_tag = ALB
+								}
+							}
+							ROOT = {
+								original_tag = YUG
+							}
+						}
+						#Greater Greece
+						AND = {
+							FROM = {
+								OR = {
+									original_tag = TUR
+									original_tag = BUL
+									original_tag = ALB
+									original_tag = YUG
+									original_tag = ITA
+								}
+							}
+							ROOT = {
+								original_tag = GRE
+							}
+						}
 						#NORDIC COUNTRIES INTO GERMANY
 						AND = {
 							FROM = {
