@@ -1557,6 +1557,11 @@ GER_Coring_Decisions = {
 			has_global_flag = FORM_GRO2
 			has_global_flag = FORM_HRE2
 		}
+		OR = {
+			NOT = { has_government = fascism }
+			NOT = { original_tag = GER }
+			has_global_flag = FORM_GGR2
+		}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1653,6 +1658,11 @@ GER_Coring_Decisions = {
 			OR = {
 				has_global_flag = FORM_GRO2
 				has_global_flag = FORM_HRE2
+			}
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
 			}
 			any_controlled_state = {
 					AND = {
