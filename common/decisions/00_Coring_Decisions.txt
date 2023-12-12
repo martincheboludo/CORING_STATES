@@ -1561,6 +1561,7 @@ GER_Coring_Decisions = {
 			NOT = { has_government = fascism }
 			NOT = { original_tag = GER }
 			has_global_flag = FORM_GGR2
+			is_historical_focus_on = no
 		}
 			any_controlled_state = {
 					AND = {
@@ -1663,6 +1664,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -1767,11 +1769,12 @@ GER_Coring_Decisions = {
 			has_global_flag = FORM_GRO2
 			has_global_flag = FORM_HRE2
 		}
-		OR = {
-			NOT = { has_government = fascism }
-			NOT = { original_tag = GER }
-			has_global_flag = FORM_GGR2
-		}
+			OR = {
+				NOT = { has_government = fascism }
+				NOT = { original_tag = GER }
+				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
+			}
 			any_controlled_state = {
 					AND = {
 						NOT = { is_core_of = FROM }
@@ -1860,6 +1863,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -1961,6 +1965,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			34 = {
 					AND = {
@@ -2033,6 +2038,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -2132,6 +2138,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -2230,6 +2237,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			160 = {
 					AND = {
@@ -2298,6 +2306,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -2408,6 +2417,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -2501,6 +2511,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -2609,6 +2620,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			any_controlled_state = {
 					AND = {
@@ -3635,6 +3647,7 @@ GER_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			
 			#NOT = {
@@ -42756,6 +42769,7 @@ ERF_Core_Croatia = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
@@ -72457,6 +72471,7 @@ Frankish_Empire_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 
 			custom_trigger_tooltip = {
@@ -74375,6 +74390,7 @@ Germanic_Union_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}			
 			
 			custom_trigger_tooltip = {
@@ -91613,6 +91629,7 @@ MUN_EUR_Coring_Decisions = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			
 			custom_trigger_tooltip = {
@@ -100949,6 +100966,7 @@ RON_Formable_Decision67 = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
 				has_global_flag = FORM_GGR2
+				is_historical_focus_on = no
 			}
 			
 			custom_trigger_tooltip = {
