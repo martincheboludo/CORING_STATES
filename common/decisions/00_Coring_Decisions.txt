@@ -24831,7 +24831,13 @@ ITA_Coring_Decisions = {
 			116 = { is_controlled_by = FROM }
 			
 			#Montenegro
-			105 = { is_controlled_by = FROM }
+			OR = {
+				105 = { is_controlled_by = FROM }
+				AND = { 
+					MNT = { is_subject_of = FROM }
+					MNT = { controls_state = 105 }
+				}
+			}
 			
 			#Albania
 			OR = {
