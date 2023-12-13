@@ -24812,9 +24812,17 @@ ITA_Coring_Decisions = {
 			735 = { is_controlled_by = FROM }
 
 			#Yugoslavian States
-			853 = { is_controlled_by = FROM }
 			163 = { is_controlled_by = FROM }
 			103 = { is_controlled_by = FROM }
+			
+			#Ljbljana
+			OR = {
+				853 = { is_controlled_by = FROM }
+				any_other_country = {
+					is_in_faction_with = ITA
+					controls_state = 853
+				}
+			}
 			
 			#Ticino
 			846 = { is_controlled_by = FROM }
@@ -24826,13 +24834,27 @@ ITA_Coring_Decisions = {
 			105 = { is_controlled_by = FROM }
 			
 			#Albania
-			44 = { is_controlled_by = FROM }
+			OR = {
+				44 = { is_controlled_by = FROM }
+				AND = { 
+					ALB = { is_subject_of = FROM }
+					ALB = { controls_state = 44 }
+				}
+			}
 			
 			#Greece
 			47 = { is_controlled_by = FROM }
 			185 = { is_controlled_by = FROM }
 			186 = { is_controlled_by = FROM }
-			805 = { is_controlled_by = FROM }
+			
+			#Northern Epirus
+			OR = {
+				805 = { is_controlled_by = FROM }
+				AND = { 
+					ALB = { is_subject_of = FROM }
+					ALB = { controls_state = 805 }
+				}
+			}
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Tunisian_States_tt
@@ -24882,38 +24904,80 @@ ITA_Coring_Decisions = {
 				}
 			}
 			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Ethiopian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = ETH
+			OR = { 
+				AND = { 
+					custom_trigger_tooltip = {
+						tooltip = RON_Controls_Ethiopian_States_tt
+						all_state = {
+							if = {
+								limit = {
+									is_core_of = ETH
+								}
+								is_controlled_by = FROM
+							}
 						}
-						is_controlled_by = FROM
+					}
+					
+					custom_trigger_tooltip = {
+						tooltip = RON_Controls_Eritrean_States_tt
+						all_state = {
+							if = {
+								limit = {
+									is_core_of = ERI
+								}
+								is_controlled_by = FROM
+							}
+						}
+					}
+					
+					custom_trigger_tooltip = {
+						tooltip = RON_Controls_Somalian_States_tt
+						all_state = {
+							if = {
+								limit = {
+									is_core_of = SOM
+								}
+								is_controlled_by = FROM
+							}
+						}
 					}
 				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Eritrean_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = ERI
+				AND = { 
+					AOI = { is_subject_of = FROM }
+					custom_trigger_tooltip = {
+						tooltip = RON_Controls_Ethiopian_States_tt
+						all_state = {
+							if = {
+								limit = {
+									is_core_of = ETH
+								}
+								is_controlled_by = AOI
+							}
 						}
-						is_controlled_by = FROM
 					}
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Somalian_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = SOM
+					
+					custom_trigger_tooltip = {
+						tooltip = RON_Controls_Eritrean_States_tt
+						all_state = {
+							if = {
+								limit = {
+									is_core_of = ERI
+								}
+								is_controlled_by = AOI
+							}
 						}
-						is_controlled_by = FROM
+					}
+					
+					custom_trigger_tooltip = {
+						tooltip = RON_Controls_Somalian_States_tt
+						all_state = {
+							if = {
+								limit = {
+									is_core_of = SOM
+								}
+								is_controlled_by = AOI
+							}
+						}
 					}
 				}
 			}
