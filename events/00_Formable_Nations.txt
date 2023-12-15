@@ -7399,3 +7399,113 @@ news_event = {
 		name = RON_Formable_News.137.a
 	}
 }
+
+#Romania Bulgaria
+country_event = {
+	id = RON_Formable_Country.145
+	title = RON_Formable_Country.145.t
+	desc = RON_Formable_Country.145.d
+	picture = GFX_report_event_RON_Formable_Country145
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.145.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Romania_Bulgaria_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.145 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.145 hours = 6 }
+		}
+
+	}
+
+}
+
+#Romania Bulgaria
+news_event = {
+	id = RON_Formable_News.145
+	title = RON_Formable_News.145.t
+	desc = RON_Formable_News.145.d
+	picture = GFX_news_event_RON_Formable_News145
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.145.a
+	}
+}
+
+#Romania Hungary
+country_event = {
+	id = RON_Formable_Country.146
+	title = RON_Formable_Country.146.t
+	desc = RON_Formable_Country.146.d
+	picture = GFX_report_event_RON_Formable_Country146
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.146.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Romania_Hungary_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.146 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.146 hours = 6 }
+		}
+
+	}
+
+}
+
+#Romania Hungary
+news_event = {
+	id = RON_Formable_News.146
+	title = RON_Formable_News.146.t
+	desc = RON_Formable_News.146.d
+	picture = GFX_news_event_RON_Formable_News146
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.146.a
+	}
+}

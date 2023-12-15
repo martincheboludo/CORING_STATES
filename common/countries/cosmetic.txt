@@ -1583,3 +1583,11 @@ FORM_Pacific_Federation = {
 	color = rgb { 30  65  145 }
 	color_ui = rgb { 30  65  145 }
 }
+Form_Romania_Bulgaria_Union = {
+	color = rgb { 153 131 46 }
+	color_ui = rgb { 153 131 46 }
+}
+Form_Romania_Hungary_Union = {
+	color = rgb { 156 167 73 }
+	color_ui = rgb { 156 167 73 }
+}
