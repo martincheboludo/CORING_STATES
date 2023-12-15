@@ -60819,22 +60819,26 @@ Balkan_Federation_Coring_Decisions = {
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Hungarian_States_tt
-				154 = { is_controlled_by = FROM }
-				155 = { is_controlled_by = FROM }
-				43 = { is_controlled_by = FROM }
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Bulgarian_States_tt
+				tooltip = RON_Controls_Romanian_States_tt
 				all_state = {
 					if = {
 						limit = {
-							is_core_of = BUL
+							is_core_of = ROM
+							NOT = {
+								is_core_of = TRA
+								state = 77
+							}
 						}
 						is_controlled_by = FROM
 					}
 				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				154 = { is_controlled_by = FROM }
+				155 = { is_controlled_by = FROM }
+				43 = { is_controlled_by = FROM }
 			}
 			
 		}
