@@ -9104,6 +9104,8 @@ FRA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -9169,6 +9171,8 @@ FRA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -9248,6 +9252,8 @@ FRA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -20847,6 +20853,8 @@ USA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -24819,7 +24827,7 @@ ITA_Coring_Decisions = {
 			OR = {
 				853 = { is_controlled_by = FROM }
 				any_other_country = {
-					is_in_faction_with = ITA
+					is_in_faction_with = FROM
 					controls_state = 853
 				}
 			}
@@ -25031,6 +25039,8 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -25292,6 +25302,8 @@ ITA_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -63670,6 +63682,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -63907,6 +63921,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -64264,6 +64280,8 @@ Roman_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -71961,6 +71979,8 @@ Franco_British_Union_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -72076,9 +72096,38 @@ Franco_British_Union_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
+							NOT = { state = 735 }
+							NOT = { state = 28 }
+							NOT = { state = 29 }
 						}
 						is_controlled_by = FROM
 					}
+				}
+			}
+			
+			OR = {
+				735 = { is_controlled_by = FROM }
+				any_other_country = {
+					is_in_faction_with = FROM
+					controls_state = 735
+				}
+			}
+			
+			OR = {
+				28 = { is_controlled_by = FROM }
+				any_other_country = {
+					is_in_faction_with = FROM
+					controls_state = 28
+				}
+			}
+			
+			OR = {
+				29 = { is_controlled_by = FROM }
+				any_other_country = {
+					is_in_faction_with = FROM
+					controls_state = 29
 				}
 			}
 			
@@ -72981,6 +73030,8 @@ Frankish_Empire_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -80166,6 +80217,8 @@ Latin_Union_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -92139,6 +92192,8 @@ MUN_EUR_Coring_Decisions = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -101476,6 +101531,8 @@ RON_Formable_Decision67 = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
@@ -109510,6 +109567,8 @@ MUN_WOR_Core_North_Africa = {
 					if = {
 						limit = {
 							is_core_of = FRA
+							NOT = { is_core_of = ALG }
+							NOT = { state = 1 }
 						}
 						is_controlled_by = FROM
 					}
