@@ -3842,7 +3842,7 @@ GER_Coring_Decisions = {
 			#Alsace
 			28 = { is_controlled_by = FROM }
 			#Northern Schleswig
-			912 = { is_controlled_by = FROM }
+			#912 = { is_controlled_by = FROM }
 
 		}
 		icon = generic_form_nation
@@ -85694,7 +85694,7 @@ Turan_Core_KAZ = {
 		}
 	}
 	
-	#German Empire
+	#Turkestan
 	RON_Formable_Decision41 = {
 		ai_will_do = {
 			factor = 200
