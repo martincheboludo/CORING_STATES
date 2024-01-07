@@ -35075,6 +35075,7 @@ HOL_Coring_Decisions = {
 			
 			OR = {
 				has_global_flag = FORM_BEN2
+				has_global_flag = FORM_Greater_Netherlands2
 				original_tag = HOL
 			}
 		
@@ -35140,6 +35141,7 @@ HOL_Coring_Decisions = {
 			
 			OR = {
 				has_global_flag = FORM_BEN2
+				has_global_flag = FORM_Greater_Netherlands2
 				original_tag = BEL
 			}
 			
