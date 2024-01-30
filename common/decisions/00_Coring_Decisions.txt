@@ -85822,7 +85822,7 @@ Turan_Core_KAZ = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_global_flag = TKS2 }
+			NOT = { has_global_flag = FORM_TKS2 }
 		}
 		available = {
 			#is_subject = no
