@@ -7433,6 +7433,7 @@ GGR_Coring_Decisions = {
 				}
 			}
 			
+			OR = {
 			custom_trigger_tooltip = {
 				tooltip = RON_SOV_Neutralized_tt
 				OR = {
@@ -7481,6 +7482,30 @@ GGR_Coring_Decisions = {
 					}
 			}
 			
+			custom_trigger_tooltip = {
+				tooltip = RON_ENG_Neutralized_tt
+				OR = {
+					ENG = {
+						has_capitulated = yes
+					}
+					ENG = {
+						exists = no
+					}
+					ENG = {
+						is_subject_of = GER
+					}
+					OR = {
+						ENG = {
+							controls_state = 126
+						}
+						any_other_country = {
+							is_in_faction_with = ENG
+							controls_state = 126
+						}
+					}
+				}
+			}
+			}
 			
 			
 			custom_trigger_tooltip = {
