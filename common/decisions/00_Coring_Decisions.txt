@@ -25184,16 +25184,11 @@ ITA_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -25447,16 +25442,11 @@ ITA_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -31816,16 +31806,11 @@ SPR_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			#Gibraltar
@@ -31875,16 +31860,11 @@ SPR_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			#Gibraltar
@@ -34059,16 +34039,11 @@ POR_Coring_Decisions = {
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			#Galizia
@@ -34112,16 +34087,11 @@ POR_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			#Gibraltar
@@ -34152,16 +34122,11 @@ POR_Coring_Decisions = {
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -34203,16 +34168,11 @@ POR_Coring_Decisions = {
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -63829,16 +63789,11 @@ Roman_Empire_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -64068,16 +64023,11 @@ Roman_Empire_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -64427,16 +64377,11 @@ Roman_Empire_Coring_Decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
@@ -68118,16 +68063,11 @@ Austro_Spanish_Empire_Core_Spain = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			#Gibraltar
@@ -80322,16 +80262,11 @@ Latin_Union_Coring_Decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = POR
-							NOT = { state = 697 }
-							NOT = { state = 698 }
-						}
-						is_controlled_by = FROM
-					}
-				}
+				180 = { is_controlled_by = FROM }
+				181 = { is_controlled_by = FROM }
+				112 = { is_controlled_by = FROM }
+				795 = { is_controlled_by = FROM }
+				179 = { is_controlled_by = FROM }
 			}
 			
 			custom_trigger_tooltip = {
