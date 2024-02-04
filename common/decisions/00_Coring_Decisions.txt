@@ -2233,7 +2233,10 @@ GER_Coring_Decisions = {
 
 		available = {
 		num_of_civilian_factories_available_for_projects > 14
+			OR = {
 			has_global_flag = FORM_HRE2
+			has_global_flag = FORM_GGR2
+			}
 			OR = {
 				NOT = { has_government = fascism }
 				NOT = { original_tag = GER }
