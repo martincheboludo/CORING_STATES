@@ -26138,6 +26138,54 @@ JAP_Coring_Decisions = {
 		}
 	}
 	
+	#Crossing the East China Sea
+	JAP_CTECS = {
+
+		icon = jap_pacific_guardian
+		
+		#Allow One Time
+		fire_only_once = yes
+		cost = 60
+		modifier = { civilian_factory_use = 15 }
+		days_remove = 21
+
+		allowed = {
+		}
+
+		available = {
+			has_global_flag = FORM_Greater_East_Asia2
+			num_of_civilian_factories_available_for_projects > 14
+			608 = { is_controlled_by = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_flag = Coring_In_Progress
+					is_major = no
+				}
+			}
+		}
+
+		visible = {
+
+		}
+
+		complete_effect = {
+			set_country_flag = Coring_In_Progress
+		}
+		
+		remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			608 = {
+				add_core_of = FROM
+			}
+			clr_country_flag = Coring_In_Progress
+		}
+	}
+	
 	#Whole Chinese Coast
 	JAP_Core_Chinese_Coast = {
 
@@ -29130,7 +29178,7 @@ JAP_Start_Core_Peru = {
 			
 			#Chinese
 			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Chinese_States_tt
+				tooltip = "China Controlled By Co-Prosperity Sphere"
 				all_state = {
 					if = {
 						limit = {
@@ -29139,7 +29187,7 @@ JAP_Start_Core_Peru = {
 							NOT = { state = 729 }
 							NOT = { state = 326 }
 						}
-						is_controlled_by = FROM
+						is_controlled_by_ROOT_or_ally = yes
 					}
 				}
 			}
