@@ -11,6 +11,7 @@ Core_Puppets_Medium_NLL:0 "Integrate [FROM.GetName]"
 Core_Puppets_Hard_NLL:0 "Integrate [FROM.GetName]"
 annex_puppet_targeted_decision:0 "Finish Integrating [FROM.GetName]"
 brute_force_annex_puppet_targeted_decision:0 "Annex [FROM.GetName]"
+release_puppet_targeted_decision:0 "Release [FROM.GetName]"
 Remove_Cosmetic_Tag:0 "Remove Cosmetic Tag"
 GER_Crossing_The_North_Sea_PM:0 "Überquerung Der Nordsee"
 
@@ -453,7 +454,7 @@ DEN_Core_England:0 "Integrate England"
 DEN_Crossing_The_North_Sea:0 "Crossing The North Sea"
 NOR_Crossing_The_North_Sea:0 "Crossing The North Sea"
 
-LIT_Coring_Decisions:0 "United Scandinavia"
+LIT_Coring_Decisions:0 "United Baltics"
 LIT_Coring_Decisions_desc:0 "The United Baltic Duchy, also known as the Grand Duchy of Livonia, was a state proposed by the Baltic German nobility and exiled Russian nobility after the Russian Revolution and German occupation of the Courland, Livonian, and Estonian governorates of the Russian Empire. It was proposed in April 1918, after Estonia and Latvia had formally declared independence. The idea comprised the lands in Estonia and Latvia and included the creation of a Duchy of Courland and Semigallia and a Duchy of Estonia and Livonia that would be in personal union with the Crown of Prussia under the German Empire's occupied territory Ober Ost before the end of World War I covering the territories of the Medieval Livonia in what are now Latvia and Estonia."
 
 LIT_Core_Lithuania:0 "Integrate Lithuania"
