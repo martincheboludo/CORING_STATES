@@ -6,4 +6,4 @@ tags={
 	"Alternative History"
 }
 name="CORING_STATES"
-supported_version="1.*.*"
+supported_version="1.14.*"
