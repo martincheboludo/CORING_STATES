@@ -7543,11 +7543,11 @@ GGR_Coring_Decisions = {
 						is_subject_of = GER
 					}
 					OR = {
-						ENG = {
+						GER = {
 							controls_state = 126
 						}
 						any_other_country = {
-							is_in_faction_with = ENG
+							is_in_faction_with = GER
 							controls_state = 126
 						}
 					}
