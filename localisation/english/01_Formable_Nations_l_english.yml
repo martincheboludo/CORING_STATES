@@ -1154,6 +1154,7 @@ RON_Formable_Decision117:0 "Proclaim Greater Chile"
  MUN_Formable_Decision88:0 "Proclaim Patria Grande"
  MUN_Formable_Decision96:0 "Proclaim The Americas"
  MUN_Formable_Decision1019:0 "Start European Transoceanic Integration"
+ CAN_Formable_Decision106:0 "Proclaim Canadian-American Union"
 
 #Others
 RON_Septemberprogramm:0 "Realize The Septemberprogramm"

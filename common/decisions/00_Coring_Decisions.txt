@@ -87339,6 +87339,59 @@ MUN_AME_Core_USA = {
 		}
 	}
 	
+	#Canadian American Union
+	CAN_Formable_Decision106 = {
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		days_re_enable = 0
+		visible = {
+			NOT = { has_global_flag = FORM_Canadian_American_Union2 }
+			original_tag = CAN
+		}
+		available = {
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+							is_on_continent = north_america
+							is_island_state = no
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.106
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Canadian_American_Union2
+			}
+		}
+	}
+	
 	#North American Union
 	MUN_Formable_Decision47 = {
 		ai_will_do = {
