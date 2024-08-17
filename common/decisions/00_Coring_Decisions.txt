@@ -146,6 +146,7 @@ GEN_Empire_Manager = {
         target_trigger = {
             FROM = {
                 is_subject_of = ROOT
+				is_ai = yes
             }
         }
         cost = 100
