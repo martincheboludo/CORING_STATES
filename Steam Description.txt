@@ -1,18 +1,19 @@
-What is BFN?
+*What is BFN?*
 
-BFN is a mod that aims to give players a reasonable mechanic to core their conquests, based on historical, ethnic, linguistic and geographical ties between peoples.
+BFN is a mod designed to give players a realistic and strategic way to core their conquests, in a way which isn't gamebreaking.
 
-What features does the mod have?
-Coring decisions for all Majors and almost all minors. 
-Over 100 formables, many of which are unique
+*What features does the mod have?*
 
-How does it work?
-Decisions cost between 20 and 100pp, and use up between 5 and 25 civilian factories for 7-35 days, per state. After the wait, the state gets cores. The closer the state in terms of proximity, ethnicity, language, etc the easier it will be to integrate, and viceversa.
+Neighboring Core Decision: You can core a state that borders your existing core territory. This decision costs 50 political power (pp), takes 30 days to complete, and requires 10 free civilian factories.
 
-Logical cores like coring Canada as the USA, German Switzerland as Germany, Uruguay as Argentina, etc will have no special requirements other than controlling the state in question. More complex cores like coring the entire European Union, will require you to proclaim the formable first to “justify” on which basis you are coring said states.
+Remote Core Decision: You can also core a remote state that does not border your core territory. This decision costs 150 political power (pp), takes 90 days to complete, and requires 30 free civilian factories.
 
-CREDIT
-The orginal Formable Nations mod, by (3rewster) for being the pioneer.
+Wartime Adjustments: If you are at war, the cost and duration for both coring decisions are doubled.
 
-Don't Forget to check out our Discord
+Formable Nations: The mod includes over 100 formable nations, offering new and unique paths for players to explore.
+
+*Credit*
+Special thanks to the original Formable Nations mod by (3rewster) for pioneering this concept.
+
+*Join Our Community*
 https://discord.gg/s8vrSkfEMF
