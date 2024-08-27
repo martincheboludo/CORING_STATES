@@ -64,11 +64,26 @@ GEN_Empire_Manager = {
 				NOT = { is_core_of = ROOT } 
 				NOT = { has_state_flag = Coring_In_Progress } 
 			}
-        }
+       }
+	ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_political_power < 150
+			}
+			modifier = {
+				factor = 0
+				tag = GER
+				has_government = fascism
+				is_historical_focus_on = yes
+				country_exists = POL
+			}
+		}
 	modifier = { civilian_factory_use = 10 }
 	days_remove = 30
     on_map_mode = map_and_decisions_view
     cost = 50
+	
     complete_effect = {
 		hidden_effect = {
 			FROM = { 
@@ -111,6 +126,9 @@ BFN_coring_states_targeted_decision_at_war = {
 				NOT = { has_state_flag = Coring_In_Progress } 
 			}
         }
+	ai_will_do = {
+		factor = 0
+	}
 	modifier = { civilian_factory_use = 20 }
 	days_remove = 60
     on_map_mode = map_and_decisions_view
@@ -159,6 +177,9 @@ BFN_coring_states_targeted_decision_remote = {
 				NOT = { has_state_flag = Coring_In_Progress } 
 			}
         }
+	ai_will_do = {
+		factor = 0
+	}	
 	modifier = { civilian_factory_use = 30 }
 	days_remove = 90
     on_map_mode = map_and_decisions_view
@@ -207,6 +228,9 @@ BFN_coring_states_targeted_decision_remote_at_war = {
 				NOT = { has_state_flag = Coring_In_Progress } 
 			}
         }
+	ai_will_do = {
+		factor = 0
+	}
 	modifier = { civilian_factory_use = 60 }
 	days_remove = 180
     on_map_mode = map_and_decisions_view
@@ -235,7 +259,7 @@ GER_Coring_Decisions = {
 	#Holy Roman Empire
 	RON_Formable_Decision9 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -318,7 +342,7 @@ GER_Coring_Decisions = {
 	#German Empire
 	RON_Formable_Decision74 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -375,7 +399,7 @@ GER_Coring_Decisions = {
 	#Greater Germany
 	RON_Formable_Decision0 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -462,7 +486,7 @@ GGR_Coring_Decisions = {
 	#Greater Germanic Reich
 	RON_Formable_Decision1 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -671,7 +695,7 @@ FRA_Coring_Decisions = {
 	#Greater France
 	RON_Formable_Decision119 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -736,7 +760,7 @@ FRA_Coring_Decisions = {
 	#French Empire
 	RON_Formable_Decision73 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -820,7 +844,7 @@ FRA_Coring_Decisions = {
 	##French Union
 	RON_Formable_Decision134 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -888,7 +912,7 @@ ENG_Coring_Decisions = {
 	#United Kingdom of Great Britain and Ireland
 	RON_Formable_Decision68 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -937,7 +961,7 @@ ENG_Coring_Decisions = {
 	#CANZUK
 	RON_Formable_Decision112 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -1012,7 +1036,7 @@ ENG_Coring_Decisions = {
 	#British Imperial Federation
 	RON_Formable_Decision71 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -1098,7 +1122,7 @@ ENG_Coring_Decisions = {
 	#British Commonwealth
 	RON_Formable_Decision113 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -1238,7 +1262,7 @@ ENG_Coring_Decisions = {
 	#Anglosphere
 	RON_Formable_Decision89 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -1342,7 +1366,7 @@ SOV_Coring_Decisions = {
 	#Russian Empire
 	RON_Formable_Decision69 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -1484,7 +1508,7 @@ SOV_Coring_Decisions = {
 	#Greater Russia
 	RON_Formable_Decision104 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -1835,7 +1859,7 @@ SOV_Coring_Decisions = {
 	#Slavic Union
 	RON_Formable_Decision127 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -1971,7 +1995,7 @@ USA_Coring_Decisions = {
 	#Greater USA
 	RON_Formable_Decision105 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2020,7 +2044,7 @@ USA_Coring_Decisions = {
 	#Canadian American Union
 	RON_Formable_Decision106 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2074,7 +2098,7 @@ USA_Coring_Decisions = {
 	#North American Union
 	RON_Formable_Decision47 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2140,7 +2164,7 @@ USA_Coring_Decisions = {
 	#Golden Circle
 	RON_Formable_Decision53 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2252,7 +2276,7 @@ USA_Coring_Decisions = {
 	#The Americas
 	RON_Formable_Decision96 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2481,7 +2505,7 @@ USA_Coring_Decisions = {
 	#Anglosphere
 	USA_Formable_Decision89 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2580,7 +2604,7 @@ USA_Coring_Decisions = {
 	#American Imperial Federation
 	RON_Formable_Decision135 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2678,7 +2702,7 @@ USA_Coring_Decisions = {
 	#Pacific Federation
 	RON_Formable_Decision137 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -2852,7 +2876,7 @@ USA_Coring_Decisions = {
 	#United States of the Earth
 	RON_Formable_Decision136 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -3507,7 +3531,7 @@ ITA_Coring_Decisions = {
 	#Italian Empire/Greater Italy
 	RON_Formable_Decision121 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -3559,7 +3583,7 @@ ITA_Coring_Decisions = {
 	#Il Duce's Ambitions Realized
 	RON_Formable_Decision1000 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -3778,7 +3802,7 @@ ITA_Coring_Decisions = {
 	#Western Roman Empire
 	RON_Formable_Decision85 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -3945,7 +3969,7 @@ ITA_Coring_Decisions = {
 	#Byzantine Empire
 	RON_Formable_Decision20 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4037,7 +4061,7 @@ ITA_Coring_Decisions = {
 	#Roman Empire
 	RON_Formable_Decision27 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4289,7 +4313,7 @@ JAP_Coring_Decisions = {
 	#Greater Japan
 	RON_Formable_Decision133 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4383,7 +4407,7 @@ JAP_Coring_Decisions = {
 	#Greater East Asia Co Prosperity Sphere
 	RON_Formable_Decision93 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4551,7 +4575,7 @@ SPR_Coring_Decisions = {
 	#Greater Spain
 	RON_Formable_Decision124 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4606,7 +4630,7 @@ SPR_Coring_Decisions = {
 	#Iberian Union
 	RON_Formable_Decision10 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4656,7 +4680,7 @@ SPR_Coring_Decisions = {
 	#Hispanosphere
 	RON_Formable_Decision91 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4763,7 +4787,7 @@ POR_Coring_Decisions = {
 	#Greater Portugal
 	RON_Formable_Decision1001 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4799,7 +4823,7 @@ POR_Coring_Decisions = {
 	#Iberian Union
 	POR_Formable_Decision10 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4848,7 +4872,7 @@ POR_Coring_Decisions = {
 	#Portugal Brazil
 	RON_Formable_Decision147 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4895,7 +4919,7 @@ POR_Coring_Decisions = {
 	#Lusosphere
 	RON_Formable_Decision92 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -4971,7 +4995,7 @@ HOL_Coring_Decisions = {
 	#Benelux
 	RON_Formable_Decision15 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5021,7 +5045,7 @@ HOL_Coring_Decisions = {
 	#Greater Netherlands
 	RON_Formable_Decision1003 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5062,7 +5086,7 @@ HOL_Coring_Decisions = {
 	#Greater Belgium
 	RON_Formable_Decision1004 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5113,7 +5137,7 @@ HOL_Coring_Decisions = {
 	#Greater Luxembourg
 	RON_Formable_Decision1006 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5152,7 +5176,7 @@ SWE_Coring_Decisions = {
 	#Kalmar Union
 	RON_Formable_Decision11 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5214,7 +5238,7 @@ SWE_Coring_Decisions = {
 	#North Sea Empire
 	RON_Formable_Decision38 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5283,7 +5307,7 @@ SWE_Coring_Decisions = {
 	#Nordic Union
 	RON_Formable_Decision77 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5361,7 +5385,7 @@ SWE_Coring_Decisions = {
 	#Denmark-Norway
 	RON_Formable_Decision94 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5412,7 +5436,7 @@ SWE_Coring_Decisions = {
 	#Sweden-Norway
 	RON_Formable_Decision95 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5466,7 +5490,7 @@ SWE_Coring_Decisions = {
 	#Swedish Empire
 	RON_Formable_Decision43 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5522,7 +5546,7 @@ SWE_Coring_Decisions = {
 	#Greater Finland
 	RON_Formable_Decision40 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5566,7 +5590,7 @@ SWE_Coring_Decisions = {
 	#Greater Denmark
 	RON_Formable_Decision118 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5605,7 +5629,7 @@ SWE_Coring_Decisions = {
 	#Greater Norway
 	RON_Formable_Decision122 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5659,7 +5683,7 @@ LIT_Coring_Decisions = {
 	#United Baltic Duchy
 	RON_Formable_Decision16 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5725,7 +5749,7 @@ LIT_Coring_Decisions = {
 	#Grandy Duchy of Lithuania
 	RON_Formable_Decision62 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5790,7 +5814,7 @@ LIT_Coring_Decisions = {
 	#Polish-Lithuanian Commonwealth
 	LIT_Formable_Decision8 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5849,7 +5873,7 @@ POL_Coring_Decisions = {
 	#Greater Poland
 	RON_Formable_Decision1012 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5896,7 +5920,7 @@ POL_Coring_Decisions = {
 	#Polish Commonwealth
 	RON_Formable_Decision8 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -5955,7 +5979,7 @@ AUS_Coring_Decisions = {
 	#Greater Austria
 	RON_Formable_Decision107 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6014,7 +6038,7 @@ AUS_Coring_Decisions = {
 	#Alpine Federation
 	AUS_Formable_Decision59 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6074,7 +6098,7 @@ AUH_Coring_Decisions = {
 	#Austrian Empire
 	RON_Formable_Decision1020 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6119,7 +6143,7 @@ AUH_Coring_Decisions = {
 #Austria Hungary
 	RON_Formable_Decision7 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6170,7 +6194,7 @@ Erfurt_Union_Coring_Decisions = {
 	#Erfurt Union
 	ERF_Formable_Decision97 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6258,7 +6282,7 @@ Holy_Roman_Empire_Coring_Decisions = {
 #Holy Roman Empire
 	HRE_Formable_Decision9 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6338,7 +6362,7 @@ Holy_Roman_Empire_Coring_Decisions = {
 	#Holy Russian Empire
 	RON_Formable_Decision138 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6532,7 +6556,7 @@ YUG_Coring_Decisions = {
 	#Greater Croatia
 	RON_Formable_Decision60 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6585,7 +6609,7 @@ YUG_Coring_Decisions = {
 	#Greater Serbia
 	RON_Formable_Decision61 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6643,7 +6667,7 @@ YUG_Coring_Decisions = {
 	#Greater Yugoslavia
 	RON_Formable_Decision45 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6700,7 +6724,7 @@ YUG_Coring_Decisions = {
 	#Balkan Union
 	RON_Formable_Decision25 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6773,7 +6797,7 @@ BUL_Coring_Decisions = {
 	#Greater Bulgaria
 	RON_Formable_Decision132 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -6829,7 +6853,7 @@ BUL_Coring_Decisions = {
 	#Bulgarian Empire
 	RON_Formable_Decision21 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -6918,7 +6942,7 @@ ROM_Coring_Decisions = {
 	#Greater Romania
 	RON_Formable_Decision131 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -6979,7 +7003,7 @@ HUN_Coring_Decisions = {
 	#Greater Hungary
 	RON_Formable_Decision18 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -7061,7 +7085,7 @@ ALB_Coring_Decisions = {
 	#Greater Albania
 	RON_Formable_Decision24 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7118,7 +7142,7 @@ IRE_Coring_Decisions = {
 	#United Ireland
 	RON_Formable_Decision1010 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7161,7 +7185,7 @@ IRE_Coring_Decisions = {
 	#Celtic Union
 	RON_Formable_Decision58 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7232,7 +7256,7 @@ GRE_Coring_Decisions = {
 	#Greater Greece
 	RON_Formable_Decision120 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7289,7 +7313,7 @@ SWI_Coring_Decisions = {
 	#Alpine Federation
 	RON_Formable_Decision59 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7349,7 +7373,7 @@ AFG_Coring_Decisions = {
 	#Arab League
 	RON_Formable_Decision12 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7453,7 +7477,7 @@ ARG_Coring_Decisions = {
 	#La Plata
 	RON_Formable_Decision57 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7533,7 +7557,7 @@ ARG_Coring_Decisions = {
 	#Chile-Argentina
 	RON_Formable_Decision63 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7587,7 +7611,7 @@ ARG_Coring_Decisions = {
 	#Greater Argentina
 	RON_Formable_Decision114 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7654,7 +7678,7 @@ ARG_Coring_Decisions = {
 	#Greater Chile
 	RON_Formable_Decision117 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7695,7 +7719,7 @@ ARG_Coring_Decisions = {
 	#Southern Cone
 	RON_Formable_Decision101 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7774,7 +7798,7 @@ AST_Coring_Decisions = {
 	#Greater Australia
 	RON_Formable_Decision1008 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7839,7 +7863,7 @@ BRA_Coring_Decisions = {
 	#Brazilian Empire
 	RON_Formable_Decision102 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7891,7 +7915,7 @@ BRA_Coring_Decisions = {
 	#Brazilian Empire
 	RON_Formable_Decision116 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -7959,7 +7983,7 @@ CAN_Coring_Decisions = {
 	#Greater Canada
 	RON_Formable_Decision55 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8007,7 +8031,7 @@ GUA_Coring_Decisions = {
 	#Central America
 	RON_Formable_Decision17 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8057,7 +8081,7 @@ CHI_Coring_Decisions = {
 	#QING Empire
 	RON_Formable_Decision5 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8127,7 +8151,7 @@ CHI_Coring_Decisions = {
 	#Greater China
 	RON_Formable_Decision35 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8213,7 +8237,7 @@ COL_Coring_Decisions = {
 	#Gran Colombia
 	RON_Formable_Decision22 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8269,7 +8293,7 @@ CUB_Coring_Decisions = {
 	#Hispaniola
 	RON_Formable_Decision49 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8321,7 +8345,7 @@ CUB_Coring_Decisions = {
 	#Caribbean Union
 	RON_Formable_Decision51 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8389,7 +8413,7 @@ ETH_Coring_Decisions = {
 	#Abyssinia
 	RON_Formable_Decision46 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8457,7 +8481,7 @@ RAJ_Coring_Decisions = {
 	#Mughal Empire
 	RON_Formable_Decision36 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8538,7 +8562,7 @@ RAJ_Coring_Decisions = {
 	#Greater India
 	RON_Formable_Decision87 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8659,7 +8683,7 @@ INS_Coring_Decisions = {
 	#Greater Indonesia
 	RON_Formable_Decision1009 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8715,7 +8739,7 @@ IRQ_Coring_Decisions = {
 	#Central America
 	RON_Formable_Decision23 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8790,7 +8814,7 @@ MON_Coring_Decisions = {
 	#Greater Mongolia
 	RON_Formable_Decision1011 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8846,7 +8870,7 @@ PER_Coring_Decisions = {
 	#Persian Empire
 	RON_Formable_Decision37 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8914,7 +8938,7 @@ PRU_Coring_Decisions = {
 	#Peru-Bolivian Confederation
 	RON_Formable_Decision50 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -8972,7 +8996,7 @@ PRU_Coring_Decisions = {
 	#Greater Peru
 	RON_Formable_Decision100 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9037,7 +9061,7 @@ PRU_Coring_Decisions = {
 	#Greater Bolivia
 	RON_Formable_Decision115 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9097,7 +9121,7 @@ TUR_Coring_Decisions = {
 	#Greater Turkey
 	RON_Formable_Decision125 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9167,7 +9191,7 @@ TUR_Coring_Decisions = {
 	#Ottoman Empire
 	RON_Formable_Decision32 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9279,7 +9303,7 @@ Balkan_Federation_Coring_Decisions = {
 	#Romania Bulgaria
 	RON_Formable_Decision145 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9339,7 +9363,7 @@ Balkan_Federation_Coring_Decisions = {
 	#Romania Hungary
 	RON_Formable_Decision146 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9394,7 +9418,7 @@ Balkan_Federation_Coring_Decisions = {
 #Balkan Union
 	BAK_Formable_Decision25 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9468,7 +9492,7 @@ Roman_Empire_Coring_Decisions = {
 	#Western Roman Empire
 	ROE_Formable_Decision85 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9641,7 +9665,7 @@ Roman_Empire_Coring_Decisions = {
 	#Byzantine Empire
 	ROE_Formable_Decision20 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9700,7 +9724,7 @@ Roman_Empire_Coring_Decisions = {
 	#Roman Empire
 	ROE_Formable_Decision27 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9955,7 +9979,7 @@ Roman_Empire_Coring_Decisions = {
 	#Moscow Third Rome
 	RON_Formable_Decision141 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10316,7 +10340,7 @@ Austro_Spanish_Empire_Coring_Decisions = {
 	#Iberian Union
 	AUS_Formable_Decision10 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10369,7 +10393,7 @@ Austro_Spanish_Empire_Coring_Decisions = {
 	#Hispanosphere
 	AUS_Formable_Decision91 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10473,7 +10497,7 @@ Austro_Spanish_Empire_Coring_Decisions = {
 #Austro-Spanish Empire
 	RON_Formable_Decision143 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10550,7 +10574,7 @@ Canzuk_Coring_Decisions = {
 	#CANZUK
 	CANZUK_Formable_Decision112 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10629,7 +10653,7 @@ Franco_British_Union_Coring_Decisions = {
 		#Anglosphere
 	FBU_Formable_Decision89 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10720,7 +10744,7 @@ Franco_British_Union_Coring_Decisions = {
 	##French Union
 	FBU_Formable_Decision134 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10784,7 +10808,7 @@ Franco_British_Union_Coring_Decisions = {
 	#Angevin Empire
 	RON_Formable_Decision28 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10831,7 +10855,7 @@ Franco_British_Union_Coring_Decisions = {
 	#Franco British Union
 	RON_Formable_Decision72 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -10914,7 +10938,7 @@ Frankish_Empire_Coring_Decisions = {
 	#Frankish Empire
 	RON_Formable_Decision6 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11074,7 +11098,7 @@ Germanic_Union_Coring_Decisions = {
 	#Germanic Union
 	RON_Formable_Decision109 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11225,7 +11249,7 @@ Greater_Israel_Coring_Decisions = {
 	#Greater Israel
 	RON_Formable_Decision34 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11281,7 +11305,7 @@ Indochina_Coring_Decisions = {
 	#Indochina
 	RON_Formable_Decision42 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11345,7 +11369,7 @@ Intermarium_Coring_Decisions = {
 	#Poland-Hungary
 	RON_Formable_Decision26 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11429,7 +11453,7 @@ Intermarium_Coring_Decisions = {
 	#Zapadoslavia
 	RON_Formable_Decision1021 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11513,7 +11537,7 @@ Intermarium_Coring_Decisions = {
 	#Visegrad
 	RON_Formable_Decision56 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11607,7 +11631,7 @@ Intermarium_Coring_Decisions = {
 #Intermarium
 	RON_Formable_Decision98 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11742,7 +11766,7 @@ Latin_Union_Coring_Decisions = {
 #Latin Union
 	RON_Formable_Decision3 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11832,7 +11856,7 @@ Macedonian_Empire_Coring_Decisions = {
 	#Macedonian Empire
 	RON_Formable_Decision29 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11919,7 +11943,7 @@ Mongol_Empire_Coring_Decisions = {
 	#Mongol Empire
 	RON_Formable_Decision33 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -11988,7 +12012,7 @@ North_Sea_Empire_Coring_Decisions = {
 #North Sea Empire
 	ENG_Formable_Decision38 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12058,7 +12082,7 @@ Slavic_Union_Coring_Decisions = {
 #Slavic Union
 	SLA_Formable_Decision127 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12184,7 +12208,7 @@ Transcaucasia_Coring_Decisions = {
 	#Transcaucasia
 	RON_Formable_Decision14 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12219,7 +12243,7 @@ Turan_Coring_Decisions = {
 	#Turkestan
 	RON_Formable_Decision41 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12331,7 +12355,7 @@ MUN_AME_Coring_Decisions = {
 	#Canadian American Union
 	CAN_Formable_Decision106 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12385,7 +12409,7 @@ MUN_AME_Coring_Decisions = {
 	#North American Union
 	MUN_Formable_Decision47 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12467,7 +12491,7 @@ MUN_AME_Coring_Decisions = {
 	#The Americas
 	MUN_Formable_Decision96 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12697,7 +12721,7 @@ MUN_AME_Coring_Decisions = {
 	#South America
 	MUN_Formable_Decision30 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -12879,7 +12903,7 @@ MUN_AME_Coring_Decisions = {
 	#Patria Grande
 	MUN_Formable_Decision88 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -13004,7 +13028,7 @@ MUN_EUR_Coring_Decisions = {
 #European Union
 	MUN_Formable_Decision4 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -13115,7 +13139,7 @@ MUN_ASI_Coring_Decisions = {
 #Asian Union
 	MUN_Formable_Decision66 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -13307,7 +13331,7 @@ MUN_AFR_Coring_Decisions = {
 #African Union
 	MUN_Formable_Decision2 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -13725,7 +13749,7 @@ Eurasian_Union_Coring_Decisions = {
 
 RON_Formable_Decision67 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
@@ -13993,7 +14017,7 @@ United_Nations_Coring_Decisions = {
 	#United Nations
 	RON_Formable_Decision31 = {
 		ai_will_do = {
-			factor = 200
+			factor = 1000
 		}
 		cost = 10
 		days_re_enable = 0
