@@ -1,9 +1,9 @@
 version="1.0"
 tags={
-	"Historical"
-	"Utilities"
 	"Gameplay"
-	"Alternative History"
+	"Utilities"
 }
-name="CORING_STATES"
+name="Better Formable Nations & Coring Decisions"
+picture="thumbnail.png"
 supported_version="1.14.*"
+remote_file_id="3319031198"
