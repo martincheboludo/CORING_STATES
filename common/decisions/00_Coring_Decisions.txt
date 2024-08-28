@@ -260,6 +260,10 @@ GER_Coring_Decisions = {
 	RON_Formable_Decision9 = {
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				NOT = { has_government = neutrality }
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -345,7 +349,6 @@ GER_Coring_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				is_historical_focus_on = yes
 				NOT = { has_government = neutrality }
 			}
 		}
@@ -402,12 +405,8 @@ GER_Coring_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				is_historical_focus_on = yes
 				has_government = fascism
-				OR = {
-					date < 1943.1.1
-					has_war = yes
-				}
+				date < 1943.1.1
 			}
 		}
 		cost = 10
@@ -489,12 +488,12 @@ GGR_Coring_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				is_historical_focus_on = yes
 				has_government = fascism
-				OR = {
-					date < 1945.1.1
-					has_war = yes
-				}
+				date < 1945.1.1
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
 			}
 		}
 		cost = 10
@@ -508,7 +507,6 @@ GGR_Coring_Decisions = {
 			#is_subject = no
 			
 			has_global_flag = FORM_GRO2
-			has_government = fascism
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_POL_Neutralized_tt
@@ -761,6 +759,10 @@ FRA_Coring_Decisions = {
 	RON_Formable_Decision73 = {
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				NOT = { has_government = neutrality }
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -1369,12 +1371,7 @@ SOV_Coring_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				is_historical_focus_on = yes
 				has_government = communism
-				OR = {
-					date < 1946.1.1
-					has_war = yes
-				}
 			}
 		}
 		cost = 10
@@ -1511,12 +1508,7 @@ SOV_Coring_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				is_historical_focus_on = yes
 				has_government = communism
-				OR = {
-					date < 1946.1.1
-					has_war = yes
-				}
 			}
 		}
 		cost = 10
@@ -1862,12 +1854,7 @@ SOV_Coring_Decisions = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				is_historical_focus_on = yes
 				has_government = communism
-				OR = {
-					date < 1946.1.1
-					has_war = yes
-				}
 			}
 		}
 		cost = 10
@@ -10948,13 +10935,6 @@ Frankish_Empire_Coring_Decisions = {
 		}
 		available = {
 			#is_subject = no	
-			
-			OR = {
-				NOT = { has_government = fascism }
-				NOT = { original_tag = GER }
-				has_global_flag = FORM_GGR2
-				#is_historical_focus_on = no
-			}
 
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_French_States_tt
@@ -11107,14 +11087,7 @@ Germanic_Union_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_Germanic_Union2 }
 		}
 		available = {
-			#is_subject = no		
-
-			OR = {
-				NOT = { has_government = fascism }
-				NOT = { original_tag = GER }
-				has_global_flag = FORM_GGR2
-				#is_historical_focus_on = no
-			}			
+			#is_subject = no				
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
@@ -13041,13 +13014,6 @@ MUN_EUR_Coring_Decisions = {
 		available = {
 			#is_subject = no
 			
-			OR = {
-				NOT = { has_government = fascism }
-				NOT = { original_tag = GER }
-				has_global_flag = FORM_GGR2
-				#is_historical_focus_on = no
-			}
-			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_French_States_tt
 				all_state = {
@@ -13761,13 +13727,6 @@ RON_Formable_Decision67 = {
 		}
 		available = {
 			#is_subject = no
-			
-			OR = {
-				NOT = { has_government = fascism }
-				NOT = { original_tag = GER }
-				has_global_flag = FORM_GGR2
-				#is_historical_focus_on = no
-			}
 			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_French_States_tt
