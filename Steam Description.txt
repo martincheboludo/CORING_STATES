@@ -1,8 +1,8 @@
-*What is BFN?*
+[img]https://i.imgur.com/NVBHkZ6.png[/img]
 
 BFN is a mod designed to give players a realistic and strategic way to core their conquests, in a way which isn't gamebreaking.
 
-*What features does the mod have?*
+[img]https://i.imgur.com/6OXWwEl.png[/img]
 
 Neighboring Core Decision: You can core a state that borders your existing core territory. This decision costs 50 political power (pp), takes 30 days to complete, and requires 10 free civilian factories.
 
@@ -12,8 +12,11 @@ Wartime Adjustments: If you are at war, the cost and duration for both coring de
 
 Formable Nations: The mod includes over 100 formable nations, offering new and unique paths for players to explore.
 
-*Credit*
+[img]https://i.imgur.com/oq5fenf.png[/img]
 Special thanks to the original Formable Nations mod by (3rewster) for pioneering this concept.
 
 *Join Our Community*
-https://discord.gg/s8vrSkfEMF
+
+[url=https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M7N2RCCYGMSDL&source=url]
+[img]https://i.imgur.com/DR7KrNk.png[/img][/url]
+[url=https://discord.gg/s8vrSkfEMF][img]https://i.imgur.com/g7mnaUQ.png[/img][/url]
