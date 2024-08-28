@@ -6350,6 +6350,10 @@ Holy_Roman_Empire_Coring_Decisions = {
 	RON_Formable_Decision138 = {
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				has_government = communism
+			}
 		}
 		cost = 10
 		days_re_enable = 0
@@ -9967,6 +9971,10 @@ Roman_Empire_Coring_Decisions = {
 	RON_Formable_Decision141 = {
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				has_government = communism
+			}
 		}
 		cost = 10
 		days_re_enable = 0
