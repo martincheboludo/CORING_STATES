@@ -161,7 +161,7 @@ BFN_coring_states_targeted_decision_remote = {
 			is_fully_controlled_by = ROOT
 			all_neighbor_state = {
 				NOT = {
-					is_core_of = FROM
+					is_core_of = ROOT
 				}
 			}
         }
@@ -212,7 +212,7 @@ BFN_coring_states_targeted_decision_remote_at_war = {
 			is_fully_controlled_by = ROOT
 			all_neighbor_state = {
 				NOT = {
-					is_core_of = FROM
+					is_core_of = ROOT
 				}
 			}
         }
