@@ -7101,17 +7101,7 @@ ALB_Coring_Decisions = {
 				}
 			}
 			
-			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Kosovo_States_tt
-				all_state = {
-					if = {
-						limit = {
-							is_core_of = KOS
-						}
-						is_controlled_by = FROM
-					}
-				}
-			}
+			802 = { is_controlled_by = FROM }
 			
 		}
 		icon = generic_form_nation
