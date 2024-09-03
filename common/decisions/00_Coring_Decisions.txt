@@ -7100,7 +7100,7 @@ ALB_Coring_Decisions = {
 					}
 				}
 			}
-			
+			#Kosovo's Id
 			802 = { is_controlled_by = FROM }
 			
 		}
