@@ -19,6 +19,25 @@ GEN_Empire_Manager = {
             }
         }
     }
+	#
+	show_hide_claim_decisions = {
+        priority = 100
+        visible = { always = yes }
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        complete_effect = { 
+            if = {
+                limit = { has_country_flag = show_claim_decisions }
+                clr_country_flag = show_claim_decisions
+            }
+            else = {
+                set_country_flag = show_claim_decisions
+            }
+        }
+    }
 
 	show_hide_integration_decisions = {
         priority = 100
@@ -38,6 +57,111 @@ GEN_Empire_Manager = {
             }
         }
     }
+
+BFN_claim_states_targeted_decision_at_war = {
+	icon = GFX_decision_eng_trade_unions_demand
+    state_target = yes
+    target_root_trigger = {
+    }
+    target_array = controlled_states
+    target_trigger = {
+        FROM = {
+			NOT = { is_owned_by = ROOT }
+			NOT = { is_core_of = ROOT }
+			NOT = { is_claimed_by = ROOT }
+			is_fully_controlled_by = ROOT
+			any_neighbor_state = {
+				OR = {
+					is_core_of = ROOT
+					is_claimed_by = ROOT
+				}
+			}
+        }
+    }
+	available = {
+	}
+	visible = {
+			has_war = yes
+            NOT = { has_country_flag = show_claim_decisions }
+			FROM = { 
+				NOT = { is_core_of = ROOT }
+				NOT = { is_claimed_by = ROOT }
+				NOT = { has_state_flag = Claiming_In_Progress } 
+			}
+        }
+	ai_will_do = {
+		factor = 0
+	}
+	modifier = { }
+	days_remove = 30
+    on_map_mode = map_and_decisions_view
+    cost = 50
+    complete_effect = {
+		hidden_effect = {
+			FROM = { 
+				set_state_flag = Claiming_In_Progress
+			}
+		}
+	}
+	remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+				add_claim_by = ROOT
+				clr_state_flag = Claiming_In_Progress
+			}
+	}
+}
+
+BFN_claim_states_targeted_decision_remote_at_war = {
+	icon = GFX_decision_eng_trade_unions_demand
+    state_target = yes
+    target_root_trigger = {
+    }
+    target_array = controlled_states
+    target_trigger = {
+        FROM = {
+			NOT = { is_owned_by = ROOT }
+			NOT = { is_core_of = ROOT }
+			is_fully_controlled_by = ROOT
+			all_neighbor_state = {
+				NOT = { is_core_of = ROOT }
+				NOT = { is_claimed_by = ROOT }
+			}
+        }
+    }
+	available = {
+	}
+	visible = {
+			has_war = yes
+            NOT = { has_country_flag = show_claim_decisions }
+			FROM = { 
+				NOT = { is_core_of = ROOT }
+				NOT = { is_claimed_by = ROOT }
+				NOT = { has_state_flag = Claiming_In_Progress } 
+			}
+        }
+	ai_will_do = {
+		factor = 0
+	}
+	modifier = { }
+	days_remove = 90
+    on_map_mode = map_and_decisions_view
+    cost = 150
+    complete_effect = {
+		hidden_effect = {
+			FROM = { 
+				set_state_flag = Claiming_In_Progress
+			}
+		}
+	}
+	remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+				add_claim_by = ROOT
+				clr_state_flag = Claiming_In_Progress
+			}
+	}
+}
 	
 	BFN_coring_states_targeted_decision = {
 	icon = GFX_decision_generic_nationalism
@@ -76,7 +200,7 @@ GEN_Empire_Manager = {
 				tag = GER
 				has_government = fascism
 				is_historical_focus_on = yes
-				country_exists = POL
+				date < 1940.1.1
 			}
 		}
 	modifier = { civilian_factory_use = 10 }
