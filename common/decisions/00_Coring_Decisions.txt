@@ -5538,6 +5538,9 @@ SWE_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
+		allowed = {
+			original_tag = FIN
+		}
 		visible = {
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GFI2 }
@@ -5587,6 +5590,9 @@ SWE_Coring_Decisions = {
 			NOT = { has_global_flag = Form_Greater_Denmark2 }
 			original_tag = DEN
 		}
+		allowed = {
+			original_tag = DEN
+		}
 		available = {
 			#is_subject = no
 			
@@ -5621,6 +5627,9 @@ SWE_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
+		allowed = {
+			original_tag = NOR
+		}
 		visible = {
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Norway2 }
