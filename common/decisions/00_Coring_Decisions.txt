@@ -19,7 +19,7 @@ GEN_Empire_Manager = {
             }
         }
     }
-	#
+	
 
 	show_hide_integration_decisions = {
         priority = 100
@@ -63,7 +63,7 @@ GEN_Empire_Manager = {
             NOT = { has_country_flag = show_integration_decisions }
 			FROM = { 
 				NOT = { is_core_of = ROOT } 
-				NOT = { has_state_flag = Coring_In_Progress } 
+				#NOT = { has_state_flag = Coring_In_Progress } 
 			}
        }
 	ai_will_do = {
@@ -86,17 +86,17 @@ GEN_Empire_Manager = {
     cost = 50
 	
     complete_effect = {
-		hidden_effect = {
-			FROM = { 
-				set_state_flag = Coring_In_Progress
-			}
-		}
+		#hidden_effect = {
+		#	FROM = { 
+		#		set_state_flag = Coring_In_Progress
+		#	}
+		#}
 	}
 	remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			FROM = {
 				add_core_of = ROOT
-				clr_state_flag = Coring_In_Progress
+				#clr_state_flag = Coring_In_Progress
 			}
 	}
 }
@@ -124,7 +124,7 @@ BFN_coring_states_targeted_decision_at_war = {
             NOT = { has_country_flag = show_integration_decisions }
 			FROM = { 
 				NOT = { is_core_of = ROOT } 
-				NOT = { has_state_flag = Coring_In_Progress } 
+				#NOT = { has_state_flag = Coring_In_Progress } 
 			}
         }
 	ai_will_do = {
@@ -135,17 +135,17 @@ BFN_coring_states_targeted_decision_at_war = {
     on_map_mode = map_and_decisions_view
     cost = 100
     complete_effect = {
-		hidden_effect = {
-			FROM = { 
-				set_state_flag = Coring_In_Progress
-			}
-		}
+		#hidden_effect = {
+		#	FROM = { 
+		#		set_state_flag = Coring_In_Progress
+		#	}
+		#}
 	}
 	remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			FROM = {
 				add_core_of = ROOT
-				clr_state_flag = Coring_In_Progress
+				#clr_state_flag = Coring_In_Progress
 			}
 	}
 }
@@ -175,7 +175,7 @@ BFN_coring_states_targeted_decision_remote = {
             NOT = { has_country_flag = show_integration_decisions }
 			FROM = { 
 				NOT = { is_core_of = ROOT } 
-				NOT = { has_state_flag = Coring_In_Progress } 
+				#NOT = { has_state_flag = Coring_In_Progress } 
 			}
         }
 	ai_will_do = {
@@ -186,17 +186,17 @@ BFN_coring_states_targeted_decision_remote = {
     on_map_mode = map_and_decisions_view
     cost = 150
     complete_effect = {
-		hidden_effect = {
-			FROM = { 
-				set_state_flag = Coring_In_Progress
-			}
-		}
+		#hidden_effect = {
+		#	FROM = { 
+		#		set_state_flag = Coring_In_Progress
+		#	}
+		#}
 	}
 	remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			FROM = {
 				add_core_of = ROOT
-				clr_state_flag = Coring_In_Progress
+				#clr_state_flag = Coring_In_Progress
 			}
 	}
 }
@@ -226,7 +226,7 @@ BFN_coring_states_targeted_decision_remote_at_war = {
             NOT = { has_country_flag = show_integration_decisions }
 			FROM = { 
 				NOT = { is_core_of = ROOT } 
-				NOT = { has_state_flag = Coring_In_Progress } 
+				#NOT = { has_state_flag = Coring_In_Progress } 
 			}
         }
 	ai_will_do = {
@@ -237,17 +237,17 @@ BFN_coring_states_targeted_decision_remote_at_war = {
     on_map_mode = map_and_decisions_view
     cost = 300
     complete_effect = {
-		hidden_effect = {
-			FROM = { 
-				set_state_flag = Coring_In_Progress
-			}
-		}
+		#hidden_effect = {
+		#	FROM = { 
+		#		set_state_flag = Coring_In_Progress
+		#	}
+		#}
 	}
 	remove_effect = {
 			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
 			FROM = {
 				add_core_of = ROOT
-				clr_state_flag = Coring_In_Progress
+				#clr_state_flag = Coring_In_Progress
 			}
 	}
 }
