@@ -367,16 +367,23 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_HRE2 }
 			OR = {
 				original_tag = GER
 				original_tag = AUS
 				original_tag = SWI
 				original_tag = LUX
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_HRE2 }
 		}
 		available = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+			}
+			NOT = { has_global_flag = FORM_HRE2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
@@ -430,6 +437,7 @@ GER_Coring_Decisions = {
 			852 = { is_controlled_by = FROM }
 			853 = { is_controlled_by = FROM }
 			102 = { is_controlled_by = FROM }
+			
 		}
 		icon = generic_form_nation
 		complete_effect = {
@@ -454,11 +462,13 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = GER
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_German_Empire2 }
-			original_tag = GER
 		}
 		available = {
+			original_tag = GER
+			NOT = { has_global_flag = FORM_German_Empire2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
@@ -511,16 +521,23 @@ GER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_GRO2 }
 			OR = {
 				original_tag = GER
 				original_tag = AUS
 				original_tag = SWI
 				original_tag = LUX
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_GRO2 }
 		}
 		available = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+			}
+			NOT = { has_global_flag = FORM_GRO2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
@@ -598,13 +615,14 @@ GGR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = GER
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GGR2 }
-			original_tag = GER
 		}
 		available = {
+			original_tag = GER
+			NOT = { has_global_flag = FORM_GGR2 }
 			#is_subject = no
-			
 			has_global_flag = FORM_GRO2
 			
 			custom_trigger_tooltip = {
@@ -797,11 +815,13 @@ FRA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = FRA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_France2 }
-			original_tag = FRA
 		}
 		available = {
+			original_tag = FRA
+			NOT = { has_global_flag = Form_Greater_France2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_French_States_tt
@@ -866,13 +886,15 @@ FRA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = FRA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_FRN2 }
-			original_tag = FRA
+			
 		}
 		available = {
+			original_tag = FRA
+			NOT = { has_global_flag = FORM_FRN2 }
 			#is_subject = no
-			
 			has_global_flag = Form_Greater_France2
 			
 			custom_trigger_tooltip = {
@@ -955,6 +977,8 @@ FRA_Coring_Decisions = {
 			original_tag = FRA
 		}
 		available = {
+			original_tag = FRA
+			NOT = { has_global_flag = Form_French_Union2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -1018,11 +1042,13 @@ ENG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ENG
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BRI2 }
-			original_tag = ENG
 		}
 		available = {
+			original_tag = ENG
+			NOT = { has_global_flag = FORM_BRI2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -1067,11 +1093,14 @@ ENG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ENG
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_CANZUK2 }
-			original_tag = ENG
+			
 		}
 		available = {
+			original_tag = ENG
+			NOT = { has_global_flag = Form_CANZUK2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -1142,11 +1171,13 @@ ENG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ENG
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BIF2 }
-			original_tag = ENG
 		}
 		available = {
+			original_tag = ENG
+			NOT = { has_global_flag = FORM_BIF2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -1228,11 +1259,13 @@ ENG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ENG
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_British_Commonwealth2 }
-			original_tag = ENG
 		}
 		available = {
+			original_tag = ENG
+			NOT = { has_global_flag = Form_British_Commonwealth2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -1368,11 +1401,13 @@ ENG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = { 
+			original_tag = ENG
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Anglosphere2 }
-			original_tag = ENG
 		}
 		available = {
+			original_tag = ENG
+			NOT = { has_global_flag = FORM_Anglosphere2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -1476,11 +1511,14 @@ SOV_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = SOV
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_RUE2 }
-			original_tag = SOV
+			
 		}
 		available = {
+			original_tag = SOV
+			NOT = { has_global_flag = FORM_RUE2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
@@ -1613,11 +1651,14 @@ SOV_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = SOV
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Russia2 }
-			original_tag = SOV
+			
 		}
 		available = {
+			original_tag = SOV
+			NOT = { has_global_flag = FORM_Greater_Russia2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
@@ -1959,11 +2000,14 @@ SOV_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = SOV
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Slavic_Union2 }
-			original_tag = SOV
+			
 		}
 		available = {
+			original_tag = SOV
+			NOT = { has_global_flag = Form_Slavic_Union2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
@@ -2086,11 +2130,14 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_USA2 }
-			original_tag = USA
+			
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_Greater_USA2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -2135,11 +2182,14 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Canadian_American_Union2 }
-			original_tag = USA
+			
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_Canadian_American_Union2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -2189,11 +2239,14 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_NOA2 }
-			original_tag = USA
+			
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_NOA2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -2255,11 +2308,14 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GOL2 }
-			original_tag = USA
+			
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_GOL2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -2367,11 +2423,14 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_The_Americas2 }
-			original_tag = USA
+			
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_The_Americas2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -2596,11 +2655,14 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Anglosphere2 }
-			original_tag = USA
+			
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_Anglosphere2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -2695,10 +2757,13 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_American_Imperial_Federation2 }
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = Form_American_Imperial_Federation2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -2793,10 +2858,13 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Pacific_Federation2 }
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_Pacific_Federation2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -2967,12 +3035,16 @@ USA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			original_tag = USA
 		}
 		visible = {
+			original_tag = USA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_WOR2 }
 		}
 		available = {
+			original_tag = USA
+			NOT = { has_global_flag = FORM_WOR2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -3622,11 +3694,14 @@ ITA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ITA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Italy2 }
-			original_tag = ITA
+			
 		}
 		available = {
+			original_tag = ITA
+			NOT = { has_global_flag = Form_Greater_Italy2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
@@ -3674,11 +3749,14 @@ ITA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ITA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Mussolinis_Ambitions2 }
-			original_tag = ITA
+			
 		}
 		available = {
+			original_tag = ITA
+			NOT = { has_global_flag = Mussolinis_Ambitions2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
@@ -3893,11 +3971,14 @@ ITA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ITA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_WROE2 }
-			original_tag = ITA
+			
 		}
 		available = {
+			original_tag = ITA
+			NOT = { has_global_flag = FORM_WROE2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
@@ -4060,11 +4141,14 @@ ITA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ITA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BYZ2 }
-			original_tag = ITA
+			
 		}
 		available = {
+			original_tag = ITA
+			NOT = { has_global_flag = FORM_BYZ2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Greek_States_tt
@@ -4152,11 +4236,14 @@ ITA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = ITA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ROE2 }
-			original_tag = ITA
+			
 		}
 		available = {
+			original_tag = ITA
+			NOT = { has_global_flag = FORM_ROE2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -4404,11 +4491,14 @@ JAP_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = JAP
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Japan2 }
-			original_tag = JAP
+			
 		}
 		available = {
+			original_tag = JAP
+			NOT = { has_global_flag = Form_Greater_Japan2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Japanese_States_tt
@@ -4498,11 +4588,14 @@ JAP_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = JAP
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_East_Asia2 }
-			original_tag = JAP
+			
 		}
 		available = {
+			original_tag = JAP
+			NOT = { has_global_flag = FORM_Greater_East_Asia2 }
 			#is_subject = no
 			has_global_flag = Form_Greater_Japan2
 			custom_trigger_tooltip = {
@@ -4666,11 +4759,14 @@ SPR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = SPR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Spain2 }
-			original_tag = SPR
+			
 		}
 		available = {
+			original_tag = SPR
+			NOT = { has_global_flag = Form_Greater_Spain2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
@@ -4721,11 +4817,14 @@ SPR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = SPR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_IBE2 }
-			original_tag = SPR
+			
 		}
 		available = {
+			original_tag = SPR
+			NOT = { has_global_flag = FORM_IBE2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
@@ -4771,11 +4870,14 @@ SPR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = SPR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Hispanosphere2 }
-			original_tag = SPR
+			
 		}
 		available = {
+			original_tag = SPR
+			NOT = { has_global_flag = FORM_Hispanosphere2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
@@ -4878,10 +4980,13 @@ POR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = POR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Portugal2 }
 		}
 		available = {
+			original_tag = POR
+			NOT = { has_global_flag = FORM_Greater_Portugal2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
@@ -4914,10 +5019,13 @@ POR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = POR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_IBE2 }
 		}
 		available = {
+			original_tag = POR
+			NOT = { has_global_flag = FORM_IBE2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
@@ -4963,10 +5071,13 @@ POR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = POR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Portugal_Brazil_Union2 }
 		}
 		available = {
+			original_tag = POR
+			NOT = { has_global_flag = Form_Portugal_Brazil_Union2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
@@ -5010,10 +5121,13 @@ POR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = POR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Lusosphere2 }
 		}
 		available = {
+			original_tag = POR
+			NOT = { has_global_flag = FORM_Lusosphere2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Portuguese_States_tt
@@ -5086,10 +5200,21 @@ HOL_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+				original_tag = LUX
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BEN2 }
 		}
 		available = {
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+				original_tag = LUX
+			}	
+			NOT = { has_global_flag = FORM_BEN2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Dutch_States_tt
@@ -5136,13 +5261,25 @@ HOL_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
-			original_tag = HOL
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Netherlands2 }
 		}
 		available = {
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+			}
+			NOT = { has_global_flag = FORM_Greater_Netherlands2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Dutch_States_tt
@@ -5180,14 +5317,14 @@ HOL_Coring_Decisions = {
 			original_tag = BEL
 		}
 		visible = {
+			original_tag = BEL
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Belgium2 }
-			
-			
 		}
 		available = {
+			original_tag = BEL
+			NOT = { has_global_flag = FORM_Greater_Belgium2 }
 			#is_subject = no
-			
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Belgian_States_tt
 				all_state = {
@@ -5231,12 +5368,14 @@ HOL_Coring_Decisions = {
 			original_tag = LUX
 		}
 		visible = {
+			original_tag = LUX
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Luxembourg2 }
-			
 		}
 		available = {
 			#is_subject = no
+			original_tag = LUX
+			NOT = { has_global_flag = FORM_Greater_Luxembourg2 }
 			#Greater Luxembourg
 			8 = { is_controlled_by = FROM }
 			51 = { is_controlled_by = FROM }
@@ -5267,15 +5406,22 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_SCA2 }
 			OR = {
 				original_tag = SWE
 				original_tag = DEN
 				original_tag = NOR
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_SCA2 }
+			
 		}
 		available = {
+			OR = {
+				original_tag = SWE
+				original_tag = DEN
+				original_tag = NOR
+			}
+			NOT = { has_global_flag = FORM_SCA2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
@@ -5329,14 +5475,19 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_NSE2 }
 			OR = {
 				original_tag = DEN
 				original_tag = NOR
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_NSE2 }
 		}
 		available = {
+			OR = {
+				original_tag = DEN
+				original_tag = NOR
+			}
+			NOT = { has_global_flag = FORM_NSE2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5398,16 +5549,23 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_Nordic_Union2 }
 			OR = {
 				original_tag = SWE
 				original_tag = DEN
 				original_tag = NOR
 				original_tag = FIN
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_Nordic_Union2 }
 		}
 		available = {
+			OR = {
+				original_tag = SWE
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = FIN
+			}
+			NOT = { has_global_flag = FORM_Nordic_Union2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
@@ -5476,14 +5634,19 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_KDN2 }
 			OR = {
 				original_tag = DEN
 				original_tag = NOR
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_KDN2 }
 		}
 		available = {
+			OR = {
+				original_tag = DEN
+				original_tag = NOR
+			}
+			NOT = { has_global_flag = FORM_KDN2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5527,14 +5690,19 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_KNS2 }
 			OR = {
 				original_tag = SWE
 				original_tag = NOR
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_KNS2 }
 		}
 		available = {
+			OR = {
+				original_tag = SWE
+				original_tag = NOR
+			}
+			NOT = { has_global_flag = FORM_KNS2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
@@ -5581,14 +5749,19 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_SEP2 }
 			OR = {
 				original_tag = SWE
 				original_tag = FIN
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_SEP2 }
 		}
 		available = {
+			OR = {
+				original_tag = SWE
+				original_tag = FIN
+			}
+			NOT = { has_global_flag = FORM_SEP2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Swedish_States_tt
@@ -5640,11 +5813,13 @@ SWE_Coring_Decisions = {
 			original_tag = FIN
 		}
 		visible = {
+			original_tag = FIN
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GFI2 }
-			original_tag = FIN
 		}
 		available = {
+			original_tag = FIN
+			NOT = { has_global_flag = FORM_GFI2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5684,14 +5859,16 @@ SWE_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = DEN
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Denmark2 }
-			original_tag = DEN
 		}
 		allowed = {
 			original_tag = DEN
 		}
 		available = {
+			original_tag = DEN
+			NOT = { has_global_flag = Form_Greater_Denmark2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5729,11 +5906,14 @@ SWE_Coring_Decisions = {
 			original_tag = NOR
 		}
 		visible = {
+			original_tag = NOR
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Norway2 }
-			original_tag = NOR
+			
 		}
 		available = {
+			original_tag = NOR
+			NOT = { has_global_flag = Form_Greater_Norway2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5785,10 +5965,21 @@ LIT_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
+			OR = {
+				original_tag = LIT
+				original_tag = EST
+				original_tag = LAT
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BAL2 }
 		}
 		available = {
+			OR = {
+				original_tag = LIT
+				original_tag = EST
+				original_tag = LAT
+			}
+			NOT = { has_global_flag = FORM_BAL2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5852,10 +6043,13 @@ LIT_Coring_Decisions = {
 			original_tag = LIT
 		}
 		visible = {
+			original_tag = LIT
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GLI2 }
 		}
 		available = {
+			original_tag = LIT
+			NOT = { has_global_flag = FORM_GLI2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5917,10 +6111,13 @@ LIT_Coring_Decisions = {
 			original_tag = LIT
 		}
 		visible = {
+			original_tag = LIT
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_COM2 }
 		}
 		available = {
+			original_tag = LIT
+			NOT = { has_global_flag = FORM_COM2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -5973,12 +6170,16 @@ POL_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			original_tag = POL
 		}
 		visible = {
+			original_tag = POL
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Poland2 }
 		}
 		available = {
+			original_tag = POL
+			NOT = { has_global_flag = Form_Greater_Poland2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6020,12 +6221,16 @@ POL_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			original_tag = POL
 		}
 		visible = {
+			original_tag = POL
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_COM2 }
 		}
 		available = {
+			original_tag = POL
+			NOT = { has_global_flag = FORM_COM2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6079,11 +6284,14 @@ AUS_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = AUS
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Austria2 }
-			original_tag = AUS
+			
 		}
 		available = {
+			original_tag = AUS
+			NOT = { has_global_flag = Form_Greater_Austria2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
@@ -6140,10 +6348,13 @@ AUS_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
+			original_tag = AUS
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ALP2 }
 		}
 		available = {
+			original_tag = AUS
+			NOT = { has_global_flag = FORM_ALP2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6198,10 +6409,23 @@ AUH_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CZE
+				original_tag = CRO
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_AUE2 }
 		}
 		available = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CZE
+				original_tag = CRO
+			}
+			NOT = { has_global_flag = FORM_AUE2 }
 			#is_subject = no
 
 			custom_trigger_tooltip = {
@@ -6243,10 +6467,23 @@ AUH_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CZE
+				original_tag = CRO
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_AUH2 }
 		}
 		available = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CZE
+				original_tag = CRO
+			}
+			NOT = { has_global_flag = FORM_AUH2 }
 			#is_subject = no
 
 			custom_trigger_tooltip = {
@@ -6294,24 +6531,35 @@ Erfurt_Union_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = AUS
+				original_tag = GER
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = CRO
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = AUS
+				original_tag = GER
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = CRO
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Austro_Germany2 }
 		}
 		available = {
+			OR = {
+				original_tag = AUS
+				original_tag = GER
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = CRO
+			}
+			NOT = { has_global_flag = FORM_Austro_Germany2 }
 			#is_subject = no
-			OR = {
-				has_global_flag = FORM_AUH2
-				has_global_flag = FORM_AUE2
-				has_global_flag = FORM_German_Empire2
-			}
-			OR = {
-				NOT = { has_government = fascism }
-				NOT = { original_tag = GER }
-				has_global_flag = FORM_GGR2
-				#is_historical_focus_on = no
-			}
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
 				all_state = {
@@ -6382,13 +6630,31 @@ Holy_Roman_Empire_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = CZE
+				original_tag = BEL
+				original_tag = HOL
+			}
 			NOT = { original_tag = SOV }
 		}
 		visible = {
+			OR = {
+				original_tag = CZE
+				original_tag = BEL
+				original_tag = HOL
+			}
+			NOT = { original_tag = SOV }
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_HRE2 }
 		}
 		available = {
+			OR = {
+				original_tag = CZE
+				original_tag = BEL
+				original_tag = HOL
+			}
+			NOT = { original_tag = SOV }
+			NOT = { has_global_flag = FORM_HRE2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_German_States_tt
@@ -6469,10 +6735,13 @@ Holy_Roman_Empire_Coring_Decisions = {
 			original_tag = SOV
 		}
 		visible = {
+			original_tag = SOV
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_HRE2 }
 		}
 		available = {
+			original_tag = SOV
+			NOT = { has_global_flag = FORM_HRE2 }
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6663,10 +6932,12 @@ YUG_Coring_Decisions = {
 			original_tag = CRO
 		}
 		visible = {
+			original_tag = CRO
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GCR2 }
 		}
 		available = {
+			original_tag = CRO
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6716,10 +6987,12 @@ YUG_Coring_Decisions = {
 			original_tag = SER
 		}
 		visible = {
+			original_tag = SER
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GSE2 }
 		}
 		available = {
+			original_tag = SER
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6771,12 +7044,27 @@ YUG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = YUG
+				original_tag = CRO
+				original_tag = SER
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = YUG
+				original_tag = CRO
+				original_tag = SER
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_YUG2 }
 		}
 		available = {
+			OR = {
+				original_tag = YUG
+				original_tag = CRO
+				original_tag = SER
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -6828,12 +7116,27 @@ YUG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = YUG
+				original_tag = CRO
+				original_tag = SER
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = YUG
+				original_tag = CRO
+				original_tag = SER
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BAK2 }
 		}
 		available = {
+			OR = {
+				original_tag = YUG
+				original_tag = CRO
+				original_tag = SER
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -7189,12 +7492,15 @@ ALB_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			original_tag = ALB
 		}
 		visible = {
+			original_tag = ALB
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GAL2 }
 		}
 		available = {
+			original_tag = ALB
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -7467,12 +7773,87 @@ SAU_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = SAU
+				original_tag = OMA
+				original_tag = YEM
+				original_tag = UAE
+				original_tag = QAT
+				original_tag = KUW
+				original_tag = IRQ
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = PAL
+				original_tag = JOR
+				original_tag = EGY
+				original_tag = SUD
+				original_tag = SOM
+				original_tag = DJI
+				original_tag = LBA
+				original_tag = TUN
+				original_tag = ALG
+				original_tag = MOR
+				original_tag = MRT
+				original_tag = PER
+				original_tag = TUR
+				original_tag = AFG
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = SAU
+				original_tag = OMA
+				original_tag = YEM
+				original_tag = UAE
+				original_tag = QAT
+				original_tag = KUW
+				original_tag = IRQ
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = PAL
+				original_tag = JOR
+				original_tag = EGY
+				original_tag = SUD
+				original_tag = SOM
+				original_tag = DJI
+				original_tag = LBA
+				original_tag = TUN
+				original_tag = ALG
+				original_tag = MOR
+				original_tag = MRT
+				original_tag = PER
+				original_tag = TUR
+				original_tag = AFG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ARA2 }
 		}
 		available = {
+			OR = {
+				original_tag = SAU
+				original_tag = OMA
+				original_tag = YEM
+				original_tag = UAE
+				original_tag = QAT
+				original_tag = KUW
+				original_tag = IRQ
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = PAL
+				original_tag = JOR
+				original_tag = EGY
+				original_tag = SUD
+				original_tag = SOM
+				original_tag = DJI
+				original_tag = LBA
+				original_tag = TUN
+				original_tag = ALG
+				original_tag = MOR
+				original_tag = MRT
+				original_tag = PER
+				original_tag = TUR
+				original_tag = AFG
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -7581,6 +7962,12 @@ ARG_Coring_Decisions = {
 			}
 		}
 		available = {
+			OR = {
+				original_tag = ARG
+				original_tag = URG
+				original_tag = PAR
+				original_tag = CHL
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
@@ -7651,14 +8038,18 @@ ARG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = FORM_CHG2 }
 			OR = {
 				original_tag = ARG
 				original_tag = CHL
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_CHG2 }
 		}
 		available = {
+			OR = {
+				original_tag = ARG
+				original_tag = CHL
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
@@ -7705,15 +8096,20 @@ ARG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
-			NOT = { has_country_flag = show_formables_decisions }
-			NOT = { has_global_flag = Form_Greater_Argentina2 }
 			OR = {
 				original_tag = ARG
 				original_tag = URG
 				original_tag = PAR
 			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Greater_Argentina2 }
 		}
 		available = {
+			OR = {
+				original_tag = ARG
+				original_tag = URG
+				original_tag = PAR
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
@@ -7772,11 +8168,12 @@ ARG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = CHL
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Chile2 }
-			original_tag = CHL
 		}
 		available = {
+			original_tag = CHL
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -7813,10 +8210,22 @@ ARG_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+				original_tag = CHL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Southern_Cone2 }
 		}
 		available = {
+			OR = {
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+				original_tag = CHL
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Argentinean_States_tt
@@ -7894,10 +8303,20 @@ AST_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
+			OR = {
+				original_tag = AST
+				original_tag = NZL
+				original_tag = PNG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Australia2 }
 		}
 		available = {
+			OR = {
+				original_tag = AST
+				original_tag = NZL
+				original_tag = PNG
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8125,12 +8544,39 @@ GUA_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_CEN2 }
 		}
 		available = {
+			OR = {
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8175,10 +8621,38 @@ CHI_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_QIN2 }
 		}
 		available = {
+			OR = {
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			#is_subject = no
 			
 			#Chinese
@@ -8245,10 +8719,38 @@ CHI_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_CHI2 }
 		}
 		available = {
+			OR = {
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			#is_subject = no
 			
 			#Chinese
@@ -8330,13 +8832,31 @@ COL_Coring_Decisions = {
 		}
 		cost = 10
 		days_re_enable = 0
-		allowed = {
+		allowed = {	
+			OR = {
+				original_tag = COL
+				original_tag = PAN
+				original_tag = ECU
+				original_tag = VEN
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = COL
+				original_tag = PAN
+				original_tag = ECU
+				original_tag = VEN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_GCO2 }
 		}
 		available = {
+			OR = {
+				original_tag = COL
+				original_tag = PAN
+				original_tag = ECU
+				original_tag = VEN
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8389,10 +8909,18 @@ CUB_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
+			OR = {
+				original_tag = DOM
+				original_tag = HAI
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_HIS2 }
 		}
 		available = {
+			OR = {
+				original_tag = DOM
+				original_tag = HAI
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8439,12 +8967,33 @@ CUB_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = CUB
+				original_tag = DOM
+				original_tag = HAI
+				original_tag = JAM
+				original_tag = PUE
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = CUB
+				original_tag = DOM
+				original_tag = HAI
+				original_tag = JAM
+				original_tag = PUE
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_CAB2 }
 		}
 		available = {
+			OR = {
+				original_tag = CUB
+				original_tag = DOM
+				original_tag = HAI
+				original_tag = JAM
+				original_tag = PUE
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8507,12 +9056,27 @@ ETH_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = ETH
+				original_tag = SOM
+				original_tag = ERI
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = ETH
+				original_tag = SOM
+				original_tag = ERI
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ABY2 }
 		}
 		available = {
+			OR = {
+				original_tag = ETH
+				original_tag = SOM
+				original_tag = ERI
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8575,12 +9139,36 @@ RAJ_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = SRL
+				original_tag = AFG
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = SRL
+				original_tag = AFG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_MUG2 }
 		}
 		available = {
+			OR = {
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = SRL
+				original_tag = AFG
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8656,12 +9244,36 @@ RAJ_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = SRL
+				original_tag = AFG
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = SRL
+				original_tag = AFG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_India2 }
 		}
 		available = {
+			OR = {
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = SRL
+				original_tag = AFG
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8777,12 +9389,24 @@ INS_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = INS
+				original_tag = MAL
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = INS
+				original_tag = MAL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Indonesia2 }
 		}
 		available = {
+			OR = {
+				original_tag = INS
+				original_tag = MAL
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8836,12 +9460,36 @@ MEX_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = MEX
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = COS
+				original_tag = NIC
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = MEX
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = COS
+				original_tag = NIC
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_MEE2 }
 		}
 		available = {
+			OR = {
+				original_tag = MEX
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = COS
+				original_tag = NIC
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8911,12 +9559,24 @@ MON_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = MON
+				original_tag = MEN
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = MON
+				original_tag = MEN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Greater_Mongolia2 }
 		}
 		available = {
+			OR = {
+				original_tag = MON
+				original_tag = MEN
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -8967,12 +9627,27 @@ PER_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = PER
+				original_tag = AFG
+				original_tag = IRQ
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = PER
+				original_tag = AFG
+				original_tag = IRQ
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_PEE2 }
 		}
 		available = {
+			OR = {
+				original_tag = PER
+				original_tag = AFG
+				original_tag = IRQ
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -9041,10 +9716,18 @@ PRU_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = BOL
+				original_tag = PRU
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_PRB2 }
 		}
 		available = {
+			OR = {
+				original_tag = BOL
+				original_tag = PRU
+			}
 			#is_subject = no
 			
 			#Chinese
@@ -9093,10 +9776,20 @@ PRU_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = PRU
+				original_tag = ECU
+				original_tag = BOL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Peru2 }
 		}
 		available = {
+			OR = {
+				original_tag = PRU
+				original_tag = ECU
+				original_tag = BOL
+			}
 			#is_subject = no
 			
 			#Chinese
@@ -9161,10 +9854,12 @@ PRU_Coring_Decisions = {
 			original_tag = BOL
 		}
 		visible = {
+			original_tag = BOL
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Greater_Bolivia2 }
 		}
 		available = {
+			original_tag = BOL
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -9406,10 +10101,18 @@ Balkan_Federation_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = ROM
+				original_tag = BUL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Romania_Bulgaria_Union2 }
 		}
 		available = {
+			OR = {
+				original_tag = ROM
+				original_tag = BUL
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -9466,10 +10169,18 @@ Balkan_Federation_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = ROM
+				original_tag = HUN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Romania_Hungary_Union2 }
 		}
 		available = {
+			OR = {
+				original_tag = ROM
+				original_tag = HUN
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -9515,12 +10226,33 @@ Balkan_Federation_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = ROM
+				original_tag = BUL
+				original_tag = ALB
+				original_tag = GRE
+				original_tag = HUN
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = ROM
+				original_tag = BUL
+				original_tag = ALB
+				original_tag = GRE
+				original_tag = HUN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BAK2 }
 		}
 		available = {
+			OR = {
+				original_tag = ROM
+				original_tag = BUL
+				original_tag = ALB
+				original_tag = GRE
+				original_tag = HUN
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -9596,10 +10328,20 @@ Roman_Empire_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = POR
+				original_tag = SPR
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_WROE2 }
 		}
 		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = POR
+				original_tag = SPR
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Italian_States_tt
@@ -9765,10 +10507,12 @@ Roman_Empire_Coring_Decisions = {
 			original_tag = GRE
 		}
 		visible = {
+			original_tag = GRE
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_BYZ2 }
 		}
 		available = {
+			original_tag = GRE
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Greek_States_tt
@@ -9831,10 +10575,26 @@ Roman_Empire_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = GRE
+				original_tag = SPR
+				original_tag = POR
+				original_tag = FRA
+				original_tag = ROM
+				original_tag = MOL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ROE2 }
 		}
 		available = {
+			OR = {
+				original_tag = GRE
+				original_tag = SPR
+				original_tag = POR
+				original_tag = FRA
+				original_tag = ROM
+				original_tag = MOL
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -10083,10 +10843,12 @@ Roman_Empire_Coring_Decisions = {
 			original_tag = SOV
 		}
 		visible = {
+			original_tag = SOV
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ROE2 }
 		}
 		available = {
+			original_tag = SOV
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -10444,10 +11206,12 @@ Austro_Spanish_Empire_Coring_Decisions = {
 			original_tag = AUS
 		}
 		visible = {
+			original_tag = AUS
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_IBE2 }
 		}
 		available = {
+			original_tag = AUS
 			#is_subject = no
 			has_global_flag = Form_Austro_Spain2
 			custom_trigger_tooltip = {
@@ -10497,10 +11261,12 @@ Austro_Spanish_Empire_Coring_Decisions = {
 			original_tag = AUS
 		}
 		visible = {
+			original_tag = AUS
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Hispanosphere2 }
 		}
 		available = {
+			original_tag = AUS
 			#is_subject = no
 			has_global_flag = Form_Austro_Spain2
 			custom_trigger_tooltip = {
@@ -10598,10 +11364,20 @@ Austro_Spanish_Empire_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = SPR
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Austro_Spain2 }
 		}
 		available = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = SPR
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Austrian_States_tt
@@ -10675,10 +11451,20 @@ Canzuk_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+				original_tag = NZL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_CANZUK2 }
 		}
 		available = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+				original_tag = NZL
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -10757,10 +11543,12 @@ Franco_British_Union_Coring_Decisions = {
 			original_tag = FRA
 		}
 		visible = {
+			original_tag = FRA
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Anglosphere2 }
 		}
 		available = {
+			original_tag = FRA
 			#is_subject = no
 			has_global_flag = FORM_FBU2
 			custom_trigger_tooltip = {
@@ -10848,10 +11636,12 @@ Franco_British_Union_Coring_Decisions = {
 			original_tag = ENG
 		}
 		visible = {
+			original_tag = ENG
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_French_Union2 }
 		}
 		available = {
+			original_tag = ENG
 			#is_subject = no
 			has_global_flag = FORM_FBU2
 			custom_trigger_tooltip = {
@@ -10909,10 +11699,18 @@ Franco_British_Union_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = ENG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ANE2 }
 		}
 		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = ENG
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_English_States_tt
@@ -10956,10 +11754,18 @@ Franco_British_Union_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = ENG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_FBU2 }
 		}
 		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = ENG
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_British_States_tt
@@ -11039,10 +11845,18 @@ Frankish_Empire_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = GER
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_FRE2 }
 		}
 		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = GER
+			}
 			#is_subject = no	
 
 			custom_trigger_tooltip = {
@@ -11192,10 +12006,34 @@ Germanic_Union_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = ENG
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = SWE
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Germanic_Union2 }
 		}
 		available = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = ENG
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = SWE
+			}
 			#is_subject = no				
 			
 			custom_trigger_tooltip = {
@@ -11392,10 +12230,26 @@ Indochina_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = SIA
+				original_tag = VIN
+				original_tag = LAO
+				original_tag = CAM
+				original_tag = BRM
+				original_tag = MAL
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ICH2 }
 		}
 		available = {
+			OR = {
+				original_tag = SIA
+				original_tag = VIN
+				original_tag = LAO
+				original_tag = CAM
+				original_tag = BRM
+				original_tag = MAL
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Vietnamese_States_tt
@@ -11462,10 +12316,18 @@ Intermarium_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = POL
+				original_tag = HUN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_POH2 }
 		}
 		available = {
+			OR = {
+				original_tag = POL
+				original_tag = HUN
+			}
 			#is_subject = no
 			
 			OR = {
@@ -11547,10 +12409,20 @@ Intermarium_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Zapadoslavia2 }
 		}
 		available = {
+			OR = {
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+			}
 			#is_subject = no
 			
 			OR = {
@@ -11632,10 +12504,22 @@ Intermarium_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+				original_tag = HUN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_VIS2 }
 		}
 		available = {
+			OR = {
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+				original_tag = HUN
+			}
 			#is_subject = no
 			
 			OR = {
@@ -11718,10 +12602,34 @@ Intermarium_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = POL
+				original_tag = BLR
+				original_tag = UKR
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = ROM
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Intermarium2 }
 		}
 		available = {
+			OR = {
+				original_tag = POL
+				original_tag = BLR
+				original_tag = UKR
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = YUG
+				original_tag = ROM
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -11853,10 +12761,24 @@ Latin_Union_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = POR
+				original_tag = SPR
+				original_tag = FRA
+				original_tag = ITA
+				original_tag = ROM
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_LAU2 }
 		}
 		available = {
+			OR = {
+				original_tag = POR
+				original_tag = SPR
+				original_tag = FRA
+				original_tag = ITA
+				original_tag = ROM
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Spanish_States_tt
@@ -11943,12 +12865,24 @@ Macedonian_Empire_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = GRE
+				original_tag = MAC
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = GRE
+				original_tag = MAC
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_MAC2 }
 		}
 		available = {
+			OR = {
+				original_tag = GRE
+				original_tag = MAC
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Greek_States_tt
@@ -12030,10 +12964,18 @@ Mongol_Empire_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = MON
+				original_tag = MEN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_MOE2 }
 		}
 		available = {
+			OR = {
+				original_tag = MON
+				original_tag = MEN
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -12169,10 +13111,40 @@ Slavic_Union_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = UKR
+				original_tag = BLR
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+				original_tag = YUG
+				original_tag = BUL
+				original_tag = SLV
+				original_tag = CRO
+				original_tag = BOS
+				original_tag = SER
+				original_tag = MNT
+				original_tag = MAC
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = Form_Slavic_Union2 }
 		}
 		available = {
+			OR = {
+				original_tag = UKR
+				original_tag = BLR
+				original_tag = POL
+				original_tag = CZE
+				original_tag = SLO
+				original_tag = YUG
+				original_tag = BUL
+				original_tag = SLV
+				original_tag = CRO
+				original_tag = BOS
+				original_tag = SER
+				original_tag = MNT
+				original_tag = MAC
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_Russian_States_tt
@@ -12295,10 +13267,20 @@ Transcaucasia_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = AZR
+				original_tag = ARM
+				original_tag = GEO
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_CAU2 }
 		}
 		available = {
+			OR = {
+				original_tag = AZR
+				original_tag = ARM
+				original_tag = GEO
+			}
 			#is_subject = no
 			
 			231 = { is_controlled_by = FROM }
@@ -12330,10 +13312,30 @@ Turan_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = KAZ
+				original_tag = TUR
+				original_tag = SIK
+				original_tag = TAN
+				original_tag = AZR
+				original_tag = TMS
+				original_tag = UZB
+				original_tag = KYR
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_TKS2 }
 		}
 		available = {
+			OR = {
+				original_tag = KAZ
+				original_tag = TUR
+				original_tag = SIK
+				original_tag = TAN
+				original_tag = AZR
+				original_tag = TMS
+				original_tag = UZB
+				original_tag = KYR
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_KAZ_States_tt
@@ -12442,11 +13444,13 @@ MUN_AME_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			original_tag = CAN
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Canadian_American_Union2 }
-			original_tag = CAN
+			
 		}
 		available = {
+			original_tag = CAN
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -12513,10 +13517,40 @@ MUN_AME_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = MEX
+				original_tag = CAN
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_NOA2 }
 		}
 		available = {
+			OR = {
+				original_tag = MEX
+				original_tag = CAN
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -12578,10 +13612,60 @@ MUN_AME_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		visible = {
+			OR = {
+				original_tag = MEX
+				original_tag = CAN
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+				original_tag = BRA
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_The_Americas2 }
 		}
 		available = {
+			OR = {
+				original_tag = MEX
+				original_tag = CAN
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+				original_tag = BRA
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
 			#is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = RON_Controls_American_States_tt
@@ -12809,23 +13893,47 @@ MUN_AME_Coring_Decisions = {
 		days_re_enable = 0
 		allowed = {
 			OR = {
-			original_tag = BRA
-			original_tag = COL
-			original_tag = VEN
-			original_tag = ECU
-			original_tag = PRU
-			original_tag = BOL
-			original_tag = CHL
-			original_tag = ARG
-			original_tag = PAR
-			original_tag = URG
+				original_tag = BRA
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = BRA
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_SOU2 }
 		}
 		available = {
+			OR = {
+				original_tag = BRA
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -13015,10 +14123,56 @@ MUN_AME_Coring_Decisions = {
 			}
 		}
 		visible = {
+			OR = {
+				original_tag = MEX
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_Patria_Grande2 }
 		}
 		available = {
+			OR = {
+				original_tag = MEX
+				original_tag = CUB
+				original_tag = HAI
+				original_tag = DOM
+				original_tag = JAM
+				original_tag = GUA
+				original_tag = ELS
+				original_tag = HON
+				original_tag = NIC
+				original_tag = COS
+				original_tag = PAN
+				original_tag = BLZ
+				original_tag = COL
+				original_tag = VEN
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+			}
 			#is_subject = no
 			
 			#Panama
@@ -13117,10 +14271,70 @@ MUN_EUR_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
+			OR = {
+				original_tag = POR
+				original_tag = SPR
+				original_tag = FRA
+				original_tag = IRE
+				original_tag = ENG
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = GER
+				original_tag = SWI
+				original_tag = AUS
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+				original_tag = POL
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = ROM
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = BUL
+				original_tag = GRE
+				original_tag = ITA
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+				original_tag = SOV
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_EUR2 }
 		}
 		available = {
+			OR = {
+				original_tag = POR
+				original_tag = SPR
+				original_tag = FRA
+				original_tag = IRE
+				original_tag = ENG
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = GER
+				original_tag = SWI
+				original_tag = AUS
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+				original_tag = POL
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = ROM
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = BUL
+				original_tag = GRE
+				original_tag = ITA
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+				original_tag = SOV
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -13221,10 +14435,96 @@ MUN_ASI_Coring_Decisions = {
 		allowed = {
 		}
 		visible = {
+			OR = {
+				original_tag = SOV
+				original_tag = TUR
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = JOR
+				original_tag = ISR
+				original_tag = PAL
+				original_tag = SAU
+				original_tag = IRQ
+				original_tag = YEM
+				original_tag = OMA
+				original_tag = PER
+				original_tag = AFG
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = TIB
+				original_tag = NEP
+				original_tag = BHU
+				original_tag = SIA
+				original_tag = LAO
+				original_tag = VIN
+				original_tag = CAM
+				original_tag = KOR
+				original_tag = JAP
+				original_tag = MAL
+				original_tag = INS
+				original_tag = PHI
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_ASI2 }
 		}
 		available = {
+			OR = {
+				original_tag = SOV
+				original_tag = TUR
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = JOR
+				original_tag = ISR
+				original_tag = PAL
+				original_tag = SAU
+				original_tag = IRQ
+				original_tag = YEM
+				original_tag = OMA
+				original_tag = PER
+				original_tag = AFG
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = TIB
+				original_tag = NEP
+				original_tag = BHU
+				original_tag = SIA
+				original_tag = LAO
+				original_tag = VIN
+				original_tag = CAM
+				original_tag = KOR
+				original_tag = JAP
+				original_tag = MAL
+				original_tag = INS
+				original_tag = PHI
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			#is_subject = no
 			
 			
@@ -13411,12 +14711,27 @@ MUN_AFR_Coring_Decisions = {
 		cost = 10
 		days_re_enable = 0
 		allowed = {
+			OR = {
+				original_tag = ETH
+				original_tag = LIB
+				original_tag = SAF
+			}
 		}
 		visible = {
+			OR = {
+				original_tag = ETH
+				original_tag = LIB
+				original_tag = SAF
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_AFR2 }
 		}
 		available = {
+			OR = {
+				original_tag = ETH
+				original_tag = LIB
+				original_tag = SAF
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {
@@ -13831,10 +15146,150 @@ RON_Formable_Decision67 = {
 		allowed = {
 		}
 		visible = {
+			OR = {
+				original_tag = POR
+				original_tag = SPR
+				original_tag = FRA
+				original_tag = IRE
+				original_tag = ENG
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = GER
+				original_tag = SWI
+				original_tag = AUS
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+				original_tag = POL
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = ROM
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = BUL
+				original_tag = GRE
+				original_tag = ITA
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+				original_tag = SOV
+				original_tag = TUR
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = JOR
+				original_tag = ISR
+				original_tag = PAL
+				original_tag = SAU
+				original_tag = IRQ
+				original_tag = YEM
+				original_tag = OMA
+				original_tag = PER
+				original_tag = AFG
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = TIB
+				original_tag = NEP
+				original_tag = BHU
+				original_tag = SIA
+				original_tag = LAO
+				original_tag = VIN
+				original_tag = CAM
+				original_tag = KOR
+				original_tag = JAP
+				original_tag = MAL
+				original_tag = INS
+				original_tag = PHI
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			NOT = { has_country_flag = show_formables_decisions }
 			NOT = { has_global_flag = FORM_EUA2 }
 		}
 		available = {
+			OR = {
+				original_tag = POR
+				original_tag = SPR
+				original_tag = FRA
+				original_tag = IRE
+				original_tag = ENG
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = GER
+				original_tag = SWI
+				original_tag = AUS
+				original_tag = DEN
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+				original_tag = POL
+				original_tag = CZE
+				original_tag = HUN
+				original_tag = ROM
+				original_tag = YUG
+				original_tag = ALB
+				original_tag = BUL
+				original_tag = GRE
+				original_tag = ITA
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+				original_tag = SOV
+				original_tag = TUR
+				original_tag = SYR
+				original_tag = LEB
+				original_tag = JOR
+				original_tag = ISR
+				original_tag = PAL
+				original_tag = SAU
+				original_tag = IRQ
+				original_tag = YEM
+				original_tag = OMA
+				original_tag = PER
+				original_tag = AFG
+				original_tag = RAJ
+				original_tag = PAK
+				original_tag = BAN
+				original_tag = BRM
+				original_tag = TIB
+				original_tag = NEP
+				original_tag = BHU
+				original_tag = SIA
+				original_tag = LAO
+				original_tag = VIN
+				original_tag = CAM
+				original_tag = KOR
+				original_tag = JAP
+				original_tag = MAL
+				original_tag = INS
+				original_tag = PHI
+				original_tag = CHI
+				original_tag = XSM
+				original_tag = PRC
+				original_tag = GXC
+				original_tag = SIK
+				original_tag = SHX
+				original_tag = YUN
+				original_tag = MON
+				original_tag = TIB
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = TAN
+			}
 			#is_subject = no
 			
 			custom_trigger_tooltip = {

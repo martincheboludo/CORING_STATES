@@ -167,7 +167,6 @@ HOL_Coring_Decisions = {
 			original_tag = HOL
 			original_tag = BEL
 			original_tag = LUX
-			original_tag = SAF
 		}
 	}
 
