@@ -7510,6 +7510,171 @@ news_event = {
 	}
 }
 
+#Anglo-German
+country_event = {
+	id = RON_Formable_Country.1022
+	title = RON_Formable_Country.1022.t
+	desc = RON_Formable_Country.1022.d
+	picture = GFX_report_event_RON_Formable_Country1022
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1022.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Anglo_German_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1022 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1022 hours = 6 }
+		}
+
+	}
+
+}
+
+#Anglo-German
+news_event = {
+	id = RON_Formable_News.1022
+	title = RON_Formable_News.1022.t
+	desc = RON_Formable_News.1022.d
+	picture = GFX_news_event_RON_Formable_News1022
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1022.a
+	}
+}
+
+#Anglo-Dutch
+country_event = {
+	id = RON_Formable_Country.1023
+	title = RON_Formable_Country.1023.t
+	desc = RON_Formable_Country.1023.d
+	picture = GFX_report_event_RON_Formable_Country1023
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1023.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Anglo_Dutch_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1023 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1023 hours = 6 }
+		}
+
+	}
+
+}
+
+#Anglo-Dutch
+news_event = {
+	id = RON_Formable_News.1023
+	title = RON_Formable_News.1023.t
+	desc = RON_Formable_News.1023.d
+	picture = GFX_news_event_RON_Formable_News1023
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1023.a
+	}
+}
+
+#Russo-Chinese
+country_event = {
+	id = RON_Formable_Country.1024
+	title = RON_Formable_Country.1024.t
+	desc = RON_Formable_Country.1024.d
+	picture = GFX_report_event_RON_Formable_Country1024
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1024.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = Form_Russo_Chinese_Union
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1024 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1024 hours = 6 }
+		}
+
+	}
+
+}
+
+#Russo-Chinese
+news_event = {
+	id = RON_Formable_News.1024
+	title = RON_Formable_News.1024.t
+	desc = RON_Formable_News.1024.d
+	picture = GFX_news_event_RON_Formable_News1024
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1024.a
+	}
+}
+
 #Japanese Empire Test
 country_event = {
 	id = RON_Formable_Country.4000

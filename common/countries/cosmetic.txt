@@ -1591,3 +1591,15 @@ Form_Romania_Hungary_Union = {
 	color = rgb { 156 167 73 }
 	color_ui = rgb { 156 167 73 }
 }
+Form_Anglo_German_Union = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+Form_Anglo_Dutch_Union = {
+	color = rgb { 255 153 0 }
+	color_ui = rgb { 255 153 0 }
+}
+Form_Russo_Chinese_Union = {
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}

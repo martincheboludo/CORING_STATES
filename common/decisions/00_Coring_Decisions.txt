@@ -674,7 +674,6 @@ GGR_Coring_Decisions = {
 				}
 			}
 			
-			OR = {
 			custom_trigger_tooltip = {
 				tooltip = RON_SOV_Neutralized_tt
 				OR = {
@@ -721,31 +720,6 @@ GGR_Coring_Decisions = {
 							}
 						}
 					}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = RON_ENG_Neutralized_tt
-				OR = {
-					ENG = {
-						has_capitulated = yes
-					}
-					ENG = {
-						exists = no
-					}
-					ENG = {
-						is_subject_of = GER
-					}
-					OR = {
-						GER = {
-							controls_state = 126
-						}
-						any_other_country = {
-							is_in_faction_with = GER
-							controls_state = 126
-						}
-					}
-				}
-			}
 			}
 			
 			
@@ -12090,6 +12064,130 @@ Frankish_Empire_Coring_Decisions = {
 #Germanic Union
 Germanic_Union_Coring_Decisions = {
 
+#Anglo-German Union
+	RON_Formable_Decision1022 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+				original_tag = ENG
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Anglo_German_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				original_tag = LUX
+				original_tag = ENG
+			}
+			NOT = { has_global_flag = Form_Anglo_German_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_British_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+							NOT = { is_core_of = IRE }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1022
+			}
+			hidden_effect = {
+				set_global_flag = Form_Anglo_German_Union2
+			}
+		}
+	}
+	
+	#Anglo-German Union
+	RON_Formable_Decision1023 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = HOL
+				original_tag = ENG
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Anglo_Dutch_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = HOL
+				original_tag = ENG
+			}
+			NOT = { has_global_flag = Form_Anglo_Dutch_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dutch_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HOL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_British_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+							NOT = { is_core_of = IRE }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1023
+			}
+			hidden_effect = {
+				set_global_flag = Form_Anglo_Dutch_Union2
+			}
+		}
+	}
+
 #Actual Formable
 	#Germanic Union
 	RON_Formable_Decision109 = {
@@ -15328,6 +15426,73 @@ MUN_AFR_Coring_Decisions = {
 
 #Eurasian Union
 Eurasian_Union_Coring_Decisions = {
+
+
+	
+	#Sino-Soviet Union
+	RON_Formable_Decision1024 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = SOV
+				original_tag = CHI
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Russo_Chinese_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = SOV
+				original_tag = CHI
+			}
+			NOT = { has_global_flag = Form_Russo_Chinese_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Russian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = TAN }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			#Chinese
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Chinese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CHI
+							NOT = { state = 728 }
+							NOT = { state = 729 }
+							NOT = { state = 326 }
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1024
+			}
+			hidden_effect = {
+				set_global_flag = Form_Russo_Chinese_Union2
+			}
+		}
+	}
 
 RON_Formable_Decision67 = {
 		ai_will_do = {
