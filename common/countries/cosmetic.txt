@@ -1603,3 +1603,11 @@ Form_Russo_Chinese_Union = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 139 0 0 }
 }
+FORM_WARSAW_PACT = {
+	color = rgb { 192 0 0 }
+	color_ui = rgb { 192 0 0 }
+}
+FORM_NATO = {
+	color = rgb { 173 216 230 }
+	color_ui = rgb { 173 216 230 }
+}
