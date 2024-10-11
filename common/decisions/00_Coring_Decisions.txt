@@ -15486,14 +15486,11 @@ Eurasian_Union_Coring_Decisions = {
 			#is_subject = no				
 			
 			custom_trigger_tooltip = {
-				tooltip = RON_Controls_Russian_States_tt
+				tooltip = RON_Controls_Soviet_States_tt
 				all_state = {
 					if = {
 						limit = {
 							is_core_of = SOV
-							NOT = { is_core_of = BLR }
-							NOT = { is_core_of = UKR }
-							NOT = { is_core_of = TAN }
 						}
 						is_controlled_by = FROM
 					}
@@ -15997,6 +15994,393 @@ RON_Formable_Decision67 = {
 
 #United Nations
 United_Nations_Coring_Decisions = {
+
+	#Warsaw Pact
+	RON_Formable_Decision1025 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = ALB
+				original_tag = BUL
+				original_tag = CZE
+				original_tag = GER
+				original_tag = HUN
+				original_tag = POL
+				original_tag = ROM
+				original_tag = SOV
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag =  FORM_WARSAW_PACT2 }
+		}
+		available = {
+			OR = {
+				original_tag = ALB
+				original_tag = BUL
+				original_tag = CZE
+				original_tag = GER
+				original_tag = HUN
+				original_tag = POL
+				original_tag = ROM
+				original_tag = SOV
+			}
+			NOT = { has_global_flag =  FORM_WARSAW_PACT2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Bulgarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BUL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Czechoslovak_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CZE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_East_German_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = GER
+							OR = {
+								state = 60
+								state = 61
+								state = 62
+								state = 64
+								state = 65
+							}
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Hungarian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HUN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Modern_Polish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POL
+							NOT = { is_core_of = BLR }
+							NOT = { is_core_of = UKR }
+							NOT = { is_core_of = LIT }
+						}
+						is_controlled_by = FROM
+					}
+				}
+				#Polish Germany
+				5 = { is_controlled_by = FROM }
+				63 = { is_controlled_by = FROM }
+				66 = { is_controlled_by = FROM }
+				67 = { is_controlled_by = FROM }
+				68 = { is_controlled_by = FROM }
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Romanian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ROM
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Soviet_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SOV
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1025
+			}
+			hidden_effect = {
+				set_global_flag =  FORM_WARSAW_PACT2
+			}
+		}
+	}
+	
+	#NATO
+	RON_Formable_Decision1026 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = ALB
+				original_tag = BEL
+				original_tag = BUL
+				original_tag = CAN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = DEN
+				original_tag = EST
+				original_tag = FIN
+				original_tag = FRA
+				original_tag = GER
+				original_tag = GRE
+				original_tag = HUN
+				original_tag = ICE
+				original_tag = ITA
+				original_tag = LAT
+				original_tag = LIT
+				original_tag = LUX
+				original_tag = MNT
+				original_tag = HOL
+				original_tag = MAC
+				original_tag = NOR
+				original_tag = POL
+				original_tag = POR
+				original_tag = ROM
+				original_tag = SLO
+				original_tag = SLV
+				original_tag = SPR
+				original_tag = SWE
+				original_tag = TUR
+				original_tag = ENG
+				original_tag = USA
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_NATO2 }
+		}
+		available = {
+			OR = {
+				original_tag = ALB
+				original_tag = BEL
+				original_tag = BUL
+				original_tag = CAN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = DEN
+				original_tag = EST
+				original_tag = FIN
+				original_tag = FRA
+				original_tag = GER
+				original_tag = GRE
+				original_tag = HUN
+				original_tag = ICE
+				original_tag = ITA
+				original_tag = LAT
+				original_tag = LIT
+				original_tag = LUX
+				original_tag = MNT
+				original_tag = HOL
+				original_tag = MAC
+				original_tag = NOR
+				original_tag = POL
+				original_tag = POR
+				original_tag = ROM
+				original_tag = SLO
+				original_tag = SLV
+				original_tag = SPR
+				original_tag = SWE
+				original_tag = TUR
+				original_tag = ENG
+				original_tag = USA
+			}
+			NOT = { has_global_flag = FORM_NATO2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_American_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = USA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Canadian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = CAN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_British_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ENG
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_French_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Belgian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = BEL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Dutch_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = HOL
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Luxembourg_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = LUX
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Norwegian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = NOR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Danish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = DEN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Iceland_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ICE
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Italian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ITA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Portuguese_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = POR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1026
+			}
+			hidden_effect = {
+				set_global_flag = FORM_NATO2
+			}
+		}
+	}
 
 	#United Nations
 	RON_Formable_Decision31 = {

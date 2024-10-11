@@ -1608,6 +1608,6 @@ FORM_WARSAW_PACT = {
 	color_ui = rgb { 192 0 0 }
 }
 FORM_NATO = {
-	color = rgb { 173 216 230 }
-	color_ui = rgb { 173 216 230 }
+	color = rgb { 0 0 128 }
+	color_ui = rgb { 0 0 128 }
 }

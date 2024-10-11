@@ -7675,6 +7675,116 @@ news_event = {
 	}
 }
 
+#Warsaw Pact
+country_event = {
+	id = RON_Formable_Country.1025
+	title = RON_Formable_Country.1025.t
+	desc = RON_Formable_Country.1025.d
+	picture = GFX_report_event_RON_Formable_Country1025
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1025.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_WARSAW_PACT
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1025 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1025 hours = 6 }
+		}
+
+	}
+
+}
+
+#Warsaw Pact
+news_event = {
+	id = RON_Formable_News.1025
+	title = RON_Formable_News.1025.t
+	desc = RON_Formable_News.1025.d
+	picture = GFX_news_event_RON_Formable_News1025
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1025.a
+	}
+}
+
+#NATO
+country_event = {
+	id = RON_Formable_Country.1026
+	title = RON_Formable_Country.1026.t
+	desc = RON_Formable_Country.1026.d
+	picture = GFX_report_event_RON_Formable_Country1026
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = RON_Formable_Country.1026.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_cosmetic_tag = FORM_NATO
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1026 hours = 6 }
+		}
+
+	}
+	
+	option = {
+		name = "Keep Current Flag"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_effect = { 
+			news_event = { id = RON_Formable_News.1026 hours = 6 }
+		}
+
+	}
+
+}
+
+#NATO
+news_event = {
+	id = RON_Formable_News.1026
+	title = RON_Formable_News.1026.t
+	desc = RON_Formable_News.1026.d
+	picture = GFX_news_event_RON_Formable_News1026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_News.1026.a
+	}
+}
+
 #Japanese Empire Test
 country_event = {
 	id = RON_Formable_Country.4000

@@ -992,6 +992,20 @@
  RON_Formable_News.1024.t:0 "Sino-Soviet Union Proclaimed"
  RON_Formable_News.1024.d:0 "In a historic declaration, the Sino-Soviet Union has been proclaimed, marking a new era of cooperation between China and the Soviet Union. This alliance seeks to promote socialism and strengthen military and economic ties, positioning itself as a formidable force on the world stage."
  RON_Formable_News.1024.a:1 "OK"
+ 
+  RON_Formable_Country.1025.t:0 "Warsaw Pact"
+ RON_Formable_Country.1025.d:0 "The Warsaw Pact has evolved into a unified political entity, merging the nations of Eastern Europe into a single state. This newly formed superstate centralizes political, military, and economic control, standing as a bulwark against Western influence and championing socialist ideals across Europe."
+ RON_Formable_Country.1025.a:1 "As one united state, we will safeguard socialism and resist imperialism!"
+ RON_Formable_News.1025.t:0 "Warsaw Pact Proclaimed"
+ RON_Formable_News.1025.d:0 "The unification of Eastern European nations under the banner of the Warsaw Pact has been proclaimed, creating a single, integrated state. This historic event marks the formation of a new superstate, centralizing power and solidifying a socialist bloc in Europe."
+ RON_Formable_News.1025.a:1 "OK"
+ 
+ RON_Formable_Country.1026.t:0 "NATO"
+ RON_Formable_Country.1026.d:0 "The North Atlantic Treaty Organization (NATO) has transitioned from a military alliance into a unified political entity, merging the Western nations into a single superstate. This new entity centralizes military, economic, and political power, dedicated to defending democracy and securing the collective interests of its members across the Atlantic world."
+ RON_Formable_Country.1026.a:1 "United in defense of democracy, we will ensure the safety and freedom of the Atlantic world!"
+ RON_Formable_News.1026.t:0 "NATO Proclaimed"
+ RON_Formable_News.1026.d:0 "In a historic declaration, the nations of the North Atlantic Treaty Organization have unified into a single state. This new entity, embodying the democratic ideals of its members, is poised to dominate global affairs and safeguard the collective security of the Western world."
+ RON_Formable_News.1026.a:1 "OK"
 
  
 #Decisions
@@ -1181,6 +1195,8 @@ RON_Formable_Decision117:0 "Proclaim Greater Chile"
  RON_Formable_Decision1022:0 "Proclaim Anglo-German Union"
  RON_Formable_Decision1023:0 "Proclaim Anglo-Dutch Union"
  RON_Formable_Decision1024:0 "Proclaim Sino-Soviet Union"
+ RON_Formable_Decision1025:0 "Proclaim Warsaw Pact"
+ RON_Formable_Decision1026:0 "Proclaim NATO"
 
 #Others
 RON_Septemberprogramm:0 "Realize The Septemberprogramm"
@@ -1324,6 +1340,8 @@ Form_Romania_Hungary_Union2:0 "The Romano-Hungarian Union Has Been Proclaimed"
 Form_Anglo_German_Union2:0 "The Anglo-German Union Has Been Proclaimed"
 Form_Anglo_Dutch_Union2:0 "The Anglo-Dutch Union Has Been Proclaimed"
 Form_Russo_Chinese_Union2:0 "The Sino-Soviet Union Has Been Proclaimed"
+FORM_WARSAW_PACT2:0 "The Warsaw Pact Has Been Proclaimed"
+FORM_NATO2:0 "NATO Has Been Proclaimed"
 
 RON_Controls_North_Italian_States_tt:0 "Controls All North Italian States"
 RON_Controls_ELS_States_tt:0 "Controls All El Salvador States"
@@ -1333,6 +1351,7 @@ RON_Controls_GUA_States_tt:0 "Controls All Guatemalan States"
 RON_Controls_HON_States_tt:0 "Controls All Honduran States"
 RON_Controls_PAN_States_tt:0 "Controls All Panama States"
 RON_Controls_Luxembourg_States_tt:0 "Controls All Luxembourg States"
+RON_Controls_Iceland_States_tt:0 "Controls All Icelantic States"
 RON_Controls_Soviet_States_tt:0 "Controls All Soviet States"
 RON_Controls_KAZ_States_tt:0 "Controls All Kazakh States"
 RON_Controls_AZR_States_tt:0 "Controls All Azerbaijan States"
