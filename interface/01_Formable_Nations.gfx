@@ -1411,5 +1411,35 @@ spriteTypes = {
         name = "GFX_news_event_RON_Formable_News1026"
         texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News1025.dds"
     }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country1027"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country1027.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News1027"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News1027.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country1028"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country1028.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News1028"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News1028.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_RON_Formable_Country1029"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_Country1029.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_news_event_RON_Formable_News1029"
+        texturefile = "gfx/event_pictures/Formable_Nations/RON_Formable_News1029.dds"
+    }
 
 }

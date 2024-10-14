@@ -1,5 +1,17 @@
 ﻿l_english:
 
+ideologychange.0.t:0 "Ideology Changer Tool"
+ideologychange.0.de:0 "Pick any Ideology."
+ideologychange.0.a:0 "Neutrality."
+ideologychange.0.b:0 "Fascist."
+ideologychange.0.c:0 "Communist."
+ideologychange.0.d:0 "Page 2."
+
+ideologychange.1.t:0 "Ideology Changer Tool"
+ideologychange.1.de:0 "Pick any Ideology."
+ideologychange.1.a:0 "Democratic."
+ideologychange.1.c:0 "Page 1."
+
  #Events
  
  RON_Formable_Country.x.t:0 ""
@@ -1006,7 +1018,27 @@
  RON_Formable_News.1026.t:0 "NATO Proclaimed"
  RON_Formable_News.1026.d:0 "In a historic declaration, the nations of the North Atlantic Treaty Organization have unified into a single state. This new entity, embodying the democratic ideals of its members, is poised to dominate global affairs and safeguard the collective security of the Western world."
  RON_Formable_News.1026.a:1 "OK"
+ 
+ RON_Formable_Country.1027.t:0 "Franco-Spanish Union"
+ RON_Formable_Country.1027.d:0 "The Franco-Spanish Union has been proclaimed, uniting France and Spain into a single political entity. This new nation blends the cultural, military, and economic strengths of both countries, solidifying their power in Europe and forging a unified future in the face of global challenges."
+ RON_Formable_Country.1027.a:1 "For a United Western Europe!"
+ RON_Formable_News.1027.t:0 "Franco-Spanish Union Proclaimed"
+ RON_Formable_News.1027.d:0 "In a momentous decision, France and Spain have merged to form the Franco-Spanish Union. This historic union brings together two of Europe’s great powers into a single entity, poised to shape the future of Western Europe through shared strength and unity."
+ RON_Formable_News.1027.a:1 "OK"
 
+ RON_Formable_Country.1028.t:0 "Hispano-Italian Union"
+ RON_Formable_Country.1028.d:0 "The Hispano-Italian Union has been established, uniting Spain and Italy into a single political entity. This historic alliance draws upon the rich cultural heritages and shared values of both nations, enhancing their influence in the Mediterranean and beyond."
+ RON_Formable_Country.1028.a:1 "Together, we shall forge a new destiny for our peoples in the heart of the Mediterranean!"
+ RON_Formable_News.1028.t:0 "Hispano-Spanish Union Proclaimed"
+ RON_Formable_News.1028.d:0 "In a landmark decision, Spain and Italy have merged to form the Hispano-Italian Union. This unification signifies a new era of cooperation and strength, as both nations come together to face the challenges of the world."
+ RON_Formable_News.1028.a:1 "OK"
+ 
+ RON_Formable_Country.1029.t:0 "Franco-Italian Union"
+ RON_Formable_Country.1029.d:0 "The Franco-Italian Union has been established, merging France and Italy into one political entity. This union draws upon the combined military, cultural, and economic strengths of both nations, fostering a powerful new state at the heart of Europe that aspires to lead the continent into a new era."
+ RON_Formable_Country.1029.a:1 "United, we shall dominate Europe and shape the future of the Mediterranean!"
+ RON_Formable_News.1029.t:0 "Franco-Italian Union Proclaimed"
+ RON_Formable_News.1029.d:0 "The unification of France and Italy has been officially proclaimed, creating the Franco-Italian Union. This new nation combines the legacy and power of two historic European states, solidifying their place as a major force in both Europe and the Mediterranean."
+ RON_Formable_News.1029.a:1 "OK"
  
 #Decisions
  
@@ -1182,6 +1214,12 @@ RON_Formable_Decision117:0 "Proclaim Greater Chile"
  RON_Formable_Decision143:0 "Proclaim The Austro-Spanish Empire"
  RON_Formable_Decision1021:0 "Proclaim Zapadoslavia"
  
+RON_Formable_Decision1027:0 "Proclaim The Franco-Spanish Union"
+RON_Formable_Decision1028:0 "Proclaim The Hispano-Italian Union"
+RON_Formable_Decision1029:0 "Proclaim The Franco-Italian Union"
+ITA_Formable_Decision1028:0 "Proclaim The Hispano-Italian Union"
+ITA_Formable_Decision1029:0 "Proclaim The Franco-Italian Union"
+ 
 #Multinational Formables
  MUN_Formable_Decision2:0 "Proclaim The African Union"
  MUN_Formable_Decision4:0 "Proclaim The European Union"
@@ -1342,6 +1380,9 @@ Form_Anglo_Dutch_Union2:0 "The Anglo-Dutch Union Has Been Proclaimed"
 Form_Russo_Chinese_Union2:0 "The Sino-Soviet Union Has Been Proclaimed"
 FORM_WARSAW_PACT2:0 "The Warsaw Pact Has Been Proclaimed"
 FORM_NATO2:0 "NATO Has Been Proclaimed"
+Form_Franco_Spanish_Union:0 "Franco-Spanish Union Has Been Proclaimed"
+Form_Hispano_Italian_Union:0 "Hispano-Italian Union Has Been Proclaimed"
+Form_Franco_Italian_Union:0 "Franco-Italian Union Has Been Proclaimed"
 
 RON_Controls_North_Italian_States_tt:0 "Controls All North Italian States"
 RON_Controls_ELS_States_tt:0 "Controls All El Salvador States"
@@ -1503,6 +1544,8 @@ RON_Controls_Lebanese_States_tt:0 "Controls All Lebanese States"
 RON_Controls_Saudi_Arabian_States_tt:0 "Controls All Saudi Arabian States"
 RON_Controls_Syrian_States_tt:0 "Controls All Syrian States"
 RON_Controls_Israeli_States_tt:0 "Controls All Israeli States"
+
+RON_NATO_Member_tt:0 "Country has belonged to NATO in real life."
 
 
 RON_POL_Neutralized_tt:0 "Poland Has Been Neutralized"
@@ -3202,3 +3245,42 @@ FORM_QIN_neutrality_DEF:0 "The Chinese Empire"
  FORM_NATO_democratic_ADJ:0 "Atlantic"
  FORM_NATO_neutrality_ADJ:0 "Atlantic"
  FORM_NATO_communism_ADJ:0 "Atlantic"
+ 
+ Form_Franco_Spanish_Union_fascism:0 "Franco-Spanish State"
+ Form_Franco_Spanish_Union_fascism_DEF:0 "The Franco-Spanish State"
+ Form_Franco_Spanish_Union_democratic:0 "Franco-Spanish Republic"
+ Form_Franco_Spanish_Union_democratic_DEF:0 "The Franco-Spanish Republic"
+ Form_Franco_Spanish_Union_neutrality:0 "Franco-Spanish Empire"
+ Form_Franco_Spanish_Union_neutrality_DEF:0 "The Franco-Spanish Empire"
+ Form_Franco_Spanish_Union_communism:0 "Franco-Spanish Republic"
+ Form_Franco_Spanish_Union_communism_DEF:0 "The Franco-Spanish Republic"
+ Form_Franco_Spanish_Union_fascism_ADJ:0 "Franco-Spanish"
+ Form_Franco_Spanish_Union_democratic_ADJ:0 "Franco-Spanish"
+ Form_Franco_Spanish_Union_neutrality_ADJ:0 "Franco-Spanish"
+ Form_Franco_Spanish_Union_communism_ADJ:0 "Franco-Spanish"
+ 
+ Form_Hispano_Italian_Union_fascism:0 "Ibero-Italian State"
+ Form_Hispano_Italian_Union_fascism_DEF:0 "The Ibero-Italian State"
+ Form_Hispano_Italian_Union_democratic:0 "United Ibero-Italian Republic"
+ Form_Hispano_Italian_Union_democratic_DEF:0 "The United Ibero-Italian Republic"
+ Form_Hispano_Italian_Union_neutrality:0 "Ibero-Italian Empire"
+ Form_Hispano_Italian_Union_neutrality_DEF:0 "The Ibero-Italian Empire"
+ Form_Hispano_Italian_Union_communism:0 "Socialist Republic of Iberia-Italia"
+ Form_Hispano_Italian_Union_communism_DEF:0 "The Socialist Republic of Iberia-Italia"
+ Form_Hispano_Italian_Union_fascism_ADJ:0 "Ibero-Italian"
+ Form_Hispano_Italian_Union_democratic_ADJ:0 "Ibero-Italian"
+ Form_Hispano_Italian_Union_neutrality_ADJ:0 "Ibero-Italian"
+ Form_Hispano_Italian_Union_communism_ADJ:0 "Ibero-Italian"
+ 
+ Form_Franco_Italian_Union_fascism:0 "Franco-Italian State"
+ Form_Franco_Italian_Union_fascism_DEF:0 "The Franco-Italian State"
+ Form_Franco_Italian_Union_democratic:0 "United French-Italian Republic"
+ Form_Franco_Italian_Union_democratic_DEF:0 "The United French-Italian Republic"
+ Form_Franco_Italian_Union_neutrality:0 "Franco-Italian Empire"
+ Form_Franco_Italian_Union_neutrality_DEF:0 "The Franco-Italian Empire"
+ Form_Franco_Italian_Union_communism:0 "People's Republic of France-Italy"
+ Form_Franco_Italian_Union_communism_DEF:0 "The People's Republic of France-Italy"
+ Form_Franco_Italian_Union_fascism_ADJ:0 "Franco-Italian"
+ Form_Franco_Italian_Union_democratic_ADJ:0 "Franco-Italian"
+ Form_Franco_Italian_Union_neutrality_ADJ:0 "Franco-Italian"
+ Form_Franco_Italian_Union_communism_ADJ:0 "Franco-Italian"

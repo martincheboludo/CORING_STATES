@@ -3693,6 +3693,124 @@ USA_Coring_Decisions = {
 #Greater Italy
 ITA_Coring_Decisions = {
 
+	#Spanish-Italian
+	ITA_Formable_Decision1028 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = SPR
+				original_tag = ITA
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Hispano_Italian_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = SPR
+				original_tag = ITA
+			}
+			NOT = { has_global_flag = Form_Hispano_Italian_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Spanish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SPR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Italian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ITA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1028
+			}
+			hidden_effect = {
+				set_global_flag = Form_Hispano_Italian_Union2
+			}
+		}
+	}
+	
+	#Franco-Italian
+	ITA_Formable_Decision1029 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = ITA
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Franco_Italian_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = ITA
+			}
+			NOT = { has_global_flag = Form_Franco_Italian_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_French_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Italian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ITA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1029
+			}
+			hidden_effect = {
+				set_global_flag = Form_Franco_Italian_Union2
+			}
+		}
+	}
+
 	#Italian Empire/Greater Italy
 	RON_Formable_Decision121 = {
 		ai_will_do = {
@@ -10400,6 +10518,183 @@ Balkan_Federation_Coring_Decisions = {
 #Roman Empire, Byzantine Empire, Western Roman Empire
 Roman_Empire_Coring_Decisions = {
 
+	#Franco-Spanish
+	RON_Formable_Decision1027 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = SPR
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Franco_Spanish_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = SPR
+			}
+			NOT = { has_global_flag = Form_Franco_Spanish_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_French_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Spanish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SPR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1027
+			}
+			hidden_effect = {
+				set_global_flag = Form_Franco_Spanish_Union2
+			}
+		}
+	}
+	
+	#Spanish-Italian
+	RON_Formable_Decision1028 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = SPR
+				original_tag = ITA
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Hispano_Italian_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = SPR
+				original_tag = ITA
+			}
+			NOT = { has_global_flag = Form_Hispano_Italian_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Spanish_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = SPR
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Italian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ITA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1028
+			}
+			hidden_effect = {
+				set_global_flag = Form_Hispano_Italian_Union2
+			}
+		}
+	}
+	
+	#Franco-Italian
+	RON_Formable_Decision1029 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = FRA
+				original_tag = ITA
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = Form_Franco_Italian_Union2 }
+		}
+		available = {
+			OR = {
+				original_tag = FRA
+				original_tag = ITA
+			}
+			NOT = { has_global_flag = Form_Franco_Italian_Union2 }
+			#is_subject = no				
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_French_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = FRA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_Italian_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = ITA
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.1029
+			}
+			hidden_effect = {
+				set_global_flag = Form_Franco_Italian_Union2
+			}
+		}
+	}
+
 	#Western Roman Empire
 	ROE_Formable_Decision85 = {
 		ai_will_do = {
@@ -16188,39 +16483,42 @@ United_Nations_Coring_Decisions = {
 			NOT = { has_global_flag = FORM_NATO2 }
 		}
 		available = {
-			OR = {
-				original_tag = ALB
-				original_tag = BEL
-				original_tag = BUL
-				original_tag = CAN
-				original_tag = CRO
-				original_tag = CZE
-				original_tag = DEN
-				original_tag = EST
-				original_tag = FIN
-				original_tag = FRA
-				original_tag = GER
-				original_tag = GRE
-				original_tag = HUN
-				original_tag = ICE
-				original_tag = ITA
-				original_tag = LAT
-				original_tag = LIT
-				original_tag = LUX
-				original_tag = MNT
-				original_tag = HOL
-				original_tag = MAC
-				original_tag = NOR
-				original_tag = POL
-				original_tag = POR
-				original_tag = ROM
-				original_tag = SLO
-				original_tag = SLV
-				original_tag = SPR
-				original_tag = SWE
-				original_tag = TUR
-				original_tag = ENG
-				original_tag = USA
+			custom_trigger_tooltip = {
+				tooltip = RON_NATO_Member_tt
+				OR = {
+					original_tag = ALB
+					original_tag = BEL
+					original_tag = BUL
+					original_tag = CAN
+					original_tag = CRO
+					original_tag = CZE
+					original_tag = DEN
+					original_tag = EST
+					original_tag = FIN
+					original_tag = FRA
+					original_tag = GER
+					original_tag = GRE
+					original_tag = HUN
+					original_tag = ICE
+					original_tag = ITA
+					original_tag = LAT
+					original_tag = LIT
+					original_tag = LUX
+					original_tag = MNT
+					original_tag = HOL
+					original_tag = MAC
+					original_tag = NOR
+					original_tag = POL
+					original_tag = POR
+					original_tag = ROM
+					original_tag = SLO
+					original_tag = SLV
+					original_tag = SPR
+					original_tag = SWE
+					original_tag = TUR
+					original_tag = ENG
+					original_tag = USA
+				}
 			}
 			NOT = { has_global_flag = FORM_NATO2 }
 			#is_subject = no				
